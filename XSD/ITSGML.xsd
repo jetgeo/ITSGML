@@ -1,6 +1,784 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
-    xmlns:vc="http://www.w3.org/2007/XMLSchema-versioning" elementFormDefault="qualified"
-    vc:minVersion="1.0" vc:maxVersion="1.1"> </xs:schema>
-
-
+<?xml version="1.0" encoding="UTF-8"?><schema xmlns="http://www.w3.org/2001/XMLSchema" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:itsgml="https://raw.githubusercontent.com/jetgeo/ITSGML/master/XSD" elementFormDefault="qualified" targetNamespace="https://raw.githubusercontent.com/jetgeo/ITSGML/master/XSD" version="0.1">
+  <import namespace="http://www.opengis.net/gml/3.2" schemaLocation="http://schemas.opengis.net/gml/3.2.1/gml.xsd"/>
+  <!--XML Schema document created by ShapeChange - http://shapechange.net/-->
+  <include schemaLocation="itsfcm.xsd"/>
+  <element name="Album" substitutionGroup="gml:AbstractFeature" type="itsgml:AlbumType"/>
+  <complexType name="AlbumType">
+    <complexContent>
+      <extension base="gml:AbstractFeatureType">
+        <sequence>
+          <element maxOccurs="unbounded" name="dataset">
+            <complexType>
+              <complexContent>
+                <extension base="gml:AbstractMemberType">
+                  <sequence minOccurs="0">
+                    <element ref="itsgml:Dataset"/>
+                  </sequence>
+                  <attributeGroup ref="gml:AssociationAttributeGroup"/>
+                </extension>
+              </complexContent>
+            </complexType>
+          </element>
+        </sequence>
+      </extension>
+    </complexContent>
+  </complexType>
+  <complexType name="AlbumPropertyType">
+    <sequence minOccurs="0">
+      <element ref="itsgml:Album"/>
+    </sequence>
+    <attributeGroup ref="gml:AssociationAttributeGroup"/>
+    <attributeGroup ref="gml:OwnershipAttributeGroup"/>
+  </complexType>
+  <element name="Attribute" substitutionGroup="gml:AbstractFeature" type="itsgml:AttributeType">
+    <annotation>
+      <documentation>Generic class for characteristics that may be linked to a feature or to a relation</documentation>
+    </annotation>
+  </element>
+  <complexType name="AttributeType">
+    <complexContent>
+      <extension base="gml:AbstractFeatureType">
+        <sequence>
+          <element maxOccurs="unbounded" minOccurs="0" name="value">
+            <complexType>
+              <sequence minOccurs="0">
+                <element ref="gml:AbstractObject"/>
+              </sequence>
+              <attributeGroup ref="gml:AssociationAttributeGroup"/>
+            </complexType>
+          </element>
+          <element name="attributeClass" type="itsgml:AttributeClassPropertyType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="relationship" type="itsgml:RelationshipPropertyType">
+            <annotation>
+              <appinfo>
+                <reversePropertyName xmlns="http://www.opengis.net/gml/3.2">itsgml:attribute</reversePropertyName>
+              </appinfo>
+            </annotation>
+          </element>
+          <element maxOccurs="unbounded" minOccurs="0" name="subAttribute">
+            <complexType>
+              <complexContent>
+                <extension base="gml:AbstractMemberType">
+                  <sequence minOccurs="0">
+                    <element ref="itsgml:Attribute"/>
+                  </sequence>
+                  <attributeGroup ref="gml:AssociationAttributeGroup"/>
+                </extension>
+              </complexContent>
+            </complexType>
+          </element>
+          <element maxOccurs="unbounded" minOccurs="0" name="feature" type="itsgml:FeaturePropertyType">
+            <annotation>
+              <appinfo>
+                <reversePropertyName xmlns="http://www.opengis.net/gml/3.2">itsgml:attribute</reversePropertyName>
+              </appinfo>
+            </annotation>
+          </element>
+        </sequence>
+      </extension>
+    </complexContent>
+  </complexType>
+  <complexType name="AttributePropertyType">
+    <sequence minOccurs="0">
+      <element ref="itsgml:Attribute"/>
+    </sequence>
+    <attributeGroup ref="gml:AssociationAttributeGroup"/>
+    <attributeGroup ref="gml:OwnershipAttributeGroup"/>
+  </complexType>
+  <element name="Dataset" substitutionGroup="gml:AbstractFeature" type="itsgml:DatasetType"/>
+  <complexType name="DatasetType">
+    <complexContent>
+      <extension base="gml:AbstractFeatureType">
+        <sequence>
+          <element maxOccurs="unbounded" name="layer">
+            <complexType>
+              <complexContent>
+                <extension base="gml:AbstractMemberType">
+                  <sequence minOccurs="0">
+                    <element ref="itsgml:Layer"/>
+                  </sequence>
+                  <attributeGroup ref="gml:AssociationAttributeGroup"/>
+                </extension>
+              </complexContent>
+            </complexType>
+          </element>
+        </sequence>
+      </extension>
+    </complexContent>
+  </complexType>
+  <complexType name="DatasetPropertyType">
+    <sequence minOccurs="0">
+      <element ref="itsgml:Dataset"/>
+    </sequence>
+    <attributeGroup ref="gml:AssociationAttributeGroup"/>
+    <attributeGroup ref="gml:OwnershipAttributeGroup"/>
+  </complexType>
+  <element abstract="true" name="Dot" substitutionGroup="itsgml:GeometryPrimitive" type="itsgml:DotType"/>
+  <complexType abstract="true" name="DotType">
+    <complexContent>
+      <extension base="itsgml:GeometryPrimitiveType">
+        <sequence>
+          <element name="geometry" type="gml:PointPropertyType"/>
+        </sequence>
+      </extension>
+    </complexContent>
+  </complexType>
+  <complexType name="DotPropertyType">
+    <sequence minOccurs="0">
+      <element ref="itsgml:Dot"/>
+    </sequence>
+    <attributeGroup ref="gml:AssociationAttributeGroup"/>
+    <attributeGroup ref="gml:OwnershipAttributeGroup"/>
+  </complexType>
+  <element name="Edge" substitutionGroup="itsgml:TopologyPrimitive" type="itsgml:EdgeType"/>
+  <complexType name="EdgeType">
+    <complexContent>
+      <extension base="itsgml:TopologyPrimitiveType">
+        <sequence>
+          <element name="geometry" type="gml:CurvePropertyType"/>
+          <element name="endNode" type="itsgml:NodePropertyType"/>
+          <element name="startNode" type="itsgml:NodePropertyType"/>
+        </sequence>
+      </extension>
+    </complexContent>
+  </complexType>
+  <complexType name="EdgePropertyType">
+    <sequence minOccurs="0">
+      <element ref="itsgml:Edge"/>
+    </sequence>
+    <attributeGroup ref="gml:AssociationAttributeGroup"/>
+    <attributeGroup ref="gml:OwnershipAttributeGroup"/>
+  </complexType>
+  <element name="Face" substitutionGroup="itsgml:TopologyPrimitive" type="itsgml:FaceType"/>
+  <complexType name="FaceType">
+    <complexContent>
+      <extension base="itsgml:TopologyPrimitiveType">
+        <sequence>
+          <element maxOccurs="unbounded" minOccurs="0" name="counterClockwiseBoundingEdge" type="itsgml:EdgePropertyType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="clockwiseBoundingEdge" type="itsgml:EdgePropertyType"/>
+        </sequence>
+      </extension>
+    </complexContent>
+  </complexType>
+  <complexType name="FacePropertyType">
+    <sequence minOccurs="0">
+      <element ref="itsgml:Face"/>
+    </sequence>
+    <attributeGroup ref="gml:AssociationAttributeGroup"/>
+    <attributeGroup ref="gml:OwnershipAttributeGroup"/>
+  </complexType>
+  <element abstract="true" name="Feature" substitutionGroup="gml:AbstractFeature" type="itsgml:FeatureType">
+    <annotation>
+      <documentation>Generic abstract class for Features</documentation>
+    </annotation>
+  </element>
+  <complexType abstract="true" name="FeatureType">
+    <complexContent>
+      <extension base="gml:AbstractFeatureType">
+        <sequence>
+          <element name="featureClass" type="itsgml:FeatureClassPropertyType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="attribute" type="itsgml:AttributePropertyType">
+            <annotation>
+              <appinfo>
+                <reversePropertyName xmlns="http://www.opengis.net/gml/3.2">itsgml:feature</reversePropertyName>
+              </appinfo>
+            </annotation>
+          </element>
+          <element maxOccurs="unbounded" minOccurs="0" name="relationship" type="itsgml:RelationshipPropertyType">
+            <annotation>
+              <appinfo>
+                <reversePropertyName xmlns="http://www.opengis.net/gml/3.2">itsgml:feature</reversePropertyName>
+              </appinfo>
+            </annotation>
+          </element>
+        </sequence>
+      </extension>
+    </complexContent>
+  </complexType>
+  <complexType name="FeaturePropertyType">
+    <sequence minOccurs="0">
+      <element ref="itsgml:Feature"/>
+    </sequence>
+    <attributeGroup ref="gml:AssociationAttributeGroup"/>
+    <attributeGroup ref="gml:OwnershipAttributeGroup"/>
+  </complexType>
+  <simpleType name="FeatureThemeType">
+    <union memberTypes="itsgml:FeatureThemeEnumerationType itsgml:FeatureThemeOtherType"/>
+  </simpleType>
+  <simpleType name="FeatureThemeEnumerationType">
+    <restriction base="string">
+      <enumeration value="administrativeAreas"/>
+      <enumeration value="namedAreas"/>
+      <enumeration value="roadsAndFerries"/>
+      <enumeration value="railways"/>
+      <enumeration value="waterways"/>
+      <enumeration value="publicTransport"/>
+      <enumeration value="terrainElevation"/>
+      <enumeration value="landCoverAndUseFeatures"/>
+      <enumeration value="roadFurniture"/>
+      <enumeration value="services"/>
+      <enumeration value="structures"/>
+      <enumeration value="generalFeatures"/>
+      <enumeration value="linearDatumFeatures"/>
+      <enumeration value="linearReferencingFeatures"/>
+      <enumeration value="userDefinedFeatures"/>
+    </restriction>
+  </simpleType>
+  <simpleType name="FeatureThemeOtherType">
+    <restriction base="string">
+      <pattern value="other: \w{2,}"/>
+    </restriction>
+  </simpleType>
+  <element abstract="true" name="GeometryPrimitive" substitutionGroup="gml:AbstractFeature" type="itsgml:GeometryPrimitiveType"/>
+  <complexType abstract="true" name="GeometryPrimitiveType">
+    <complexContent>
+      <extension base="gml:AbstractFeatureType">
+        <sequence/>
+      </extension>
+    </complexContent>
+  </complexType>
+  <complexType name="GeometryPrimitivePropertyType">
+    <sequence minOccurs="0">
+      <element ref="itsgml:GeometryPrimitive"/>
+    </sequence>
+    <attributeGroup ref="gml:AssociationAttributeGroup"/>
+    <attributeGroup ref="gml:OwnershipAttributeGroup"/>
+  </complexType>
+  <element name="Layer" substitutionGroup="gml:AbstractFeature" type="itsgml:LayerType"/>
+  <complexType name="LayerType">
+    <complexContent>
+      <extension base="gml:AbstractFeatureType">
+        <sequence>
+          <element maxOccurs="unbounded" name="featureTheme" type="itsgml:FeatureThemeType"/>
+          <element maxOccurs="unbounded" name="section">
+            <complexType>
+              <complexContent>
+                <extension base="gml:AbstractMemberType">
+                  <sequence minOccurs="0">
+                    <element ref="itsgml:Section"/>
+                  </sequence>
+                  <attributeGroup ref="gml:AssociationAttributeGroup"/>
+                </extension>
+              </complexContent>
+            </complexType>
+          </element>
+        </sequence>
+      </extension>
+    </complexContent>
+  </complexType>
+  <complexType name="LayerPropertyType">
+    <sequence minOccurs="0">
+      <element ref="itsgml:Layer"/>
+    </sequence>
+    <attributeGroup ref="gml:AssociationAttributeGroup"/>
+    <attributeGroup ref="gml:OwnershipAttributeGroup"/>
+  </complexType>
+  <element name="Node" substitutionGroup="itsgml:TopologyPrimitive" type="itsgml:NodeType"/>
+  <complexType name="NodeType">
+    <complexContent>
+      <extension base="itsgml:TopologyPrimitiveType">
+        <sequence>
+          <element name="geometry" type="gml:PointPropertyType"/>
+        </sequence>
+      </extension>
+    </complexContent>
+  </complexType>
+  <complexType name="NodePropertyType">
+    <sequence minOccurs="0">
+      <element ref="itsgml:Node"/>
+    </sequence>
+    <attributeGroup ref="gml:AssociationAttributeGroup"/>
+    <attributeGroup ref="gml:OwnershipAttributeGroup"/>
+  </complexType>
+  <element name="NonExplicitTopoAreaFeature" substitutionGroup="itsgml:NonExplicitTopoSimpleFeature" type="itsgml:NonExplicitTopoAreaFeatureType"/>
+  <complexType name="NonExplicitTopoAreaFeatureType">
+    <complexContent>
+      <extension base="itsgml:NonExplicitTopoSimpleFeatureType">
+        <sequence>
+          <element name="topoRepresentation" type="itsgml:PolygonPropertyType"/>
+        </sequence>
+      </extension>
+    </complexContent>
+  </complexType>
+  <complexType name="NonExplicitTopoAreaFeaturePropertyType">
+    <sequence minOccurs="0">
+      <element ref="itsgml:NonExplicitTopoAreaFeature"/>
+    </sequence>
+    <attributeGroup ref="gml:AssociationAttributeGroup"/>
+    <attributeGroup ref="gml:OwnershipAttributeGroup"/>
+  </complexType>
+  <element name="NonExplicitTopoComplexFeature" substitutionGroup="itsgml:NonExplicitTopoFeature" type="itsgml:NonExplicitTopoComplexFeatureType"/>
+  <complexType name="NonExplicitTopoComplexFeatureType">
+    <complexContent>
+      <extension base="itsgml:NonExplicitTopoFeatureType">
+        <sequence/>
+      </extension>
+    </complexContent>
+  </complexType>
+  <complexType name="NonExplicitTopoComplexFeaturePropertyType">
+    <sequence minOccurs="0">
+      <element ref="itsgml:NonExplicitTopoComplexFeature"/>
+    </sequence>
+    <attributeGroup ref="gml:AssociationAttributeGroup"/>
+    <attributeGroup ref="gml:OwnershipAttributeGroup"/>
+  </complexType>
+  <element abstract="true" name="NonExplicitTopoFeature" substitutionGroup="itsgml:Feature" type="itsgml:NonExplicitTopoFeatureType">
+    <annotation>
+      <documentation>No topological relations between objects are explicitly defined. That is,topological relations are only defined via coordinate values</documentation>
+    </annotation>
+  </element>
+  <complexType abstract="true" name="NonExplicitTopoFeatureType">
+    <complexContent>
+      <extension base="itsgml:FeatureType">
+        <sequence/>
+      </extension>
+    </complexContent>
+  </complexType>
+  <complexType name="NonExplicitTopoFeaturePropertyType">
+    <sequence minOccurs="0">
+      <element ref="itsgml:NonExplicitTopoFeature"/>
+    </sequence>
+    <attributeGroup ref="gml:AssociationAttributeGroup"/>
+    <attributeGroup ref="gml:OwnershipAttributeGroup"/>
+  </complexType>
+  <element name="NonExplicitTopoLineFeature" substitutionGroup="itsgml:NonExplicitTopoSimpleFeature" type="itsgml:NonExplicitTopoLineFeatureType"/>
+  <complexType name="NonExplicitTopoLineFeatureType">
+    <complexContent>
+      <extension base="itsgml:NonExplicitTopoSimpleFeatureType">
+        <sequence>
+          <element name="topoRepresentation" type="itsgml:PolylinePropertyType"/>
+        </sequence>
+      </extension>
+    </complexContent>
+  </complexType>
+  <complexType name="NonExplicitTopoLineFeaturePropertyType">
+    <sequence minOccurs="0">
+      <element ref="itsgml:NonExplicitTopoLineFeature"/>
+    </sequence>
+    <attributeGroup ref="gml:AssociationAttributeGroup"/>
+    <attributeGroup ref="gml:OwnershipAttributeGroup"/>
+  </complexType>
+  <element name="NonExplicitTopoPointFeature" substitutionGroup="itsgml:NonExplicitTopoSimpleFeature" type="itsgml:NonExplicitTopoPointFeatureType"/>
+  <complexType name="NonExplicitTopoPointFeatureType">
+    <complexContent>
+      <extension base="itsgml:NonExplicitTopoSimpleFeatureType">
+        <sequence>
+          <element name="topoRepresentation" type="itsgml:DotPropertyType"/>
+        </sequence>
+      </extension>
+    </complexContent>
+  </complexType>
+  <complexType name="NonExplicitTopoPointFeaturePropertyType">
+    <sequence minOccurs="0">
+      <element ref="itsgml:NonExplicitTopoPointFeature"/>
+    </sequence>
+    <attributeGroup ref="gml:AssociationAttributeGroup"/>
+    <attributeGroup ref="gml:OwnershipAttributeGroup"/>
+  </complexType>
+  <element name="NonExplicitTopoSection" substitutionGroup="itsgml:Section" type="itsgml:NonExplicitTopoSectionType"/>
+  <complexType name="NonExplicitTopoSectionType">
+    <complexContent>
+      <extension base="itsgml:SectionType">
+        <sequence>
+          <element maxOccurs="unbounded" name="feature">
+            <complexType>
+              <complexContent>
+                <extension base="gml:AbstractMemberType">
+                  <sequence minOccurs="0">
+                    <element ref="itsgml:NonExplicitTopoFeature"/>
+                  </sequence>
+                  <attributeGroup ref="gml:AssociationAttributeGroup"/>
+                </extension>
+              </complexContent>
+            </complexType>
+          </element>
+        </sequence>
+      </extension>
+    </complexContent>
+  </complexType>
+  <complexType name="NonExplicitTopoSectionPropertyType">
+    <sequence minOccurs="0">
+      <element ref="itsgml:NonExplicitTopoSection"/>
+    </sequence>
+    <attributeGroup ref="gml:AssociationAttributeGroup"/>
+    <attributeGroup ref="gml:OwnershipAttributeGroup"/>
+  </complexType>
+  <element abstract="true" name="NonExplicitTopoSimpleFeature" substitutionGroup="itsgml:NonExplicitTopoFeature" type="itsgml:NonExplicitTopoSimpleFeatureType"/>
+  <complexType abstract="true" name="NonExplicitTopoSimpleFeatureType">
+    <complexContent>
+      <extension base="itsgml:NonExplicitTopoFeatureType">
+        <sequence/>
+      </extension>
+    </complexContent>
+  </complexType>
+  <complexType name="NonExplicitTopoSimpleFeaturePropertyType">
+    <sequence minOccurs="0">
+      <element ref="itsgml:NonExplicitTopoSimpleFeature"/>
+    </sequence>
+    <attributeGroup ref="gml:AssociationAttributeGroup"/>
+    <attributeGroup ref="gml:OwnershipAttributeGroup"/>
+  </complexType>
+  <element name="NonPlanarTopoAreaFeature" substitutionGroup="itsgml:NonPlanarTopoSimpleFeature" type="itsgml:NonPlanarTopoAreaFeatureType"/>
+  <complexType name="NonPlanarTopoAreaFeatureType">
+    <complexContent>
+      <extension base="itsgml:NonPlanarTopoSimpleFeatureType">
+        <sequence>
+          <element maxOccurs="unbounded" minOccurs="0" name="counterClockwiseBoundingEdge" type="itsgml:EdgePropertyType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="clockwiseBoundingEdge" type="itsgml:EdgePropertyType"/>
+        </sequence>
+      </extension>
+    </complexContent>
+  </complexType>
+  <complexType name="NonPlanarTopoAreaFeaturePropertyType">
+    <sequence minOccurs="0">
+      <element ref="itsgml:NonPlanarTopoAreaFeature"/>
+    </sequence>
+    <attributeGroup ref="gml:AssociationAttributeGroup"/>
+    <attributeGroup ref="gml:OwnershipAttributeGroup"/>
+  </complexType>
+  <element name="NonPlanarTopoComplexFeature" substitutionGroup="itsgml:NonPlanarTopoFeature" type="itsgml:NonPlanarTopoComplexFeatureType"/>
+  <complexType name="NonPlanarTopoComplexFeatureType">
+    <complexContent>
+      <extension base="itsgml:NonPlanarTopoFeatureType">
+        <sequence/>
+      </extension>
+    </complexContent>
+  </complexType>
+  <complexType name="NonPlanarTopoComplexFeaturePropertyType">
+    <sequence minOccurs="0">
+      <element ref="itsgml:NonPlanarTopoComplexFeature"/>
+    </sequence>
+    <attributeGroup ref="gml:AssociationAttributeGroup"/>
+    <attributeGroup ref="gml:OwnershipAttributeGroup"/>
+  </complexType>
+  <element abstract="true" name="NonPlanarTopoFeature" substitutionGroup="itsgml:Feature" type="itsgml:NonPlanarTopoFeatureType">
+    <annotation>
+      <documentation>Topological relations are explicitly defined; objects may fully or partially coincide, or intersect or overlap each other.</documentation>
+    </annotation>
+  </element>
+  <complexType abstract="true" name="NonPlanarTopoFeatureType">
+    <complexContent>
+      <extension base="itsgml:FeatureType">
+        <sequence/>
+      </extension>
+    </complexContent>
+  </complexType>
+  <complexType name="NonPlanarTopoFeaturePropertyType">
+    <sequence minOccurs="0">
+      <element ref="itsgml:NonPlanarTopoFeature"/>
+    </sequence>
+    <attributeGroup ref="gml:AssociationAttributeGroup"/>
+    <attributeGroup ref="gml:OwnershipAttributeGroup"/>
+  </complexType>
+  <element name="NonPlanarTopoLineFeature" substitutionGroup="itsgml:NonPlanarTopoSimpleFeature" type="itsgml:NonPlanarTopoLineFeatureType"/>
+  <complexType name="NonPlanarTopoLineFeatureType">
+    <complexContent>
+      <extension base="itsgml:NonPlanarTopoSimpleFeatureType">
+        <sequence>
+          <element maxOccurs="unbounded" minOccurs="0" name="topoRepresentation" type="itsgml:EdgePropertyType"/>
+          <element minOccurs="0" name="endFeature" type="itsgml:NonPlanarTopoPointFeaturePropertyType"/>
+          <element minOccurs="0" name="startFeature" type="itsgml:NonPlanarTopoPointFeaturePropertyType"/>
+        </sequence>
+      </extension>
+    </complexContent>
+  </complexType>
+  <complexType name="NonPlanarTopoLineFeaturePropertyType">
+    <sequence minOccurs="0">
+      <element ref="itsgml:NonPlanarTopoLineFeature"/>
+    </sequence>
+    <attributeGroup ref="gml:AssociationAttributeGroup"/>
+    <attributeGroup ref="gml:OwnershipAttributeGroup"/>
+  </complexType>
+  <element name="NonPlanarTopoPointFeature" substitutionGroup="itsgml:NonPlanarTopoSimpleFeature" type="itsgml:NonPlanarTopoPointFeatureType"/>
+  <complexType name="NonPlanarTopoPointFeatureType">
+    <complexContent>
+      <extension base="itsgml:NonPlanarTopoSimpleFeatureType">
+        <sequence>
+          <element minOccurs="0" name="topoRepresentation" type="itsgml:NodePropertyType"/>
+        </sequence>
+      </extension>
+    </complexContent>
+  </complexType>
+  <complexType name="NonPlanarTopoPointFeaturePropertyType">
+    <sequence minOccurs="0">
+      <element ref="itsgml:NonPlanarTopoPointFeature"/>
+    </sequence>
+    <attributeGroup ref="gml:AssociationAttributeGroup"/>
+    <attributeGroup ref="gml:OwnershipAttributeGroup"/>
+  </complexType>
+  <element name="NonPlanarTopoSection" substitutionGroup="itsgml:Section" type="itsgml:NonPlanarTopoSectionType"/>
+  <complexType name="NonPlanarTopoSectionType">
+    <complexContent>
+      <extension base="itsgml:SectionType">
+        <sequence>
+          <element maxOccurs="unbounded" name="feature">
+            <complexType>
+              <complexContent>
+                <extension base="gml:AbstractMemberType">
+                  <sequence minOccurs="0">
+                    <element ref="itsgml:NonPlanarTopoFeature"/>
+                  </sequence>
+                  <attributeGroup ref="gml:AssociationAttributeGroup"/>
+                </extension>
+              </complexContent>
+            </complexType>
+          </element>
+        </sequence>
+      </extension>
+    </complexContent>
+  </complexType>
+  <complexType name="NonPlanarTopoSectionPropertyType">
+    <sequence minOccurs="0">
+      <element ref="itsgml:NonPlanarTopoSection"/>
+    </sequence>
+    <attributeGroup ref="gml:AssociationAttributeGroup"/>
+    <attributeGroup ref="gml:OwnershipAttributeGroup"/>
+  </complexType>
+  <element abstract="true" name="NonPlanarTopoSimpleFeature" substitutionGroup="itsgml:NonPlanarTopoFeature" type="itsgml:NonPlanarTopoSimpleFeatureType"/>
+  <complexType abstract="true" name="NonPlanarTopoSimpleFeatureType">
+    <complexContent>
+      <extension base="itsgml:NonPlanarTopoFeatureType">
+        <sequence/>
+      </extension>
+    </complexContent>
+  </complexType>
+  <complexType name="NonPlanarTopoSimpleFeaturePropertyType">
+    <sequence minOccurs="0">
+      <element ref="itsgml:NonPlanarTopoSimpleFeature"/>
+    </sequence>
+    <attributeGroup ref="gml:AssociationAttributeGroup"/>
+    <attributeGroup ref="gml:OwnershipAttributeGroup"/>
+  </complexType>
+  <element name="PlanarTopoAreaFeature" substitutionGroup="itsgml:PlanarTopoSimpleFeature" type="itsgml:PlanarTopoAreaFeatureType"/>
+  <complexType name="PlanarTopoAreaFeatureType">
+    <complexContent>
+      <extension base="itsgml:PlanarTopoSimpleFeatureType">
+        <sequence>
+          <element maxOccurs="unbounded" minOccurs="0" name="topoRepresentation" type="itsgml:FacePropertyType"/>
+        </sequence>
+      </extension>
+    </complexContent>
+  </complexType>
+  <complexType name="PlanarTopoAreaFeaturePropertyType">
+    <sequence minOccurs="0">
+      <element ref="itsgml:PlanarTopoAreaFeature"/>
+    </sequence>
+    <attributeGroup ref="gml:AssociationAttributeGroup"/>
+    <attributeGroup ref="gml:OwnershipAttributeGroup"/>
+  </complexType>
+  <element name="PlanarTopoComplexFeature" substitutionGroup="itsgml:PlanarTopoFeature" type="itsgml:PlanarTopoComplexFeatureType"/>
+  <complexType name="PlanarTopoComplexFeatureType">
+    <complexContent>
+      <extension base="itsgml:PlanarTopoFeatureType">
+        <sequence/>
+      </extension>
+    </complexContent>
+  </complexType>
+  <complexType name="PlanarTopoComplexFeaturePropertyType">
+    <sequence minOccurs="0">
+      <element ref="itsgml:PlanarTopoComplexFeature"/>
+    </sequence>
+    <attributeGroup ref="gml:AssociationAttributeGroup"/>
+    <attributeGroup ref="gml:OwnershipAttributeGroup"/>
+  </complexType>
+  <element abstract="true" name="PlanarTopoFeature" substitutionGroup="itsgml:Feature" type="itsgml:PlanarTopoFeatureType">
+    <annotation>
+      <documentation>Topological relations are explicitly defined; objects must not fully or partially
+coincide, and must not intersect or overlap each other. Intersecting objects or overlapping objects are broken-up into object fragments, whereby common parts (such as a street coincing with a boundary) are present only once</documentation>
+    </annotation>
+  </element>
+  <complexType abstract="true" name="PlanarTopoFeatureType">
+    <complexContent>
+      <extension base="itsgml:FeatureType">
+        <sequence/>
+      </extension>
+    </complexContent>
+  </complexType>
+  <complexType name="PlanarTopoFeaturePropertyType">
+    <sequence minOccurs="0">
+      <element ref="itsgml:PlanarTopoFeature"/>
+    </sequence>
+    <attributeGroup ref="gml:AssociationAttributeGroup"/>
+    <attributeGroup ref="gml:OwnershipAttributeGroup"/>
+  </complexType>
+  <element name="PlanarTopoLineFeature" substitutionGroup="itsgml:PlanarTopoSimpleFeature" type="itsgml:PlanarTopoLineFeatureType"/>
+  <complexType name="PlanarTopoLineFeatureType">
+    <complexContent>
+      <extension base="itsgml:PlanarTopoSimpleFeatureType">
+        <sequence>
+          <element maxOccurs="unbounded" minOccurs="0" name="topoRepresentation" type="itsgml:EdgePropertyType"/>
+          <element minOccurs="0" name="endFeature" type="itsgml:PlanarTopoPointFeaturePropertyType"/>
+          <element minOccurs="0" name="startFeature" type="itsgml:PlanarTopoPointFeaturePropertyType"/>
+        </sequence>
+      </extension>
+    </complexContent>
+  </complexType>
+  <complexType name="PlanarTopoLineFeaturePropertyType">
+    <sequence minOccurs="0">
+      <element ref="itsgml:PlanarTopoLineFeature"/>
+    </sequence>
+    <attributeGroup ref="gml:AssociationAttributeGroup"/>
+    <attributeGroup ref="gml:OwnershipAttributeGroup"/>
+  </complexType>
+  <element name="PlanarTopoPointFeature" substitutionGroup="itsgml:PlanarTopoSimpleFeature" type="itsgml:PlanarTopoPointFeatureType"/>
+  <complexType name="PlanarTopoPointFeatureType">
+    <complexContent>
+      <extension base="itsgml:PlanarTopoSimpleFeatureType">
+        <sequence>
+          <element minOccurs="0" name="topoRepresentation" type="itsgml:NodePropertyType"/>
+        </sequence>
+      </extension>
+    </complexContent>
+  </complexType>
+  <complexType name="PlanarTopoPointFeaturePropertyType">
+    <sequence minOccurs="0">
+      <element ref="itsgml:PlanarTopoPointFeature"/>
+    </sequence>
+    <attributeGroup ref="gml:AssociationAttributeGroup"/>
+    <attributeGroup ref="gml:OwnershipAttributeGroup"/>
+  </complexType>
+  <element name="PlanarTopoSection" substitutionGroup="itsgml:Section" type="itsgml:PlanarTopoSectionType"/>
+  <complexType name="PlanarTopoSectionType">
+    <complexContent>
+      <extension base="itsgml:SectionType">
+        <sequence>
+          <element maxOccurs="unbounded" name="feature">
+            <complexType>
+              <complexContent>
+                <extension base="gml:AbstractMemberType">
+                  <sequence minOccurs="0">
+                    <element ref="itsgml:PlanarTopoFeature"/>
+                  </sequence>
+                  <attributeGroup ref="gml:AssociationAttributeGroup"/>
+                </extension>
+              </complexContent>
+            </complexType>
+          </element>
+        </sequence>
+      </extension>
+    </complexContent>
+  </complexType>
+  <complexType name="PlanarTopoSectionPropertyType">
+    <sequence minOccurs="0">
+      <element ref="itsgml:PlanarTopoSection"/>
+    </sequence>
+    <attributeGroup ref="gml:AssociationAttributeGroup"/>
+    <attributeGroup ref="gml:OwnershipAttributeGroup"/>
+  </complexType>
+  <element abstract="true" name="PlanarTopoSimpleFeature" substitutionGroup="itsgml:PlanarTopoFeature" type="itsgml:PlanarTopoSimpleFeatureType"/>
+  <complexType abstract="true" name="PlanarTopoSimpleFeatureType">
+    <complexContent>
+      <extension base="itsgml:PlanarTopoFeatureType">
+        <sequence/>
+      </extension>
+    </complexContent>
+  </complexType>
+  <complexType name="PlanarTopoSimpleFeaturePropertyType">
+    <sequence minOccurs="0">
+      <element ref="itsgml:PlanarTopoSimpleFeature"/>
+    </sequence>
+    <attributeGroup ref="gml:AssociationAttributeGroup"/>
+    <attributeGroup ref="gml:OwnershipAttributeGroup"/>
+  </complexType>
+  <element name="Polygon" substitutionGroup="itsgml:GeometryPrimitive" type="itsgml:PolygonType"/>
+  <complexType name="PolygonType">
+    <complexContent>
+      <extension base="itsgml:GeometryPrimitiveType">
+        <sequence>
+          <element name="geometry" type="gml:SurfacePropertyType"/>
+        </sequence>
+      </extension>
+    </complexContent>
+  </complexType>
+  <complexType name="PolygonPropertyType">
+    <sequence minOccurs="0">
+      <element ref="itsgml:Polygon"/>
+    </sequence>
+    <attributeGroup ref="gml:AssociationAttributeGroup"/>
+    <attributeGroup ref="gml:OwnershipAttributeGroup"/>
+  </complexType>
+  <element name="Polyline" substitutionGroup="itsgml:GeometryPrimitive" type="itsgml:PolylineType"/>
+  <complexType name="PolylineType">
+    <complexContent>
+      <extension base="itsgml:GeometryPrimitiveType">
+        <sequence>
+          <element name="geometry" type="gml:CurvePropertyType"/>
+        </sequence>
+      </extension>
+    </complexContent>
+  </complexType>
+  <complexType name="PolylinePropertyType">
+    <sequence minOccurs="0">
+      <element ref="itsgml:Polyline"/>
+    </sequence>
+    <attributeGroup ref="gml:AssociationAttributeGroup"/>
+    <attributeGroup ref="gml:OwnershipAttributeGroup"/>
+  </complexType>
+  <element name="Relationship" substitutionGroup="gml:AbstractFeature" type="itsgml:RelationshipType">
+    <annotation>
+      <documentation>Generic class for features representing a relationship</documentation>
+    </annotation>
+  </element>
+  <complexType name="RelationshipType">
+    <complexContent>
+      <extension base="gml:AbstractFeatureType">
+        <sequence>
+          <element name="relationshipClass" type="itsgml:RelationshipClassPropertyType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="attribute" type="itsgml:AttributePropertyType">
+            <annotation>
+              <appinfo>
+                <reversePropertyName xmlns="http://www.opengis.net/gml/3.2">itsgml:relationship</reversePropertyName>
+              </appinfo>
+            </annotation>
+          </element>
+          <element maxOccurs="unbounded" minOccurs="2" name="feature" type="itsgml:FeaturePropertyType">
+            <annotation>
+              <appinfo>
+                <reversePropertyName xmlns="http://www.opengis.net/gml/3.2">itsgml:relationship</reversePropertyName>
+              </appinfo>
+            </annotation>
+          </element>
+        </sequence>
+      </extension>
+    </complexContent>
+  </complexType>
+  <complexType name="RelationshipPropertyType">
+    <sequence minOccurs="0">
+      <element ref="itsgml:Relationship"/>
+    </sequence>
+    <attributeGroup ref="gml:AssociationAttributeGroup"/>
+    <attributeGroup ref="gml:OwnershipAttributeGroup"/>
+  </complexType>
+  <element abstract="true" name="Section" substitutionGroup="gml:AbstractFeature" type="itsgml:SectionType"/>
+  <complexType abstract="true" name="SectionType">
+    <complexContent>
+      <extension base="gml:AbstractFeatureType">
+        <sequence/>
+      </extension>
+    </complexContent>
+  </complexType>
+  <complexType name="SectionPropertyType">
+    <sequence minOccurs="0">
+      <element ref="itsgml:Section"/>
+    </sequence>
+    <attributeGroup ref="gml:AssociationAttributeGroup"/>
+    <attributeGroup ref="gml:OwnershipAttributeGroup"/>
+  </complexType>
+  <element abstract="true" name="TopologyPrimitive" substitutionGroup="gml:AbstractFeature" type="itsgml:TopologyPrimitiveType"/>
+  <complexType abstract="true" name="TopologyPrimitiveType">
+    <complexContent>
+      <extension base="gml:AbstractFeatureType">
+        <sequence>
+          <element name="id" type="integer"/>
+        </sequence>
+      </extension>
+    </complexContent>
+  </complexType>
+  <complexType name="TopologyPrimitivePropertyType">
+    <sequence minOccurs="0">
+      <element ref="itsgml:TopologyPrimitive"/>
+    </sequence>
+    <attributeGroup ref="gml:AssociationAttributeGroup"/>
+    <attributeGroup ref="gml:OwnershipAttributeGroup"/>
+  </complexType>
+</schema>
