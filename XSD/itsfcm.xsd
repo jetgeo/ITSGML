@@ -1,111 +1,298 @@
-<?xml version="1.0" encoding="UTF-8"?><schema xmlns="http://www.w3.org/2001/XMLSchema" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:itsgml="https://raw.githubusercontent.com/jetgeo/ITSGML/master/XSD" elementFormDefault="qualified" targetNamespace="https://raw.githubusercontent.com/jetgeo/ITSGML/master/XSD" version="0.1">
-  <import namespace="http://www.opengis.net/gml/3.2" schemaLocation="http://schemas.opengis.net/gml/3.2.1/gml.xsd"/>
+<?xml version="1.0" encoding="UTF-8"?><schema xmlns="http://www.w3.org/2001/XMLSchema" xmlns:gco="http://www.isotc211.org/2005/gco"
+  xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gml="http://www.opengis.net/gml/3.2"
+  xmlns:gmlexr="http://www.opengis.net/gml/3.3/exr" xmlns:gmx="http://www.isotc211.org/2005/gmx"
+  xmlns:itsgml="https://raw.githubusercontent.com/jetgeo/ITSGML/master/XSD"
+  elementFormDefault="qualified"
+  targetNamespace="https://raw.githubusercontent.com/jetgeo/ITSGML/master/XSD" version="0.1">
+  <import namespace="http://www.isotc211.org/2005/gco"
+    schemaLocation="http://schemas.opengis.net/iso/19139/20070417/gco/gco.xsd"/>
+  <import namespace="http://www.isotc211.org/2005/gmd"
+    schemaLocation="http://schemas.opengis.net/iso/19139/20070417/gmd/gmd.xsd"/>
+  <import namespace="http://www.isotc211.org/2005/gmx"
+    schemaLocation="http://schemas.opengis.net/iso/19139/20070417/gmx/gmx.xsd"/>
+  <import namespace="http://www.opengis.net/gml/3.2"
+    schemaLocation="http://schemas.opengis.net/gml/3.2.1/gml.xsd"/>
+  <import namespace="http://www.opengis.net/gml/3.3/exr"
+    schemaLocation="http://schemas.opengis.net/gml/3.3/extdEncRule.xsd"/>
   <!--XML Schema document created by ShapeChange - http://shapechange.net/-->
-  <element name="AttributeClass" substitutionGroup="gml:AbstractFeature" type="itsgml:AttributeClassType">
-    <annotation>
-      <documentation>Generic class for attributes</documentation>
-    </annotation>
-  </element>
-  <complexType name="AttributeClassType">
+  <element abstract="true" name="CT_Catalogue" substitutionGroup="gml:AbstractFeature"
+    type="itsgml:CT_CatalogueType"/>
+  <complexType abstract="true" name="CT_CatalogueType">
     <complexContent>
       <extension base="gml:AbstractFeatureType">
         <sequence>
-          <element maxOccurs="unbounded" minOccurs="0" name="featureClass" type="itsgml:FeatureClassPropertyType">
-            <annotation>
-              <appinfo>
-                <reversePropertyName xmlns="http://www.opengis.net/gml/3.2">itsgml:attributeClass</reversePropertyName>
-              </appinfo>
-            </annotation>
-          </element>
-          <element maxOccurs="unbounded" minOccurs="0" name="relationshipClass" type="itsgml:RelationshipClassPropertyType">
-            <annotation>
-              <appinfo>
-                <reversePropertyName xmlns="http://www.opengis.net/gml/3.2">itsgml:attributeClass</reversePropertyName>
-              </appinfo>
-            </annotation>
-          </element>
+          <element name="name" type="string"/>
+          <element maxOccurs="unbounded" name="scope" type="string"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="fieldOfApplication" type="string"/>
+          <element name="versionNumber" type="string"/>
+          <element name="versionDate" type="date"/>
+          <element minOccurs="0" name="language" type="string"/>
+          <element minOccurs="0" name="characterSet" type="gmd:MD_CharacterSetCode_PropertyType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="locale"
+            type="gmd:PT_Locale_PropertyType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="subCatalogue"
+            type="gmx:CT_Catalogue_PropertyType"/>
         </sequence>
       </extension>
     </complexContent>
   </complexType>
-  <complexType name="AttributeClassPropertyType">
+  <complexType name="CT_CataloguePropertyType">
     <sequence minOccurs="0">
-      <element ref="itsgml:AttributeClass"/>
+      <element ref="itsgml:CT_Catalogue"/>
     </sequence>
     <attributeGroup ref="gml:AssociationAttributeGroup"/>
     <attributeGroup ref="gml:OwnershipAttributeGroup"/>
   </complexType>
-  <element name="FeatureClass" substitutionGroup="gml:AbstractFeature" type="itsgml:FeatureClassType">
-    <annotation>
-      <documentation>Generic class for Features</documentation>
-    </annotation>
-  </element>
-  <complexType name="FeatureClassType">
+  <element name="FC_AssociationRole" substitutionGroup="itsgml:FC_PropertyType"
+    type="itsgml:FC_AssociationRoleType"/>
+  <complexType name="FC_AssociationRoleType">
     <complexContent>
-      <extension base="gml:AbstractFeatureType">
+      <extension base="itsgml:FC_PropertyTypeType">
         <sequence>
-          <element name="featureCategory" type="gml:CodeType">
+          <element name="type" type="gml:ReferenceType">
             <annotation>
               <appinfo>
-                <reversePropertyName xmlns="http://www.opengis.net/gml/3.2">itsgml:featureClass</reversePropertyName>
+                <targetCodeList xmlns="http://www.opengis.net/gml/3.3/exr">FC_RoleType</targetCodeList>
               </appinfo>
             </annotation>
           </element>
-          <element maxOccurs="unbounded" minOccurs="0" name="attributeClass" type="itsgml:AttributeClassPropertyType">
+          <element name="isOrdered" type="boolean"/>
+          <element name="isNavigable" type="boolean"/>
+          <element name="relation" type="itsgml:FC_FeatureAssociationPropertyType">
             <annotation>
               <appinfo>
-                <reversePropertyName xmlns="http://www.opengis.net/gml/3.2">itsgml:featureClass</reversePropertyName>
+                <reversePropertyName xmlns="http://www.opengis.net/gml/3.2">itsgml:roleName</reversePropertyName>
               </appinfo>
             </annotation>
           </element>
-          <element maxOccurs="unbounded" minOccurs="0" name="relationshipClass" type="itsgml:RelationshipClassPropertyType">
-            <annotation>
-              <appinfo>
-                <reversePropertyName xmlns="http://www.opengis.net/gml/3.2">itsgml:featureClass</reversePropertyName>
-              </appinfo>
-            </annotation>
-          </element>
+          <element minOccurs="0" name="rolePlayer" type="itsgml:FC_FeatureTypePropertyType"/>
         </sequence>
       </extension>
     </complexContent>
   </complexType>
-  <complexType name="FeatureClassPropertyType">
+  <complexType name="FC_AssociationRolePropertyType">
     <sequence minOccurs="0">
-      <element ref="itsgml:FeatureClass"/>
+      <element ref="itsgml:FC_AssociationRole"/>
     </sequence>
     <attributeGroup ref="gml:AssociationAttributeGroup"/>
     <attributeGroup ref="gml:OwnershipAttributeGroup"/>
   </complexType>
-  <element name="RelationshipClass" substitutionGroup="gml:AbstractFeature" type="itsgml:RelationshipClassType">
-    <annotation>
-      <documentation>Generic class for Relationships</documentation>
-    </annotation>
-  </element>
-  <complexType name="RelationshipClassType">
+  <element abstract="true" name="FC_CarrierOfCharacteristics"
+    substitutionGroup="gml:AbstractFeature" type="itsgml:FC_CarrierOfCharacteristicsType"/>
+  <complexType abstract="true" name="FC_CarrierOfCharacteristicsType">
     <complexContent>
       <extension base="gml:AbstractFeatureType">
+        <sequence> </sequence>
+      </extension>
+    </complexContent>
+  </complexType>
+  <complexType name="FC_CarrierOfCharacteristicsPropertyType">
+    <sequence minOccurs="0">
+      <element ref="itsgml:FC_CarrierOfCharacteristics"/>
+    </sequence>
+    <attributeGroup ref="gml:AssociationAttributeGroup"/>
+    <attributeGroup ref="gml:OwnershipAttributeGroup"/>
+  </complexType>
+  <element name="FC_FeatureAssociation" substitutionGroup="itsgml:FC_FeatureType"
+    type="itsgml:FC_FeatureAssociationType"/>
+  <complexType name="FC_FeatureAssociationType">
+    <complexContent>
+      <extension base="itsgml:FC_FeatureTypeType">
         <sequence>
-          <element maxOccurs="unbounded" minOccurs="0" name="attributeClass" type="itsgml:AttributeClassPropertyType">
+          <element maxOccurs="unbounded" minOccurs="2" name="roleName">
             <annotation>
               <appinfo>
-                <reversePropertyName xmlns="http://www.opengis.net/gml/3.2">itsgml:relationshipClass</reversePropertyName>
+                <reversePropertyName xmlns="http://www.opengis.net/gml/3.2">itsgml:relation</reversePropertyName>
               </appinfo>
             </annotation>
-          </element>
-          <element maxOccurs="unbounded" minOccurs="2" name="featureClass" type="itsgml:FeatureClassPropertyType">
-            <annotation>
-              <appinfo>
-                <reversePropertyName xmlns="http://www.opengis.net/gml/3.2">itsgml:relationshipClass</reversePropertyName>
-              </appinfo>
-            </annotation>
+            <complexType>
+              <complexContent>
+                <extension base="gml:AbstractMemberType">
+                  <sequence minOccurs="0">
+                    <element ref="itsgml:FC_AssociationRole"/>
+                  </sequence>
+                  <attributeGroup ref="gml:AssociationAttributeGroup"/>
+                </extension>
+              </complexContent>
+            </complexType>
           </element>
         </sequence>
       </extension>
     </complexContent>
   </complexType>
-  <complexType name="RelationshipClassPropertyType">
+  <complexType name="FC_FeatureAssociationPropertyType">
     <sequence minOccurs="0">
-      <element ref="itsgml:RelationshipClass"/>
+      <element ref="itsgml:FC_FeatureAssociation"/>
+    </sequence>
+    <attributeGroup ref="gml:AssociationAttributeGroup"/>
+    <attributeGroup ref="gml:OwnershipAttributeGroup"/>
+  </complexType>
+  <element name="FC_FeatureAttribute" substitutionGroup="itsgml:FC_PropertyType"
+    type="itsgml:FC_FeatureAttributeType"/>
+  <complexType name="FC_FeatureAttributeType">
+    <complexContent>
+      <extension base="itsgml:FC_PropertyTypeType">
+        <sequence>
+          <element minOccurs="0" name="code" type="string"/>
+          <element minOccurs="0" name="valueMeasurementUnit" type="gml:UnitOfMeasureType"/>
+          <element minOccurs="0" name="valueType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="subattribute">
+            <complexType>
+              <complexContent>
+                <extension base="gml:AbstractMemberType">
+                  <sequence minOccurs="0">
+                    <element ref="itsgml:FC_FeatureAttribute"/>
+                  </sequence>
+                  <attributeGroup ref="gml:AssociationAttributeGroup"/>
+                </extension>
+              </complexContent>
+            </complexType>
+          </element>
+          <element maxOccurs="unbounded" minOccurs="0" name="listedValue"
+            type="itsgml:FC_ListedValuePropertyType"/>
+        </sequence>
+      </extension>
+    </complexContent>
+  </complexType>
+  <complexType name="FC_FeatureAttributePropertyType">
+    <sequence minOccurs="0">
+      <element ref="itsgml:FC_FeatureAttribute"/>
+    </sequence>
+    <attributeGroup ref="gml:AssociationAttributeGroup"/>
+    <attributeGroup ref="gml:OwnershipAttributeGroup"/>
+  </complexType>
+  <element name="FC_FeatureCatalogue" substitutionGroup="gmx:AbstractCT_Catalogue"
+    type="itsgml:FC_FeatureCatalogueType"/>
+  <complexType name="FC_FeatureCatalogueType">
+    <complexContent>
+      <extension base="gmx:AbstractCT_Catalogue_Type">
+        <sequence>
+          <element name="producer"/>
+          <element minOccurs="0" name="functionalLanguage" type="string"/>
+          <element minOccurs="0" name="identifier" type="gmd:MD_Identifier_PropertyType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="globalProperty">
+            <annotation>
+              <appinfo>
+                <reversePropertyName xmlns="http://www.opengis.net/gml/3.2">itsgml:featureCatalogue</reversePropertyName>
+              </appinfo>
+            </annotation>
+            <complexType>
+              <complexContent>
+                <extension base="gml:AbstractMemberType">
+                  <sequence minOccurs="0">
+                    <element ref="itsgml:FC_PropertyType"/>
+                  </sequence>
+                  <attributeGroup ref="gml:AssociationAttributeGroup"/>
+                </extension>
+              </complexContent>
+            </complexType>
+          </element>
+          <element maxOccurs="unbounded" name="featureType">
+            <annotation>
+              <appinfo>
+                <reversePropertyName xmlns="http://www.opengis.net/gml/3.2">itsgml:featureCatalogue</reversePropertyName>
+              </appinfo>
+            </annotation>
+            <complexType>
+              <complexContent>
+                <extension base="gml:AbstractMemberType">
+                  <sequence minOccurs="0">
+                    <element ref="itsgml:FC_FeatureType"/>
+                  </sequence>
+                  <attributeGroup ref="gml:AssociationAttributeGroup"/>
+                </extension>
+              </complexContent>
+            </complexType>
+          </element>
+        </sequence>
+      </extension>
+    </complexContent>
+  </complexType>
+  <complexType name="FC_FeatureCataloguePropertyType">
+    <sequence minOccurs="0">
+      <element ref="itsgml:FC_FeatureCatalogue"/>
+    </sequence>
+    <attributeGroup ref="gml:AssociationAttributeGroup"/>
+    <attributeGroup ref="gml:OwnershipAttributeGroup"/>
+  </complexType>
+  <element name="FC_FeatureType" substitutionGroup="gml:AbstractFeature"
+    type="itsgml:FC_FeatureTypeType"/>
+  <complexType name="FC_FeatureTypeType">
+    <complexContent>
+      <extension base="gml:AbstractFeatureType">
+        <sequence>
+          <element name="typeName" type="gml:CodeType"/>
+          <element minOccurs="0" name="definition" type="string"/>
+          <element minOccurs="0" name="code" type="string"/>
+          <element name="isAbstract" type="boolean"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="aliases" type="gml:CodeType"/>
+          <element minOccurs="0" name="designation" type="string"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="carrierOfCharacteristics">
+            <annotation>
+              <appinfo>
+                <reversePropertyName xmlns="http://www.opengis.net/gml/3.2">itsgml:featureType</reversePropertyName>
+              </appinfo>
+            </annotation>
+            <complexType>
+              <complexContent>
+                <extension base="gml:AbstractMemberType">
+                  <sequence minOccurs="0">
+                    <element ref="itsgml:FC_CarrierOfCharacteristics"/>
+                  </sequence>
+                  <attributeGroup ref="gml:AssociationAttributeGroup"/>
+                </extension>
+              </complexContent>
+            </complexType>
+          </element>
+        </sequence>
+      </extension>
+    </complexContent>
+  </complexType>
+  <complexType name="FC_FeatureTypePropertyType">
+    <sequence minOccurs="0">
+      <element ref="itsgml:FC_FeatureType"/>
+    </sequence>
+    <attributeGroup ref="gml:AssociationAttributeGroup"/>
+    <attributeGroup ref="gml:OwnershipAttributeGroup"/>
+  </complexType>
+  <element name="FC_ListedValue" substitutionGroup="gml:AbstractFeature"
+    type="itsgml:FC_ListedValueType"/>
+  <complexType name="FC_ListedValueType">
+    <complexContent>
+      <extension base="gml:AbstractFeatureType">
+        <sequence>
+          <element name="label" type="string"/>
+          <element minOccurs="0" name="code" type="string"/>
+          <element minOccurs="0" name="definition" type="string"/>
+          <element minOccurs="0" name="designation" type="string"/>
+        </sequence>
+      </extension>
+    </complexContent>
+  </complexType>
+  <complexType name="FC_ListedValuePropertyType">
+    <sequence minOccurs="0">
+      <element ref="itsgml:FC_ListedValue"/>
+    </sequence>
+    <attributeGroup ref="gml:AssociationAttributeGroup"/>
+    <attributeGroup ref="gml:OwnershipAttributeGroup"/>
+  </complexType>
+  <element abstract="true" name="FC_PropertyType"
+    substitutionGroup="itsgml:FC_CarrierOfCharacteristics" type="itsgml:FC_PropertyTypeType"/>
+  <complexType abstract="true" name="FC_PropertyTypeType">
+    <complexContent>
+      <extension base="itsgml:FC_CarrierOfCharacteristicsType">
+        <sequence>
+          <element name="memberName" type="gml:CodeType"/>
+          <element minOccurs="0" name="definition" type="string"/>
+          <element name="cardinality" type="gco:Multiplicity_PropertyType"/>
+          <element minOccurs="0" name="designation" type="string"/>
+        </sequence>
+      </extension>
+    </complexContent>
+  </complexType>
+  <complexType name="FC_PropertyTypePropertyType">
+    <sequence minOccurs="0">
+      <element ref="itsgml:FC_PropertyType"/>
     </sequence>
     <attributeGroup ref="gml:AssociationAttributeGroup"/>
     <attributeGroup ref="gml:OwnershipAttributeGroup"/>
