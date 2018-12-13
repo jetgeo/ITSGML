@@ -123,6 +123,21 @@
     <attributeGroup ref="gml:AssociationAttributeGroup"/>
     <attributeGroup ref="gml:OwnershipAttributeGroup"/>
   </complexType>
+  <element name="FC_DataType" substitutionGroup="itsgml:FC_FeatureType" type="itsgml:FC_DataTypeType"/>
+  <complexType name="FC_DataTypeType">
+    <complexContent>
+      <extension base="itsgml:FC_FeatureTypeType">
+        <sequence/>
+      </extension>
+    </complexContent>
+  </complexType>
+  <complexType name="FC_DataTypePropertyType">
+    <sequence minOccurs="0">
+      <element ref="itsgml:FC_DataType"/>
+    </sequence>
+    <attributeGroup ref="gml:AssociationAttributeGroup"/>
+    <attributeGroup ref="gml:OwnershipAttributeGroup"/>
+  </complexType>
   <element name="FC_FeatureAssociation" substitutionGroup="itsgml:FC_FeatureType" type="itsgml:FC_FeatureAssociationType"/>
   <complexType name="FC_FeatureAssociationType">
     <complexContent>
@@ -329,6 +344,28 @@
   <complexType name="FC_ValueDomainPropertyType">
     <sequence minOccurs="0">
       <element ref="itsgml:FC_ValueDomain"/>
+    </sequence>
+    <attributeGroup ref="gml:AssociationAttributeGroup"/>
+    <attributeGroup ref="gml:OwnershipAttributeGroup"/>
+  </complexType>
+  <element name="Multiplicity" substitutionGroup="gml:AbstractGML" type="itsgml:MultiplicityType">
+    <annotation>
+      <documentation>A datatype that implements the requirement from UML2 MultiplicityElement</documentation>
+    </annotation>
+  </element>
+  <complexType name="MultiplicityType">
+    <complexContent>
+      <extension base="gml:AbstractGMLType">
+        <sequence>
+          <element name="lower" type="integer"/>
+          <element minOccurs="0" name="upper"/>
+        </sequence>
+      </extension>
+    </complexContent>
+  </complexType>
+  <complexType name="MultiplicityPropertyType">
+    <sequence minOccurs="0">
+      <element ref="itsgml:Multiplicity"/>
     </sequence>
     <attributeGroup ref="gml:AssociationAttributeGroup"/>
     <attributeGroup ref="gml:OwnershipAttributeGroup"/>
