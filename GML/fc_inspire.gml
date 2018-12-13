@@ -20,6 +20,178 @@
         <gco:Date>2018-10-29</gco:Date>
     </gmx:versionDate>
     <itsgml:producer/>
+    <itsgml:globalProperty>
+        <itsgml:FC_FeatureAttribute gml:id="inspire.id">
+            <itsgml:memberName>inspireId</itsgml:memberName>
+            <itsgml:cardinality>
+                <gco:Multiplicity>
+                    <gco:range>
+                        <gco:MultiplicityRange>
+                            <gco:lower>
+                                <gco:Integer>0</gco:Integer>
+                            </gco:lower>
+                            <gco:upper>
+                                <gco:UnlimitedInteger>1</gco:UnlimitedInteger>
+                            </gco:upper>
+                        </gco:MultiplicityRange>
+                    </gco:range>
+                </gco:Multiplicity>
+            </itsgml:cardinality>
+            <itsgml:subattribute>
+                <itsgml:FC_FeatureAttribute>
+                    <itsgml:memberName>localId</itsgml:memberName>
+                    <itsgml:cardinality>
+                        <gco:Multiplicity>
+                            <gco:range>
+                                <gco:MultiplicityRange>
+                                    <gco:lower>
+                                        <gco:Integer>1</gco:Integer>
+                                    </gco:lower>
+                                    <gco:upper>
+                                        <gco:UnlimitedInteger>1</gco:UnlimitedInteger>
+                                    </gco:upper>
+                                </gco:MultiplicityRange>
+                            </gco:range>
+                        </gco:Multiplicity>
+                    </itsgml:cardinality>
+                    <itsgml:valueType>CharacterString</itsgml:valueType>
+                </itsgml:FC_FeatureAttribute>
+            </itsgml:subattribute>
+            <itsgml:subattribute>
+                <itsgml:FC_FeatureAttribute>
+                    <itsgml:memberName>namespace</itsgml:memberName>
+                    <itsgml:cardinality>
+                        <gco:Multiplicity>
+                            <gco:range>
+                                <gco:MultiplicityRange>
+                                    <gco:lower>
+                                        <gco:Integer>1</gco:Integer>
+                                    </gco:lower>
+                                    <gco:upper>
+                                        <gco:UnlimitedInteger>1</gco:UnlimitedInteger>
+                                    </gco:upper>
+                                </gco:MultiplicityRange>
+                            </gco:range>
+                        </gco:Multiplicity>
+                    </itsgml:cardinality>
+                    <itsgml:valueType>CharacterString</itsgml:valueType>
+                </itsgml:FC_FeatureAttribute>
+            </itsgml:subattribute>
+            <itsgml:subattribute>
+                <itsgml:FC_FeatureAttribute>
+                    <itsgml:memberName>versionId</itsgml:memberName>
+                    <itsgml:cardinality>
+                        <gco:Multiplicity>
+                            <gco:range>
+                                <gco:MultiplicityRange>
+                                    <gco:lower>
+                                        <gco:Integer>0</gco:Integer>
+                                    </gco:lower>
+                                    <gco:upper>
+                                        <gco:UnlimitedInteger>1</gco:UnlimitedInteger>
+                                    </gco:upper>
+                                </gco:MultiplicityRange>
+                            </gco:range>
+                        </gco:Multiplicity>
+                    </itsgml:cardinality>
+                    <itsgml:valueType>CharacterString</itsgml:valueType>
+                </itsgml:FC_FeatureAttribute>
+            </itsgml:subattribute>
+        </itsgml:FC_FeatureAttribute>
+    </itsgml:globalProperty>
+    <itsgml:globalProperty>
+        <itsgml:FC_FeatureAttribute gml:id="inspire.nr">
+            <itsgml:memberName>inspireId</itsgml:memberName>
+            <itsgml:cardinality>
+                <gco:Multiplicity>
+                    <gco:range>
+                        <gco:MultiplicityRange>
+                            <gco:lower>
+                                <gco:Integer>0</gco:Integer>
+                            </gco:lower>
+                            <gco:upper>
+                                <gco:UnlimitedInteger>1</gco:UnlimitedInteger>
+                            </gco:upper>
+                        </gco:MultiplicityRange>
+                    </gco:range>
+                </gco:Multiplicity>
+            </itsgml:cardinality>
+            <itsgml:subattribute>
+                <itsgml:FC_FeatureAttribute>
+                    <itsgml:memberName>localId</itsgml:memberName>
+                    <itsgml:cardinality>
+                        <gco:Multiplicity>
+                            <gco:range>
+                                <gco:MultiplicityRange>
+                                    <gco:lower>
+                                        <gco:Integer>1</gco:Integer>
+                                    </gco:lower>
+                                    <gco:upper>
+                                        <gco:UnlimitedInteger>1</gco:UnlimitedInteger>
+                                    </gco:upper>
+                                </gco:MultiplicityRange>
+                            </gco:range>
+                        </gco:Multiplicity>
+                    </itsgml:cardinality>
+                    <itsgml:valueType>CharacterString</itsgml:valueType>
+                </itsgml:FC_FeatureAttribute>
+            </itsgml:subattribute>
+            <itsgml:subattribute>
+                <itsgml:FC_FeatureAttribute>
+                    <itsgml:memberName>namespace</itsgml:memberName>
+                    <itsgml:cardinality>
+                        <gco:Multiplicity>
+                            <gco:range>
+                                <gco:MultiplicityRange>
+                                    <gco:lower>
+                                        <gco:Integer>1</gco:Integer>
+                                    </gco:lower>
+                                    <gco:upper>
+                                        <gco:UnlimitedInteger>1</gco:UnlimitedInteger>
+                                    </gco:upper>
+                                </gco:MultiplicityRange>
+                            </gco:range>
+                        </gco:Multiplicity>
+                    </itsgml:cardinality>
+                    <itsgml:valueType>CharacterString</itsgml:valueType>
+                </itsgml:FC_FeatureAttribute>
+            </itsgml:subattribute>
+            <itsgml:subattribute>
+                <itsgml:FC_FeatureAttribute>
+                    <itsgml:memberName>versionId</itsgml:memberName>
+                    <itsgml:cardinality>
+                        <gco:Multiplicity>
+                            <gco:range>
+                                <gco:MultiplicityRange>
+                                    <gco:lower>
+                                        <gco:Integer>0</gco:Integer>
+                                    </gco:lower>
+                                    <gco:upper>
+                                        <gco:UnlimitedInteger>1</gco:UnlimitedInteger>
+                                    </gco:upper>
+                                </gco:MultiplicityRange>
+                            </gco:range>
+                        </gco:Multiplicity>
+                    </itsgml:cardinality>
+                    <itsgml:valueType>CharacterString</itsgml:valueType>
+                </itsgml:FC_FeatureAttribute>
+            </itsgml:subattribute>
+        </itsgml:FC_FeatureAttribute>
+    </itsgml:globalProperty>
+    <itsgml:featureType>
+        <itsgml:FC_FeatureType gml:id="inspire.np">
+            <itsgml:typeName>NetworkProperty</itsgml:typeName>
+            <itsgml:isAbstract>true</itsgml:isAbstract>
+            <itsgml:carrierOfCharacteristics xlink:href="fc_inspire.gml#inspire.id"/>
+        </itsgml:FC_FeatureType>
+    </itsgml:featureType>
+    <itsgml:featureType>
+        <itsgml:FC_FeatureType gml:id="inspire.tn.tp">
+            <itsgml:typeName>TransportProperty</itsgml:typeName>
+            <itsgml:isAbstract>true</itsgml:isAbstract>
+            <itsgml:inheritsFrom xlink:href="fc_inspire.gml#inspire.np"/>
+        </itsgml:FC_FeatureType>
+    </itsgml:featureType>
     <itsgml:featureType>
         <itsgml:FC_FeatureType gml:id="inspire.tn.rd.sl">
             <itsgml:typeName>SpeedLimit</itsgml:typeName>
@@ -81,9 +253,10 @@
                         </gco:Multiplicity>
                     </itsgml:cardinality>
                     <itsgml:valueMeasurementUnit uom="Kmph"/>
-                    <itsgml:valueType>integer</itsgml:valueType>
+                    <itsgml:valueType>Integer</itsgml:valueType>
                 </itsgml:FC_FeatureAttribute>
             </itsgml:carrierOfCharacteristics>
+            <itsgml:inheritsFrom xlink:href="fc_inspire.gml#inspire.tn.tp"/>
         </itsgml:FC_FeatureType>
     </itsgml:featureType>
     <itsgml:featureType>
@@ -108,9 +281,9 @@
                         </gco:Multiplicity>
                     </itsgml:cardinality>
                     <itsgml:valueMeasurementUnit uom="Metre"/>
-                    <itsgml:valueType>real</itsgml:valueType>
+                    <itsgml:valueType>Real</itsgml:valueType>
                 </itsgml:FC_FeatureAttribute>
-            </itsgml:carrierOfCharacteristics>           
+            </itsgml:carrierOfCharacteristics>
         </itsgml:FC_FeatureType>
     </itsgml:featureType>
     <itsgml:featureType>
@@ -183,8 +356,9 @@
                         <itsgml:FC_ListedValue>
                             <itsgml:label>ninthClass</itsgml:label>
                         </itsgml:FC_ListedValue>
-                    </itsgml:listedValue>                </itsgml:FC_FeatureAttribute>
-            </itsgml:carrierOfCharacteristics>           
+                    </itsgml:listedValue>
+                </itsgml:FC_FeatureAttribute>
+            </itsgml:carrierOfCharacteristics>
         </itsgml:FC_FeatureType>
     </itsgml:featureType>
 </itsgml:FC_FeatureCatalogue>

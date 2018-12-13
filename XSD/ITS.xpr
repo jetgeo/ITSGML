@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="19.1">
+    <meta>
+        <filters directoryPatterns="" filePatterns="GDF.xpr" positiveFilePatterns="" showHiddenFiles="false"/>
+        <options/>
+    </meta>
+    <projectTree name="ITS.xpr">
+        <folder path="../"/>
+        <folder path="../../TN-ITS/"/>
+        <folder path="../../../../Users/knjetl/OneDrive%20-%20NTNU/PhD/Forskning/XSDs/19110/"/>
+        <folder path="../../../../Users/knjetl/OneDrive%20-%20NTNU/PhD/Forskning/XSDs/DATEXII/"/>
+        <folder path="../../../../Users/knjetl/OneDrive%20-%20NTNU/PhD/Forskning/XSDs/GDF/"/>
+        <folder path="../../../../Users/knjetl/OneDrive%20-%20NTNU/PhD/Forskning/XSDs/OpenDrive/"/>
+    </projectTree>
+</project>
