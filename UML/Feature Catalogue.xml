@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="windows-1252"?>
-<XMI xmi.version="1.1" xmlns:UML="omg.org/UML1.3" timestamp="2018-12-13 13:08:30">
+<XMI xmi.version="1.1" xmlns:UML="omg.org/UML1.3" timestamp="2018-12-13 13:34:26">
 	<XMI.header>
 		<XMI.documentation>
 			<XMI.exporter>Enterprise Architect</XMI.exporter>
@@ -21,7 +21,7 @@
 						<UML:TaggedValue tag="iscontrolled" value="TRUE"/>
 						<UML:TaggedValue tag="xmlpath" value="C:\DATA\GitHub\ITSGML\UML\Feature Catalogue.xml"/>
 						<UML:TaggedValue tag="lastloaddate" value="2018-10-02 15:27:28"/>
-						<UML:TaggedValue tag="lastsavedate" value="2018-12-13 13:08:30"/>
+						<UML:TaggedValue tag="lastsavedate" value="2018-12-13 13:34:26"/>
 						<UML:TaggedValue tag="version" value="1.0"/>
 						<UML:TaggedValue tag="isprotected" value="FALSE"/>
 						<UML:TaggedValue tag="usedtd" value="FALSE"/>
@@ -2524,7 +2524,7 @@
 										<UML:TaggedValue tag="ea_localid" value="65491"/>
 										<UML:TaggedValue tag="ea_eleType" value="element"/>
 										<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
-										<UML:TaggedValue tag="$ea_xref_property" value="$XREFPROP=$XID={B29C3E9A-F582-4b12-AA6D-31BE0B596C2C}$XID;$NAM=CustomProperties$NAM;$TYP=element property$TYP;$VIS=Public$VIS;$DES=@PROP=@NAME=isActive@ENDNAME;@TYPE=Boolean@ENDTYPE;@VALU=@ENDVALU;@PRMT=@ENDPRMT;@ENDPROP;$DES;$CLT={0CAE6BDA-9B0F-47a0-A9BC-4B086583C943}$CLT;$SUP=&lt;none&gt;$SUP;$ENDXREF;$XREFPROP=$XID={DD5D58BE-BBB3-445a-AFC4-D54F058EFBFE}$XID;$NAM=Stereotypes$NAM;$TYP=element property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@STEREO;Name=enumeration;GUID={E7933F78-0BB6-4d1b-B999-A931E7FB5ECC};FQName=SOSI UML profil 5.0::enumeration;@ENDSTEREO;$DES;$CLT={0CAE6BDA-9B0F-47a0-A9BC-4B086583C943}$CLT;$SUP=&lt;none&gt;$SUP;$ENDXREF;"/>
+										<UML:TaggedValue tag="$ea_xref_property" value="$XREFPROP=$XID={B29C3E9A-F582-4b12-AA6D-31BE0B596C2C}$XID;$NAM=CustomProperties$NAM;$TYP=element property$TYP;$VIS=Public$VIS;$DES=@PROP=@NAME=isActive@ENDNAME;@TYPE=Boolean@ENDTYPE;@VALU=@ENDVALU;@PRMT=@ENDPRMT;@ENDPROP;$DES;$CLT={0CAE6BDA-9B0F-47a0-A9BC-4B086583C943}$CLT;$SUP=&lt;none&gt;$SUP;$ENDXREF;$XREFPROP=$XID={39DA9627-1EB1-4465-A0DB-62D7538D454F}$XID;$NAM=Stereotypes$NAM;$TYP=element property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@STEREO;Name=enumeration;GUID={E7933F78-0BB6-4d1b-B999-A931E7FB5ECC};FQName=SOSI UML profil 5.0::enumeration;@ENDSTEREO;$DES;$CLT={0CAE6BDA-9B0F-47a0-A9BC-4B086583C943}$CLT;$SUP=&lt;none&gt;$SUP;$ENDXREF;"/>
 									</UML:ModelElement.taggedValue>
 									<UML:Classifier.feature>
 										<UML:Attribute name="mainRoad" changeable="none" visibility="public" ownerScope="instance" targetScope="instance">
@@ -4076,7 +4076,7 @@
 										<UML:TaggedValue tag="ea_localid" value="65490"/>
 										<UML:TaggedValue tag="ea_eleType" value="element"/>
 										<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
-										<UML:TaggedValue tag="$ea_xref_property" value="$XREFPROP=$XID={708E6675-31F5-4577-BAAA-D9EFB3A17124}$XID;$NAM=CustomProperties$NAM;$TYP=element property$TYP;$VIS=Public$VIS;$DES=@PROP=@NAME=isActive@ENDNAME;@TYPE=Boolean@ENDTYPE;@VALU=@ENDVALU;@PRMT=@ENDPRMT;@ENDPROP;$DES;$CLT={B4BAEDDC-73A5-45e4-908A-55264E9B754A}$CLT;$SUP=&lt;none&gt;$SUP;$ENDXREF;$XREFPROP=$XID={F679494C-D8ED-42b3-9229-6F70A31CE39C}$XID;$NAM=Stereotypes$NAM;$TYP=element property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@STEREO;Name=enumeration;GUID={E7933F78-0BB6-4d1b-B999-A931E7FB5ECC};FQName=SOSI UML profil 5.0::enumeration;@ENDSTEREO;$DES;$CLT={B4BAEDDC-73A5-45e4-908A-55264E9B754A}$CLT;$SUP=&lt;none&gt;$SUP;$ENDXREF;"/>
+										<UML:TaggedValue tag="$ea_xref_property" value="$XREFPROP=$XID={708E6675-31F5-4577-BAAA-D9EFB3A17124}$XID;$NAM=CustomProperties$NAM;$TYP=element property$TYP;$VIS=Public$VIS;$DES=@PROP=@NAME=isActive@ENDNAME;@TYPE=Boolean@ENDTYPE;@VALU=@ENDVALU;@PRMT=@ENDPRMT;@ENDPROP;$DES;$CLT={B4BAEDDC-73A5-45e4-908A-55264E9B754A}$CLT;$SUP=&lt;none&gt;$SUP;$ENDXREF;$XREFPROP=$XID={BCB703E6-DD6F-4e10-8150-581BB52C4114}$XID;$NAM=Stereotypes$NAM;$TYP=element property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@STEREO;Name=enumeration;GUID={E7933F78-0BB6-4d1b-B999-A931E7FB5ECC};FQName=SOSI UML profil 5.0::enumeration;@ENDSTEREO;$DES;$CLT={B4BAEDDC-73A5-45e4-908A-55264E9B754A}$CLT;$SUP=&lt;none&gt;$SUP;$ENDXREF;"/>
 									</UML:ModelElement.taggedValue>
 									<UML:Classifier.feature>
 										<UML:Attribute name="maximum" changeable="none" visibility="public" ownerScope="instance" targetScope="instance">

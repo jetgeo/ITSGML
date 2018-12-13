@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="windows-1252"?>
-<XMI xmi.version="1.1" xmlns:UML="omg.org/UML1.3" timestamp="2018-12-13 13:08:48">
+<XMI xmi.version="1.1" xmlns:UML="omg.org/UML1.3" timestamp="2018-12-13 13:34:35">
 	<XMI.header>
 		<XMI.documentation>
 			<XMI.exporter>Enterprise Architect</XMI.exporter>
@@ -21,7 +21,7 @@
 						<UML:TaggedValue tag="iscontrolled" value="TRUE"/>
 						<UML:TaggedValue tag="xmlpath" value="C:\DATA\GitHub\ITSGML\UML\Generic Feature Exchange Model.xml"/>
 						<UML:TaggedValue tag="lastloaddate" value="2018-10-25 14:07:27"/>
-						<UML:TaggedValue tag="lastsavedate" value="2018-12-13 13:08:48"/>
+						<UML:TaggedValue tag="lastsavedate" value="2018-12-13 13:34:35"/>
 						<UML:TaggedValue tag="version" value="1.0"/>
 						<UML:TaggedValue tag="isprotected" value="FALSE"/>
 						<UML:TaggedValue tag="usedtd" value="FALSE"/>
@@ -1363,7 +1363,7 @@
 										<UML:TaggedValue tag="ea_sourceID" value="65338"/>
 										<UML:TaggedValue tag="ea_targetID" value="65329"/>
 										<UML:TaggedValue tag="$ea_xref_property" value="$XREFPROP=$XID={162073D8-A562-4f90-9367-8A43F413F2C7}$XID;$NAM=CustomProperties$NAM;$TYP=connector property$TYP;$VIS=Public$VIS;$DES=@PROP=@NAME=isDerived@ENDNAME;@TYPE=Boolean@ENDTYPE;@VALU=false@ENDVALU;@PRMT=@ENDPRMT;@ENDPROP;$DES;$CLT={0BC09329-8029-43e0-945E-C918D414D592}$CLT;$SUP=&lt;none&gt;$SUP;$ENDXREF;"/>
-										<UML:TaggedValue tag="privatedata5" value="EDGE=1;SX=7;SY=0;EX=0;EY=6;"/>
+										<UML:TaggedValue tag="privatedata5" value="EDGE=1;SX=-12;SY=0;EX=0;EY=4;"/>
 										<UML:TaggedValue tag="virtualInheritance" value="0"/>
 										<UML:TaggedValue tag="rb" value="2..*&#xA;{ordered}"/>
 										<UML:TaggedValue tag="rt" value="+element"/>
@@ -2417,7 +2417,7 @@
 												<UML:TaggedValue tag="ea_targetType" value="Class"/>
 												<UML:TaggedValue tag="ea_sourceID" value="65377"/>
 												<UML:TaggedValue tag="ea_targetID" value="63941"/>
-												<UML:TaggedValue tag="privatedata5" value="SX=0;SY=0;EX=0;EY=0;EDGE=2;"/>
+												<UML:TaggedValue tag="privatedata5" value="SX=-2;SY=-19;EX=-2;EY=-19;EDGE=3;"/>
 												<UML:TaggedValue tag="rb" value="1"/>
 												<UML:TaggedValue tag="rt" value="+featureTypeReference"/>
 											</UML:ModelElement.taggedValue>
@@ -4198,7 +4198,7 @@
 														<UML:TaggedValue tag="ea_eleType" value="element"/>
 														<UML:TaggedValue tag="$ea_attsclassified" value="{2D5BF118-CDA6-41dc-ACBF-2F66D0D3A0E7}"/>
 														<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
-														<UML:TaggedValue tag="$ea_xref_property" value="$XREFPROP=$XID={A26D3B17-7FA7-42f2-8020-4B5A8D57DE25}$XID;$NAM=CustomProperties$NAM;$TYP=element property$TYP;$VIS=Public$VIS;$DES=@PROP=@NAME=isActive@ENDNAME;@TYPE=Boolean@ENDTYPE;@VALU=@ENDVALU;@PRMT=@ENDPRMT;@ENDPROP;$DES;$CLT={3370CA3D-AC88-470a-BD1C-638C3177338D}$CLT;$ENDXREF;$XREFPROP=$XID={31A90AF1-1E1A-4cd3-B7DC-A055CD13D56F}$XID;$NAM=Stereotypes$NAM;$TYP=element property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@STEREO;Name=enumeration;GUID={E7933F78-0BB6-4d1b-B999-A931E7FB5ECC};FQName=SOSI UML profil 5.0::enumeration;@ENDSTEREO;$DES;$CLT={3370CA3D-AC88-470a-BD1C-638C3177338D}$CLT;$SUP=&lt;none&gt;$SUP;$ENDXREF;"/>
+														<UML:TaggedValue tag="$ea_xref_property" value="$XREFPROP=$XID={A26D3B17-7FA7-42f2-8020-4B5A8D57DE25}$XID;$NAM=CustomProperties$NAM;$TYP=element property$TYP;$VIS=Public$VIS;$DES=@PROP=@NAME=isActive@ENDNAME;@TYPE=Boolean@ENDTYPE;@VALU=@ENDVALU;@PRMT=@ENDPRMT;@ENDPROP;$DES;$CLT={3370CA3D-AC88-470a-BD1C-638C3177338D}$CLT;$ENDXREF;$XREFPROP=$XID={590DE61D-10F4-4845-B071-D3CEBD217C99}$XID;$NAM=Stereotypes$NAM;$TYP=element property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@STEREO;Name=enumeration;GUID={E7933F78-0BB6-4d1b-B999-A931E7FB5ECC};FQName=SOSI UML profil 5.0::enumeration;@ENDSTEREO;$DES;$CLT={3370CA3D-AC88-470a-BD1C-638C3177338D}$CLT;$SUP=&lt;none&gt;$SUP;$ENDXREF;"/>
 													</UML:ModelElement.taggedValue>
 													<UML:Classifier.feature>
 														<UML:Attribute name="connectingCarriageway" changeable="none" visibility="public" ownerScope="instance" targetScope="instance">
@@ -4734,7 +4734,7 @@
 														<UML:TaggedValue tag="ea_eleType" value="element"/>
 														<UML:TaggedValue tag="$ea_attsclassified" value="{526338CF-8A5E-4c9f-AB72-534D4DD9A2ED}"/>
 														<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
-														<UML:TaggedValue tag="$ea_xref_property" value="$XREFPROP=$XID={63802535-B135-4289-8386-DFEA3912B453}$XID;$NAM=CustomProperties$NAM;$TYP=element property$TYP;$VIS=Public$VIS;$DES=@PROP=@NAME=isActive@ENDNAME;@TYPE=Boolean@ENDTYPE;@VALU=@ENDVALU;@PRMT=@ENDPRMT;@ENDPROP;$DES;$CLT={5529B057-C73C-4ad6-9AD9-33F4AF19ECEC}$CLT;$ENDXREF;$XREFPROP=$XID={698A92B6-014A-4266-8E43-40F22C75063E}$XID;$NAM=Stereotypes$NAM;$TYP=element property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@STEREO;Name=enumeration;GUID={E7933F78-0BB6-4d1b-B999-A931E7FB5ECC};FQName=SOSI UML profil 5.0::enumeration;@ENDSTEREO;$DES;$CLT={5529B057-C73C-4ad6-9AD9-33F4AF19ECEC}$CLT;$SUP=&lt;none&gt;$SUP;$ENDXREF;"/>
+														<UML:TaggedValue tag="$ea_xref_property" value="$XREFPROP=$XID={63802535-B135-4289-8386-DFEA3912B453}$XID;$NAM=CustomProperties$NAM;$TYP=element property$TYP;$VIS=Public$VIS;$DES=@PROP=@NAME=isActive@ENDNAME;@TYPE=Boolean@ENDTYPE;@VALU=@ENDVALU;@PRMT=@ENDPRMT;@ENDPROP;$DES;$CLT={5529B057-C73C-4ad6-9AD9-33F4AF19ECEC}$CLT;$ENDXREF;$XREFPROP=$XID={40F490C4-7D73-4f32-8679-A17A81B23F87}$XID;$NAM=Stereotypes$NAM;$TYP=element property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@STEREO;Name=enumeration;GUID={E7933F78-0BB6-4d1b-B999-A931E7FB5ECC};FQName=SOSI UML profil 5.0::enumeration;@ENDSTEREO;$DES;$CLT={5529B057-C73C-4ad6-9AD9-33F4AF19ECEC}$CLT;$SUP=&lt;none&gt;$SUP;$ENDXREF;"/>
 													</UML:ModelElement.taggedValue>
 													<UML:Classifier.feature>
 														<UML:Attribute name="allLanesCompleteCarriageway" changeable="none" visibility="public" ownerScope="instance" targetScope="instance">
@@ -5521,7 +5521,7 @@
 														<UML:TaggedValue tag="ea_eleType" value="element"/>
 														<UML:TaggedValue tag="$ea_attsclassified" value="{CA4E5722-873A-4773-9FFA-3A0985F2FBC3}"/>
 														<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
-														<UML:TaggedValue tag="$ea_xref_property" value="$XREFPROP=$XID={946865C3-BC07-4544-B66B-AA725C73DCED}$XID;$NAM=CustomProperties$NAM;$TYP=element property$TYP;$VIS=Public$VIS;$DES=@PROP=@NAME=isActive@ENDNAME;@TYPE=Boolean@ENDTYPE;@VALU=@ENDVALU;@PRMT=@ENDPRMT;@ENDPROP;$DES;$CLT={710D5F15-B1D3-4769-BF0E-DD56982082E6}$CLT;$ENDXREF;$XREFPROP=$XID={20922C4B-7FD3-48dd-8541-DCC433A6E424}$XID;$NAM=Stereotypes$NAM;$TYP=element property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@STEREO;Name=enumeration;GUID={E7933F78-0BB6-4d1b-B999-A931E7FB5ECC};FQName=SOSI UML profil 5.0::enumeration;@ENDSTEREO;$DES;$CLT={710D5F15-B1D3-4769-BF0E-DD56982082E6}$CLT;$SUP=&lt;none&gt;$SUP;$ENDXREF;"/>
+														<UML:TaggedValue tag="$ea_xref_property" value="$XREFPROP=$XID={946865C3-BC07-4544-B66B-AA725C73DCED}$XID;$NAM=CustomProperties$NAM;$TYP=element property$TYP;$VIS=Public$VIS;$DES=@PROP=@NAME=isActive@ENDNAME;@TYPE=Boolean@ENDTYPE;@VALU=@ENDVALU;@PRMT=@ENDPRMT;@ENDPROP;$DES;$CLT={710D5F15-B1D3-4769-BF0E-DD56982082E6}$CLT;$ENDXREF;$XREFPROP=$XID={24990445-F747-438f-928F-8812B12B6320}$XID;$NAM=Stereotypes$NAM;$TYP=element property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@STEREO;Name=enumeration;GUID={E7933F78-0BB6-4d1b-B999-A931E7FB5ECC};FQName=SOSI UML profil 5.0::enumeration;@ENDSTEREO;$DES;$CLT={710D5F15-B1D3-4769-BF0E-DD56982082E6}$CLT;$SUP=&lt;none&gt;$SUP;$ENDXREF;"/>
 													</UML:ModelElement.taggedValue>
 													<UML:Classifier.feature>
 														<UML:Attribute name="OR" changeable="none" visibility="public" ownerScope="instance" targetScope="instance">
@@ -5627,7 +5627,7 @@
 														<UML:TaggedValue tag="ea_eleType" value="element"/>
 														<UML:TaggedValue tag="$ea_attsclassified" value="{DDE8A7AE-1EBC-44e1-AA29-2FEE145CAE5A}"/>
 														<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
-														<UML:TaggedValue tag="$ea_xref_property" value="$XREFPROP=$XID={0C437409-E2CA-4fdf-9A0C-438EC62FDE82}$XID;$NAM=Stereotypes$NAM;$TYP=element property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@STEREO;Name=enumeration;GUID={E7933F78-0BB6-4d1b-B999-A931E7FB5ECC};FQName=SOSI UML profil 5.0::enumeration;@ENDSTEREO;$DES;$CLT={799A6FA0-AA04-4199-8656-DBC9F2DA45FF}$CLT;$SUP=&lt;none&gt;$SUP;$ENDXREF;"/>
+														<UML:TaggedValue tag="$ea_xref_property" value="$XREFPROP=$XID={6F5DE0F3-1B39-45d5-8FF7-2B0A39498F55}$XID;$NAM=Stereotypes$NAM;$TYP=element property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@STEREO;Name=enumeration;GUID={E7933F78-0BB6-4d1b-B999-A931E7FB5ECC};FQName=SOSI UML profil 5.0::enumeration;@ENDSTEREO;$DES;$CLT={799A6FA0-AA04-4199-8656-DBC9F2DA45FF}$CLT;$SUP=&lt;none&gt;$SUP;$ENDXREF;"/>
 													</UML:ModelElement.taggedValue>
 													<UML:Classifier.feature>
 														<UML:Attribute name="withCarriageWay" changeable="none" visibility="public" ownerScope="instance" targetScope="instance">
@@ -5803,7 +5803,7 @@
 														<UML:TaggedValue tag="ea_eleType" value="element"/>
 														<UML:TaggedValue tag="$ea_attsclassified" value="{0B34C45E-A160-4ba1-BDC2-21BA409FC9AE}"/>
 														<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
-														<UML:TaggedValue tag="$ea_xref_property" value="$XREFPROP=$XID={58C8241A-1394-464b-8D01-AECC3E97DE4C}$XID;$NAM=Stereotypes$NAM;$TYP=element property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@STEREO;Name=enumeration;GUID={E7933F78-0BB6-4d1b-B999-A931E7FB5ECC};FQName=SOSI UML profil 5.0::enumeration;@ENDSTEREO;$DES;$CLT={7EB99E28-7EDB-4cf8-9FF8-63C85AF905DA}$CLT;$SUP=&lt;none&gt;$SUP;$ENDXREF;"/>
+														<UML:TaggedValue tag="$ea_xref_property" value="$XREFPROP=$XID={44B765B5-AC96-4b81-BD45-2FD90E353BBB}$XID;$NAM=Stereotypes$NAM;$TYP=element property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@STEREO;Name=enumeration;GUID={E7933F78-0BB6-4d1b-B999-A931E7FB5ECC};FQName=SOSI UML profil 5.0::enumeration;@ENDSTEREO;$DES;$CLT={7EB99E28-7EDB-4cf8-9FF8-63C85AF905DA}$CLT;$SUP=&lt;none&gt;$SUP;$ENDXREF;"/>
 													</UML:ModelElement.taggedValue>
 													<UML:Classifier.feature>
 														<UML:Attribute name="oneWay" changeable="none" visibility="public" ownerScope="instance" targetScope="instance">
@@ -5892,7 +5892,7 @@
 														<UML:TaggedValue tag="ea_eleType" value="element"/>
 														<UML:TaggedValue tag="$ea_attsclassified" value="{29F91E57-CC3B-42d7-A2C6-84C9D1B1D58D}"/>
 														<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
-														<UML:TaggedValue tag="$ea_xref_property" value="$XREFPROP=$XID={D2E80567-BFE1-488b-B9D8-937647088152}$XID;$NAM=Stereotypes$NAM;$TYP=element property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@STEREO;Name=enumeration;GUID={E7933F78-0BB6-4d1b-B999-A931E7FB5ECC};FQName=SOSI UML profil 5.0::enumeration;@ENDSTEREO;$DES;$CLT={991F155F-C138-4a00-937F-2BEA1487D446}$CLT;$SUP=&lt;none&gt;$SUP;$ENDXREF;"/>
+														<UML:TaggedValue tag="$ea_xref_property" value="$XREFPROP=$XID={7E14DD8F-8EED-47c1-8A05-21A2904B5437}$XID;$NAM=Stereotypes$NAM;$TYP=element property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@STEREO;Name=enumeration;GUID={E7933F78-0BB6-4d1b-B999-A931E7FB5ECC};FQName=SOSI UML profil 5.0::enumeration;@ENDSTEREO;$DES;$CLT={991F155F-C138-4a00-937F-2BEA1487D446}$CLT;$SUP=&lt;none&gt;$SUP;$ENDXREF;"/>
 													</UML:ModelElement.taggedValue>
 													<UML:Classifier.feature>
 														<UML:Attribute name="aligned" changeable="none" visibility="public" ownerScope="instance" targetScope="instance">
@@ -8140,7 +8140,7 @@
 														<UML:TaggedValue tag="ea_eleType" value="element"/>
 														<UML:TaggedValue tag="$ea_attsclassified" value="{17659D4B-61CC-4c33-8CF2-3A8EF1C6F0FB},{1C92899D-8001-421c-A02E-1BAA615B4069},{500D2F1D-B662-49bf-A393-2EBCDD441E98},{1387E468-F7AA-4a53-B7BD-5B5552533B02},{D3059817-2272-47d6-BF88-1D0B3D9DF247},{C6CECE22-3EB4-4d51-AC4C-449C5D31136E}"/>
 														<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
-														<UML:TaggedValue tag="$ea_xref_property" value="$XREFPROP=$XID={EFF581D7-5CBA-478c-974A-3B8A1AAED4B5}$XID;$NAM=CustomProperties$NAM;$TYP=element property$TYP;$VIS=Public$VIS;$DES=@PROP=@NAME=isActive@ENDNAME;@TYPE=Boolean@ENDTYPE;@VALU=@ENDVALU;@PRMT=@ENDPRMT;@ENDPROP;$DES;$CLT={2F9491BC-BFDF-4f5d-B5A8-A4CF7AC0C841}$CLT;$ENDXREF;$XREFPROP=$XID={DF23BD5D-E922-4cc1-85E1-19410B187628}$XID;$NAM=Stereotypes$NAM;$TYP=element property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@STEREO;Name=enumeration;GUID={E7933F78-0BB6-4d1b-B999-A931E7FB5ECC};FQName=SOSI UML profil 5.0::enumeration;@ENDSTEREO;$DES;$CLT={2F9491BC-BFDF-4f5d-B5A8-A4CF7AC0C841}$CLT;$SUP=&lt;none&gt;$SUP;$ENDXREF;"/>
+														<UML:TaggedValue tag="$ea_xref_property" value="$XREFPROP=$XID={EFF581D7-5CBA-478c-974A-3B8A1AAED4B5}$XID;$NAM=CustomProperties$NAM;$TYP=element property$TYP;$VIS=Public$VIS;$DES=@PROP=@NAME=isActive@ENDNAME;@TYPE=Boolean@ENDTYPE;@VALU=@ENDVALU;@PRMT=@ENDPRMT;@ENDPROP;$DES;$CLT={2F9491BC-BFDF-4f5d-B5A8-A4CF7AC0C841}$CLT;$ENDXREF;$XREFPROP=$XID={8D0DD623-E760-4941-8611-D2FCDB8FAE53}$XID;$NAM=Stereotypes$NAM;$TYP=element property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@STEREO;Name=enumeration;GUID={E7933F78-0BB6-4d1b-B999-A931E7FB5ECC};FQName=SOSI UML profil 5.0::enumeration;@ENDSTEREO;$DES;$CLT={2F9491BC-BFDF-4f5d-B5A8-A4CF7AC0C841}$CLT;$SUP=&lt;none&gt;$SUP;$ENDXREF;"/>
 													</UML:ModelElement.taggedValue>
 													<UML:Classifier.feature>
 														<UML:Attribute name="equalTo" changeable="none" visibility="public" ownerScope="instance" targetScope="instance">
@@ -10790,10 +10790,10 @@
 										</UML:Generalization>
 										<UML:Association xmi.id="EAID_E96BBCDF_268F_4aa0_BF53_64C1A89DB013" visibility="public" isRoot="false" isLeaf="false" isAbstract="false">
 											<UML:ModelElement.taggedValue>
-												<UML:TaggedValue tag="style" value="3"/>
+												<UML:TaggedValue tag="style" value="2"/>
 												<UML:TaggedValue tag="ea_type" value="Aggregation"/>
 												<UML:TaggedValue tag="direction" value="Destination -&gt; Source"/>
-												<UML:TaggedValue tag="linemode" value="3"/>
+												<UML:TaggedValue tag="linemode" value="2"/>
 												<UML:TaggedValue tag="linecolor" value="-1"/>
 												<UML:TaggedValue tag="linewidth" value="0"/>
 												<UML:TaggedValue tag="seqno" value="0"/>
@@ -10807,7 +10807,7 @@
 												<UML:TaggedValue tag="ea_targetType" value="Class"/>
 												<UML:TaggedValue tag="ea_sourceID" value="65454"/>
 												<UML:TaggedValue tag="ea_targetID" value="65459"/>
-												<UML:TaggedValue tag="privatedata5" value="SX=0;SY=9;EX=-73;EY=0;EDGE=4;"/>
+												<UML:TaggedValue tag="privatedata5" value="SX=-16;SY=0;EX=-16;EY=0;EDGE=1;"/>
 												<UML:TaggedValue tag="virtualInheritance" value="0"/>
 												<UML:TaggedValue tag="lb" value="1..*"/>
 												<UML:TaggedValue tag="lt" value="+networkReference"/>
@@ -11384,10 +11384,10 @@
 										</UML:Class>
 										<UML:Generalization subtype="EAID_D71B3A2B_21BF_4d53_8983_1BCA2784A628" supertype="EAID_ECC9FCC7_8546_4de9_AB15_CE957EC24406" xmi.id="EAID_75654DEE_5DAF_4a21_8954_3474F8F5FB19" visibility="public">
 											<UML:ModelElement.taggedValue>
-												<UML:TaggedValue tag="style" value="3"/>
+												<UML:TaggedValue tag="style" value="2"/>
 												<UML:TaggedValue tag="ea_type" value="Generalization"/>
 												<UML:TaggedValue tag="direction" value="Source -&gt; Destination"/>
-												<UML:TaggedValue tag="linemode" value="3"/>
+												<UML:TaggedValue tag="linemode" value="2"/>
 												<UML:TaggedValue tag="linecolor" value="-1"/>
 												<UML:TaggedValue tag="linewidth" value="0"/>
 												<UML:TaggedValue tag="seqno" value="0"/>

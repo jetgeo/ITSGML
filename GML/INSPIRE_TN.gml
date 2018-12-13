@@ -63,5 +63,4 @@
             <itsgml:isAbstract>true</itsgml:isAbstract>
         </itsgml:FC_FeatureType>
     </itsgml:featureType>
-    
 </itsgml:FC_FeatureCatalogue>
