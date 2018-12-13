@@ -21,7 +21,7 @@
         <TargetXmlSchema class="de.interactive_instruments.ShapeChange.Target.XmlSchema.XmlSchema"
             mode="enabled">
             <targetParameter name="outputDirectory" value="C:\DATA\GitHub\ITSGML\XSD"/>
-            <targetParameter name="defaultEncodingRule" value="iso19136_2007"/>
+            <targetParameter name="defaultEncodingRule" value="gml33"/>
             <xi:include href="http://www.arkitektum.no/files/sosi/StandardRules.xml"/>
             <xi:include href="http://shapechange.net/resources/config/StandardNamespaces.xml"/>
             <xi:include href="C:\DATA\GitHub\ITSGML/config/StandardMapEntries.xml"/>

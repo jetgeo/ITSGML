@@ -1,21 +1,14 @@
-<?xml version="1.0" encoding="UTF-8"?><ShapeChangeResult xmlns="http://www.interactive-instruments.de/ShapeChange/Result" xmlns:r="http://www.interactive-instruments.de/ShapeChange/Result" config="C:\DATA\GitHub\ITSGML\config\ShapeChangeConfiguration.xml" end="Thu Dec 13 09:34:15 CET 2018" resultCode="0" start="Thu Dec 13 09:33:59 CET 2018" version="2.0.0-SNAPSHOT">
+<?xml version="1.0" encoding="UTF-8"?><ShapeChangeResult xmlns="http://www.interactive-instruments.de/ShapeChange/Result" xmlns:r="http://www.interactive-instruments.de/ShapeChange/Result" config="C:\DATA\GitHub\ITSGML\config\ShapeChangeConfiguration.xml" end="Thu Dec 13 13:10:12 CET 2018" resultCode="0" start="Thu Dec 13 13:09:56 CET 2018" version="2.0.0-SNAPSHOT">
   <Messages>
     <Error message="One or more errors encountered in OCL constraint in class 'NetworkReference' : 'inv:RoadFeatureDataset.defaultLRM-&gt;size() + overridingLRM-&gt;size() &gt; 0' ...">
       <Detail message="Line/column(s) 1/1-3: Condition keyword (like inv:) expected introducing expression. Found 'identifier &quot;LRM&quot;', ignored."/>
       <Detail message="Line/column(s) 1/10-11: Colon ':' missing following condition keyword. Found 'identifier &quot;be&quot;'."/>
       <Detail message="Line/column(s) 1/13-15: Extra tokens following OCL expression ignored, starting with 'identifier &quot;set&quot;'."/>
     </Error>
-    <Error message="One or more errors encountered in OCL constraint in class 'FC_AssociationRole' : 'cardinality.defaultvalue is &quot;0..*&quot;' ...">
-      <Detail message="Line/column(s) 1/1-12: Condition keyword (like inv:) expected introducing expression. Found 'identifier &quot;defaultvalue&quot;', ignored."/>
-      <Detail message="Line/column(s) 1/18-28: Colon ':' missing following condition keyword. Found 'identifier &quot;cardinality&quot;'."/>
-      <Detail message="Line/column(s) 1/32: Unrecognized syntax [&quot;] encountered and ignored."/>
-      <Detail message="Line/column(s) 1/36: Identifier, literal or bracketed expression expected preceding operator &quot;*&quot; token. Invalid assumed."/>
-      <Detail message="Line/column(s) 1/37: Unrecognized syntax [&quot;] encountered and ignored."/>
-    </Error>
-    <Error message="One or more errors encountered in OCL constraint in class 'FC_AssociationRole' : 'rolePlayer is mandatory for a local association role' ...">
-      <Detail message="Line/column(s) 1/1-2: Condition keyword (like inv:) expected introducing expression. Found 'operator &quot;if&quot;', ignored."/>
-      <Detail message="Line/column(s) 1/9: Colon ':' missing following condition keyword. Found 'operator &quot;(&quot;'."/>
-      <Detail message="Line/column(s) 1/25-28: Extra tokens following OCL expression ignored, starting with 'operator &quot;then&quot;'."/>
+    <Error message="One or more errors encountered in OCL constraint in class 'OpenLRLocationReference' : 'inv:binaryLocationReference-&gt;size() +xMLLocationReference-&gt;size() = 1' ...">
+      <Detail message="Line/column(s) 1/1-4: Condition keyword (like inv:) expected introducing expression. Found 'identifier &quot;Each&quot;', ignored."/>
+      <Detail message="Line/column(s) 1/30-33: Colon ':' missing following condition keyword. Found 'identifier &quot;must&quot;'."/>
+      <Detail message="Line/column(s) 1/35-41: Extra tokens following OCL expression ignored, starting with 'identifier &quot;contain&quot;'."/>
     </Error>
     <Error message="One or more errors encountered in OCL constraint in class 'FC_PropertyType' : 'definition is mandatory if definition not provided by definition source' ...">
       <Detail message="Line/column(s) 1/1-5: Condition keyword (like inv:) expected introducing expression. Found 'identifier &quot;count&quot;', ignored."/>
@@ -29,32 +22,6 @@
       <Detail message="Line/column(s) 1/1-5: Condition keyword (like inv:) expected introducing expression. Found 'identifier &quot;count&quot;', ignored."/>
       <Detail message="Line/column(s) 1/6: Colon ':' missing following condition keyword. Found 'operator &quot;(&quot;'."/>
     </Error>
-    <Error message="One or more errors encountered in OCL constraint in class 'NetworkConnection' : 'Elements in different networks' ...">
-      <Detail message="Line/column(s) 2/104-112: Attribute named 'inNetwork' not available on class 'NetworkElement'."/>
-    </Error>
-    <Error message="One or more errors encountered in OCL constraint in class 'FeatureProperty' : 'inv:value-&gt;size() + valueReference&gt;size() &gt;= 1' ...">
-      <Detail message="Line/column(s) 1/1-3: Condition keyword (like inv:) expected introducing expression. Found 'identifier &quot;One&quot;', ignored."/>
-      <Detail message="Line/column(s) 1/5-6: Colon ':' missing following condition keyword. Found 'operator &quot;or&quot;'."/>
-      <Detail message="Line/column(s) 1/5-6: Identifier, literal or bracketed expression expected preceding operator &quot;or&quot; token. Invalid assumed."/>
-      <Detail message="Line/column(s) 1/8-11: Extra tokens following OCL expression ignored, starting with 'identifier &quot;more&quot;'."/>
-    </Error>
-    <Error message="One or more errors encountered in OCL constraint in class 'FC_BoundAssociationRole' : 'rolePlayer is mandatory if the value type of the feature attribute is not defined globally' ...">
-      <Detail message="Line/column(s) 1/1-5: Condition keyword (like inv:) expected introducing expression. Found 'identifier &quot;count&quot;', ignored."/>
-      <Detail message="Line/column(s) 1/6: Colon ':' missing following condition keyword. Found 'operator &quot;(&quot;'."/>
-    </Error>
-    <Error message="One or more errors encountered in OCL constraint in class 'FC_BoundAssociationRole' : 'the global property shall be a FC_AssociationRole' ...">
-      <Detail message="Line/column(s) 1/1-4: Condition keyword (like inv:) expected introducing expression. Found 'identifier &quot;type&quot;', ignored."/>
-      <Detail message="Line/column(s) 1/5: Colon ':' missing following condition keyword. Found 'operator &quot;(&quot;'."/>
-    </Error>
-    <Error message="One or more errors encountered in OCL constraint in class 'FC_Binding' : 'featureType is mandatory' ...">
-      <Detail message="Line/column(s) 1/1-5: Condition keyword (like inv:) expected introducing expression. Found 'identifier &quot;count&quot;', ignored."/>
-      <Detail message="Line/column(s) 1/6: Colon ':' missing following condition keyword. Found 'operator &quot;(&quot;'."/>
-    </Error>
-    <Error message="One or more errors encountered in OCL constraint in class 'FC_FeatureAttribute' : 'valueType is mandatory for local feature attribute' ...">
-      <Detail message="Line/column(s) 1/1-2: Condition keyword (like inv:) expected introducing expression. Found 'operator &quot;if&quot;', ignored."/>
-      <Detail message="Line/column(s) 1/9: Colon ':' missing following condition keyword. Found 'operator &quot;(&quot;'."/>
-      <Detail message="Line/column(s) 1/25-28: Extra tokens following OCL expression ignored, starting with 'operator &quot;then&quot;'."/>
-    </Error>
     <Error message="One or more errors encountered in OCL constraint in class 'FC_FeatureType' : 'definition is mandatory if definition not provided by definition source ' ...">
       <Detail message="Line/column(s) 1/1-5: Condition keyword (like inv:) expected introducing expression. Found 'identifier &quot;count&quot;', ignored."/>
       <Detail message="Line/column(s) 1/6: Colon ':' missing following condition keyword. Found 'operator &quot;(&quot;'."/>
@@ -67,10 +34,52 @@
       <Detail message="Line/column(s) 1/1-5: Condition keyword (like inv:) expected introducing expression. Found 'identifier &quot;count&quot;', ignored."/>
       <Detail message="Line/column(s) 1/6: Colon ':' missing following condition keyword. Found 'operator &quot;(&quot;'."/>
     </Error>
-    <Error message="One or more errors encountered in OCL constraint in class 'OpenLRLocationReference' : 'inv:binaryLocationReference-&gt;size() +xMLLocationReference-&gt;size() = 1' ...">
-      <Detail message="Line/column(s) 1/1-4: Condition keyword (like inv:) expected introducing expression. Found 'identifier &quot;Each&quot;', ignored."/>
-      <Detail message="Line/column(s) 1/30-33: Colon ':' missing following condition keyword. Found 'identifier &quot;must&quot;'."/>
-      <Detail message="Line/column(s) 1/35-41: Extra tokens following OCL expression ignored, starting with 'identifier &quot;contain&quot;'."/>
+    <Error message="One or more errors encountered in OCL constraint in class 'FC_Binding' : 'featureType is mandatory' ...">
+      <Detail message="Line/column(s) 1/1-5: Condition keyword (like inv:) expected introducing expression. Found 'identifier &quot;count&quot;', ignored."/>
+      <Detail message="Line/column(s) 1/6: Colon ':' missing following condition keyword. Found 'operator &quot;(&quot;'."/>
+    </Error>
+    <Error message="One or more errors encountered in OCL constraint in class 'FC_FeatureAttribute' : 'valueType is mandatory for local feature attribute' ...">
+      <Detail message="Line/column(s) 1/1-2: Condition keyword (like inv:) expected introducing expression. Found 'operator &quot;if&quot;', ignored."/>
+      <Detail message="Line/column(s) 1/9: Colon ':' missing following condition keyword. Found 'operator &quot;(&quot;'."/>
+      <Detail message="Line/column(s) 1/25-28: Extra tokens following OCL expression ignored, starting with 'operator &quot;then&quot;'."/>
+    </Error>
+    <Error message="One or more errors encountered in OCL constraint in class 'FC_BoundAssociationRole' : 'rolePlayer is mandatory if the value type of the feature attribute is not defined globally' ...">
+      <Detail message="Line/column(s) 1/1-5: Condition keyword (like inv:) expected introducing expression. Found 'identifier &quot;count&quot;', ignored."/>
+      <Detail message="Line/column(s) 1/6: Colon ':' missing following condition keyword. Found 'operator &quot;(&quot;'."/>
+    </Error>
+    <Error message="One or more errors encountered in OCL constraint in class 'FC_BoundAssociationRole' : 'the global property shall be a FC_AssociationRole' ...">
+      <Detail message="Line/column(s) 1/1-4: Condition keyword (like inv:) expected introducing expression. Found 'identifier &quot;type&quot;', ignored."/>
+      <Detail message="Line/column(s) 1/5: Colon ':' missing following condition keyword. Found 'operator &quot;(&quot;'."/>
+    </Error>
+    <Error message="One or more errors encountered in OCL constraint in class 'FC_AssociationRole' : 'cardinality.defaultvalue is &quot;0..*&quot;' ...">
+      <Detail message="Line/column(s) 1/1-12: Condition keyword (like inv:) expected introducing expression. Found 'identifier &quot;defaultvalue&quot;', ignored."/>
+      <Detail message="Line/column(s) 1/18-28: Colon ':' missing following condition keyword. Found 'identifier &quot;cardinality&quot;'."/>
+      <Detail message="Line/column(s) 1/32: Unrecognized syntax [&quot;] encountered and ignored."/>
+      <Detail message="Line/column(s) 1/36: Identifier, literal or bracketed expression expected preceding operator &quot;*&quot; token. Invalid assumed."/>
+      <Detail message="Line/column(s) 1/37: Unrecognized syntax [&quot;] encountered and ignored."/>
+    </Error>
+    <Error message="One or more errors encountered in OCL constraint in class 'FC_AssociationRole' : 'rolePlayer is mandatory for a local association role' ...">
+      <Detail message="Line/column(s) 1/1-2: Condition keyword (like inv:) expected introducing expression. Found 'operator &quot;if&quot;', ignored."/>
+      <Detail message="Line/column(s) 1/9: Colon ':' missing following condition keyword. Found 'operator &quot;(&quot;'."/>
+      <Detail message="Line/column(s) 1/25-28: Extra tokens following OCL expression ignored, starting with 'operator &quot;then&quot;'."/>
+    </Error>
+    <Error message="One or more errors encountered in OCL constraint in class 'NetworkConnection' : 'Elements in different networks' ...">
+      <Detail message="Line/column(s) 2/104-112: Attribute named 'inNetwork' not available on class 'NetworkElement'."/>
+    </Error>
+    <Error message="One or more errors encountered in OCL constraint in class 'SpeedLimit' : 'Applies to road transport elements only' ...">
+      <Detail message="Line/column(s) 2/145-148: Identifier named 'Road' could not be resolved to either a variable, a property on an implicit variable, a class or an enumeration."/>
+    </Error>
+    <Error message="One or more errors encountered in OCL constraint in class 'RoadWidth' : 'Applies to road transport elements only' ...">
+      <Detail message="Line/column(s) 2/145-148: Identifier named 'Road' could not be resolved to either a variable, a property on an implicit variable, a class or an enumeration."/>
+    </Error>
+    <Error message="One or more errors encountered in OCL constraint in class 'FeatureProperty' : 'inv:value-&gt;size() + valueReference&gt;size() &gt;= 1' ...">
+      <Detail message="Line/column(s) 1/1-3: Condition keyword (like inv:) expected introducing expression. Found 'identifier &quot;One&quot;', ignored."/>
+      <Detail message="Line/column(s) 1/5-6: Colon ':' missing following condition keyword. Found 'operator &quot;or&quot;'."/>
+      <Detail message="Line/column(s) 1/5-6: Identifier, literal or bracketed expression expected preceding operator &quot;or&quot; token. Invalid assumed."/>
+      <Detail message="Line/column(s) 1/8-11: Extra tokens following OCL expression ignored, starting with 'identifier &quot;more&quot;'."/>
+    </Error>
+    <Error message="One or more errors encountered in OCL constraint in class 'FunctionalRoadClass' : 'Applies to road transport elements only' ...">
+      <Detail message="Line/column(s) 2/145-148: Identifier named 'Road' could not be resolved to either a variable, a property on an implicit variable, a class or an enumeration."/>
     </Error>
     <Error message="Documentation of class 'FC_AssociationRole' is missing the separator '-- Name --'.">
       <Detail message="Context: Class 'ShapeChange::Application schemas::Feature Catalogue Exchange Model::FC_AssociationRole'"/>
@@ -129,17 +138,23 @@
     <Error message="Documentation of property 'identifier' is missing the separator '-- Definition --'.">
       <Detail message="Context: Property 'ShapeChange::Application schemas::Feature Catalogue Exchange Model::FC_FeatureCatalogue::identifier'"/>
     </Error>
+    <Error message="Documentation of property 'globalProperty' is missing the separator '-- Name --'.">
+      <Detail message="Context: Property 'ShapeChange::Application schemas::Feature Catalogue Exchange Model::FC_FeatureCatalogue::globalProperty'"/>
+    </Error>
+    <Error message="Documentation of property 'globalProperty' is missing the separator '-- Definition --'.">
+      <Detail message="Context: Property 'ShapeChange::Application schemas::Feature Catalogue Exchange Model::FC_FeatureCatalogue::globalProperty'"/>
+    </Error>
     <Error message="Documentation of property 'featureType' is missing the separator '-- Name --'.">
       <Detail message="Context: Property 'ShapeChange::Application schemas::Feature Catalogue Exchange Model::FC_FeatureCatalogue::featureType'"/>
     </Error>
     <Error message="Documentation of property 'featureType' is missing the separator '-- Definition --'.">
       <Detail message="Context: Property 'ShapeChange::Application schemas::Feature Catalogue Exchange Model::FC_FeatureCatalogue::featureType'"/>
     </Error>
-    <Error message="Documentation of property 'globalProperty' is missing the separator '-- Name --'.">
-      <Detail message="Context: Property 'ShapeChange::Application schemas::Feature Catalogue Exchange Model::FC_FeatureCatalogue::globalProperty'"/>
+    <Error message="Documentation of property 'listedValue' is missing the separator '-- Name --'.">
+      <Detail message="Context: Property 'ShapeChange::Application schemas::Feature Catalogue Exchange Model::FC_FeatureCatalogue::listedValue'"/>
     </Error>
-    <Error message="Documentation of property 'globalProperty' is missing the separator '-- Definition --'.">
-      <Detail message="Context: Property 'ShapeChange::Application schemas::Feature Catalogue Exchange Model::FC_FeatureCatalogue::globalProperty'"/>
+    <Error message="Documentation of property 'listedValue' is missing the separator '-- Definition --'.">
+      <Detail message="Context: Property 'ShapeChange::Application schemas::Feature Catalogue Exchange Model::FC_FeatureCatalogue::listedValue'"/>
     </Error>
     <Error message="Documentation of class 'FC_RoleType' is missing the separator '-- Name --'.">
       <Detail message="Context: Class 'ShapeChange::Application schemas::Feature Catalogue Exchange Model::FC_RoleType'"/>
@@ -189,17 +204,17 @@
     <Error message="Documentation of property 'designation' is missing the separator '-- Definition --'.">
       <Detail message="Context: Property 'ShapeChange::Application schemas::Feature Catalogue Exchange Model::FC_FeatureType::designation'"/>
     </Error>
-    <Error message="Documentation of property 'carrierOfCharacteristics' is missing the separator '-- Name --'.">
-      <Detail message="Context: Property 'ShapeChange::Application schemas::Feature Catalogue Exchange Model::FC_FeatureType::carrierOfCharacteristics'"/>
-    </Error>
-    <Error message="Documentation of property 'carrierOfCharacteristics' is missing the separator '-- Definition --'.">
-      <Detail message="Context: Property 'ShapeChange::Application schemas::Feature Catalogue Exchange Model::FC_FeatureType::carrierOfCharacteristics'"/>
-    </Error>
     <Error message="Documentation of property 'inheritsFrom' is missing the separator '-- Name --'.">
       <Detail message="Context: Property 'ShapeChange::Application schemas::Feature Catalogue Exchange Model::FC_FeatureType::inheritsFrom'"/>
     </Error>
     <Error message="Documentation of property 'inheritsFrom' is missing the separator '-- Definition --'.">
       <Detail message="Context: Property 'ShapeChange::Application schemas::Feature Catalogue Exchange Model::FC_FeatureType::inheritsFrom'"/>
+    </Error>
+    <Error message="Documentation of property 'carrierOfCharacteristics' is missing the separator '-- Name --'.">
+      <Detail message="Context: Property 'ShapeChange::Application schemas::Feature Catalogue Exchange Model::FC_FeatureType::carrierOfCharacteristics'"/>
+    </Error>
+    <Error message="Documentation of property 'carrierOfCharacteristics' is missing the separator '-- Definition --'.">
+      <Detail message="Context: Property 'ShapeChange::Application schemas::Feature Catalogue Exchange Model::FC_FeatureType::carrierOfCharacteristics'"/>
     </Error>
     <Error message="Documentation of class 'FC_FeatureAssociation' is missing the separator '-- Name --'.">
       <Detail message="Context: Class 'ShapeChange::Application schemas::Feature Catalogue Exchange Model::FC_FeatureAssociation'"/>
@@ -263,12 +278,6 @@
     </Error>
     <Error message="Documentation of property 'subattribute' is missing the separator '-- Definition --'.">
       <Detail message="Context: Property 'ShapeChange::Application schemas::Feature Catalogue Exchange Model::FC_FeatureAttribute::subattribute'"/>
-    </Error>
-    <Error message="Documentation of property 'listedValue' is missing the separator '-- Name --'.">
-      <Detail message="Context: Property 'ShapeChange::Application schemas::Feature Catalogue Exchange Model::FC_FeatureAttribute::listedValue'"/>
-    </Error>
-    <Error message="Documentation of property 'listedValue' is missing the separator '-- Definition --'.">
-      <Detail message="Context: Property 'ShapeChange::Application schemas::Feature Catalogue Exchange Model::FC_FeatureAttribute::listedValue'"/>
     </Error>
     <Error message="Documentation of class 'FC_ListedValue' is missing the separator '-- Name --'.">
       <Detail message="Context: Class 'ShapeChange::Application schemas::Feature Catalogue Exchange Model::FC_ListedValue'"/>

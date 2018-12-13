@@ -159,6 +159,7 @@
           <element minOccurs="0" name="code" type="string"/>
           <element minOccurs="0" name="valueMeasurementUnit" type="gml:UnitOfMeasureType"/>
           <element minOccurs="0" name="valueType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="listedValue" type="itsgml:FC_ListedValuePropertyType"/>
           <element maxOccurs="unbounded" minOccurs="0" name="subattribute">
             <complexType>
               <complexContent>
@@ -171,7 +172,6 @@
               </complexContent>
             </complexType>
           </element>
-          <element maxOccurs="unbounded" minOccurs="0" name="listedValue" type="itsgml:FC_ListedValuePropertyType"/>
         </sequence>
       </extension>
     </complexContent>
@@ -191,6 +191,18 @@
           <element name="producer"/>
           <element minOccurs="0" name="functionalLanguage" type="string"/>
           <element minOccurs="0" name="identifier" type="gmd:MD_Identifier_PropertyType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="globalProperty">
+            <complexType>
+              <complexContent>
+                <extension base="gml:AbstractMemberType">
+                  <sequence minOccurs="0">
+                    <element ref="itsgml:FC_PropertyType"/>
+                  </sequence>
+                  <attributeGroup ref="gml:AssociationAttributeGroup"/>
+                </extension>
+              </complexContent>
+            </complexType>
+          </element>
           <element maxOccurs="unbounded" name="featureType">
             <complexType>
               <complexContent>
@@ -203,12 +215,12 @@
               </complexContent>
             </complexType>
           </element>
-          <element maxOccurs="unbounded" minOccurs="0" name="globalProperty">
+          <element maxOccurs="unbounded" minOccurs="0" name="listedValue">
             <complexType>
               <complexContent>
                 <extension base="gml:AbstractMemberType">
                   <sequence minOccurs="0">
-                    <element ref="itsgml:FC_PropertyType"/>
+                    <element ref="itsgml:FC_ListedValue"/>
                   </sequence>
                   <attributeGroup ref="gml:AssociationAttributeGroup"/>
                 </extension>
@@ -237,6 +249,7 @@
           <element name="isAbstract" type="boolean"/>
           <element maxOccurs="unbounded" minOccurs="0" name="aliases" type="gml:CodeType"/>
           <element minOccurs="0" name="designation" type="string"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="inheritsFrom" type="itsgml:FC_FeatureTypePropertyType"/>
           <element maxOccurs="unbounded" minOccurs="0" name="carrierOfCharacteristics">
             <complexType>
               <complexContent>
@@ -249,7 +262,6 @@
               </complexContent>
             </complexType>
           </element>
-          <element maxOccurs="unbounded" minOccurs="0" name="inheritsFrom" type="itsgml:FC_FeatureTypePropertyType"/>
         </sequence>
       </extension>
     </complexContent>

@@ -6,6 +6,7 @@
     </meta>
     <projectTree name="ITS.xpr">
         <folder path="../"/>
+        <folder path="../../NVDBGML/"/>
         <folder path="../../TN-ITS/"/>
         <folder path="../../../../Users/knjetl/OneDrive%20-%20NTNU/PhD/Forskning/XSDs/19110/"/>
         <folder path="../../../../Users/knjetl/OneDrive%20-%20NTNU/PhD/Forskning/XSDs/DATEXII/"/>
