@@ -125,7 +125,7 @@
             </itsgml:listedValue>
         </itsgml:FC_ValueDomain>
     </itsgml:valueDomain>
-    <itsgml:featureType>
+    <itsgml:classifier>
         <itsgml:FC_FeatureType gml:id="INSPIRE_TN.FunctionalRoadClass">
             <itsgml:typeName>FunctionalRoadClass</itsgml:typeName>
             <itsgml:isAbstract>false</itsgml:isAbstract>
@@ -151,8 +151,8 @@
                 </itsgml:FC_FeatureAttribute>
             </itsgml:carrierOfCharacteristics>
         </itsgml:FC_FeatureType>
-    </itsgml:featureType>
-    <itsgml:featureType>
+    </itsgml:classifier>
+    <itsgml:classifier>
         <itsgml:FC_DataType gml:id="INSPIRE_TN.Identifier">
             <itsgml:typeName>Identifier</itsgml:typeName>
             <itsgml:isAbstract>false</itsgml:isAbstract>
@@ -217,8 +217,8 @@
                 </itsgml:FC_FeatureAttribute>
             </itsgml:carrierOfCharacteristics>
         </itsgml:FC_DataType>
-    </itsgml:featureType>
-    <itsgml:featureType>
+    </itsgml:classifier>
+    <itsgml:classifier>
         <itsgml:FC_DataType gml:id="INSPIRE_TN.LinkReference">
             <itsgml:typeName>LinkReference</itsgml:typeName>
             <itsgml:isAbstract>false</itsgml:isAbstract>
@@ -244,8 +244,8 @@
                 </itsgml:FC_FeatureAttribute>
             </itsgml:carrierOfCharacteristics>
         </itsgml:FC_DataType>
-    </itsgml:featureType>
-    <itsgml:featureType>
+    </itsgml:classifier>
+    <itsgml:classifier>
         <itsgml:FC_FeatureType gml:id="INSPIRE_TN.NetworkElement">
             <itsgml:typeName>NetworkElement</itsgml:typeName>
             <itsgml:isAbstract>true</itsgml:isAbstract>
@@ -310,8 +310,8 @@
                 </itsgml:FC_FeatureAttribute>
             </itsgml:carrierOfCharacteristics>
         </itsgml:FC_FeatureType>
-    </itsgml:featureType>
-    <itsgml:featureType>
+    </itsgml:classifier>
+    <itsgml:classifier>
         <itsgml:FC_FeatureType gml:id="INSPIRE_TN.NetworkProperty">
             <itsgml:typeName>NetworkProperty</itsgml:typeName>
             <itsgml:isAbstract>true</itsgml:isAbstract>
@@ -396,14 +396,14 @@
                 </itsgml:FC_FeatureAttribute>
             </itsgml:carrierOfCharacteristics>
         </itsgml:FC_FeatureType>
-    </itsgml:featureType>
-    <itsgml:featureType>
+    </itsgml:classifier>
+    <itsgml:classifier>
         <itsgml:FC_DataType gml:id="INSPIRE_TN.NetworkReference">
             <itsgml:typeName>NetworkReference</itsgml:typeName>
             <itsgml:isAbstract>false</itsgml:isAbstract>
         </itsgml:FC_DataType>
-    </itsgml:featureType>
-    <itsgml:featureType>
+    </itsgml:classifier>
+    <itsgml:classifier>
         <itsgml:FC_FeatureType gml:id="INSPIRE_TN.RoadWidth">
             <itsgml:typeName>RoadWidth</itsgml:typeName>
             <itsgml:isAbstract>false</itsgml:isAbstract>
@@ -449,8 +449,8 @@
                 </itsgml:FC_FeatureAttribute>
             </itsgml:carrierOfCharacteristics>
         </itsgml:FC_FeatureType>
-    </itsgml:featureType>
-    <itsgml:featureType>
+    </itsgml:classifier>
+    <itsgml:classifier>
         <itsgml:FC_DataType gml:id="INSPIRE_TN.SimpleLinearReference">
             <itsgml:typeName>SimpleLinearReference</itsgml:typeName>
             <itsgml:isAbstract>false</itsgml:isAbstract>
@@ -516,8 +516,8 @@
                 </itsgml:FC_FeatureAttribute>
             </itsgml:carrierOfCharacteristics>
         </itsgml:FC_DataType>
-    </itsgml:featureType>
-    <itsgml:featureType>
+    </itsgml:classifier>
+    <itsgml:classifier>
         <itsgml:FC_DataType gml:id="INSPIRE_TN.SimplePointReference">
             <itsgml:typeName>SimplePointReference</itsgml:typeName>
             <itsgml:isAbstract>false</itsgml:isAbstract>
@@ -563,8 +563,8 @@
                 </itsgml:FC_FeatureAttribute>
             </itsgml:carrierOfCharacteristics>
         </itsgml:FC_DataType>
-    </itsgml:featureType>
-    <itsgml:featureType>
+    </itsgml:classifier>
+    <itsgml:classifier>
         <itsgml:FC_FeatureType gml:id="INSPIRE_TN.SpeedLimit">
             <itsgml:typeName>SpeedLimit</itsgml:typeName>
             <itsgml:isAbstract>false</itsgml:isAbstract>
@@ -770,8 +770,8 @@
                 </itsgml:FC_FeatureAttribute>
             </itsgml:carrierOfCharacteristics>
         </itsgml:FC_FeatureType>
-    </itsgml:featureType>
-    <itsgml:featureType>
+    </itsgml:classifier>
+    <itsgml:classifier>
         <itsgml:FC_FeatureType gml:id="INSPIRE_TN.TransportProperty">
             <itsgml:typeName>TransportProperty</itsgml:typeName>
             <itsgml:isAbstract>true</itsgml:isAbstract>
@@ -817,5 +817,5 @@
                 </itsgml:FC_FeatureAttribute>
             </itsgml:carrierOfCharacteristics>
         </itsgml:FC_FeatureType>
-    </itsgml:featureType>
+    </itsgml:classifier>
 </itsgml:FC_FeatureCatalogue>
