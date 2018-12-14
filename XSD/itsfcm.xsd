@@ -174,18 +174,8 @@
           <element minOccurs="0" name="code" type="string"/>
           <element minOccurs="0" name="valueMeasurementUnit" type="gml:UnitOfMeasureType"/>
           <element minOccurs="0" name="valueType"/>
-          <element maxOccurs="unbounded" minOccurs="0" name="subattribute">
-            <complexType>
-              <complexContent>
-                <extension base="gml:AbstractMemberType">
-                  <sequence minOccurs="0">
-                    <element ref="itsgml:FC_FeatureAttribute"/>
-                  </sequence>
-                  <attributeGroup ref="gml:AssociationAttributeGroup"/>
-                </extension>
-              </complexContent>
-            </complexType>
-          </element>
+          <element minOccurs="0" name="valueDomain" type="itsgml:FC_ValueDomainPropertyType"/>
+          <element minOccurs="0" name="dataType" type="itsgml:FC_DataTypePropertyType"/>
         </sequence>
       </extension>
     </complexContent>
@@ -229,7 +219,7 @@
               </complexContent>
             </complexType>
           </element>
-          <element maxOccurs="unbounded" name="featureType">
+          <element maxOccurs="unbounded" name="classifier">
             <complexType>
               <complexContent>
                 <extension base="gml:AbstractMemberType">
@@ -263,7 +253,6 @@
           <element name="isAbstract" type="boolean"/>
           <element maxOccurs="unbounded" minOccurs="0" name="aliases" type="gml:CodeType"/>
           <element minOccurs="0" name="designation" type="string"/>
-          <element maxOccurs="unbounded" minOccurs="0" name="inheritsFrom" type="itsgml:FC_FeatureTypePropertyType"/>
           <element maxOccurs="unbounded" minOccurs="0" name="carrierOfCharacteristics">
             <complexType>
               <complexContent>
@@ -276,6 +265,7 @@
               </complexContent>
             </complexType>
           </element>
+          <element maxOccurs="unbounded" minOccurs="0" name="inheritsFrom" type="itsgml:FC_FeatureTypePropertyType"/>
         </sequence>
       </extension>
     </complexContent>
@@ -344,28 +334,6 @@
   <complexType name="FC_ValueDomainPropertyType">
     <sequence minOccurs="0">
       <element ref="itsgml:FC_ValueDomain"/>
-    </sequence>
-    <attributeGroup ref="gml:AssociationAttributeGroup"/>
-    <attributeGroup ref="gml:OwnershipAttributeGroup"/>
-  </complexType>
-  <element name="Multiplicity" substitutionGroup="gml:AbstractGML" type="itsgml:MultiplicityType">
-    <annotation>
-      <documentation>A datatype that implements the requirement from UML2 MultiplicityElement</documentation>
-    </annotation>
-  </element>
-  <complexType name="MultiplicityType">
-    <complexContent>
-      <extension base="gml:AbstractGMLType">
-        <sequence>
-          <element name="lower" type="integer"/>
-          <element minOccurs="0" name="upper"/>
-        </sequence>
-      </extension>
-    </complexContent>
-  </complexType>
-  <complexType name="MultiplicityPropertyType">
-    <sequence minOccurs="0">
-      <element ref="itsgml:Multiplicity"/>
     </sequence>
     <attributeGroup ref="gml:AssociationAttributeGroup"/>
     <attributeGroup ref="gml:OwnershipAttributeGroup"/>

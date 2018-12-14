@@ -153,6 +153,99 @@
         </itsgml:FC_FeatureType>
     </itsgml:featureType>
     <itsgml:featureType>
+        <itsgml:FC_DataType gml:id="INSPIRE_TN.Identifier">
+            <itsgml:typeName>Identifier</itsgml:typeName>
+            <itsgml:isAbstract>false</itsgml:isAbstract>
+            <itsgml:carrierOfCharacteristics>
+                <itsgml:FC_FeatureAttribute gml:id="INSPIRE_TN.Identifier.localId">
+                    <itsgml:memberName>localId</itsgml:memberName>
+                    <itsgml:cardinality>
+                        <gco:Multiplicity>
+                            <gco:range>
+                                <gco:MultiplicityRange>
+                                    <gco:lower>
+                                        <gco:Integer>1</gco:Integer>
+                                    </gco:lower>
+                                    <gco:upper>
+                                        <gco:UnlimitedInteger>1</gco:UnlimitedInteger>
+                                    </gco:upper>
+                                </gco:MultiplicityRange>
+                            </gco:range>
+                        </gco:Multiplicity>
+                    </itsgml:cardinality>
+                     <itsgml:valueType>CharacterString</itsgml:valueType>
+                </itsgml:FC_FeatureAttribute>
+            </itsgml:carrierOfCharacteristics>
+            <itsgml:carrierOfCharacteristics>
+                <itsgml:FC_FeatureAttribute gml:id="INSPIRE_TN.Identifier.namespace">
+                    <itsgml:memberName>namespace</itsgml:memberName>
+                    <itsgml:cardinality>
+                        <gco:Multiplicity>
+                            <gco:range>
+                                <gco:MultiplicityRange>
+                                    <gco:lower>
+                                        <gco:Integer>1</gco:Integer>
+                                    </gco:lower>
+                                    <gco:upper>
+                                        <gco:UnlimitedInteger>1</gco:UnlimitedInteger>
+                                    </gco:upper>
+                                </gco:MultiplicityRange>
+                            </gco:range>
+                        </gco:Multiplicity>
+                    </itsgml:cardinality>
+                     <itsgml:valueType>CharacterString</itsgml:valueType>
+                </itsgml:FC_FeatureAttribute>
+            </itsgml:carrierOfCharacteristics>
+            <itsgml:carrierOfCharacteristics>
+                <itsgml:FC_FeatureAttribute gml:id="INSPIRE_TN.Identifier.versionId">
+                    <itsgml:memberName>versionId</itsgml:memberName>
+                    <itsgml:cardinality>
+                        <gco:Multiplicity>
+                            <gco:range>
+                                <gco:MultiplicityRange>
+                                    <gco:lower>
+                                        <gco:Integer>0</gco:Integer>
+                                    </gco:lower>
+                                    <gco:upper>
+                                        <gco:UnlimitedInteger>1</gco:UnlimitedInteger>
+                                    </gco:upper>
+                                </gco:MultiplicityRange>
+                            </gco:range>
+                        </gco:Multiplicity>
+                    </itsgml:cardinality>
+                     <itsgml:valueType>CharacterString</itsgml:valueType>
+                </itsgml:FC_FeatureAttribute>
+            </itsgml:carrierOfCharacteristics>
+        </itsgml:FC_DataType>
+    </itsgml:featureType>
+    <itsgml:featureType>
+        <itsgml:FC_DataType gml:id="INSPIRE_TN.LinkReference">
+            <itsgml:typeName>LinkReference</itsgml:typeName>
+            <itsgml:isAbstract>false</itsgml:isAbstract>
+            <itsgml:inheritsFrom xlink:href="INSPIRE_TN.gml#INSPIRE_TN.NetworkReference" />
+            <itsgml:carrierOfCharacteristics>
+                <itsgml:FC_FeatureAttribute gml:id="INSPIRE_TN.LinkReference.applicableDirection">
+                    <itsgml:memberName>applicableDirection</itsgml:memberName>
+                    <itsgml:cardinality>
+                        <gco:Multiplicity>
+                            <gco:range>
+                                <gco:MultiplicityRange>
+                                    <gco:lower>
+                                        <gco:Integer>1</gco:Integer>
+                                    </gco:lower>
+                                    <gco:upper>
+                                        <gco:UnlimitedInteger>1</gco:UnlimitedInteger>
+                                    </gco:upper>
+                                </gco:MultiplicityRange>
+                            </gco:range>
+                        </gco:Multiplicity>
+                    </itsgml:cardinality>
+                     <itsgml:valueType>LinkDirectionValue</itsgml:valueType>
+                </itsgml:FC_FeatureAttribute>
+            </itsgml:carrierOfCharacteristics>
+        </itsgml:FC_DataType>
+    </itsgml:featureType>
+    <itsgml:featureType>
         <itsgml:FC_FeatureType gml:id="INSPIRE_TN.NetworkElement">
             <itsgml:typeName>NetworkElement</itsgml:typeName>
             <itsgml:isAbstract>true</itsgml:isAbstract>
@@ -305,6 +398,12 @@
         </itsgml:FC_FeatureType>
     </itsgml:featureType>
     <itsgml:featureType>
+        <itsgml:FC_DataType gml:id="INSPIRE_TN.NetworkReference">
+            <itsgml:typeName>NetworkReference</itsgml:typeName>
+            <itsgml:isAbstract>false</itsgml:isAbstract>
+        </itsgml:FC_DataType>
+    </itsgml:featureType>
+    <itsgml:featureType>
         <itsgml:FC_FeatureType gml:id="INSPIRE_TN.RoadWidth">
             <itsgml:typeName>RoadWidth</itsgml:typeName>
             <itsgml:isAbstract>false</itsgml:isAbstract>
@@ -350,6 +449,120 @@
                 </itsgml:FC_FeatureAttribute>
             </itsgml:carrierOfCharacteristics>
         </itsgml:FC_FeatureType>
+    </itsgml:featureType>
+    <itsgml:featureType>
+        <itsgml:FC_DataType gml:id="INSPIRE_TN.SimpleLinearReference">
+            <itsgml:typeName>SimpleLinearReference</itsgml:typeName>
+            <itsgml:isAbstract>false</itsgml:isAbstract>
+            <itsgml:inheritsFrom xlink:href="INSPIRE_TN.gml#INSPIRE_TN.LinkReference" />
+            <itsgml:carrierOfCharacteristics>
+                <itsgml:FC_FeatureAttribute gml:id="INSPIRE_TN.SimpleLinearReference.fromPosition">
+                    <itsgml:memberName>fromPosition</itsgml:memberName>
+                    <itsgml:cardinality>
+                        <gco:Multiplicity>
+                            <gco:range>
+                                <gco:MultiplicityRange>
+                                    <gco:lower>
+                                        <gco:Integer>1</gco:Integer>
+                                    </gco:lower>
+                                    <gco:upper>
+                                        <gco:UnlimitedInteger>1</gco:UnlimitedInteger>
+                                    </gco:upper>
+                                </gco:MultiplicityRange>
+                            </gco:range>
+                        </gco:Multiplicity>
+                    </itsgml:cardinality>
+                     <itsgml:valueType>Length</itsgml:valueType>
+                </itsgml:FC_FeatureAttribute>
+            </itsgml:carrierOfCharacteristics>
+            <itsgml:carrierOfCharacteristics>
+                <itsgml:FC_FeatureAttribute gml:id="INSPIRE_TN.SimpleLinearReference.toPosition">
+                    <itsgml:memberName>toPosition</itsgml:memberName>
+                    <itsgml:cardinality>
+                        <gco:Multiplicity>
+                            <gco:range>
+                                <gco:MultiplicityRange>
+                                    <gco:lower>
+                                        <gco:Integer>1</gco:Integer>
+                                    </gco:lower>
+                                    <gco:upper>
+                                        <gco:UnlimitedInteger>1</gco:UnlimitedInteger>
+                                    </gco:upper>
+                                </gco:MultiplicityRange>
+                            </gco:range>
+                        </gco:Multiplicity>
+                    </itsgml:cardinality>
+                     <itsgml:valueType>Length</itsgml:valueType>
+                </itsgml:FC_FeatureAttribute>
+            </itsgml:carrierOfCharacteristics>
+            <itsgml:carrierOfCharacteristics>
+                <itsgml:FC_FeatureAttribute gml:id="INSPIRE_TN.SimpleLinearReference.offset">
+                    <itsgml:memberName>offset</itsgml:memberName>
+                    <itsgml:cardinality>
+                        <gco:Multiplicity>
+                            <gco:range>
+                                <gco:MultiplicityRange>
+                                    <gco:lower>
+                                        <gco:Integer>0</gco:Integer>
+                                    </gco:lower>
+                                    <gco:upper>
+                                        <gco:UnlimitedInteger>1</gco:UnlimitedInteger>
+                                    </gco:upper>
+                                </gco:MultiplicityRange>
+                            </gco:range>
+                        </gco:Multiplicity>
+                    </itsgml:cardinality>
+                     <itsgml:valueType>Length</itsgml:valueType>
+                </itsgml:FC_FeatureAttribute>
+            </itsgml:carrierOfCharacteristics>
+        </itsgml:FC_DataType>
+    </itsgml:featureType>
+    <itsgml:featureType>
+        <itsgml:FC_DataType gml:id="INSPIRE_TN.SimplePointReference">
+            <itsgml:typeName>SimplePointReference</itsgml:typeName>
+            <itsgml:isAbstract>false</itsgml:isAbstract>
+            <itsgml:inheritsFrom xlink:href="INSPIRE_TN.gml#INSPIRE_TN.LinkReference" />
+            <itsgml:carrierOfCharacteristics>
+                <itsgml:FC_FeatureAttribute gml:id="INSPIRE_TN.SimplePointReference.atPosition">
+                    <itsgml:memberName>atPosition</itsgml:memberName>
+                    <itsgml:cardinality>
+                        <gco:Multiplicity>
+                            <gco:range>
+                                <gco:MultiplicityRange>
+                                    <gco:lower>
+                                        <gco:Integer>1</gco:Integer>
+                                    </gco:lower>
+                                    <gco:upper>
+                                        <gco:UnlimitedInteger>1</gco:UnlimitedInteger>
+                                    </gco:upper>
+                                </gco:MultiplicityRange>
+                            </gco:range>
+                        </gco:Multiplicity>
+                    </itsgml:cardinality>
+                     <itsgml:valueType>Length</itsgml:valueType>
+                </itsgml:FC_FeatureAttribute>
+            </itsgml:carrierOfCharacteristics>
+            <itsgml:carrierOfCharacteristics>
+                <itsgml:FC_FeatureAttribute gml:id="INSPIRE_TN.SimplePointReference.offset">
+                    <itsgml:memberName>offset</itsgml:memberName>
+                    <itsgml:cardinality>
+                        <gco:Multiplicity>
+                            <gco:range>
+                                <gco:MultiplicityRange>
+                                    <gco:lower>
+                                        <gco:Integer>0</gco:Integer>
+                                    </gco:lower>
+                                    <gco:upper>
+                                        <gco:UnlimitedInteger>1</gco:UnlimitedInteger>
+                                    </gco:upper>
+                                </gco:MultiplicityRange>
+                            </gco:range>
+                        </gco:Multiplicity>
+                    </itsgml:cardinality>
+                     <itsgml:valueType>Length</itsgml:valueType>
+                </itsgml:FC_FeatureAttribute>
+            </itsgml:carrierOfCharacteristics>
+        </itsgml:FC_DataType>
     </itsgml:featureType>
     <itsgml:featureType>
         <itsgml:FC_FeatureType gml:id="INSPIRE_TN.SpeedLimit">
