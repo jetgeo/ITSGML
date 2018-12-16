@@ -26,51 +26,6 @@
         <gco:CharacterString>INSPIRE</gco:CharacterString>
     </itsgml:producer>
     <itsgml:valueDomain>
-        <itsgml:FC_ValueDomain gml:id="INSPIRE_TN.LinkDirectionValue">
-            <itsgml:typeName>LinkDirectionValue</itsgml:typeName>
-            <itsgml:listedValue>
-                <itsgml:FC_ListedValue gml:id="INSPIRE_TN.LinkDirectionValue.bothDirections">
-                    <itsgml:label>bothDirections</itsgml:label>
-                </itsgml:FC_ListedValue>
-            </itsgml:listedValue>
-            <itsgml:listedValue>
-                <itsgml:FC_ListedValue gml:id="INSPIRE_TN.LinkDirectionValue.inDirection">
-                    <itsgml:label>inDirection</itsgml:label>
-                </itsgml:FC_ListedValue>
-            </itsgml:listedValue>
-            <itsgml:listedValue>
-                <itsgml:FC_ListedValue gml:id="INSPIRE_TN.LinkDirectionValue.inOppositeDirection">
-                    <itsgml:label>inOppositeDirection</itsgml:label>
-                </itsgml:FC_ListedValue>
-            </itsgml:listedValue>
-        </itsgml:FC_ValueDomain>
-    </itsgml:valueDomain>
-    <itsgml:valueDomain>
-        <itsgml:FC_ValueDomain gml:id="INSPIRE_TN.SpeedLimitMinMaxValue">
-            <itsgml:typeName>SpeedLimitMinMaxValue</itsgml:typeName>
-            <itsgml:listedValue>
-                <itsgml:FC_ListedValue gml:id="INSPIRE_TN.SpeedLimitMinMaxValue.maximum">
-                    <itsgml:label>maximum</itsgml:label>
-                </itsgml:FC_ListedValue>
-            </itsgml:listedValue>
-            <itsgml:listedValue>
-                <itsgml:FC_ListedValue gml:id="INSPIRE_TN.SpeedLimitMinMaxValue.minimum">
-                    <itsgml:label>minimum</itsgml:label>
-                </itsgml:FC_ListedValue>
-            </itsgml:listedValue>
-            <itsgml:listedValue>
-                <itsgml:FC_ListedValue gml:id="INSPIRE_TN.SpeedLimitMinMaxValue.recommendedMaximum">
-                    <itsgml:label>recommendedMaximum</itsgml:label>
-                </itsgml:FC_ListedValue>
-            </itsgml:listedValue>
-            <itsgml:listedValue>
-                <itsgml:FC_ListedValue gml:id="INSPIRE_TN.SpeedLimitMinMaxValue.recommendedMinimum">
-                    <itsgml:label>recommendedMinimum</itsgml:label>
-                </itsgml:FC_ListedValue>
-            </itsgml:listedValue>
-        </itsgml:FC_ValueDomain>
-    </itsgml:valueDomain>
-    <itsgml:valueDomain>
         <itsgml:FC_ValueDomain gml:id="INSPIRE_TN.FunctionalRoadClassValue">
             <itsgml:typeName>FunctionalRoadClassValue</itsgml:typeName>
             <itsgml:listedValue>
@@ -125,6 +80,410 @@
             </itsgml:listedValue>
         </itsgml:FC_ValueDomain>
     </itsgml:valueDomain>
+    <itsgml:valueDomain>
+        <itsgml:FC_ValueDomain gml:id="INSPIRE_TN.RoadPartValue">
+            <itsgml:typeName>RoadPartValue</itsgml:typeName>
+            <itsgml:listedValue>
+                <itsgml:FC_ListedValue gml:id="INSPIRE_TN.RoadPartValue.carriageway">
+                    <itsgml:label>carriageway</itsgml:label>
+                </itsgml:FC_ListedValue>
+            </itsgml:listedValue>
+            <itsgml:listedValue>
+                <itsgml:FC_ListedValue gml:id="INSPIRE_TN.RoadPartValue.pavedSurface">
+                    <itsgml:label>pavedSurface</itsgml:label>
+                </itsgml:FC_ListedValue>
+            </itsgml:listedValue>
+        </itsgml:FC_ValueDomain>
+    </itsgml:valueDomain>
+    <itsgml:valueDomain>
+        <itsgml:FC_ValueDomain gml:id="INSPIRE_TN.AreaConditionValue">
+            <itsgml:typeName>AreaConditionValue</itsgml:typeName>
+            <itsgml:listedValue>
+                <itsgml:FC_ListedValue gml:id="INSPIRE_TN.AreaConditionValue.inNationalPark">
+                    <itsgml:label>inNationalPark</itsgml:label>
+                </itsgml:FC_ListedValue>
+            </itsgml:listedValue>
+            <itsgml:listedValue>
+                <itsgml:FC_ListedValue gml:id="INSPIRE_TN.AreaConditionValue.insideCities">
+                    <itsgml:label>insideCities</itsgml:label>
+                </itsgml:FC_ListedValue>
+            </itsgml:listedValue>
+            <itsgml:listedValue>
+                <itsgml:FC_ListedValue gml:id="INSPIRE_TN.AreaConditionValue.nearRailroadCrossing">
+                    <itsgml:label>nearRailroadCrossing</itsgml:label>
+                </itsgml:FC_ListedValue>
+            </itsgml:listedValue>
+            <itsgml:listedValue>
+                <itsgml:FC_ListedValue gml:id="INSPIRE_TN.AreaConditionValue.nearSchool">
+                    <itsgml:label>nearSchool</itsgml:label>
+                </itsgml:FC_ListedValue>
+            </itsgml:listedValue>
+            <itsgml:listedValue>
+                <itsgml:FC_ListedValue gml:id="INSPIRE_TN.AreaConditionValue.outsideCities">
+                    <itsgml:label>outsideCities</itsgml:label>
+                </itsgml:FC_ListedValue>
+            </itsgml:listedValue>
+            <itsgml:listedValue>
+                <itsgml:FC_ListedValue gml:id="INSPIRE_TN.AreaConditionValue.trafficCalmingArea">
+                    <itsgml:label>trafficCalmingArea</itsgml:label>
+                </itsgml:FC_ListedValue>
+            </itsgml:listedValue>
+        </itsgml:FC_ValueDomain>
+    </itsgml:valueDomain>
+    <itsgml:valueDomain>
+        <itsgml:FC_ValueDomain gml:id="INSPIRE_TN.LinkDirectionValue">
+            <itsgml:typeName>LinkDirectionValue</itsgml:typeName>
+            <itsgml:listedValue>
+                <itsgml:FC_ListedValue gml:id="INSPIRE_TN.LinkDirectionValue.bothDirections">
+                    <itsgml:label>bothDirections</itsgml:label>
+                </itsgml:FC_ListedValue>
+            </itsgml:listedValue>
+            <itsgml:listedValue>
+                <itsgml:FC_ListedValue gml:id="INSPIRE_TN.LinkDirectionValue.inDirection">
+                    <itsgml:label>inDirection</itsgml:label>
+                </itsgml:FC_ListedValue>
+            </itsgml:listedValue>
+            <itsgml:listedValue>
+                <itsgml:FC_ListedValue gml:id="INSPIRE_TN.LinkDirectionValue.inOppositeDirection">
+                    <itsgml:label>inOppositeDirection</itsgml:label>
+                </itsgml:FC_ListedValue>
+            </itsgml:listedValue>
+        </itsgml:FC_ValueDomain>
+    </itsgml:valueDomain>
+    <itsgml:valueDomain>
+        <itsgml:FC_ValueDomain gml:id="INSPIRE_TN.SpeedLimitMinMaxValue">
+            <itsgml:typeName>SpeedLimitMinMaxValue</itsgml:typeName>
+            <itsgml:listedValue>
+                <itsgml:FC_ListedValue gml:id="INSPIRE_TN.SpeedLimitMinMaxValue.maximum">
+                    <itsgml:label>maximum</itsgml:label>
+                </itsgml:FC_ListedValue>
+            </itsgml:listedValue>
+            <itsgml:listedValue>
+                <itsgml:FC_ListedValue gml:id="INSPIRE_TN.SpeedLimitMinMaxValue.minimum">
+                    <itsgml:label>minimum</itsgml:label>
+                </itsgml:FC_ListedValue>
+            </itsgml:listedValue>
+            <itsgml:listedValue>
+                <itsgml:FC_ListedValue gml:id="INSPIRE_TN.SpeedLimitMinMaxValue.recommendedMaximum">
+                    <itsgml:label>recommendedMaximum</itsgml:label>
+                </itsgml:FC_ListedValue>
+            </itsgml:listedValue>
+            <itsgml:listedValue>
+                <itsgml:FC_ListedValue gml:id="INSPIRE_TN.SpeedLimitMinMaxValue.recommendedMinimum">
+                    <itsgml:label>recommendedMinimum</itsgml:label>
+                </itsgml:FC_ListedValue>
+            </itsgml:listedValue>
+        </itsgml:FC_ValueDomain>
+    </itsgml:valueDomain>
+    <itsgml:valueDomain>
+        <itsgml:FC_ValueDomain gml:id="INSPIRE_TN.SpeedLimitSourceValue">
+            <itsgml:typeName>SpeedLimitSourceValue</itsgml:typeName>
+            <itsgml:listedValue>
+                <itsgml:FC_ListedValue gml:id="INSPIRE_TN.SpeedLimitSourceValue.fixedTrafficSign">
+                    <itsgml:label>fixedTrafficSign</itsgml:label>
+                </itsgml:FC_ListedValue>
+            </itsgml:listedValue>
+            <itsgml:listedValue>
+                <itsgml:FC_ListedValue gml:id="INSPIRE_TN.SpeedLimitSourceValue.regulation">
+                    <itsgml:label>regulation</itsgml:label>
+                </itsgml:FC_ListedValue>
+            </itsgml:listedValue>
+            <itsgml:listedValue>
+                <itsgml:FC_ListedValue gml:id="INSPIRE_TN.SpeedLimitSourceValue.variableTrafficSign">
+                    <itsgml:label>variableTrafficSign</itsgml:label>
+                </itsgml:FC_ListedValue>
+            </itsgml:listedValue>
+        </itsgml:FC_ValueDomain>
+    </itsgml:valueDomain>
+    <itsgml:valueDomain>
+        <itsgml:FC_ValueDomain gml:id="INSPIRE_TN.VehicleTypeValue">
+            <itsgml:typeName>VehicleTypeValue</itsgml:typeName>
+            <itsgml:listedValue>
+                <itsgml:FC_ListedValue gml:id="INSPIRE_TN.VehicleTypeValue.allVehicle">
+                    <itsgml:label>allVehicle</itsgml:label>
+                </itsgml:FC_ListedValue>
+            </itsgml:listedValue>
+            <itsgml:listedValue>
+                <itsgml:FC_ListedValue gml:id="INSPIRE_TN.VehicleTypeValue.bicycle">
+                    <itsgml:label>bicycle</itsgml:label>
+                </itsgml:FC_ListedValue>
+            </itsgml:listedValue>
+            <itsgml:listedValue>
+                <itsgml:FC_ListedValue gml:id="INSPIRE_TN.VehicleTypeValue.carWithTrailer">
+                    <itsgml:label>carWithTrailer</itsgml:label>
+                </itsgml:FC_ListedValue>
+            </itsgml:listedValue>
+            <itsgml:listedValue>
+                <itsgml:FC_ListedValue gml:id="INSPIRE_TN.VehicleTypeValue.deliveryTruck">
+                    <itsgml:label>deliveryTruck</itsgml:label>
+                </itsgml:FC_ListedValue>
+            </itsgml:listedValue>
+            <itsgml:listedValue>
+                <itsgml:FC_ListedValue gml:id="INSPIRE_TN.VehicleTypeValue.emergencyVehicle">
+                    <itsgml:label>emergencyVehicle</itsgml:label>
+                </itsgml:FC_ListedValue>
+            </itsgml:listedValue>
+            <itsgml:listedValue>
+                <itsgml:FC_ListedValue gml:id="INSPIRE_TN.VehicleTypeValue.employeeVehicle">
+                    <itsgml:label>employeeVehicle</itsgml:label>
+                </itsgml:FC_ListedValue>
+            </itsgml:listedValue>
+            <itsgml:listedValue>
+                <itsgml:FC_ListedValue gml:id="INSPIRE_TN.VehicleTypeValue.facilityVehicle">
+                    <itsgml:label>facilityVehicle</itsgml:label>
+                </itsgml:FC_ListedValue>
+            </itsgml:listedValue>
+            <itsgml:listedValue>
+                <itsgml:FC_ListedValue gml:id="INSPIRE_TN.VehicleTypeValue.farmVehicle">
+                    <itsgml:label>farmVehicle</itsgml:label>
+                </itsgml:FC_ListedValue>
+            </itsgml:listedValue>
+            <itsgml:listedValue>
+                <itsgml:FC_ListedValue gml:id="INSPIRE_TN.VehicleTypeValue.highOccupancyVehicle">
+                    <itsgml:label>highOccupancyVehicle</itsgml:label>
+                </itsgml:FC_ListedValue>
+            </itsgml:listedValue>
+            <itsgml:listedValue>
+                <itsgml:FC_ListedValue gml:id="INSPIRE_TN.VehicleTypeValue.lightRail">
+                    <itsgml:label>lightRail</itsgml:label>
+                </itsgml:FC_ListedValue>
+            </itsgml:listedValue>
+            <itsgml:listedValue>
+                <itsgml:FC_ListedValue gml:id="INSPIRE_TN.VehicleTypeValue.mailVehicle">
+                    <itsgml:label>mailVehicle</itsgml:label>
+                </itsgml:FC_ListedValue>
+            </itsgml:listedValue>
+            <itsgml:listedValue>
+                <itsgml:FC_ListedValue gml:id="INSPIRE_TN.VehicleTypeValue.militaryVehicle">
+                    <itsgml:label>militaryVehicle</itsgml:label>
+                </itsgml:FC_ListedValue>
+            </itsgml:listedValue>
+            <itsgml:listedValue>
+                <itsgml:FC_ListedValue gml:id="INSPIRE_TN.VehicleTypeValue.moped">
+                    <itsgml:label>moped</itsgml:label>
+                </itsgml:FC_ListedValue>
+            </itsgml:listedValue>
+            <itsgml:listedValue>
+                <itsgml:FC_ListedValue gml:id="INSPIRE_TN.VehicleTypeValue.motorcycle">
+                    <itsgml:label>motorcycle</itsgml:label>
+                </itsgml:FC_ListedValue>
+            </itsgml:listedValue>
+            <itsgml:listedValue>
+                <itsgml:FC_ListedValue gml:id="INSPIRE_TN.VehicleTypeValue.passengerCar">
+                    <itsgml:label>passengerCar</itsgml:label>
+                </itsgml:FC_ListedValue>
+            </itsgml:listedValue>
+            <itsgml:listedValue>
+                <itsgml:FC_ListedValue gml:id="INSPIRE_TN.VehicleTypeValue.pedestrian">
+                    <itsgml:label>pedestrian</itsgml:label>
+                </itsgml:FC_ListedValue>
+            </itsgml:listedValue>
+            <itsgml:listedValue>
+                <itsgml:FC_ListedValue gml:id="INSPIRE_TN.VehicleTypeValue.privateBus">
+                    <itsgml:label>privateBus</itsgml:label>
+                </itsgml:FC_ListedValue>
+            </itsgml:listedValue>
+            <itsgml:listedValue>
+                <itsgml:FC_ListedValue gml:id="INSPIRE_TN.VehicleTypeValue.publicBus">
+                    <itsgml:label>publicBus</itsgml:label>
+                </itsgml:FC_ListedValue>
+            </itsgml:listedValue>
+            <itsgml:listedValue>
+                <itsgml:FC_ListedValue gml:id="INSPIRE_TN.VehicleTypeValue.residentialVehicle">
+                    <itsgml:label>residentialVehicle</itsgml:label>
+                </itsgml:FC_ListedValue>
+            </itsgml:listedValue>
+            <itsgml:listedValue>
+                <itsgml:FC_ListedValue gml:id="INSPIRE_TN.VehicleTypeValue.schoolBus">
+                    <itsgml:label>schoolBus</itsgml:label>
+                </itsgml:FC_ListedValue>
+            </itsgml:listedValue>
+            <itsgml:listedValue>
+                <itsgml:FC_ListedValue gml:id="INSPIRE_TN.VehicleTypeValue.snowChainEquippedVehicle">
+                    <itsgml:label>snowChainEquippedVehicle</itsgml:label>
+                </itsgml:FC_ListedValue>
+            </itsgml:listedValue>
+            <itsgml:listedValue>
+                <itsgml:FC_ListedValue gml:id="INSPIRE_TN.VehicleTypeValue.tanker">
+                    <itsgml:label>tanker</itsgml:label>
+                </itsgml:FC_ListedValue>
+            </itsgml:listedValue>
+            <itsgml:listedValue>
+                <itsgml:FC_ListedValue gml:id="INSPIRE_TN.VehicleTypeValue.taxi">
+                    <itsgml:label>taxi</itsgml:label>
+                </itsgml:FC_ListedValue>
+            </itsgml:listedValue>
+            <itsgml:listedValue>
+                <itsgml:FC_ListedValue gml:id="INSPIRE_TN.VehicleTypeValue.transportTruck">
+                    <itsgml:label>transportTruck</itsgml:label>
+                </itsgml:FC_ListedValue>
+            </itsgml:listedValue>
+            <itsgml:listedValue>
+                <itsgml:FC_ListedValue gml:id="INSPIRE_TN.VehicleTypeValue.trolleyBus">
+                    <itsgml:label>trolleyBus</itsgml:label>
+                </itsgml:FC_ListedValue>
+            </itsgml:listedValue>
+            <itsgml:listedValue>
+                <itsgml:FC_ListedValue gml:id="INSPIRE_TN.VehicleTypeValue.vehicleForDisabledPerson">
+                    <itsgml:label>vehicleForDisabledPerson</itsgml:label>
+                </itsgml:FC_ListedValue>
+            </itsgml:listedValue>
+            <itsgml:listedValue>
+                <itsgml:FC_ListedValue gml:id="INSPIRE_TN.VehicleTypeValue.vehicleWithExplosiveLoad">
+                    <itsgml:label>vehicleWithExplosiveLoad</itsgml:label>
+                </itsgml:FC_ListedValue>
+            </itsgml:listedValue>
+            <itsgml:listedValue>
+                <itsgml:FC_ListedValue gml:id="INSPIRE_TN.VehicleTypeValue.vehicleWithOtherDangerousLoad">
+                    <itsgml:label>vehicleWithOtherDangerousLoad</itsgml:label>
+                </itsgml:FC_ListedValue>
+            </itsgml:listedValue>
+            <itsgml:listedValue>
+                <itsgml:FC_ListedValue gml:id="INSPIRE_TN.VehicleTypeValue.vehicleWithWaterPollutingLoad">
+                    <itsgml:label>vehicleWithWaterPollutingLoad</itsgml:label>
+                </itsgml:FC_ListedValue>
+            </itsgml:listedValue>
+        </itsgml:FC_ValueDomain>
+    </itsgml:valueDomain>
+    <itsgml:valueDomain>
+        <itsgml:FC_ValueDomain gml:id="INSPIRE_TN.WeatherConditionValue">
+            <itsgml:typeName>WeatherConditionValue</itsgml:typeName>
+            <itsgml:listedValue>
+                <itsgml:FC_ListedValue gml:id="INSPIRE_TN.WeatherConditionValue.fog">
+                    <itsgml:label>fog</itsgml:label>
+                </itsgml:FC_ListedValue>
+            </itsgml:listedValue>
+            <itsgml:listedValue>
+                <itsgml:FC_ListedValue gml:id="INSPIRE_TN.WeatherConditionValue.ice">
+                    <itsgml:label>ice</itsgml:label>
+                </itsgml:FC_ListedValue>
+            </itsgml:listedValue>
+            <itsgml:listedValue>
+                <itsgml:FC_ListedValue gml:id="INSPIRE_TN.WeatherConditionValue.rain">
+                    <itsgml:label>rain</itsgml:label>
+                </itsgml:FC_ListedValue>
+            </itsgml:listedValue>
+            <itsgml:listedValue>
+                <itsgml:FC_ListedValue gml:id="INSPIRE_TN.WeatherConditionValue.smog">
+                    <itsgml:label>smog</itsgml:label>
+                </itsgml:FC_ListedValue>
+            </itsgml:listedValue>
+            <itsgml:listedValue>
+                <itsgml:FC_ListedValue gml:id="INSPIRE_TN.WeatherConditionValue.snow">
+                    <itsgml:label>snow</itsgml:label>
+                </itsgml:FC_ListedValue>
+            </itsgml:listedValue>
+        </itsgml:FC_ValueDomain>
+    </itsgml:valueDomain>
+    <itsgml:globalProperty>
+        <itsgml:FC_FeatureAttribute gml:id="inspire.tn.gp.inspireId">
+            <itsgml:memberName>inspireId</itsgml:memberName>
+            <itsgml:cardinality>
+                <gco:Multiplicity>
+                    <gco:range>
+                        <gco:MultiplicityRange>
+                            <gco:lower>
+                                <gco:Integer>0</gco:Integer>
+                            </gco:lower>
+                            <gco:upper>
+                            <gco:UnlimitedInteger>1</gco:UnlimitedInteger>
+                            </gco:upper>
+                        </gco:MultiplicityRange>
+                    </gco:range>
+                </gco:Multiplicity>
+            </itsgml:cardinality>
+            <itsgml:valueType>Identifier</itsgml:valueType>
+            <itsgml:dataType xlink:href="INSPIRE_TN.gml#INSPIRE_TN.Identifier" />
+        </itsgml:FC_FeatureAttribute>
+    </itsgml:globalProperty>
+    <itsgml:globalProperty>
+        <itsgml:FC_FeatureAttribute gml:id="inspire.tn.gp.beginLifespanVersion">
+            <itsgml:memberName>beginLifespanVersion</itsgml:memberName>
+            <itsgml:cardinality>
+                <gco:Multiplicity>
+                    <gco:range>
+                        <gco:MultiplicityRange>
+                            <gco:lower>
+                                <gco:Integer>1</gco:Integer>
+                            </gco:lower>
+                            <gco:upper>
+                            <gco:UnlimitedInteger>1</gco:UnlimitedInteger>
+                            </gco:upper>
+                        </gco:MultiplicityRange>
+                    </gco:range>
+                </gco:Multiplicity>
+            </itsgml:cardinality>
+            <itsgml:valueType>DateTime</itsgml:valueType>
+        </itsgml:FC_FeatureAttribute>
+    </itsgml:globalProperty>
+    <itsgml:globalProperty>
+        <itsgml:FC_FeatureAttribute gml:id="inspire.tn.gp.endLifespanVersion">
+            <itsgml:memberName>endLifespanVersion</itsgml:memberName>
+            <itsgml:cardinality>
+                <gco:Multiplicity>
+                    <gco:range>
+                        <gco:MultiplicityRange>
+                            <gco:lower>
+                                <gco:Integer>0</gco:Integer>
+                            </gco:lower>
+                            <gco:upper>
+                            <gco:UnlimitedInteger>1</gco:UnlimitedInteger>
+                            </gco:upper>
+                        </gco:MultiplicityRange>
+                    </gco:range>
+                </gco:Multiplicity>
+            </itsgml:cardinality>
+            <itsgml:valueType>DateTime</itsgml:valueType>
+        </itsgml:FC_FeatureAttribute>
+    </itsgml:globalProperty>
+    <itsgml:classifier>
+        <itsgml:FC_FeatureAssociation gml:id="INSPIRE_TN.Associations.101892">
+            <itsgml:typeName>FunctionalRoadClass_TransportProperty</itsgml:typeName>
+            <itsgml:isAbstract>false</itsgml:isAbstract>
+            <itsgml:roleName xlink:href="INSPIRE_TN.gml#INSPIRE_TN.AssociationRoles.FunctionalRoadClass.101892" />
+            <itsgml:roleName xlink:href="INSPIRE_TN.gml#INSPIRE_TN.AssociationRoles.TransportProperty.101892" />
+        </itsgml:FC_FeatureAssociation>
+    </itsgml:classifier>
+    <itsgml:classifier>
+        <itsgml:FC_FeatureAssociation gml:id="INSPIRE_TN.Associations.101890">
+            <itsgml:typeName>NetworkElement_NetworkReference</itsgml:typeName>
+            <itsgml:isAbstract>false</itsgml:isAbstract>
+            <itsgml:roleName xlink:href="INSPIRE_TN.gml#INSPIRE_TN.AssociationRoles.NetworkElement.101890" />
+            <itsgml:roleName xlink:href="INSPIRE_TN.gml#INSPIRE_TN.AssociationRoles.NetworkReference.101890" />
+        </itsgml:FC_FeatureAssociation>
+    </itsgml:classifier>
+    <itsgml:classifier>
+        <itsgml:FC_FeatureAssociation gml:id="INSPIRE_TN.Associations.101889">
+            <itsgml:typeName>NetworkProperty_TransportProperty</itsgml:typeName>
+            <itsgml:isAbstract>false</itsgml:isAbstract>
+            <itsgml:roleName xlink:href="INSPIRE_TN.gml#INSPIRE_TN.AssociationRoles.NetworkProperty.101889" />
+            <itsgml:roleName xlink:href="INSPIRE_TN.gml#INSPIRE_TN.AssociationRoles.TransportProperty.101889" />
+        </itsgml:FC_FeatureAssociation>
+    </itsgml:classifier>
+    <itsgml:classifier>
+        <itsgml:FC_FeatureAssociation gml:id="INSPIRE_TN.Associations.101888">
+            <itsgml:typeName>NetworkReference_LinkReference</itsgml:typeName>
+            <itsgml:isAbstract>false</itsgml:isAbstract>
+            <itsgml:roleName xlink:href="INSPIRE_TN.gml#INSPIRE_TN.AssociationRoles.NetworkReference.101888" />
+            <itsgml:roleName xlink:href="INSPIRE_TN.gml#INSPIRE_TN.AssociationRoles.LinkReference.101888" />
+        </itsgml:FC_FeatureAssociation>
+    </itsgml:classifier>
+    <itsgml:classifier>
+        <itsgml:FC_FeatureAssociation gml:id="INSPIRE_TN.Associations.101893">
+            <itsgml:typeName>RoadWidth_TransportProperty</itsgml:typeName>
+            <itsgml:isAbstract>false</itsgml:isAbstract>
+            <itsgml:roleName xlink:href="INSPIRE_TN.gml#INSPIRE_TN.AssociationRoles.RoadWidth.101893" />
+            <itsgml:roleName xlink:href="INSPIRE_TN.gml#INSPIRE_TN.AssociationRoles.TransportProperty.101893" />
+        </itsgml:FC_FeatureAssociation>
+    </itsgml:classifier>
+    <itsgml:classifier>
+        <itsgml:FC_FeatureAssociation gml:id="INSPIRE_TN.Associations.101891">
+            <itsgml:typeName>SpeedLimit_TransportProperty</itsgml:typeName>
+            <itsgml:isAbstract>false</itsgml:isAbstract>
+            <itsgml:roleName xlink:href="INSPIRE_TN.gml#INSPIRE_TN.AssociationRoles.SpeedLimit.101891" />
+            <itsgml:roleName xlink:href="INSPIRE_TN.gml#INSPIRE_TN.AssociationRoles.TransportProperty.101891" />
+        </itsgml:FC_FeatureAssociation>
+    </itsgml:classifier>
     <itsgml:classifier>
         <itsgml:FC_FeatureType gml:id="INSPIRE_TN.FunctionalRoadClass">
             <itsgml:typeName>FunctionalRoadClass</itsgml:typeName>
@@ -148,8 +507,41 @@
                         </gco:Multiplicity>
                     </itsgml:cardinality>
                      <itsgml:valueType>FunctionalRoadClassValue</itsgml:valueType>
+                     <itsgml:valueDomain xlink:href="INSPIRE_TN.gml#INSPIRE_TN.FunctionalRoadClassValue" />
                 </itsgml:FC_FeatureAttribute>
             </itsgml:carrierOfCharacteristics>
+        </itsgml:FC_FeatureType>
+    </itsgml:classifier>
+    <itsgml:classifier>
+        <itsgml:FC_FeatureType gml:id="INSPIRE_TN.NetworkElement">
+            <itsgml:typeName>NetworkElement</itsgml:typeName>
+            <itsgml:isAbstract>true</itsgml:isAbstract>
+            <itsgml:carrierOfCharacteristics>
+                <itsgml:FC_AssociationRole gml:id="INSPIRE_TN.AssociationRoles.NetworkElement.101890">
+                    <itsgml:memberName>none</itsgml:memberName>
+                    <itsgml:cardinality>
+                        <gco:Multiplicity>
+                            <gco:range>
+                                <gco:MultiplicityRange>
+                                    <gco:lower>
+                                        <gco:Integer>0</gco:Integer>
+                                    </gco:lower>
+                                    <gco:upper>
+                                        <gco:UnlimitedInteger isInfinite="true">99999</gco:UnlimitedInteger>
+                                    </gco:upper>
+                                </gco:MultiplicityRange>
+                            </gco:range>
+                        </gco:Multiplicity>
+                    </itsgml:cardinality>
+                    <itsgml:type>ordinary</itsgml:type>
+                    <itsgml:isOrdered>false</itsgml:isOrdered>
+                    <itsgml:isNavigable>false</itsgml:isNavigable>
+                    <itsgml:rolePlayer xlink:href="INSPIRE_TN.gml#INSPIRE_TN.NetworkReference" />
+                </itsgml:FC_AssociationRole>
+            </itsgml:carrierOfCharacteristics>
+            <itsgml:carrierOfCharacteristics xlink:href="INSPIRE_TN.gml#inspire.tn.gp.inspireId" />
+            <itsgml:carrierOfCharacteristics xlink:href="INSPIRE_TN.gml#inspire.tn.gp.beginLifespanVersion" />
+            <itsgml:carrierOfCharacteristics xlink:href="INSPIRE_TN.gml#inspire.tn.gp.endLifespanVersion" />
         </itsgml:FC_FeatureType>
     </itsgml:classifier>
     <itsgml:classifier>
@@ -219,102 +611,12 @@
         </itsgml:FC_DataType>
     </itsgml:classifier>
     <itsgml:classifier>
-        <itsgml:FC_DataType gml:id="INSPIRE_TN.LinkReference">
-            <itsgml:typeName>LinkReference</itsgml:typeName>
-            <itsgml:isAbstract>false</itsgml:isAbstract>
-            <itsgml:inheritsFrom xlink:href="INSPIRE_TN.gml#INSPIRE_TN.NetworkReference" />
-            <itsgml:carrierOfCharacteristics>
-                <itsgml:FC_FeatureAttribute gml:id="INSPIRE_TN.LinkReference.applicableDirection">
-                    <itsgml:memberName>applicableDirection</itsgml:memberName>
-                    <itsgml:cardinality>
-                        <gco:Multiplicity>
-                            <gco:range>
-                                <gco:MultiplicityRange>
-                                    <gco:lower>
-                                        <gco:Integer>1</gco:Integer>
-                                    </gco:lower>
-                                    <gco:upper>
-                                        <gco:UnlimitedInteger>1</gco:UnlimitedInteger>
-                                    </gco:upper>
-                                </gco:MultiplicityRange>
-                            </gco:range>
-                        </gco:Multiplicity>
-                    </itsgml:cardinality>
-                     <itsgml:valueType>LinkDirectionValue</itsgml:valueType>
-                </itsgml:FC_FeatureAttribute>
-            </itsgml:carrierOfCharacteristics>
-        </itsgml:FC_DataType>
-    </itsgml:classifier>
-    <itsgml:classifier>
-        <itsgml:FC_FeatureType gml:id="INSPIRE_TN.NetworkElement">
-            <itsgml:typeName>NetworkElement</itsgml:typeName>
-            <itsgml:isAbstract>true</itsgml:isAbstract>
-            <itsgml:carrierOfCharacteristics>
-                <itsgml:FC_FeatureAttribute gml:id="INSPIRE_TN.NetworkElement.beginLifespanVersion">
-                    <itsgml:memberName>beginLifespanVersion</itsgml:memberName>
-                    <itsgml:cardinality>
-                        <gco:Multiplicity>
-                            <gco:range>
-                                <gco:MultiplicityRange>
-                                    <gco:lower>
-                                        <gco:Integer>1</gco:Integer>
-                                    </gco:lower>
-                                    <gco:upper>
-                                        <gco:UnlimitedInteger>1</gco:UnlimitedInteger>
-                                    </gco:upper>
-                                </gco:MultiplicityRange>
-                            </gco:range>
-                        </gco:Multiplicity>
-                    </itsgml:cardinality>
-                     <itsgml:valueType>DateTime</itsgml:valueType>
-                </itsgml:FC_FeatureAttribute>
-            </itsgml:carrierOfCharacteristics>
-            <itsgml:carrierOfCharacteristics>
-                <itsgml:FC_FeatureAttribute gml:id="INSPIRE_TN.NetworkElement.inspireId">
-                    <itsgml:memberName>inspireId</itsgml:memberName>
-                    <itsgml:cardinality>
-                        <gco:Multiplicity>
-                            <gco:range>
-                                <gco:MultiplicityRange>
-                                    <gco:lower>
-                                        <gco:Integer>0</gco:Integer>
-                                    </gco:lower>
-                                    <gco:upper>
-                                        <gco:UnlimitedInteger>1</gco:UnlimitedInteger>
-                                    </gco:upper>
-                                </gco:MultiplicityRange>
-                            </gco:range>
-                        </gco:Multiplicity>
-                    </itsgml:cardinality>
-                     <itsgml:valueType>Identifier</itsgml:valueType>
-                </itsgml:FC_FeatureAttribute>
-            </itsgml:carrierOfCharacteristics>
-            <itsgml:carrierOfCharacteristics>
-                <itsgml:FC_FeatureAttribute gml:id="INSPIRE_TN.NetworkElement.endLifespanVersion">
-                    <itsgml:memberName>endLifespanVersion</itsgml:memberName>
-                    <itsgml:cardinality>
-                        <gco:Multiplicity>
-                            <gco:range>
-                                <gco:MultiplicityRange>
-                                    <gco:lower>
-                                        <gco:Integer>0</gco:Integer>
-                                    </gco:lower>
-                                    <gco:upper>
-                                        <gco:UnlimitedInteger>1</gco:UnlimitedInteger>
-                                    </gco:upper>
-                                </gco:MultiplicityRange>
-                            </gco:range>
-                        </gco:Multiplicity>
-                    </itsgml:cardinality>
-                     <itsgml:valueType>DateTime</itsgml:valueType>
-                </itsgml:FC_FeatureAttribute>
-            </itsgml:carrierOfCharacteristics>
-        </itsgml:FC_FeatureType>
-    </itsgml:classifier>
-    <itsgml:classifier>
         <itsgml:FC_FeatureType gml:id="INSPIRE_TN.NetworkProperty">
             <itsgml:typeName>NetworkProperty</itsgml:typeName>
             <itsgml:isAbstract>true</itsgml:isAbstract>
+            <itsgml:carrierOfCharacteristics xlink:href="INSPIRE_TN.gml#inspire.tn.gp.inspireId" />
+            <itsgml:carrierOfCharacteristics xlink:href="INSPIRE_TN.gml#inspire.tn.gp.beginLifespanVersion" />
+            <itsgml:carrierOfCharacteristics xlink:href="INSPIRE_TN.gml#inspire.tn.gp.endLifespanVersion" />
             <itsgml:carrierOfCharacteristics>
                 <itsgml:FC_FeatureAttribute gml:id="INSPIRE_TN.NetworkProperty.networkRef">
                     <itsgml:memberName>networkRef</itsgml:memberName>
@@ -333,31 +635,18 @@
                         </gco:Multiplicity>
                     </itsgml:cardinality>
                      <itsgml:valueType>NetworkReference</itsgml:valueType>
+                     <itsgml:dataType xlink:href="INSPIRE_TN.gml#INSPIRE_TN.NetworkReference" />
                 </itsgml:FC_FeatureAttribute>
             </itsgml:carrierOfCharacteristics>
+        </itsgml:FC_FeatureType>
+    </itsgml:classifier>
+    <itsgml:classifier>
+        <itsgml:FC_DataType gml:id="INSPIRE_TN.NetworkReference">
+            <itsgml:typeName>NetworkReference</itsgml:typeName>
+            <itsgml:isAbstract>false</itsgml:isAbstract>
             <itsgml:carrierOfCharacteristics>
-                <itsgml:FC_FeatureAttribute gml:id="INSPIRE_TN.NetworkProperty.inspireId">
-                    <itsgml:memberName>inspireId</itsgml:memberName>
-                    <itsgml:cardinality>
-                        <gco:Multiplicity>
-                            <gco:range>
-                                <gco:MultiplicityRange>
-                                    <gco:lower>
-                                        <gco:Integer>0</gco:Integer>
-                                    </gco:lower>
-                                    <gco:upper>
-                                        <gco:UnlimitedInteger>1</gco:UnlimitedInteger>
-                                    </gco:upper>
-                                </gco:MultiplicityRange>
-                            </gco:range>
-                        </gco:Multiplicity>
-                    </itsgml:cardinality>
-                     <itsgml:valueType>Identifier</itsgml:valueType>
-                </itsgml:FC_FeatureAttribute>
-            </itsgml:carrierOfCharacteristics>
-            <itsgml:carrierOfCharacteristics>
-                <itsgml:FC_FeatureAttribute gml:id="INSPIRE_TN.NetworkProperty.beginLifespanVersion">
-                    <itsgml:memberName>beginLifespanVersion</itsgml:memberName>
+                <itsgml:FC_AssociationRole gml:id="INSPIRE_TN.AssociationRoles.NetworkReference.101890">
+                    <itsgml:memberName>element</itsgml:memberName>
                     <itsgml:cardinality>
                         <gco:Multiplicity>
                             <gco:range>
@@ -372,35 +661,12 @@
                             </gco:range>
                         </gco:Multiplicity>
                     </itsgml:cardinality>
-                     <itsgml:valueType>DateTime</itsgml:valueType>
-                </itsgml:FC_FeatureAttribute>
+                    <itsgml:type>ordinary</itsgml:type>
+                    <itsgml:isOrdered>false</itsgml:isOrdered>
+                    <itsgml:isNavigable>true</itsgml:isNavigable>
+                    <itsgml:rolePlayer xlink:href="INSPIRE_TN.gml#INSPIRE_TN.NetworkElement" />
+                </itsgml:FC_AssociationRole>
             </itsgml:carrierOfCharacteristics>
-            <itsgml:carrierOfCharacteristics>
-                <itsgml:FC_FeatureAttribute gml:id="INSPIRE_TN.NetworkProperty.endLifespanVersion">
-                    <itsgml:memberName>endLifespanVersion</itsgml:memberName>
-                    <itsgml:cardinality>
-                        <gco:Multiplicity>
-                            <gco:range>
-                                <gco:MultiplicityRange>
-                                    <gco:lower>
-                                        <gco:Integer>0</gco:Integer>
-                                    </gco:lower>
-                                    <gco:upper>
-                                        <gco:UnlimitedInteger>1</gco:UnlimitedInteger>
-                                    </gco:upper>
-                                </gco:MultiplicityRange>
-                            </gco:range>
-                        </gco:Multiplicity>
-                    </itsgml:cardinality>
-                     <itsgml:valueType>DateTime</itsgml:valueType>
-                </itsgml:FC_FeatureAttribute>
-            </itsgml:carrierOfCharacteristics>
-        </itsgml:FC_FeatureType>
-    </itsgml:classifier>
-    <itsgml:classifier>
-        <itsgml:FC_DataType gml:id="INSPIRE_TN.NetworkReference">
-            <itsgml:typeName>NetworkReference</itsgml:typeName>
-            <itsgml:isAbstract>false</itsgml:isAbstract>
         </itsgml:FC_DataType>
     </itsgml:classifier>
     <itsgml:classifier>
@@ -426,6 +692,7 @@
                         </gco:Multiplicity>
                     </itsgml:cardinality>
                      <itsgml:valueType>RoadPartValue</itsgml:valueType>
+                     <itsgml:valueDomain xlink:href="INSPIRE_TN.gml#INSPIRE_TN.RoadPartValue" />
                 </itsgml:FC_FeatureAttribute>
             </itsgml:carrierOfCharacteristics>
             <itsgml:carrierOfCharacteristics>
@@ -451,120 +718,6 @@
         </itsgml:FC_FeatureType>
     </itsgml:classifier>
     <itsgml:classifier>
-        <itsgml:FC_DataType gml:id="INSPIRE_TN.SimpleLinearReference">
-            <itsgml:typeName>SimpleLinearReference</itsgml:typeName>
-            <itsgml:isAbstract>false</itsgml:isAbstract>
-            <itsgml:inheritsFrom xlink:href="INSPIRE_TN.gml#INSPIRE_TN.LinkReference" />
-            <itsgml:carrierOfCharacteristics>
-                <itsgml:FC_FeatureAttribute gml:id="INSPIRE_TN.SimpleLinearReference.fromPosition">
-                    <itsgml:memberName>fromPosition</itsgml:memberName>
-                    <itsgml:cardinality>
-                        <gco:Multiplicity>
-                            <gco:range>
-                                <gco:MultiplicityRange>
-                                    <gco:lower>
-                                        <gco:Integer>1</gco:Integer>
-                                    </gco:lower>
-                                    <gco:upper>
-                                        <gco:UnlimitedInteger>1</gco:UnlimitedInteger>
-                                    </gco:upper>
-                                </gco:MultiplicityRange>
-                            </gco:range>
-                        </gco:Multiplicity>
-                    </itsgml:cardinality>
-                     <itsgml:valueType>Length</itsgml:valueType>
-                </itsgml:FC_FeatureAttribute>
-            </itsgml:carrierOfCharacteristics>
-            <itsgml:carrierOfCharacteristics>
-                <itsgml:FC_FeatureAttribute gml:id="INSPIRE_TN.SimpleLinearReference.toPosition">
-                    <itsgml:memberName>toPosition</itsgml:memberName>
-                    <itsgml:cardinality>
-                        <gco:Multiplicity>
-                            <gco:range>
-                                <gco:MultiplicityRange>
-                                    <gco:lower>
-                                        <gco:Integer>1</gco:Integer>
-                                    </gco:lower>
-                                    <gco:upper>
-                                        <gco:UnlimitedInteger>1</gco:UnlimitedInteger>
-                                    </gco:upper>
-                                </gco:MultiplicityRange>
-                            </gco:range>
-                        </gco:Multiplicity>
-                    </itsgml:cardinality>
-                     <itsgml:valueType>Length</itsgml:valueType>
-                </itsgml:FC_FeatureAttribute>
-            </itsgml:carrierOfCharacteristics>
-            <itsgml:carrierOfCharacteristics>
-                <itsgml:FC_FeatureAttribute gml:id="INSPIRE_TN.SimpleLinearReference.offset">
-                    <itsgml:memberName>offset</itsgml:memberName>
-                    <itsgml:cardinality>
-                        <gco:Multiplicity>
-                            <gco:range>
-                                <gco:MultiplicityRange>
-                                    <gco:lower>
-                                        <gco:Integer>0</gco:Integer>
-                                    </gco:lower>
-                                    <gco:upper>
-                                        <gco:UnlimitedInteger>1</gco:UnlimitedInteger>
-                                    </gco:upper>
-                                </gco:MultiplicityRange>
-                            </gco:range>
-                        </gco:Multiplicity>
-                    </itsgml:cardinality>
-                     <itsgml:valueType>Length</itsgml:valueType>
-                </itsgml:FC_FeatureAttribute>
-            </itsgml:carrierOfCharacteristics>
-        </itsgml:FC_DataType>
-    </itsgml:classifier>
-    <itsgml:classifier>
-        <itsgml:FC_DataType gml:id="INSPIRE_TN.SimplePointReference">
-            <itsgml:typeName>SimplePointReference</itsgml:typeName>
-            <itsgml:isAbstract>false</itsgml:isAbstract>
-            <itsgml:inheritsFrom xlink:href="INSPIRE_TN.gml#INSPIRE_TN.LinkReference" />
-            <itsgml:carrierOfCharacteristics>
-                <itsgml:FC_FeatureAttribute gml:id="INSPIRE_TN.SimplePointReference.atPosition">
-                    <itsgml:memberName>atPosition</itsgml:memberName>
-                    <itsgml:cardinality>
-                        <gco:Multiplicity>
-                            <gco:range>
-                                <gco:MultiplicityRange>
-                                    <gco:lower>
-                                        <gco:Integer>1</gco:Integer>
-                                    </gco:lower>
-                                    <gco:upper>
-                                        <gco:UnlimitedInteger>1</gco:UnlimitedInteger>
-                                    </gco:upper>
-                                </gco:MultiplicityRange>
-                            </gco:range>
-                        </gco:Multiplicity>
-                    </itsgml:cardinality>
-                     <itsgml:valueType>Length</itsgml:valueType>
-                </itsgml:FC_FeatureAttribute>
-            </itsgml:carrierOfCharacteristics>
-            <itsgml:carrierOfCharacteristics>
-                <itsgml:FC_FeatureAttribute gml:id="INSPIRE_TN.SimplePointReference.offset">
-                    <itsgml:memberName>offset</itsgml:memberName>
-                    <itsgml:cardinality>
-                        <gco:Multiplicity>
-                            <gco:range>
-                                <gco:MultiplicityRange>
-                                    <gco:lower>
-                                        <gco:Integer>0</gco:Integer>
-                                    </gco:lower>
-                                    <gco:upper>
-                                        <gco:UnlimitedInteger>1</gco:UnlimitedInteger>
-                                    </gco:upper>
-                                </gco:MultiplicityRange>
-                            </gco:range>
-                        </gco:Multiplicity>
-                    </itsgml:cardinality>
-                     <itsgml:valueType>Length</itsgml:valueType>
-                </itsgml:FC_FeatureAttribute>
-            </itsgml:carrierOfCharacteristics>
-        </itsgml:FC_DataType>
-    </itsgml:classifier>
-    <itsgml:classifier>
         <itsgml:FC_FeatureType gml:id="INSPIRE_TN.SpeedLimit">
             <itsgml:typeName>SpeedLimit</itsgml:typeName>
             <itsgml:isAbstract>false</itsgml:isAbstract>
@@ -587,6 +740,7 @@
                         </gco:Multiplicity>
                     </itsgml:cardinality>
                      <itsgml:valueType>AreaConditionValue</itsgml:valueType>
+                     <itsgml:valueDomain xlink:href="INSPIRE_TN.gml#INSPIRE_TN.AreaConditionValue" />
                 </itsgml:FC_FeatureAttribute>
             </itsgml:carrierOfCharacteristics>
             <itsgml:carrierOfCharacteristics>
@@ -607,6 +761,7 @@
                         </gco:Multiplicity>
                     </itsgml:cardinality>
                      <itsgml:valueType>LinkDirectionValue</itsgml:valueType>
+                     <itsgml:valueDomain xlink:href="INSPIRE_TN.gml#INSPIRE_TN.LinkDirectionValue" />
                 </itsgml:FC_FeatureAttribute>
             </itsgml:carrierOfCharacteristics>
             <itsgml:carrierOfCharacteristics>
@@ -647,6 +802,7 @@
                         </gco:Multiplicity>
                     </itsgml:cardinality>
                      <itsgml:valueType>SpeedLimitMinMaxValue</itsgml:valueType>
+                     <itsgml:valueDomain xlink:href="INSPIRE_TN.gml#INSPIRE_TN.SpeedLimitMinMaxValue" />
                 </itsgml:FC_FeatureAttribute>
             </itsgml:carrierOfCharacteristics>
             <itsgml:carrierOfCharacteristics>
@@ -667,6 +823,7 @@
                         </gco:Multiplicity>
                     </itsgml:cardinality>
                      <itsgml:valueType>SpeedLimitSourceValue</itsgml:valueType>
+                     <itsgml:valueDomain xlink:href="INSPIRE_TN.gml#INSPIRE_TN.SpeedLimitSourceValue" />
                 </itsgml:FC_FeatureAttribute>
             </itsgml:carrierOfCharacteristics>
             <itsgml:carrierOfCharacteristics>
@@ -747,6 +904,7 @@
                         </gco:Multiplicity>
                     </itsgml:cardinality>
                      <itsgml:valueType>VehicleTypeValue</itsgml:valueType>
+                     <itsgml:valueDomain xlink:href="INSPIRE_TN.gml#INSPIRE_TN.VehicleTypeValue" />
                 </itsgml:FC_FeatureAttribute>
             </itsgml:carrierOfCharacteristics>
             <itsgml:carrierOfCharacteristics>
@@ -767,6 +925,7 @@
                         </gco:Multiplicity>
                     </itsgml:cardinality>
                      <itsgml:valueType>WeatherConditionValue</itsgml:valueType>
+                     <itsgml:valueDomain xlink:href="INSPIRE_TN.gml#INSPIRE_TN.WeatherConditionValue" />
                 </itsgml:FC_FeatureAttribute>
             </itsgml:carrierOfCharacteristics>
         </itsgml:FC_FeatureType>

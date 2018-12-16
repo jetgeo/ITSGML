@@ -1,26 +1,28 @@
-<?xml version="1.0" encoding="UTF-8"?><ShapeChangeResult xmlns="http://www.interactive-instruments.de/ShapeChange/Result" xmlns:r="http://www.interactive-instruments.de/ShapeChange/Result" config="C:\DATA\GitHub\ITSGML\config\ShapeChangeConfiguration.xml" end="Fri Dec 14 10:23:03 CET 2018" resultCode="0" start="Fri Dec 14 10:22:47 CET 2018" version="2.0.0-SNAPSHOT">
+<?xml version="1.0" encoding="UTF-8"?><ShapeChangeResult xmlns="http://www.interactive-instruments.de/ShapeChange/Result" xmlns:r="http://www.interactive-instruments.de/ShapeChange/Result" config="C:\DATA\GitHub\ITSGML\config\ShapeChangeConfiguration.xml" end="Sun Dec 16 22:22:48 CET 2018" resultCode="0" start="Sun Dec 16 22:22:31 CET 2018" version="2.0.0-SNAPSHOT">
   <Messages>
-    <Error message="One or more errors encountered in OCL constraint in class 'OpenLRLocationReference' : 'inv:binaryLocationReference-&gt;size() +xMLLocationReference-&gt;size() = 1' ...">
-      <Detail message="Line/column(s) 1/1-4: Condition keyword (like inv:) expected introducing expression. Found 'identifier &quot;Each&quot;', ignored."/>
-      <Detail message="Line/column(s) 1/30-33: Colon ':' missing following condition keyword. Found 'identifier &quot;must&quot;'."/>
-      <Detail message="Line/column(s) 1/35-41: Extra tokens following OCL expression ignored, starting with 'identifier &quot;contain&quot;'."/>
+    <Error message="One or more errors encountered in OCL constraint in class 'FeatureProperty' : 'inv:value-&gt;size() + valueReference&gt;size() &gt;= 1' ...">
+      <Detail message="Line/column(s) 1/1-3: Condition keyword (like inv:) expected introducing expression. Found 'identifier &quot;One&quot;', ignored."/>
+      <Detail message="Line/column(s) 1/5-6: Colon ':' missing following condition keyword. Found 'operator &quot;or&quot;'."/>
+      <Detail message="Line/column(s) 1/5-6: Identifier, literal or bracketed expression expected preceding operator &quot;or&quot; token. Invalid assumed."/>
+      <Detail message="Line/column(s) 1/8-11: Extra tokens following OCL expression ignored, starting with 'identifier &quot;more&quot;'."/>
+    </Error>
+    <Error message="One or more errors encountered in OCL constraint in class 'FunctionalRoadClass' : 'Applies to road transport elements only' ...">
+      <Detail message="Line/column(s) 2/145-148: Identifier named 'Road' could not be resolved to either a variable, a property on an implicit variable, a class or an enumeration."/>
     </Error>
     <Error message="One or more errors encountered in OCL constraint in class 'NetworkReference' : 'inv:RoadFeatureDataset.defaultLRM-&gt;size() + overridingLRM-&gt;size() &gt; 0' ...">
       <Detail message="Line/column(s) 1/1-3: Condition keyword (like inv:) expected introducing expression. Found 'identifier &quot;LRM&quot;', ignored."/>
       <Detail message="Line/column(s) 1/10-11: Colon ':' missing following condition keyword. Found 'identifier &quot;be&quot;'."/>
       <Detail message="Line/column(s) 1/13-15: Extra tokens following OCL expression ignored, starting with 'identifier &quot;set&quot;'."/>
     </Error>
-    <Error message="One or more errors encountered in OCL constraint in class 'FC_Binding' : 'featureType is mandatory' ...">
-      <Detail message="Line/column(s) 1/1-5: Condition keyword (like inv:) expected introducing expression. Found 'identifier &quot;count&quot;', ignored."/>
-      <Detail message="Line/column(s) 1/6: Colon ':' missing following condition keyword. Found 'operator &quot;(&quot;'."/>
+    <Error message="One or more errors encountered in OCL constraint in class 'OpenLRLocationReference' : 'inv:binaryLocationReference-&gt;size() +xMLLocationReference-&gt;size() = 1' ...">
+      <Detail message="Line/column(s) 1/1-4: Condition keyword (like inv:) expected introducing expression. Found 'identifier &quot;Each&quot;', ignored."/>
+      <Detail message="Line/column(s) 1/30-33: Colon ':' missing following condition keyword. Found 'identifier &quot;must&quot;'."/>
+      <Detail message="Line/column(s) 1/35-41: Extra tokens following OCL expression ignored, starting with 'identifier &quot;contain&quot;'."/>
     </Error>
-    <Error message="One or more errors encountered in OCL constraint in class 'FC_BoundAssociationRole' : 'rolePlayer is mandatory if the value type of the feature attribute is not defined globally' ...">
-      <Detail message="Line/column(s) 1/1-5: Condition keyword (like inv:) expected introducing expression. Found 'identifier &quot;count&quot;', ignored."/>
-      <Detail message="Line/column(s) 1/6: Colon ':' missing following condition keyword. Found 'operator &quot;(&quot;'."/>
-    </Error>
-    <Error message="One or more errors encountered in OCL constraint in class 'FC_BoundAssociationRole' : 'the global property shall be a FC_AssociationRole' ...">
-      <Detail message="Line/column(s) 1/1-4: Condition keyword (like inv:) expected introducing expression. Found 'identifier &quot;type&quot;', ignored."/>
-      <Detail message="Line/column(s) 1/5: Colon ':' missing following condition keyword. Found 'operator &quot;(&quot;'."/>
+    <Error message="One or more errors encountered in OCL constraint in class 'FC_FeatureAttribute' : 'valueType is mandatory for local feature attribute' ...">
+      <Detail message="Line/column(s) 1/1-2: Condition keyword (like inv:) expected introducing expression. Found 'operator &quot;if&quot;', ignored."/>
+      <Detail message="Line/column(s) 1/9: Colon ':' missing following condition keyword. Found 'operator &quot;(&quot;'."/>
+      <Detail message="Line/column(s) 1/25-28: Extra tokens following OCL expression ignored, starting with 'operator &quot;then&quot;'."/>
     </Error>
     <Error message="One or more errors encountered in OCL constraint in class 'FC_PropertyType' : 'definition is mandatory if definition not provided by definition source' ...">
       <Detail message="Line/column(s) 1/1-5: Condition keyword (like inv:) expected introducing expression. Found 'identifier &quot;count&quot;', ignored."/>
@@ -31,15 +33,6 @@
       <Detail message="Line/column(s) 1/6: Colon ':' missing following condition keyword. Found 'operator &quot;(&quot;'."/>
     </Error>
     <Error message="One or more errors encountered in OCL constraint in class 'FC_PropertyType' : 'featureType is mandatory for locale properties' ...">
-      <Detail message="Line/column(s) 1/1-5: Condition keyword (like inv:) expected introducing expression. Found 'identifier &quot;count&quot;', ignored."/>
-      <Detail message="Line/column(s) 1/6: Colon ':' missing following condition keyword. Found 'operator &quot;(&quot;'."/>
-    </Error>
-    <Error message="One or more errors encountered in OCL constraint in class 'FC_FeatureAttribute' : 'valueType is mandatory for local feature attribute' ...">
-      <Detail message="Line/column(s) 1/1-2: Condition keyword (like inv:) expected introducing expression. Found 'operator &quot;if&quot;', ignored."/>
-      <Detail message="Line/column(s) 1/9: Colon ':' missing following condition keyword. Found 'operator &quot;(&quot;'."/>
-      <Detail message="Line/column(s) 1/25-28: Extra tokens following OCL expression ignored, starting with 'operator &quot;then&quot;'."/>
-    </Error>
-    <Error message="One or more errors encountered in OCL constraint in class 'FC_FeatureType' : 'definition is mandatory if definition not provided by definition source ' ...">
       <Detail message="Line/column(s) 1/1-5: Condition keyword (like inv:) expected introducing expression. Found 'identifier &quot;count&quot;', ignored."/>
       <Detail message="Line/column(s) 1/6: Colon ':' missing following condition keyword. Found 'operator &quot;(&quot;'."/>
     </Error>
@@ -55,11 +48,7 @@
       <Detail message="Line/column(s) 1/9: Colon ':' missing following condition keyword. Found 'operator &quot;(&quot;'."/>
       <Detail message="Line/column(s) 1/25-28: Extra tokens following OCL expression ignored, starting with 'operator &quot;then&quot;'."/>
     </Error>
-    <Error message="One or more errors encountered in OCL constraint in class 'FC_BoundFeatureAttribute' : 'the global property shall be a FC_FeatureAttribute' ...">
-      <Detail message="Line/column(s) 1/1-4: Condition keyword (like inv:) expected introducing expression. Found 'identifier &quot;type&quot;', ignored."/>
-      <Detail message="Line/column(s) 1/5: Colon ':' missing following condition keyword. Found 'operator &quot;(&quot;'."/>
-    </Error>
-    <Error message="One or more errors encountered in OCL constraint in class 'FC_BoundFeatureAttribute' : 'valueType is mandatory if the value type of the feature attribute is not defined globally' ...">
+    <Error message="One or more errors encountered in OCL constraint in class 'FC_FeatureType' : 'definition is mandatory if definition not provided by definition source ' ...">
       <Detail message="Line/column(s) 1/1-5: Condition keyword (like inv:) expected introducing expression. Found 'identifier &quot;count&quot;', ignored."/>
       <Detail message="Line/column(s) 1/6: Colon ':' missing following condition keyword. Found 'operator &quot;(&quot;'."/>
     </Error>
@@ -70,15 +59,6 @@
       <Detail message="Line/column(s) 2/145-148: Identifier named 'Road' could not be resolved to either a variable, a property on an implicit variable, a class or an enumeration."/>
     </Error>
     <Error message="One or more errors encountered in OCL constraint in class 'RoadWidth' : 'Applies to road transport elements only' ...">
-      <Detail message="Line/column(s) 2/145-148: Identifier named 'Road' could not be resolved to either a variable, a property on an implicit variable, a class or an enumeration."/>
-    </Error>
-    <Error message="One or more errors encountered in OCL constraint in class 'FeatureProperty' : 'inv:value-&gt;size() + valueReference&gt;size() &gt;= 1' ...">
-      <Detail message="Line/column(s) 1/1-3: Condition keyword (like inv:) expected introducing expression. Found 'identifier &quot;One&quot;', ignored."/>
-      <Detail message="Line/column(s) 1/5-6: Colon ':' missing following condition keyword. Found 'operator &quot;or&quot;'."/>
-      <Detail message="Line/column(s) 1/5-6: Identifier, literal or bracketed expression expected preceding operator &quot;or&quot; token. Invalid assumed."/>
-      <Detail message="Line/column(s) 1/8-11: Extra tokens following OCL expression ignored, starting with 'identifier &quot;more&quot;'."/>
-    </Error>
-    <Error message="One or more errors encountered in OCL constraint in class 'FunctionalRoadClass' : 'Applies to road transport elements only' ...">
       <Detail message="Line/column(s) 2/145-148: Identifier named 'Road' could not be resolved to either a variable, a property on an implicit variable, a class or an enumeration."/>
     </Error>
     <Error message="Documentation of class 'FC_AssociationRole' is missing the separator '-- Name --'.">
@@ -111,45 +91,6 @@
     <Error message="Documentation of property 'rolePlayer' is missing the separator '-- Definition --'.">
       <Detail message="Context: Property 'ShapeChange::Application schemas::Feature Catalogue Exchange Model::FC_AssociationRole::rolePlayer'"/>
     </Error>
-    <Error message="Documentation of class 'FC_FeatureAttribute' is missing the separator '-- Name --'.">
-      <Detail message="Context: Class 'ShapeChange::Application schemas::Feature Catalogue Exchange Model::FC_FeatureAttribute'"/>
-    </Error>
-    <Error message="Documentation of class 'FC_FeatureAttribute' is missing the separator '-- Definition --'.">
-      <Detail message="Context: Class 'ShapeChange::Application schemas::Feature Catalogue Exchange Model::FC_FeatureAttribute'"/>
-    </Error>
-    <Error message="Documentation of property 'code' is missing the separator '-- Name --'.">
-      <Detail message="Context: Property 'ShapeChange::Application schemas::Feature Catalogue Exchange Model::FC_FeatureAttribute::code'"/>
-    </Error>
-    <Error message="Documentation of property 'code' is missing the separator '-- Definition --'.">
-      <Detail message="Context: Property 'ShapeChange::Application schemas::Feature Catalogue Exchange Model::FC_FeatureAttribute::code'"/>
-    </Error>
-    <Error message="Documentation of property 'valueMeasurementUnit' is missing the separator '-- Name --'.">
-      <Detail message="Context: Property 'ShapeChange::Application schemas::Feature Catalogue Exchange Model::FC_FeatureAttribute::valueMeasurementUnit'"/>
-    </Error>
-    <Error message="Documentation of property 'valueMeasurementUnit' is missing the separator '-- Definition --'.">
-      <Detail message="Context: Property 'ShapeChange::Application schemas::Feature Catalogue Exchange Model::FC_FeatureAttribute::valueMeasurementUnit'"/>
-    </Error>
-    <Error message="Documentation of property 'valueType' is missing the separator '-- Name --'.">
-      <Detail message="Context: Property 'ShapeChange::Application schemas::Feature Catalogue Exchange Model::FC_FeatureAttribute::valueType'"/>
-    </Error>
-    <Error message="Documentation of property 'valueType' is missing the separator '-- Definition --'.">
-      <Detail message="Context: Property 'ShapeChange::Application schemas::Feature Catalogue Exchange Model::FC_FeatureAttribute::valueType'"/>
-    </Error>
-    <Error message="The type 'TypeName' of property 'FC_FeatureAttribute.valueType' was not found.">
-      <Detail message="Context: Property 'ShapeChange::Application schemas::Feature Catalogue Exchange Model::FC_FeatureAttribute::valueType'"/>
-    </Error>
-    <Error message="Documentation of property 'valueDomain' is missing the separator '-- Name --'.">
-      <Detail message="Context: Property 'ShapeChange::Application schemas::Feature Catalogue Exchange Model::FC_FeatureAttribute::valueDomain'"/>
-    </Error>
-    <Error message="Documentation of property 'valueDomain' is missing the separator '-- Definition --'.">
-      <Detail message="Context: Property 'ShapeChange::Application schemas::Feature Catalogue Exchange Model::FC_FeatureAttribute::valueDomain'"/>
-    </Error>
-    <Error message="Documentation of property 'dataType' is missing the separator '-- Name --'.">
-      <Detail message="Context: Property 'ShapeChange::Application schemas::Feature Catalogue Exchange Model::FC_FeatureAttribute::dataType'"/>
-    </Error>
-    <Error message="Documentation of property 'dataType' is missing the separator '-- Definition --'.">
-      <Detail message="Context: Property 'ShapeChange::Application schemas::Feature Catalogue Exchange Model::FC_FeatureAttribute::dataType'"/>
-    </Error>
     <Error message="Documentation of class 'FC_PropertyType' is missing the separator '-- Name --'.">
       <Detail message="Context: Class 'ShapeChange::Application schemas::Feature Catalogue Exchange Model::FC_PropertyType'"/>
     </Error>
@@ -180,6 +121,57 @@
     <Error message="Documentation of property 'designation' is missing the separator '-- Definition --'.">
       <Detail message="Context: Property 'ShapeChange::Application schemas::Feature Catalogue Exchange Model::FC_PropertyType::designation'"/>
     </Error>
+    <Error message="Tagged value 'asDictionary' has incorrect value 'false' in class 'FC_RoleType'.">
+      <Detail message="Context: Class 'ShapeChange::Application schemas::Feature Catalogue Exchange Model::FC_RoleType'"/>
+    </Error>
+    <Error message="Documentation of class 'FC_RoleType' is missing the separator '-- Name --'.">
+      <Detail message="Context: Class 'ShapeChange::Application schemas::Feature Catalogue Exchange Model::FC_RoleType'"/>
+    </Error>
+    <Error message="Documentation of class 'FC_RoleType' is missing the separator '-- Definition --'.">
+      <Detail message="Context: Class 'ShapeChange::Application schemas::Feature Catalogue Exchange Model::FC_RoleType'"/>
+    </Error>
+    <Error message="Documentation of class 'FC_FeatureType' is missing the separator '-- Name --'.">
+      <Detail message="Context: Class 'ShapeChange::Application schemas::Feature Catalogue Exchange Model::FC_FeatureType'"/>
+    </Error>
+    <Error message="Documentation of class 'FC_FeatureType' is missing the separator '-- Definition --'.">
+      <Detail message="Context: Class 'ShapeChange::Application schemas::Feature Catalogue Exchange Model::FC_FeatureType'"/>
+    </Error>
+    <Error message="Documentation of property 'typeName' is missing the separator '-- Name --'.">
+      <Detail message="Context: Property 'ShapeChange::Application schemas::Feature Catalogue Exchange Model::FC_FeatureType::typeName'"/>
+    </Error>
+    <Error message="Documentation of property 'typeName' is missing the separator '-- Definition --'.">
+      <Detail message="Context: Property 'ShapeChange::Application schemas::Feature Catalogue Exchange Model::FC_FeatureType::typeName'"/>
+    </Error>
+    <Error message="Documentation of property 'code' is missing the separator '-- Name --'.">
+      <Detail message="Context: Property 'ShapeChange::Application schemas::Feature Catalogue Exchange Model::FC_FeatureType::code'"/>
+    </Error>
+    <Error message="Documentation of property 'code' is missing the separator '-- Definition --'.">
+      <Detail message="Context: Property 'ShapeChange::Application schemas::Feature Catalogue Exchange Model::FC_FeatureType::code'"/>
+    </Error>
+    <Error message="Documentation of property 'isAbstract' is missing the separator '-- Name --'.">
+      <Detail message="Context: Property 'ShapeChange::Application schemas::Feature Catalogue Exchange Model::FC_FeatureType::isAbstract'"/>
+    </Error>
+    <Error message="Documentation of property 'isAbstract' is missing the separator '-- Definition --'.">
+      <Detail message="Context: Property 'ShapeChange::Application schemas::Feature Catalogue Exchange Model::FC_FeatureType::isAbstract'"/>
+    </Error>
+    <Error message="Documentation of property 'aliases' is missing the separator '-- Name --'.">
+      <Detail message="Context: Property 'ShapeChange::Application schemas::Feature Catalogue Exchange Model::FC_FeatureType::aliases'"/>
+    </Error>
+    <Error message="Documentation of property 'aliases' is missing the separator '-- Definition --'.">
+      <Detail message="Context: Property 'ShapeChange::Application schemas::Feature Catalogue Exchange Model::FC_FeatureType::aliases'"/>
+    </Error>
+    <Error message="Documentation of property 'property' is missing the separator '-- Name --'.">
+      <Detail message="Context: Property 'ShapeChange::Application schemas::Feature Catalogue Exchange Model::FC_FeatureType::property'"/>
+    </Error>
+    <Error message="Documentation of property 'property' is missing the separator '-- Definition --'.">
+      <Detail message="Context: Property 'ShapeChange::Application schemas::Feature Catalogue Exchange Model::FC_FeatureType::property'"/>
+    </Error>
+    <Error message="Documentation of property 'inheritsFrom' is missing the separator '-- Name --'.">
+      <Detail message="Context: Property 'ShapeChange::Application schemas::Feature Catalogue Exchange Model::FC_FeatureType::inheritsFrom'"/>
+    </Error>
+    <Error message="Documentation of property 'inheritsFrom' is missing the separator '-- Definition --'.">
+      <Detail message="Context: Property 'ShapeChange::Application schemas::Feature Catalogue Exchange Model::FC_FeatureType::inheritsFrom'"/>
+    </Error>
     <Error message="Documentation of class 'FC_FeatureCatalogue' is missing the separator '-- Name --'.">
       <Detail message="Context: Class 'ShapeChange::Application schemas::Feature Catalogue Exchange Model::FC_FeatureCatalogue'"/>
     </Error>
@@ -207,6 +199,12 @@
     <Error message="Documentation of property 'identifier' is missing the separator '-- Definition --'.">
       <Detail message="Context: Property 'ShapeChange::Application schemas::Feature Catalogue Exchange Model::FC_FeatureCatalogue::identifier'"/>
     </Error>
+    <Error message="Documentation of property 'valueDomain' is missing the separator '-- Name --'.">
+      <Detail message="Context: Property 'ShapeChange::Application schemas::Feature Catalogue Exchange Model::FC_FeatureCatalogue::valueDomain'"/>
+    </Error>
+    <Error message="Documentation of property 'valueDomain' is missing the separator '-- Definition --'.">
+      <Detail message="Context: Property 'ShapeChange::Application schemas::Feature Catalogue Exchange Model::FC_FeatureCatalogue::valueDomain'"/>
+    </Error>
     <Error message="Documentation of property 'globalProperty' is missing the separator '-- Name --'.">
       <Detail message="Context: Property 'ShapeChange::Application schemas::Feature Catalogue Exchange Model::FC_FeatureCatalogue::globalProperty'"/>
     </Error>
@@ -218,18 +216,6 @@
     </Error>
     <Error message="Documentation of property 'classifier' is missing the separator '-- Definition --'.">
       <Detail message="Context: Property 'ShapeChange::Application schemas::Feature Catalogue Exchange Model::FC_FeatureCatalogue::classifier'"/>
-    </Error>
-    <Error message="Documentation of class 'FC_CarrierOfCharacteristics' is missing the separator '-- Name --'.">
-      <Detail message="Context: Class 'ShapeChange::Application schemas::Feature Catalogue Exchange Model::FC_CarrierOfCharacteristics'"/>
-    </Error>
-    <Error message="Documentation of class 'FC_CarrierOfCharacteristics' is missing the separator '-- Definition --'.">
-      <Detail message="Context: Class 'ShapeChange::Application schemas::Feature Catalogue Exchange Model::FC_CarrierOfCharacteristics'"/>
-    </Error>
-    <Error message="Documentation of class 'FC_RoleType' is missing the separator '-- Name --'.">
-      <Detail message="Context: Class 'ShapeChange::Application schemas::Feature Catalogue Exchange Model::FC_RoleType'"/>
-    </Error>
-    <Error message="Documentation of class 'FC_RoleType' is missing the separator '-- Definition --'.">
-      <Detail message="Context: Class 'ShapeChange::Application schemas::Feature Catalogue Exchange Model::FC_RoleType'"/>
     </Error>
     <Error message="Documentation of class 'FC_ListedValue' is missing the separator '-- Name --'.">
       <Detail message="Context: Class 'ShapeChange::Application schemas::Feature Catalogue Exchange Model::FC_ListedValue'"/>
@@ -243,60 +229,6 @@
     <Error message="Documentation of property 'label' is missing the separator '-- Definition --'.">
       <Detail message="Context: Property 'ShapeChange::Application schemas::Feature Catalogue Exchange Model::FC_ListedValue::label'"/>
     </Error>
-    <Error message="Documentation of class 'FC_FeatureAssociation' is missing the separator '-- Name --'.">
-      <Detail message="Context: Class 'ShapeChange::Application schemas::Feature Catalogue Exchange Model::FC_FeatureAssociation'"/>
-    </Error>
-    <Error message="Documentation of class 'FC_FeatureAssociation' is missing the separator '-- Definition --'.">
-      <Detail message="Context: Class 'ShapeChange::Application schemas::Feature Catalogue Exchange Model::FC_FeatureAssociation'"/>
-    </Error>
-    <Error message="Documentation of property 'roleName' is missing the separator '-- Name --'.">
-      <Detail message="Context: Property 'ShapeChange::Application schemas::Feature Catalogue Exchange Model::FC_FeatureAssociation::roleName'"/>
-    </Error>
-    <Error message="Documentation of property 'roleName' is missing the separator '-- Definition --'.">
-      <Detail message="Context: Property 'ShapeChange::Application schemas::Feature Catalogue Exchange Model::FC_FeatureAssociation::roleName'"/>
-    </Error>
-    <Error message="Documentation of class 'FC_FeatureType' is missing the separator '-- Name --'.">
-      <Detail message="Context: Class 'ShapeChange::Application schemas::Feature Catalogue Exchange Model::FC_FeatureType'"/>
-    </Error>
-    <Error message="Documentation of class 'FC_FeatureType' is missing the separator '-- Definition --'.">
-      <Detail message="Context: Class 'ShapeChange::Application schemas::Feature Catalogue Exchange Model::FC_FeatureType'"/>
-    </Error>
-    <Error message="Documentation of property 'typeName' is missing the separator '-- Name --'.">
-      <Detail message="Context: Property 'ShapeChange::Application schemas::Feature Catalogue Exchange Model::FC_FeatureType::typeName'"/>
-    </Error>
-    <Error message="Documentation of property 'typeName' is missing the separator '-- Definition --'.">
-      <Detail message="Context: Property 'ShapeChange::Application schemas::Feature Catalogue Exchange Model::FC_FeatureType::typeName'"/>
-    </Error>
-    <Error message="Documentation of property 'isAbstract' is missing the separator '-- Name --'.">
-      <Detail message="Context: Property 'ShapeChange::Application schemas::Feature Catalogue Exchange Model::FC_FeatureType::isAbstract'"/>
-    </Error>
-    <Error message="Documentation of property 'isAbstract' is missing the separator '-- Definition --'.">
-      <Detail message="Context: Property 'ShapeChange::Application schemas::Feature Catalogue Exchange Model::FC_FeatureType::isAbstract'"/>
-    </Error>
-    <Error message="Documentation of property 'aliases' is missing the separator '-- Name --'.">
-      <Detail message="Context: Property 'ShapeChange::Application schemas::Feature Catalogue Exchange Model::FC_FeatureType::aliases'"/>
-    </Error>
-    <Error message="Documentation of property 'aliases' is missing the separator '-- Definition --'.">
-      <Detail message="Context: Property 'ShapeChange::Application schemas::Feature Catalogue Exchange Model::FC_FeatureType::aliases'"/>
-    </Error>
-    <Error message="Documentation of property 'carrierOfCharacteristics' is missing the separator '-- Name --'.">
-      <Detail message="Context: Property 'ShapeChange::Application schemas::Feature Catalogue Exchange Model::FC_FeatureType::carrierOfCharacteristics'"/>
-    </Error>
-    <Error message="Documentation of property 'carrierOfCharacteristics' is missing the separator '-- Definition --'.">
-      <Detail message="Context: Property 'ShapeChange::Application schemas::Feature Catalogue Exchange Model::FC_FeatureType::carrierOfCharacteristics'"/>
-    </Error>
-    <Error message="Documentation of property 'inheritsFrom' is missing the separator '-- Name --'.">
-      <Detail message="Context: Property 'ShapeChange::Application schemas::Feature Catalogue Exchange Model::FC_FeatureType::inheritsFrom'"/>
-    </Error>
-    <Error message="Documentation of property 'inheritsFrom' is missing the separator '-- Definition --'.">
-      <Detail message="Context: Property 'ShapeChange::Application schemas::Feature Catalogue Exchange Model::FC_FeatureType::inheritsFrom'"/>
-    </Error>
-    <Error message="Documentation of class 'FC_BoundAssociationRole' is missing the separator '-- Name --'.">
-      <Detail message="Context: Class 'ShapeChange::Application schemas::Feature Catalogue Exchange Model::FC_BoundAssociationRole'"/>
-    </Error>
-    <Error message="Documentation of class 'FC_BoundAssociationRole' is missing the separator '-- Definition --'.">
-      <Detail message="Context: Class 'ShapeChange::Application schemas::Feature Catalogue Exchange Model::FC_BoundAssociationRole'"/>
-    </Error>
     <Error message="Documentation of class 'FC_ValueDomain' is missing the separator '-- Name --'.">
       <Detail message="Context: Class 'ShapeChange::Application schemas::Feature Catalogue Exchange Model::FC_ValueDomain'"/>
     </Error>
@@ -309,26 +241,44 @@
     <Error message="Documentation of property 'listedValue' is missing the separator '-- Definition --'.">
       <Detail message="Context: Property 'ShapeChange::Application schemas::Feature Catalogue Exchange Model::FC_ValueDomain::listedValue'"/>
     </Error>
-    <Error message="Documentation of class 'FC_BoundFeatureAttribute' is missing the separator '-- Name --'.">
-      <Detail message="Context: Class 'ShapeChange::Application schemas::Feature Catalogue Exchange Model::FC_BoundFeatureAttribute'"/>
+    <Error message="Documentation of class 'FC_FeatureAssociation' is missing the separator '-- Name --'.">
+      <Detail message="Context: Class 'ShapeChange::Application schemas::Feature Catalogue Exchange Model::FC_FeatureAssociation'"/>
     </Error>
-    <Error message="Documentation of class 'FC_BoundFeatureAttribute' is missing the separator '-- Definition --'.">
-      <Detail message="Context: Class 'ShapeChange::Application schemas::Feature Catalogue Exchange Model::FC_BoundFeatureAttribute'"/>
+    <Error message="Documentation of class 'FC_FeatureAssociation' is missing the separator '-- Definition --'.">
+      <Detail message="Context: Class 'ShapeChange::Application schemas::Feature Catalogue Exchange Model::FC_FeatureAssociation'"/>
     </Error>
-    <Error message="The type 'TypeName' of property 'FC_BoundFeatureAttribute.valueType' was not found.">
-      <Detail message="Context: Property 'ShapeChange::Application schemas::Feature Catalogue Exchange Model::FC_BoundFeatureAttribute::valueType'"/>
+    <Error message="Documentation of property 'roleName' is missing the separator '-- Name --'.">
+      <Detail message="Context: Property 'ShapeChange::Application schemas::Feature Catalogue Exchange Model::FC_FeatureAssociation::roleName'"/>
     </Error>
-    <Error message="Documentation of class 'FC_Binding' is missing the separator '-- Name --'.">
-      <Detail message="Context: Class 'ShapeChange::Application schemas::Feature Catalogue Exchange Model::FC_Binding'"/>
+    <Error message="Documentation of property 'roleName' is missing the separator '-- Definition --'.">
+      <Detail message="Context: Property 'ShapeChange::Application schemas::Feature Catalogue Exchange Model::FC_FeatureAssociation::roleName'"/>
     </Error>
-    <Error message="Documentation of class 'FC_Binding' is missing the separator '-- Definition --'.">
-      <Detail message="Context: Class 'ShapeChange::Application schemas::Feature Catalogue Exchange Model::FC_Binding'"/>
+    <Error message="Documentation of class 'FC_FeatureAttribute' is missing the separator '-- Name --'.">
+      <Detail message="Context: Class 'ShapeChange::Application schemas::Feature Catalogue Exchange Model::FC_FeatureAttribute'"/>
     </Error>
-    <Error message="Documentation of property 'description' is missing the separator '-- Name --'.">
-      <Detail message="Context: Property 'ShapeChange::Application schemas::Feature Catalogue Exchange Model::FC_Binding::description'"/>
+    <Error message="Documentation of class 'FC_FeatureAttribute' is missing the separator '-- Definition --'.">
+      <Detail message="Context: Class 'ShapeChange::Application schemas::Feature Catalogue Exchange Model::FC_FeatureAttribute'"/>
     </Error>
-    <Error message="Documentation of property 'description' is missing the separator '-- Definition --'.">
-      <Detail message="Context: Property 'ShapeChange::Application schemas::Feature Catalogue Exchange Model::FC_Binding::description'"/>
+    <Error message="Documentation of property 'valueMeasurementUnit' is missing the separator '-- Name --'.">
+      <Detail message="Context: Property 'ShapeChange::Application schemas::Feature Catalogue Exchange Model::FC_FeatureAttribute::valueMeasurementUnit'"/>
+    </Error>
+    <Error message="Documentation of property 'valueMeasurementUnit' is missing the separator '-- Definition --'.">
+      <Detail message="Context: Property 'ShapeChange::Application schemas::Feature Catalogue Exchange Model::FC_FeatureAttribute::valueMeasurementUnit'"/>
+    </Error>
+    <Error message="Documentation of property 'valueType' is missing the separator '-- Name --'.">
+      <Detail message="Context: Property 'ShapeChange::Application schemas::Feature Catalogue Exchange Model::FC_FeatureAttribute::valueType'"/>
+    </Error>
+    <Error message="Documentation of property 'valueType' is missing the separator '-- Definition --'.">
+      <Detail message="Context: Property 'ShapeChange::Application schemas::Feature Catalogue Exchange Model::FC_FeatureAttribute::valueType'"/>
+    </Error>
+    <Error message="The type 'TypeName' of property 'FC_FeatureAttribute.valueType' was not found.">
+      <Detail message="Context: Property 'ShapeChange::Application schemas::Feature Catalogue Exchange Model::FC_FeatureAttribute::valueType'"/>
+    </Error>
+    <Error message="Documentation of property 'dataType' is missing the separator '-- Name --'.">
+      <Detail message="Context: Property 'ShapeChange::Application schemas::Feature Catalogue Exchange Model::FC_FeatureAttribute::dataType'"/>
+    </Error>
+    <Error message="Documentation of property 'dataType' is missing the separator '-- Definition --'.">
+      <Detail message="Context: Property 'ShapeChange::Application schemas::Feature Catalogue Exchange Model::FC_FeatureAttribute::dataType'"/>
     </Error>
     <Info message="Application schema found, package name: 'Feature Catalogue Exchange Model', target namespace: 'https://raw.githubusercontent.com/jetgeo/ITSGML/master/XSD'"/>
   </Messages>
