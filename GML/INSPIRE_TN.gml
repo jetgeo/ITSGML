@@ -489,7 +489,7 @@
             <itsgml:typeName>FunctionalRoadClass</itsgml:typeName>
             <itsgml:isAbstract>false</itsgml:isAbstract>
             <itsgml:inheritsFrom xlink:href="INSPIRE_TN.gml#INSPIRE_TN.TransportProperty" />
-            <itsgml:carrierOfCharacteristics>
+            <itsgml:property>
                 <itsgml:FC_FeatureAttribute gml:id="INSPIRE_TN.FunctionalRoadClass.functionalClass">
                     <itsgml:memberName>functionalClass</itsgml:memberName>
                     <itsgml:cardinality>
@@ -509,14 +509,14 @@
                      <itsgml:valueType>FunctionalRoadClassValue</itsgml:valueType>
                      <itsgml:valueDomain xlink:href="INSPIRE_TN.gml#INSPIRE_TN.FunctionalRoadClassValue" />
                 </itsgml:FC_FeatureAttribute>
-            </itsgml:carrierOfCharacteristics>
+            </itsgml:property>
         </itsgml:FC_FeatureType>
     </itsgml:classifier>
     <itsgml:classifier>
         <itsgml:FC_FeatureType gml:id="INSPIRE_TN.NetworkElement">
             <itsgml:typeName>NetworkElement</itsgml:typeName>
             <itsgml:isAbstract>true</itsgml:isAbstract>
-            <itsgml:carrierOfCharacteristics>
+            <itsgml:property>
                 <itsgml:FC_AssociationRole gml:id="INSPIRE_TN.AssociationRoles.NetworkElement.101890">
                     <itsgml:memberName>none</itsgml:memberName>
                     <itsgml:cardinality>
@@ -538,17 +538,17 @@
                     <itsgml:isNavigable>false</itsgml:isNavigable>
                     <itsgml:rolePlayer xlink:href="INSPIRE_TN.gml#INSPIRE_TN.NetworkReference" />
                 </itsgml:FC_AssociationRole>
-            </itsgml:carrierOfCharacteristics>
-            <itsgml:carrierOfCharacteristics xlink:href="INSPIRE_TN.gml#inspire.tn.gp.inspireId" />
-            <itsgml:carrierOfCharacteristics xlink:href="INSPIRE_TN.gml#inspire.tn.gp.beginLifespanVersion" />
-            <itsgml:carrierOfCharacteristics xlink:href="INSPIRE_TN.gml#inspire.tn.gp.endLifespanVersion" />
+            </itsgml:property>
+            <itsgml:property xlink:href="INSPIRE_TN.gml#inspire.tn.gp.inspireId" />
+            <itsgml:property xlink:href="INSPIRE_TN.gml#inspire.tn.gp.beginLifespanVersion" />
+            <itsgml:property xlink:href="INSPIRE_TN.gml#inspire.tn.gp.endLifespanVersion" />
         </itsgml:FC_FeatureType>
     </itsgml:classifier>
     <itsgml:classifier>
         <itsgml:FC_DataType gml:id="INSPIRE_TN.Identifier">
             <itsgml:typeName>Identifier</itsgml:typeName>
             <itsgml:isAbstract>false</itsgml:isAbstract>
-            <itsgml:carrierOfCharacteristics>
+            <itsgml:property>
                 <itsgml:FC_FeatureAttribute gml:id="INSPIRE_TN.Identifier.localId">
                     <itsgml:memberName>localId</itsgml:memberName>
                     <itsgml:cardinality>
@@ -567,8 +567,8 @@
                     </itsgml:cardinality>
                      <itsgml:valueType>CharacterString</itsgml:valueType>
                 </itsgml:FC_FeatureAttribute>
-            </itsgml:carrierOfCharacteristics>
-            <itsgml:carrierOfCharacteristics>
+            </itsgml:property>
+            <itsgml:property>
                 <itsgml:FC_FeatureAttribute gml:id="INSPIRE_TN.Identifier.namespace">
                     <itsgml:memberName>namespace</itsgml:memberName>
                     <itsgml:cardinality>
@@ -587,8 +587,8 @@
                     </itsgml:cardinality>
                      <itsgml:valueType>CharacterString</itsgml:valueType>
                 </itsgml:FC_FeatureAttribute>
-            </itsgml:carrierOfCharacteristics>
-            <itsgml:carrierOfCharacteristics>
+            </itsgml:property>
+            <itsgml:property>
                 <itsgml:FC_FeatureAttribute gml:id="INSPIRE_TN.Identifier.versionId">
                     <itsgml:memberName>versionId</itsgml:memberName>
                     <itsgml:cardinality>
@@ -607,17 +607,17 @@
                     </itsgml:cardinality>
                      <itsgml:valueType>CharacterString</itsgml:valueType>
                 </itsgml:FC_FeatureAttribute>
-            </itsgml:carrierOfCharacteristics>
+            </itsgml:property>
         </itsgml:FC_DataType>
     </itsgml:classifier>
     <itsgml:classifier>
         <itsgml:FC_FeatureType gml:id="INSPIRE_TN.NetworkProperty">
             <itsgml:typeName>NetworkProperty</itsgml:typeName>
             <itsgml:isAbstract>true</itsgml:isAbstract>
-            <itsgml:carrierOfCharacteristics xlink:href="INSPIRE_TN.gml#inspire.tn.gp.inspireId" />
-            <itsgml:carrierOfCharacteristics xlink:href="INSPIRE_TN.gml#inspire.tn.gp.beginLifespanVersion" />
-            <itsgml:carrierOfCharacteristics xlink:href="INSPIRE_TN.gml#inspire.tn.gp.endLifespanVersion" />
-            <itsgml:carrierOfCharacteristics>
+            <itsgml:property xlink:href="INSPIRE_TN.gml#inspire.tn.gp.inspireId" />
+            <itsgml:property xlink:href="INSPIRE_TN.gml#inspire.tn.gp.beginLifespanVersion" />
+            <itsgml:property xlink:href="INSPIRE_TN.gml#inspire.tn.gp.endLifespanVersion" />
+            <itsgml:property>
                 <itsgml:FC_FeatureAttribute gml:id="INSPIRE_TN.NetworkProperty.networkRef">
                     <itsgml:memberName>networkRef</itsgml:memberName>
                     <itsgml:cardinality>
@@ -637,14 +637,14 @@
                      <itsgml:valueType>NetworkReference</itsgml:valueType>
                      <itsgml:dataType xlink:href="INSPIRE_TN.gml#INSPIRE_TN.NetworkReference" />
                 </itsgml:FC_FeatureAttribute>
-            </itsgml:carrierOfCharacteristics>
+            </itsgml:property>
         </itsgml:FC_FeatureType>
     </itsgml:classifier>
     <itsgml:classifier>
         <itsgml:FC_DataType gml:id="INSPIRE_TN.NetworkReference">
             <itsgml:typeName>NetworkReference</itsgml:typeName>
             <itsgml:isAbstract>false</itsgml:isAbstract>
-            <itsgml:carrierOfCharacteristics>
+            <itsgml:property>
                 <itsgml:FC_AssociationRole gml:id="INSPIRE_TN.AssociationRoles.NetworkReference.101890">
                     <itsgml:memberName>element</itsgml:memberName>
                     <itsgml:cardinality>
@@ -666,7 +666,7 @@
                     <itsgml:isNavigable>true</itsgml:isNavigable>
                     <itsgml:rolePlayer xlink:href="INSPIRE_TN.gml#INSPIRE_TN.NetworkElement" />
                 </itsgml:FC_AssociationRole>
-            </itsgml:carrierOfCharacteristics>
+            </itsgml:property>
         </itsgml:FC_DataType>
     </itsgml:classifier>
     <itsgml:classifier>
@@ -674,7 +674,7 @@
             <itsgml:typeName>RoadWidth</itsgml:typeName>
             <itsgml:isAbstract>false</itsgml:isAbstract>
             <itsgml:inheritsFrom xlink:href="INSPIRE_TN.gml#INSPIRE_TN.TransportProperty" />
-            <itsgml:carrierOfCharacteristics>
+            <itsgml:property>
                 <itsgml:FC_FeatureAttribute gml:id="INSPIRE_TN.RoadWidth.measuredRoadPart">
                     <itsgml:memberName>measuredRoadPart</itsgml:memberName>
                     <itsgml:cardinality>
@@ -694,8 +694,8 @@
                      <itsgml:valueType>RoadPartValue</itsgml:valueType>
                      <itsgml:valueDomain xlink:href="INSPIRE_TN.gml#INSPIRE_TN.RoadPartValue" />
                 </itsgml:FC_FeatureAttribute>
-            </itsgml:carrierOfCharacteristics>
-            <itsgml:carrierOfCharacteristics>
+            </itsgml:property>
+            <itsgml:property>
                 <itsgml:FC_FeatureAttribute gml:id="INSPIRE_TN.RoadWidth.width">
                     <itsgml:memberName>width</itsgml:memberName>
                     <itsgml:cardinality>
@@ -714,7 +714,7 @@
                     </itsgml:cardinality>
                      <itsgml:valueType>Measure</itsgml:valueType>
                 </itsgml:FC_FeatureAttribute>
-            </itsgml:carrierOfCharacteristics>
+            </itsgml:property>
         </itsgml:FC_FeatureType>
     </itsgml:classifier>
     <itsgml:classifier>
@@ -722,7 +722,7 @@
             <itsgml:typeName>SpeedLimit</itsgml:typeName>
             <itsgml:isAbstract>false</itsgml:isAbstract>
             <itsgml:inheritsFrom xlink:href="INSPIRE_TN.gml#INSPIRE_TN.TransportProperty" />
-            <itsgml:carrierOfCharacteristics>
+            <itsgml:property>
                 <itsgml:FC_FeatureAttribute gml:id="INSPIRE_TN.SpeedLimit.areaCondition">
                     <itsgml:memberName>areaCondition</itsgml:memberName>
                     <itsgml:cardinality>
@@ -742,8 +742,8 @@
                      <itsgml:valueType>AreaConditionValue</itsgml:valueType>
                      <itsgml:valueDomain xlink:href="INSPIRE_TN.gml#INSPIRE_TN.AreaConditionValue" />
                 </itsgml:FC_FeatureAttribute>
-            </itsgml:carrierOfCharacteristics>
-            <itsgml:carrierOfCharacteristics>
+            </itsgml:property>
+            <itsgml:property>
                 <itsgml:FC_FeatureAttribute gml:id="INSPIRE_TN.SpeedLimit.direction">
                     <itsgml:memberName>direction</itsgml:memberName>
                     <itsgml:cardinality>
@@ -763,8 +763,8 @@
                      <itsgml:valueType>LinkDirectionValue</itsgml:valueType>
                      <itsgml:valueDomain xlink:href="INSPIRE_TN.gml#INSPIRE_TN.LinkDirectionValue" />
                 </itsgml:FC_FeatureAttribute>
-            </itsgml:carrierOfCharacteristics>
-            <itsgml:carrierOfCharacteristics>
+            </itsgml:property>
+            <itsgml:property>
                 <itsgml:FC_FeatureAttribute gml:id="INSPIRE_TN.SpeedLimit.laneExtension">
                     <itsgml:memberName>laneExtension</itsgml:memberName>
                     <itsgml:cardinality>
@@ -783,8 +783,8 @@
                     </itsgml:cardinality>
                      <itsgml:valueType>Integer</itsgml:valueType>
                 </itsgml:FC_FeatureAttribute>
-            </itsgml:carrierOfCharacteristics>
-            <itsgml:carrierOfCharacteristics>
+            </itsgml:property>
+            <itsgml:property>
                 <itsgml:FC_FeatureAttribute gml:id="INSPIRE_TN.SpeedLimit.speedLimitMinMaxType">
                     <itsgml:memberName>speedLimitMinMaxType</itsgml:memberName>
                     <itsgml:cardinality>
@@ -804,8 +804,8 @@
                      <itsgml:valueType>SpeedLimitMinMaxValue</itsgml:valueType>
                      <itsgml:valueDomain xlink:href="INSPIRE_TN.gml#INSPIRE_TN.SpeedLimitMinMaxValue" />
                 </itsgml:FC_FeatureAttribute>
-            </itsgml:carrierOfCharacteristics>
-            <itsgml:carrierOfCharacteristics>
+            </itsgml:property>
+            <itsgml:property>
                 <itsgml:FC_FeatureAttribute gml:id="INSPIRE_TN.SpeedLimit.speedLimitSource">
                     <itsgml:memberName>speedLimitSource</itsgml:memberName>
                     <itsgml:cardinality>
@@ -825,8 +825,8 @@
                      <itsgml:valueType>SpeedLimitSourceValue</itsgml:valueType>
                      <itsgml:valueDomain xlink:href="INSPIRE_TN.gml#INSPIRE_TN.SpeedLimitSourceValue" />
                 </itsgml:FC_FeatureAttribute>
-            </itsgml:carrierOfCharacteristics>
-            <itsgml:carrierOfCharacteristics>
+            </itsgml:property>
+            <itsgml:property>
                 <itsgml:FC_FeatureAttribute gml:id="INSPIRE_TN.SpeedLimit.speedLimitValue">
                     <itsgml:memberName>speedLimitValue</itsgml:memberName>
                     <itsgml:cardinality>
@@ -845,8 +845,8 @@
                     </itsgml:cardinality>
                      <itsgml:valueType>Velocity</itsgml:valueType>
                 </itsgml:FC_FeatureAttribute>
-            </itsgml:carrierOfCharacteristics>
-            <itsgml:carrierOfCharacteristics>
+            </itsgml:property>
+            <itsgml:property>
                 <itsgml:FC_FeatureAttribute gml:id="INSPIRE_TN.SpeedLimit.startLane">
                     <itsgml:memberName>startLane</itsgml:memberName>
                     <itsgml:cardinality>
@@ -865,8 +865,8 @@
                     </itsgml:cardinality>
                      <itsgml:valueType>Integer</itsgml:valueType>
                 </itsgml:FC_FeatureAttribute>
-            </itsgml:carrierOfCharacteristics>
-            <itsgml:carrierOfCharacteristics>
+            </itsgml:property>
+            <itsgml:property>
                 <itsgml:FC_FeatureAttribute gml:id="INSPIRE_TN.SpeedLimit.validityPeriod">
                     <itsgml:memberName>validityPeriod</itsgml:memberName>
                     <itsgml:cardinality>
@@ -885,8 +885,8 @@
                     </itsgml:cardinality>
                      <itsgml:valueType>TM_Period</itsgml:valueType>
                 </itsgml:FC_FeatureAttribute>
-            </itsgml:carrierOfCharacteristics>
-            <itsgml:carrierOfCharacteristics>
+            </itsgml:property>
+            <itsgml:property>
                 <itsgml:FC_FeatureAttribute gml:id="INSPIRE_TN.SpeedLimit.vehicleType">
                     <itsgml:memberName>vehicleType</itsgml:memberName>
                     <itsgml:cardinality>
@@ -906,8 +906,8 @@
                      <itsgml:valueType>VehicleTypeValue</itsgml:valueType>
                      <itsgml:valueDomain xlink:href="INSPIRE_TN.gml#INSPIRE_TN.VehicleTypeValue" />
                 </itsgml:FC_FeatureAttribute>
-            </itsgml:carrierOfCharacteristics>
-            <itsgml:carrierOfCharacteristics>
+            </itsgml:property>
+            <itsgml:property>
                 <itsgml:FC_FeatureAttribute gml:id="INSPIRE_TN.SpeedLimit.weatherCondition">
                     <itsgml:memberName>weatherCondition</itsgml:memberName>
                     <itsgml:cardinality>
@@ -927,7 +927,7 @@
                      <itsgml:valueType>WeatherConditionValue</itsgml:valueType>
                      <itsgml:valueDomain xlink:href="INSPIRE_TN.gml#INSPIRE_TN.WeatherConditionValue" />
                 </itsgml:FC_FeatureAttribute>
-            </itsgml:carrierOfCharacteristics>
+            </itsgml:property>
         </itsgml:FC_FeatureType>
     </itsgml:classifier>
     <itsgml:classifier>
@@ -935,7 +935,7 @@
             <itsgml:typeName>TransportProperty</itsgml:typeName>
             <itsgml:isAbstract>true</itsgml:isAbstract>
             <itsgml:inheritsFrom xlink:href="INSPIRE_TN.gml#INSPIRE_TN.NetworkProperty" />
-            <itsgml:carrierOfCharacteristics>
+            <itsgml:property>
                 <itsgml:FC_FeatureAttribute gml:id="INSPIRE_TN.TransportProperty.validFrom">
                     <itsgml:memberName>validFrom</itsgml:memberName>
                     <itsgml:cardinality>
@@ -954,8 +954,8 @@
                     </itsgml:cardinality>
                      <itsgml:valueType>DateTime</itsgml:valueType>
                 </itsgml:FC_FeatureAttribute>
-            </itsgml:carrierOfCharacteristics>
-            <itsgml:carrierOfCharacteristics>
+            </itsgml:property>
+            <itsgml:property>
                 <itsgml:FC_FeatureAttribute gml:id="INSPIRE_TN.TransportProperty.validTo">
                     <itsgml:memberName>validTo</itsgml:memberName>
                     <itsgml:cardinality>
@@ -974,7 +974,7 @@
                     </itsgml:cardinality>
                      <itsgml:valueType>DateTime</itsgml:valueType>
                 </itsgml:FC_FeatureAttribute>
-            </itsgml:carrierOfCharacteristics>
+            </itsgml:property>
         </itsgml:FC_FeatureType>
     </itsgml:classifier>
 </itsgml:FC_FeatureCatalogue>

@@ -1,10 +1,20 @@
-<?xml version="1.0" encoding="UTF-8"?><schema xmlns="http://www.w3.org/2001/XMLSchema" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:gmx="http://www.isotc211.org/2005/gmx" xmlns:itsgml="https://raw.githubusercontent.com/jetgeo/ITSGML/master/XSD" elementFormDefault="qualified" targetNamespace="https://raw.githubusercontent.com/jetgeo/ITSGML/master/XSD" version="0.1">
-  <import namespace="http://www.isotc211.org/2005/gco" schemaLocation="http://schemas.opengis.net/iso/19139/20070417/gco/gco.xsd"/>
-  <import namespace="http://www.isotc211.org/2005/gmd" schemaLocation="http://schemas.opengis.net/iso/19139/20070417/gmd/gmd.xsd"/>
-  <import namespace="http://www.isotc211.org/2005/gmx" schemaLocation="http://schemas.opengis.net/iso/19139/20070417/gmx/gmx.xsd"/>
-  <import namespace="http://www.opengis.net/gml/3.2" schemaLocation="http://schemas.opengis.net/gml/3.2.1/gml.xsd"/>
+<?xml version="1.0" encoding="UTF-8"?><schema xmlns="http://www.w3.org/2001/XMLSchema" xmlns:gco="http://www.isotc211.org/2005/gco"
+  xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gml="http://www.opengis.net/gml/3.2"
+  xmlns:gmx="http://www.isotc211.org/2005/gmx"
+  xmlns:itsgml="https://raw.githubusercontent.com/jetgeo/ITSGML/master/XSD"
+  elementFormDefault="qualified"
+  targetNamespace="https://raw.githubusercontent.com/jetgeo/ITSGML/master/XSD" version="0.1">
+  <import namespace="http://www.isotc211.org/2005/gco"
+    schemaLocation="http://schemas.opengis.net/iso/19139/20070417/gco/gco.xsd"/>
+  <import namespace="http://www.isotc211.org/2005/gmd"
+    schemaLocation="http://schemas.opengis.net/iso/19139/20070417/gmd/gmd.xsd"/>
+  <import namespace="http://www.isotc211.org/2005/gmx"
+    schemaLocation="http://schemas.opengis.net/iso/19139/20070417/gmx/gmx.xsd"/>
+  <import namespace="http://www.opengis.net/gml/3.2"
+    schemaLocation="http://schemas.opengis.net/gml/3.2.1/gml.xsd"/>
   <!--XML Schema document created by ShapeChange - http://shapechange.net/-->
-  <element abstract="true" name="CT_Catalogue" substitutionGroup="gml:AbstractFeature" type="itsgml:CT_CatalogueType"/>
+  <element abstract="true" name="CT_Catalogue" substitutionGroup="gml:AbstractFeature"
+    type="itsgml:CT_CatalogueType"/>
   <complexType abstract="true" name="CT_CatalogueType">
     <complexContent>
       <extension base="gml:AbstractFeatureType">
@@ -16,8 +26,10 @@
           <element name="versionDate" type="date"/>
           <element minOccurs="0" name="language" type="string"/>
           <element minOccurs="0" name="characterSet" type="gmd:MD_CharacterSetCode_PropertyType"/>
-          <element maxOccurs="unbounded" minOccurs="0" name="locale" type="gmd:PT_Locale_PropertyType"/>
-          <element maxOccurs="unbounded" minOccurs="0" name="subCatalogue" type="gmx:CT_Catalogue_PropertyType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="locale"
+            type="gmd:PT_Locale_PropertyType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="subCatalogue"
+            type="gmx:CT_Catalogue_PropertyType"/>
         </sequence>
       </extension>
     </complexContent>
@@ -29,7 +41,8 @@
     <attributeGroup ref="gml:AssociationAttributeGroup"/>
     <attributeGroup ref="gml:OwnershipAttributeGroup"/>
   </complexType>
-  <element name="FC_AssociationRole" substitutionGroup="itsgml:FC_PropertyType" type="itsgml:FC_AssociationRoleType"/>
+  <element name="FC_AssociationRole" substitutionGroup="itsgml:FC_PropertyType"
+    type="itsgml:FC_AssociationRoleType"/>
   <complexType name="FC_AssociationRoleType">
     <complexContent>
       <extension base="itsgml:FC_PropertyTypeType">
@@ -49,7 +62,8 @@
     <attributeGroup ref="gml:AssociationAttributeGroup"/>
     <attributeGroup ref="gml:OwnershipAttributeGroup"/>
   </complexType>
-  <element name="FC_DataType" substitutionGroup="itsgml:FC_FeatureType" type="itsgml:FC_DataTypeType"/>
+  <element name="FC_DataType" substitutionGroup="itsgml:FC_FeatureType"
+    type="itsgml:FC_DataTypeType"/>
   <complexType name="FC_DataTypeType">
     <complexContent>
       <extension base="itsgml:FC_FeatureTypeType">
@@ -64,7 +78,8 @@
     <attributeGroup ref="gml:AssociationAttributeGroup"/>
     <attributeGroup ref="gml:OwnershipAttributeGroup"/>
   </complexType>
-  <element name="FC_FeatureAssociation" substitutionGroup="itsgml:FC_FeatureType" type="itsgml:FC_FeatureAssociationType"/>
+  <element name="FC_FeatureAssociation" substitutionGroup="itsgml:FC_FeatureType"
+    type="itsgml:FC_FeatureAssociationType"/>
   <complexType name="FC_FeatureAssociationType">
     <complexContent>
       <extension base="itsgml:FC_FeatureTypeType">
@@ -92,7 +107,8 @@
     <attributeGroup ref="gml:AssociationAttributeGroup"/>
     <attributeGroup ref="gml:OwnershipAttributeGroup"/>
   </complexType>
-  <element name="FC_FeatureAttribute" substitutionGroup="itsgml:FC_PropertyType" type="itsgml:FC_FeatureAttributeType"/>
+  <element name="FC_FeatureAttribute" substitutionGroup="itsgml:FC_PropertyType"
+    type="itsgml:FC_FeatureAttributeType"/>
   <complexType name="FC_FeatureAttributeType">
     <complexContent>
       <extension base="itsgml:FC_PropertyTypeType">
@@ -113,7 +129,8 @@
     <attributeGroup ref="gml:AssociationAttributeGroup"/>
     <attributeGroup ref="gml:OwnershipAttributeGroup"/>
   </complexType>
-  <element name="FC_FeatureCatalogue" substitutionGroup="gmx:AbstractCT_Catalogue" type="itsgml:FC_FeatureCatalogueType"/>
+  <element name="FC_FeatureCatalogue" substitutionGroup="gmx:AbstractCT_Catalogue"
+    type="itsgml:FC_FeatureCatalogueType"/>
   <complexType name="FC_FeatureCatalogueType">
     <complexContent>
       <extension base="gmx:AbstractCT_Catalogue_Type">
@@ -168,7 +185,8 @@
     <attributeGroup ref="gml:AssociationAttributeGroup"/>
     <attributeGroup ref="gml:OwnershipAttributeGroup"/>
   </complexType>
-  <element name="FC_FeatureType" substitutionGroup="gml:AbstractFeature" type="itsgml:FC_FeatureTypeType"/>
+  <element name="FC_FeatureType" substitutionGroup="gml:AbstractFeature"
+    type="itsgml:FC_FeatureTypeType"/>
   <complexType name="FC_FeatureTypeType">
     <complexContent>
       <extension base="gml:AbstractFeatureType">
@@ -179,6 +197,8 @@
           <element name="isAbstract" type="boolean"/>
           <element maxOccurs="unbounded" minOccurs="0" name="aliases" type="gml:CodeType"/>
           <element minOccurs="0" name="designation" type="string"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="inheritsFrom"
+            type="itsgml:FC_FeatureTypePropertyType"/>
           <element maxOccurs="unbounded" minOccurs="0" name="property">
             <complexType>
               <complexContent>
@@ -191,7 +211,6 @@
               </complexContent>
             </complexType>
           </element>
-          <element maxOccurs="unbounded" minOccurs="0" name="inheritsFrom" type="itsgml:FC_FeatureTypePropertyType"/>
         </sequence>
       </extension>
     </complexContent>
@@ -203,7 +222,8 @@
     <attributeGroup ref="gml:AssociationAttributeGroup"/>
     <attributeGroup ref="gml:OwnershipAttributeGroup"/>
   </complexType>
-  <element name="FC_ListedValue" substitutionGroup="gml:AbstractFeature" type="itsgml:FC_ListedValueType"/>
+  <element name="FC_ListedValue" substitutionGroup="gml:AbstractFeature"
+    type="itsgml:FC_ListedValueType"/>
   <complexType name="FC_ListedValueType">
     <complexContent>
       <extension base="gml:AbstractFeatureType">
@@ -223,7 +243,8 @@
     <attributeGroup ref="gml:AssociationAttributeGroup"/>
     <attributeGroup ref="gml:OwnershipAttributeGroup"/>
   </complexType>
-  <element abstract="true" name="FC_PropertyType" substitutionGroup="gml:AbstractFeature" type="itsgml:FC_PropertyTypeType"/>
+  <element abstract="true" name="FC_PropertyType" substitutionGroup="gml:AbstractFeature"
+    type="itsgml:FC_PropertyTypeType"/>
   <complexType abstract="true" name="FC_PropertyTypeType">
     <complexContent>
       <extension base="gml:AbstractFeatureType">
@@ -258,7 +279,8 @@
       <pattern value="other: \w{2,}"/>
     </restriction>
   </simpleType>
-  <element name="FC_ValueDomain" substitutionGroup="gml:AbstractFeature" type="itsgml:FC_ValueDomainType"/>
+  <element name="FC_ValueDomain" substitutionGroup="gml:AbstractFeature"
+    type="itsgml:FC_ValueDomainType"/>
   <complexType name="FC_ValueDomainType">
     <complexContent>
       <extension base="gml:AbstractFeatureType">
@@ -267,7 +289,8 @@
           <element minOccurs="0" name="definition" type="string"/>
           <element minOccurs="0" name="code" type="string"/>
           <element minOccurs="0" name="designation" type="string"/>
-          <element maxOccurs="unbounded" minOccurs="0" name="listedValue" type="itsgml:FC_ListedValuePropertyType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="listedValue"
+            type="itsgml:FC_ListedValuePropertyType"/>
         </sequence>
       </extension>
     </complexContent>
