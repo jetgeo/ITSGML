@@ -1,8 +1,132 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<schema xmlns="http://www.w3.org/2001/XMLSchema" xmlns:itsgml="https://raw.githubusercontent.com/jetgeo/ITSGML/master/XSD"
-  elementFormDefault="qualified" targetNamespace="https://raw.githubusercontent.com/jetgeo/ITSGML/master/XSD" version="0.1">
-  <include schemaLocation="Conditions.xsd"/>
-  <include schemaLocation="Dataset.xsd"/>
+<schema xmlns="http://www.w3.org/2001/XMLSchema" xmlns:gml="http://www.opengis.net/gml/3.2"
+  xmlns:gmllr="http://www.opengis.net/gml/3.3/lr"
+  xmlns:itsgml="https://raw.githubusercontent.com/jetgeo/ITSGML/master/XSD"
+  elementFormDefault="qualified"
+  targetNamespace="https://raw.githubusercontent.com/jetgeo/ITSGML/master/XSD" version="0.1">
   <include schemaLocation="LocationReferencing.xsd"/>
-  <include schemaLocation="RoadFeatures.xsd"/>
+  <include schemaLocation="itsfcm.xsd"/>
+  <import namespace="http://www.opengis.net/gml/3.3/lr"
+    schemaLocation="http://schemas.opengis.net/gml/3.3/linearRef.xsd"/>
+  <import namespace="http://www.opengis.net/gml/3.2"
+    schemaLocation="http://schemas.opengis.net/gml/3.2.1/gml.xsd"/>
+  <!--XML Schema document created by ShapeChange - http://shapechange.net/-->
+  <element name="FeatureSet" substitutionGroup="gml:AbstractFeature" type="itsgml:FeatureSetType"/>
+  <complexType name="FeatureSetType">
+    <complexContent>
+      <extension base="gml:AbstractFeatureType">
+        <sequence>
+          <element minOccurs="0" name="defaultLRM" type="gmllr:LinearReferencingMethodPropertyType"/>
+          <element maxOccurs="unbounded" name="feature">
+            <complexType>
+              <complexContent>
+                <extension base="gml:AbstractFeatureMemberType">
+                  <sequence minOccurs="0" maxOccurs="unbounded">
+                    <element ref="itsgml:Feature"/>
+                  </sequence>
+                  <attributeGroup ref="gml:AssociationAttributeGroup"/>
+                </extension>
+              </complexContent>
+            </complexType>
+          </element>
+        </sequence>
+      </extension>
+    </complexContent>
+  </complexType>
+  <complexType name="FeatureSetPropertyType">
+    <sequence minOccurs="0">
+      <element ref="itsgml:FeatureSet"/>
+    </sequence>
+    <attributeGroup ref="gml:AssociationAttributeGroup"/>
+    <attributeGroup ref="gml:OwnershipAttributeGroup"/>
+  </complexType>
+  <element name="Feature" substitutionGroup="gml:AbstractFeature" type="itsgml:FeatureType"/>
+  <complexType name="FeatureType">
+    <complexContent>
+      <extension base="gml:AbstractFeatureType">
+        <sequence>
+          <element name="validFrom" type="date"/>
+          <element minOccurs="0" name="validTo" type="date"/>
+          <element name="beginLifespanVersion" type="dateTime">
+            <annotation>
+              <documentation>Date and time at which this version of the spatial object was inserted
+                or changed in the spatial data set.</documentation>
+            </annotation>
+          </element>
+          <element minOccurs="0" name="endLifespanVersion" type="dateTime">
+            <annotation>
+              <documentation>Date and time at which this version of the spatial object was
+                superseded or retired in the spatial data set.</documentation>
+            </annotation>
+          </element>
+          <element maxOccurs="unbounded" name="locationReference"
+            type="itsgml:LocationReferencePropertyType"/>
+          <element maxOccurs="1" name="featureTypeReference">
+            <complexType>
+              <complexContent>
+                <extension base="gml:AbstractFeatureMemberType">
+                  <sequence minOccurs="0">
+                    <element ref="itsgml:FC_FeatureType"/>
+                  </sequence>
+                  <attributeGroup ref="gml:AssociationAttributeGroup"/>
+                </extension>
+              </complexContent>
+            </complexType>
+          </element>
+          <element maxOccurs="unbounded" minOccurs="0" name="property">
+            <complexType>
+              <complexContent>
+                <extension base="gml:AbstractFeatureMemberType">
+                  <sequence minOccurs="0" maxOccurs="unbounded">
+                    <element ref="itsgml:GenericFeatureProperty"/>
+                  </sequence>
+                  <attributeGroup ref="gml:AssociationAttributeGroup"/>
+                </extension>
+              </complexContent>
+            </complexType>
+          </element>
+        </sequence>
+      </extension>
+    </complexContent>
+  </complexType>
+  <complexType name="FeaturePropertyType">
+    <sequence minOccurs="0">
+      <element ref="itsgml:Feature"/>
+    </sequence>
+    <attributeGroup ref="gml:AssociationAttributeGroup"/>
+    <attributeGroup ref="gml:OwnershipAttributeGroup"/>
+  </complexType>
+  <element name="GenericFeatureProperty" substitutionGroup="gml:AbstractObject"
+    type="itsgml:GenericFeaturePropertyType"/>
+  <complexType name="GenericFeaturePropertyType">
+    <sequence>
+      <element maxOccurs="1" name="propertyTypeReference">
+        <complexType>
+          <complexContent>
+            <extension base="gml:AbstractFeatureMemberType">
+              <sequence minOccurs="0">
+                <element ref="itsgml:FC_PropertyType"/>
+              </sequence>
+              <attributeGroup ref="gml:AssociationAttributeGroup"/>
+            </extension>
+          </complexContent>
+        </complexType>
+      </element>
+      <element maxOccurs="unbounded" minOccurs="0" name="value">
+        <complexType>
+          <sequence minOccurs="0">
+            <element ref="gml:AbstractObject"/>
+          </sequence>
+          <attributeGroup ref="gml:AssociationAttributeGroup"/>
+        </complexType>
+      </element>
+      <element maxOccurs="unbounded" minOccurs="0" name="valueReference" type="gml:ReferenceType"/>
+    </sequence>
+  </complexType>
+  <complexType name="GenericFeaturePropertyPropertyType">
+    <sequence>
+      <element ref="itsgml:GenericFeatureProperty"/>
+    </sequence>
+  </complexType>
+
 </schema>

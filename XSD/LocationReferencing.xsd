@@ -8,7 +8,7 @@
 <schema xmlns="http://www.w3.org/2001/XMLSchema" xmlns:gml="http://www.opengis.net/gml/3.2"
   xmlns:gmllr="http://www.opengis.net/gml/3.3/lr" xmlns:itsgml="https://raw.githubusercontent.com/jetgeo/ITSGML/master/XSD" elementFormDefault="qualified"
   targetNamespace="https://raw.githubusercontent.com/jetgeo/ITSGML/master/XSD" version="0.1">
-  <include schemaLocation="itsgml.xsd"/>
+  <!--<include schemaLocation="itsgml.xsd"/>-->
   <include schemaLocation="openlr.xsd"/>
   <import namespace="http://www.opengis.net/gml/3.2"
     schemaLocation="http://schemas.opengis.net/gml/3.2.1/gml.xsd"/>

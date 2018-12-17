@@ -1,28 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <schema xmlns="http://www.w3.org/2001/XMLSchema" xmlns:gml="http://www.opengis.net/gml/3.2"
-  xmlns:itsgml="https://raw.githubusercontent.com/jetgeo/ITSGML/master/XSD" elementFormDefault="qualified"
+  xmlns:itsgml="https://raw.githubusercontent.com/jetgeo/ITSGML/master/XSD"
+  elementFormDefault="qualified"
   targetNamespace="https://raw.githubusercontent.com/jetgeo/ITSGML/master/XSD" version="0.1">
   <include schemaLocation="Conditions.xsd"/>
   <include schemaLocation="LocationReferencing.xsd"/>
-  <include schemaLocation="itsgml.xsd"/>
+  <!--<include schemaLocation="itsgml.xsd"/>-->
   <import namespace="http://www.opengis.net/gml/3.2"
     schemaLocation="http://schemas.opengis.net/gml/3.2.1/gml.xsd"/>
-  <element abstract="true" name="AbstractRoadFeatureProperty" substitutionGroup="gml:AbstractObject"
-    type="itsgml:AbstractRoadFeaturePropertyType"/>
-  <complexType abstract="true" name="AbstractRoadFeaturePropertyType">
-    <sequence/>
-  </complexType>
-  <complexType name="AbstractRoadFeaturePropertyPropertyType">
-    <sequence>
-      <element ref="itsgml:AbstractRoadFeatureProperty"/>
-    </sequence>
-  </complexType>
-  <element name="GenericRoadFeatureProperty" substitutionGroup="itsgml:AbstractRoadFeatureProperty"
+  <element name="GenericRoadFeatureProperty" substitutionGroup="gml:AbstractFeature"
     type="itsgml:GenericRoadFeaturePropertyType"/>
   <complexType name="GenericRoadFeaturePropertyType">
     <complexContent>
-      <extension base="itsgml:AbstractRoadFeaturePropertyType">
+      <extension base="gml:AbstractFeatureType">
         <sequence>
           <element name="type" type="gml:ReferenceType"/>
           <element maxOccurs="unbounded" minOccurs="0" name="value">
@@ -66,8 +57,7 @@
           <element name="source" type="gml:ReferenceType"/>
           <element name="type" type="gml:ReferenceType"/>
           <element maxOccurs="unbounded" minOccurs="0" name="properties"
-            type="itsgml:AbstractRoadFeaturePropertyPropertyType"/>
-          <element name="id" type="itsgml:RoadFeatureIdPropertyType"/>
+            type="itsgml:GenericRoadFeaturePropertyPropertyType"/>
           <element minOccurs="0" name="condition" type="itsgml:ConditionPropertyType"/>
           <element maxOccurs="unbounded" name="locationReference"
             type="itsgml:LocationReferencePropertyType"/>
@@ -81,50 +71,5 @@
     </sequence>
     <attributeGroup ref="gml:AssociationAttributeGroup"/>
     <attributeGroup ref="gml:OwnershipAttributeGroup"/>
-  </complexType>
-  <element name="RoadFeatureId" substitutionGroup="gml:AbstractObject"
-    type="itsgml:RoadFeatureIdType"/>
-  <complexType name="RoadFeatureIdType">
-    <sequence>
-      <element name="providerId" type="string"/>
-      <element name="id" type="string"/>
-    </sequence>
-  </complexType>
-  <complexType name="RoadFeatureIdPropertyType">
-    <sequence>
-      <element ref="itsgml:RoadFeatureId"/>
-    </sequence>
-  </complexType>
-  <element name="RoadSignContent" substitutionGroup="gml:AbstractObject"
-    type="itsgml:RoadSignContentType"/>
-  <complexType name="RoadSignContentType">
-    <sequence>
-      <element minOccurs="0" name="value" type="gml:MeasureType"/>
-      <element minOccurs="0" name="text" type="string"/>
-      <element minOccurs="0" name="natureOfDistance" type="gml:ReferenceType"/>
-    </sequence>
-  </complexType>
-  <complexType name="RoadSignContentPropertyType">
-    <sequence>
-      <element ref="itsgml:RoadSignContent"/>
-    </sequence>
-  </complexType>
-  <element name="RoadSignProperty" substitutionGroup="itsgml:AbstractRoadFeatureProperty"
-    type="itsgml:RoadSignPropertyType"/>
-  <complexType name="RoadSignPropertyType">
-    <complexContent>
-      <extension base="itsgml:AbstractRoadFeaturePropertyType">
-        <sequence>
-          <element name="gddCode" type="gml:ReferenceType"/>
-          <element maxOccurs="unbounded" minOccurs="0" name="content"
-            type="itsgml:RoadSignContentPropertyType"/>
-        </sequence>
-      </extension>
-    </complexContent>
-  </complexType>
-  <complexType name="RoadSignPropertyPropertyType">
-    <sequence>
-      <element ref="itsgml:RoadSignProperty"/>
-    </sequence>
   </complexType>
 </schema>
