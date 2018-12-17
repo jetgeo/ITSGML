@@ -6,15 +6,18 @@
 <!--2018-01-28        01                 KJe      Manually change from gml:CodeType to gml:ReferenceType     -->
 <!--2018-01-28        01                 KJe      Manually add gml 3.3 namespace, schema and datatype     -->
 <schema xmlns="http://www.w3.org/2001/XMLSchema" xmlns:gml="http://www.opengis.net/gml/3.2"
-  xmlns:gmllr="http://www.opengis.net/gml/3.3/lr" xmlns:itsgml="https://raw.githubusercontent.com/jetgeo/ITSGML/master/XSD" elementFormDefault="qualified"
+  xmlns:gmllr="http://www.opengis.net/gml/3.3/lr"
+  xmlns:itsgml="https://raw.githubusercontent.com/jetgeo/ITSGML/master/XSD"
+  elementFormDefault="qualified"
   targetNamespace="https://raw.githubusercontent.com/jetgeo/ITSGML/master/XSD" version="0.1">
   <!--<include schemaLocation="itsgml.xsd"/>-->
   <include schemaLocation="openlr.xsd"/>
+  <include schemaLocation="network.xsd"/>
   <import namespace="http://www.opengis.net/gml/3.2"
     schemaLocation="http://schemas.opengis.net/gml/3.2.1/gml.xsd"/>
   <import namespace="http://www.opengis.net/gml/3.3/lr"
     schemaLocation="http://schemas.opengis.net/gml/3.3/linearRef.xsd"/>
- 
+
   <!--XML Schema document created by ShapeChange - http://shapechange.net/-->
   <element name="AgoraLocationReference" substitutionGroup="itsgml:DynamicLocationReference"
     type="itsgml:AgoraLocationReferenceType"/>
@@ -76,43 +79,6 @@
       <element ref="itsgml:GeometryLocationReference"/>
     </sequence>
   </complexType>
-  <element name="Identifier" substitutionGroup="gml:AbstractObject" type="itsgml:IdentifierType">
-    <annotation>
-      <documentation>External unique object identifier published by the responsible body, which may
-        be used by external applications to reference the spatial object.</documentation>
-    </annotation>
-  </element>
-  <complexType name="IdentifierType">
-    <sequence>
-      <element name="localId" type="string">
-        <annotation>
-          <documentation>A local identifier, assigned by the data provider. The local identifier is
-            unique within the namespace, that is no other spatial object carries the same unique
-            identifier.</documentation>
-        </annotation>
-      </element>
-      <element name="namespace" type="string">
-        <annotation>
-          <documentation>Namespace uniquely identifying the data source of the spatial
-            object.</documentation>
-        </annotation>
-      </element>
-      <element minOccurs="0" name="versionId" type="string">
-        <annotation>
-          <documentation>The identifier of the particular version of the spatial object, with a
-            maximum length of 25 characters. If the specification of a spatial object type with an
-            external object identifier includes life-cycle information, the version identifier is
-            used to distinguish between the different versions of a spatial object. Within the set
-            of all versions of a spatial object, the version identifier is unique.</documentation>
-        </annotation>
-      </element>
-    </sequence>
-  </complexType>
-  <complexType name="IdentifierPropertyType">
-    <sequence>
-      <element ref="itsgml:Identifier"/>
-    </sequence>
-  </complexType>
   <element name="LinearLocationReference" substitutionGroup="itsgml:PreCodedLocationReference"
     type="itsgml:LinearLocationReferenceType"/>
   <complexType name="LinearLocationReferenceType">
@@ -145,8 +111,8 @@
           <element name="applicableDirection" type="gml:ReferenceType">
             <annotation>
               <documentation>The directions of the link to which the reference applies. In cases
-                where a property does not apply &lt;i&gt;to&lt;/i&gt; a direction along a link, but
-                represents a phenomenon &lt;i&gt;along&lt;/i&gt; a link, “inDirection” refers to the
+                where a property does not apply &lt;i>to&lt;/i> a direction along a link, but
+                represents a phenomenon &lt;i>along&lt;/i> a link, “inDirection” refers to the
                 right side in the direction of the link.</documentation>
             </annotation>
           </element>
@@ -185,24 +151,6 @@
       <element ref="itsgml:LocationReference"/>
     </sequence>
   </complexType>
-  <element name="NetworkElement" substitutionGroup="gml:AbstractFeature"
-    type="itsgml:NetworkElementType"/>
-  <complexType name="NetworkElementType">
-    <complexContent>
-      <extension base="gml:AbstractFeatureType">
-        <sequence>
-          <element minOccurs="0" name="id" type="itsgml:IdentifierPropertyType"/>
-        </sequence>
-      </extension>
-    </complexContent>
-  </complexType>
-  <complexType name="NetworkElementPropertyType">
-    <sequence minOccurs="0">
-      <element ref="itsgml:NetworkElement"/>
-    </sequence>
-    <attributeGroup ref="gml:AssociationAttributeGroup"/>
-    <attributeGroup ref="gml:OwnershipAttributeGroup"/>
-  </complexType>
   <element name="NetworkReference" substitutionGroup="gml:AbstractObject"
     type="itsgml:NetworkReferenceType">
     <annotation>
@@ -233,8 +181,7 @@
         <sequence>
           <element minOccurs="0" name="binaryLocationReference"
             type="itsgml:BinaryLocationReferencePropertyType"/>
-          <element minOccurs="0" name="xMLLocationReference"
-            type="itsgml:XMLLocationReference"/>
+          <element minOccurs="0" name="xMLLocationReference" type="itsgml:XMLLocationReference"/>
         </sequence>
       </extension>
     </complexContent>
