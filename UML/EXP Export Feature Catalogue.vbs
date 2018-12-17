@@ -21,10 +21,14 @@ dim lstFT
 dim lstVD
 dim lstGP
 dim lstGPid
+dim lstConn
 dim el as EA.Element
 dim elB as EA.Element
+dim elC as EA.Element
 dim eAttr as EA.Attribute
 dim eConn as EA.Connector	
+dim eCEnd as EA.ConnectorEnd
+dim eCEndSelf as EA.ConnectorEnd 
 
 'Recursive loop through datatypes to find sub datatypes and value domains
 sub recListSubElements(eDT)
@@ -49,7 +53,15 @@ sub recListSubElements(eDT)
 			end if								
 		end if
 	next
-
+	'Find subtypes of the datatype, and their datatypes...
+	for each eConn in eDT.Connectors
+		Repository.WriteOutput "Script", Now & " " & eDT.ElementID & " Connector " & eConn.Type & " Client " & eConn.ClientID & " Supplier " & eConn.SupplierID, 0
+		if eConn.Type = "Generalization" and eConn.SupplierID = eDT.ElementID and Not lstFT.Contains(eConn.ClientID) then
+			set elC = GetElementByID(eConn.ClientID)
+			lstFT.add(elC.ElementID)
+			recListSubElements(elC)
+		end if
+	next
 end sub
 
 
@@ -81,12 +93,22 @@ sub recListElements(p)
 					end if								
 				end if
 			next
+			'Find subtypes of the datatype, and their datatypes...
+			'for each eConn in el.Connectors
+			'	Repository.WriteOutput "Script", Now & " " & el.ElementID & " Connector " & eConn.Type & " Client " & eConn.ClientID & " Supplier " & eConn.SupplierID, 0
+			'	if eConn.Type = "Generalization" and eConn.SupplierID = elB.ElementID and Not lstFT.Contains(eConn.ClientID) then
+			'		set elC = GetElementByID(eConn.ClientID)
+			'		Repository.WriteOutput "Script", Now & " " & elC.Name, 0
+			'		lstFT.add(elC.ElementID)
+			'		recListSubElements(elC)
+			'	end if
+			'next
 		end if
 	next	
 	
 	dim subP as EA.Package
 	for each subP in p.packages
-	    recExportDefinitions(subP)
+	    recListElements(subP)
 	next
 
 end sub
@@ -166,6 +188,41 @@ sub exportFC
 		end if	
 	next
 	
+	'Feature associations
+	For each elId in lstFT
+		set el = GetElementByID(elId)
+		for each eConn in el.Connectors
+			If Not lstConn.Contains(eConn.ConnectorID) and eConn.Type <> "Generalization" Then 
+				lstConn.add(eConn.ConnectorID)			
+			
+				if eConn.ClientID = el.ElementID then
+					set eCEnd = eConn.SupplierEnd
+					set elB = GetElementByID(eConn.SupplierID)
+					set eCEndSelf = eConn.ClientEnd
+				else
+					set eCEnd = eConn.ClientEnd
+					set elB = GetElementByID(eConn.ClientID)
+					set eCEndSelf = eConn.SupplierEnd
+				end if
+
+				Repository.WriteOutput "Script", Now & " FeatureAssociation " & eConn.ConnectorID & " " & el.Name & " to " & elB.Name, 0
+				objFCFile.Write "    <itsgml:classifier>" & vbCrLf 
+				objFCFile.Write "        <itsgml:FC_FeatureAssociation gml:id=""" & thePackage.Name & ".Associations." & eConn.ConnectorID & """>" & vbCrLf 
+				if eConn.Name <> "" then
+					objFCFile.Write "            <itsgml:typeName>" & eConn.Name & "</itsgml:typeName>" & vbCrLf 
+				else
+					objFCFile.Write "            <itsgml:typeName>" & el.Name & "_" & elB.Name & "</itsgml:typeName>" & vbCrLf 				
+				end if
+				objFCFile.Write "            <itsgml:isAbstract>false</itsgml:isAbstract>" & vbCrLf 
+				objFCFile.Write "            <itsgml:roleName xlink:href=""" & thePackage.Name & ".gml#" & thePackage.Name & ".AssociationRoles." & el.Name & "." & eConn.ConnectorID & """ />" & vbCrLf 
+				objFCFile.Write "            <itsgml:roleName xlink:href=""" & thePackage.Name & ".gml#" & thePackage.Name & ".AssociationRoles." & elB.Name & "." & eConn.ConnectorID & """ />" & vbCrLf 
+				objFCFile.Write "        </itsgml:FC_FeatureAssociation>" & vbCrLf 
+				objFCFile.Write "    </itsgml:classifier>" & vbCrLf 
+			end if
+		next
+	next
+	
+	
 	'Feature types and data types
 	for each elId in lstFT
 		set el = GetElementByID(elId)
@@ -183,18 +240,17 @@ sub exportFC
 			objFCFile.Write "            <itsgml:isAbstract>" & isAbstract & "</itsgml:isAbstract>" & vbCrLf 
 			
 			for each eConn in el.Connectors
-				if eConn.Type = "Generalization" then
+				if eConn.Type = "Generalization" and eConn.ClientID = el.ElementID then
 					'inheritsFrom
-					if eConn.ClientID = el.ElementID then
-						set elB = GetElementByID(eConn.SupplierID)
-						Repository.WriteOutput "Script", Now & " " & "Subtype of " & elB.Name , 0
-						objFCFile.Write "            <itsgml:inheritsFrom xlink:href=""" & thePackage.Name & ".gml#" & thePackage.Name & "." & elB.Name & """ />" & vbCrLf 
-					end if
-				else
+					set elB = GetElementByID(eConn.SupplierID)
+					Repository.WriteOutput "Script", Now & " " & "Subtype of " & elB.Name , 0
+					objFCFile.Write "            <itsgml:inheritsFrom xlink:href=""" & thePackage.Name & ".gml#" & thePackage.Name & "." & elB.Name & """ />" & vbCrLf 
+				end if
+			next
+			for each eConn in el.Connectors
+				if eConn.Type <> "Generalization" then
 					'FC_AssociationRole
-					objFCFile.Write "            <itsgml:carrierOfCharacteristics>" & vbCrLf 
-					dim eCEnd as EA.ConnectorEnd
-					dim eCEndSelf as EA.ConnectorEnd 
+					objFCFile.Write "            <itsgml:property>" & vbCrLf 
 					if eConn.ClientID = el.ElementID then
 						set eCEnd = eConn.SupplierEnd
 						set elB = GetElementByID(eConn.SupplierID)
@@ -213,7 +269,7 @@ sub exportFC
 						upper = "*"
 					elseif InStr(eCEnd.Cardinality,"..") then
 					    lower = left(eCEnd.Cardinality,1)
-						upper = rigth(eCEnd.Cardinality,1)
+						upper = right(eCEnd.Cardinality,1)
 					elseif eCEnd.Cardinality <> "*" then
 						lower = eCEnd.Cardinality
 						upper = eCEnd.Cardinality
@@ -224,7 +280,7 @@ sub exportFC
 					
 					Repository.WriteOutput "Script", Now & " ConnectorID: " & eConn.ConnectorID & " Element A: " & el.ElementGUID  & " Element B: " & elB.ElementGUID, 0
 
-					objFCFile.Write "                <itsgml:FC_AssociationRole gml:id=""" & thePackage.Name & "." & el.Name & "." & eConn.ConnectorID & """>" & vbCrLf
+					objFCFile.Write "                <itsgml:FC_AssociationRole gml:id=""" & thePackage.Name & ".AssociationRoles." & el.Name & "." & eConn.ConnectorID & """>" & vbCrLf
 					if eCEnd.Role <> "" then			
 						objFCFile.Write "                    <itsgml:memberName>" & eCEnd.Role & "</itsgml:memberName>" & vbCrLf 
 					else
@@ -255,7 +311,7 @@ sub exportFC
 						case 1
 							objFCFile.Write "                    <itsgml:type>aggregation</itsgml:type>" & vbCrLf 						
 						case 2
-							objFCFile.Write "                    <itsgml:type>composite</itsgml:type>" & vbCrLf 						
+							objFCFile.Write "                    <itsgml:type>composition</itsgml:type>" & vbCrLf 						
 					end select				
 					objFCFile.Write "                    <itsgml:isOrdered>false</itsgml:isOrdered>" & vbCrLf 
 
@@ -268,16 +324,16 @@ sub exportFC
 					objFCFile.Write "                    <itsgml:rolePlayer xlink:href=""" & thePackage.Name & ".gml#" & thePackage.Name & "." & elB.Name & """ />" & vbCrLf 
 										
 					objFCFile.Write "                </itsgml:FC_AssociationRole>" & vbCrLf 	
-					objFCFile.Write "            </itsgml:carrierOfCharacteristics>" & vbCrLf 
+					objFCFile.Write "            </itsgml:property>" & vbCrLf 
 				end if		
 									
 			next
 			
 			for each eAttr in el.Attributes
 				if lstGP.Contains(eAttr.AttributeGUID) then
-					objFCFile.Write "            <itsgml:carrierOfCharacteristics xlink:href=""" & thePackage.Name & ".gml#" & eAttr.Alias & """ />" & vbCrLf 
+					objFCFile.Write "            <itsgml:property xlink:href=""" & thePackage.Name & ".gml#" & eAttr.Alias & """ />" & vbCrLf 
 				else
-					objFCFile.Write "            <itsgml:carrierOfCharacteristics>" & vbCrLf 
+					objFCFile.Write "            <itsgml:property>" & vbCrLf 
 					objFCFile.Write "                <itsgml:FC_FeatureAttribute gml:id=""" & thePackage.Name & "." & el.Name & "." & eAttr.Name & """>" & vbCrLf 
 					objFCFile.Write "                    <itsgml:memberName>" & eAttr.Name & "</itsgml:memberName>" & vbCrLf 
 					objFCFile.Write "                    <itsgml:cardinality>" & vbCrLf 
@@ -314,7 +370,7 @@ sub exportFC
 					end if
 												
 					objFCFile.Write "                </itsgml:FC_FeatureAttribute>" & vbCrLf 	
-					objFCFile.Write "            </itsgml:carrierOfCharacteristics>" & vbCrLf 
+					objFCFile.Write "            </itsgml:property>" & vbCrLf 
 				end if		
 			next
 			
@@ -337,6 +393,7 @@ sub ExportFeatureCatalogue()
 		
 	' Get the currently selected package in the tree to work on
 	set thePackage = Repository.GetTreeSelectedPackage()
+		thePackage.Name=Replace(thePackage.Name," ","",1,-1)
 		
 	if not thePackage is nothing and thePackage.ParentID <> 0 then
 		Set objFSO=CreateObject("Scripting.FileSystemObject")
@@ -346,8 +403,9 @@ sub ExportFeatureCatalogue()
 		Set lstVD = CreateObject("System.Collections.ArrayList")
 		Set lstGP = CreateObject("System.Collections.ArrayList")
 		Set lstGPid = CreateObject("System.Collections.ArrayList")
+		Set lstConn = CreateObject("System.Collections.ArrayList")
 
-Repository.WriteOutput "Script", Now & " Exporting feature catalogue to " & path & "\" & thePackage.Name & ".gml", 0 
+Repository.WriteOutput "Script", Now & " Exporting feature catalogue to " & path & thePackage.Name & ".gml", 0 
 
 		'XML Header
 		objFCFile.Write "<itsgml:FC_FeatureCatalogue xmlns:xlink=""http://www.w3.org/1999/xlink""" & vbCrLf 
@@ -381,7 +439,7 @@ Repository.WriteOutput "Script", Now & " Exporting feature catalogue to " & path
 		
 		dim d, extractDate
 		d = thePackage.Modified
-		extractDate = Year(d) & "-" & (Month(d)) & "-" & (Day(d))  
+		extractDate = Year(d) & "-" & right("00" & month(d),2) & "-" & right("00" & day(d),2)  
 		objFCFile.Write "    <gmx:versionDate>" & vbCrLf 
 		objFCFile.Write "        <gco:Date>" & extractDate & "</gco:Date>" & vbCrLf 
 		objFCFile.Write "    </gmx:versionDate>" & vbCrLf 

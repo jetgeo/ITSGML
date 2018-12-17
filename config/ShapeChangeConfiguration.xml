@@ -7,7 +7,7 @@
     <input>
         <parameter name="inputModelType" value="EA7"/>
         <parameter name="inputFile" value="C:\DATA\GitHub\ITSGML\ShapeChange.eap"/>
-        <parameter name="appSchemaName" value="Feature Catalogue Exchange Model"/>
+        <parameter name="appSchemaName" value="Network Model"/>
         <parameter name="addTaggedValues" value="SOSI_navn"/>
         <parameter name="representTaggedValues"
             value="alwaysVoid,neverVoid,Code,lastChange,appliesTo,SOSI_navn"/>

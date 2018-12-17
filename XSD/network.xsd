@@ -1,0 +1,308 @@
+<?xml version="1.0" encoding="UTF-8"?><schema xmlns="http://www.w3.org/2001/XMLSchema" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:gmlexr="http://www.opengis.net/gml/3.3/exr" xmlns:itsgml="https://raw.githubusercontent.com/jetgeo/ITSGML/master/XSD" elementFormDefault="qualified" targetNamespace="https://raw.githubusercontent.com/jetgeo/ITSGML/master/XSD" version="0.1">
+  <import namespace="http://www.opengis.net/gml/3.2" schemaLocation="http://schemas.opengis.net/gml/3.2.1/gml.xsd"/>
+  <import namespace="http://www.opengis.net/gml/3.3/exr" schemaLocation="http://schemas.opengis.net/gml/3.3/extdEncRule.xsd"/>
+  <!--XML Schema document created by ShapeChange - http://shapechange.net/-->
+  <element name="CrossReference" substitutionGroup="gml:AbstractFeature" type="itsgml:CrossReferenceType"/>
+  <complexType name="CrossReferenceType">
+    <complexContent>
+      <extension base="gml:AbstractFeatureType">
+        <sequence>
+          <element maxOccurs="2" minOccurs="2" name="element" type="gml:ReferenceType">
+            <annotation>
+              <appinfo>
+                <targetElement xmlns="http://www.opengis.net/gml/3.2">itsgml:NetworkElement</targetElement>
+              </appinfo>
+            </annotation>
+          </element>
+        </sequence>
+      </extension>
+    </complexContent>
+  </complexType>
+  <complexType name="CrossReferencePropertyType">
+    <sequence minOccurs="0">
+      <element ref="itsgml:CrossReference"/>
+    </sequence>
+    <attributeGroup ref="gml:AssociationAttributeGroup"/>
+    <attributeGroup ref="gml:OwnershipAttributeGroup"/>
+  </complexType>
+  <element name="DirectedLink" substitutionGroup="gml:AbstractObject" type="itsgml:DirectedLinkType"/>
+  <complexType name="DirectedLinkType">
+    <sequence>
+      <element name="direction" type="gml:SignType"/>
+      <element name="link" type="string">
+        <annotation>
+          <appinfo>
+            <targetElement xmlns="http://www.opengis.net/gml/3.2">itsgml:Link</targetElement>
+          </appinfo>
+        </annotation>
+      </element>
+    </sequence>
+  </complexType>
+  <complexType name="DirectedLinkPropertyType">
+    <sequence>
+      <element ref="itsgml:DirectedLink"/>
+    </sequence>
+  </complexType>
+  <element abstract="true" name="GeneralisedLink" substitutionGroup="itsgml:NetworkElement" type="itsgml:GeneralisedLinkType"/>
+  <complexType abstract="true" name="GeneralisedLinkType">
+    <complexContent>
+      <extension base="itsgml:NetworkElementType">
+        <sequence/>
+      </extension>
+    </complexContent>
+  </complexType>
+  <complexType name="GeneralisedLinkPropertyType">
+    <sequence minOccurs="0">
+      <element ref="itsgml:GeneralisedLink"/>
+    </sequence>
+    <attributeGroup ref="gml:AssociationAttributeGroup"/>
+    <attributeGroup ref="gml:OwnershipAttributeGroup"/>
+  </complexType>
+  <element name="GradeSeparatedCrossing" substitutionGroup="itsgml:NetworkElement" type="itsgml:GradeSeparatedCrossingType"/>
+  <complexType name="GradeSeparatedCrossingType">
+    <complexContent>
+      <extension base="itsgml:NetworkElementType">
+        <sequence>
+          <element maxOccurs="unbounded" minOccurs="2" name="element" type="string">
+            <annotation>
+              <appinfo>
+                <targetElement xmlns="http://www.opengis.net/gml/3.2">itsgml:Link</targetElement>
+              </appinfo>
+            </annotation>
+          </element>
+        </sequence>
+      </extension>
+    </complexContent>
+  </complexType>
+  <complexType name="GradeSeparatedCrossingPropertyType">
+    <sequence minOccurs="0">
+      <element ref="itsgml:GradeSeparatedCrossing"/>
+    </sequence>
+    <attributeGroup ref="gml:AssociationAttributeGroup"/>
+    <attributeGroup ref="gml:OwnershipAttributeGroup"/>
+  </complexType>
+  <element name="Identifier" substitutionGroup="gml:AbstractObject" type="itsgml:IdentifierType"/>
+  <complexType name="IdentifierType">
+    <sequence>
+      <element name="localId" type="string"/>
+      <element name="namespace" type="string"/>
+      <element minOccurs="0" name="versionId" nillable="true">
+        <complexType>
+          <simpleContent>
+            <extension base="string">
+              <attribute name="nilReason" type="gml:NilReasonType"/>
+            </extension>
+          </simpleContent>
+        </complexType>
+      </element>
+    </sequence>
+  </complexType>
+  <complexType name="IdentifierPropertyType">
+    <sequence>
+      <element ref="itsgml:Identifier"/>
+    </sequence>
+  </complexType>
+  <element name="Link" substitutionGroup="itsgml:GeneralisedLink" type="itsgml:LinkType"/>
+  <complexType name="LinkType">
+    <complexContent>
+      <extension base="itsgml:GeneralisedLinkType">
+        <sequence>
+          <element name="centrelineGeometry" type="gml:CurvePropertyType"/>
+          <element minOccurs="0" name="startNode" type="gml:ReferenceType">
+            <annotation>
+              <appinfo>
+                <targetElement xmlns="http://www.opengis.net/gml/3.2">itsgml:Node</targetElement>
+              </appinfo>
+            </annotation>
+          </element>
+          <element minOccurs="0" name="endNode" type="gml:ReferenceType">
+            <annotation>
+              <appinfo>
+                <targetElement xmlns="http://www.opengis.net/gml/3.2">itsgml:Node</targetElement>
+              </appinfo>
+            </annotation>
+          </element>
+        </sequence>
+      </extension>
+    </complexContent>
+  </complexType>
+  <complexType name="LinkPropertyType">
+    <sequence minOccurs="0">
+      <element ref="itsgml:Link"/>
+    </sequence>
+    <attributeGroup ref="gml:AssociationAttributeGroup"/>
+    <attributeGroup ref="gml:OwnershipAttributeGroup"/>
+  </complexType>
+  <element name="LinkSequence" substitutionGroup="itsgml:GeneralisedLink" type="itsgml:LinkSequenceType"/>
+  <complexType name="LinkSequenceType">
+    <complexContent>
+      <extension base="itsgml:GeneralisedLinkType">
+        <sequence>
+          <element maxOccurs="unbounded" name="link" type="itsgml:DirectedLinkPropertyType"/>
+        </sequence>
+      </extension>
+    </complexContent>
+  </complexType>
+  <complexType name="LinkSequencePropertyType">
+    <sequence minOccurs="0">
+      <element ref="itsgml:LinkSequence"/>
+    </sequence>
+    <attributeGroup ref="gml:AssociationAttributeGroup"/>
+    <attributeGroup ref="gml:OwnershipAttributeGroup"/>
+  </complexType>
+  <element name="LinkSet" substitutionGroup="itsgml:NetworkElement" type="itsgml:LinkSetType"/>
+  <complexType name="LinkSetType">
+    <complexContent>
+      <extension base="itsgml:NetworkElementType">
+        <sequence>
+          <element maxOccurs="unbounded" name="link">
+            <annotation>
+              <appinfo>
+                <targetElement xmlns="http://www.opengis.net/gml/3.2">itsgml:GeneralisedLink</targetElement>
+              </appinfo>
+            </annotation>
+            <complexType>
+              <complexContent>
+                <extension base="gml:AbstractMemberType">
+                  <sequence/>
+                  <attributeGroup ref="gml:AssociationAttributeGroup"/>
+                </extension>
+              </complexContent>
+            </complexType>
+          </element>
+        </sequence>
+      </extension>
+    </complexContent>
+  </complexType>
+  <complexType name="LinkSetPropertyType">
+    <sequence minOccurs="0">
+      <element ref="itsgml:LinkSet"/>
+    </sequence>
+    <attributeGroup ref="gml:AssociationAttributeGroup"/>
+    <attributeGroup ref="gml:OwnershipAttributeGroup"/>
+  </complexType>
+  <element name="Network" substitutionGroup="gml:AbstractFeature" type="itsgml:NetworkType"/>
+  <complexType name="NetworkType">
+    <complexContent>
+      <extension base="gml:AbstractFeatureType">
+        <sequence>
+          <element maxOccurs="unbounded" minOccurs="0" name="geographicalName" nillable="true"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="elements">
+            <annotation>
+              <appinfo>
+                <targetElement xmlns="http://www.opengis.net/gml/3.2">itsgml:NetworkElement</targetElement>
+              </appinfo>
+            </annotation>
+            <complexType>
+              <complexContent>
+                <extension base="gml:AbstractMemberType">
+                  <sequence/>
+                  <attributeGroup ref="gml:AssociationAttributeGroup"/>
+                </extension>
+              </complexContent>
+            </complexType>
+          </element>
+        </sequence>
+      </extension>
+    </complexContent>
+  </complexType>
+  <element abstract="true" name="NetworkArea" substitutionGroup="itsgml:NetworkElement" type="itsgml:NetworkAreaType"/>
+  <complexType abstract="true" name="NetworkAreaType">
+    <complexContent>
+      <extension base="itsgml:NetworkElementType">
+        <sequence>
+          <element name="geometry" type="gml:SurfacePropertyType"/>
+        </sequence>
+      </extension>
+    </complexContent>
+  </complexType>
+  <complexType name="NetworkAreaPropertyType">
+    <sequence minOccurs="0">
+      <element ref="itsgml:NetworkArea"/>
+    </sequence>
+    <attributeGroup ref="gml:AssociationAttributeGroup"/>
+    <attributeGroup ref="gml:OwnershipAttributeGroup"/>
+  </complexType>
+  <element name="NetworkConnection" substitutionGroup="itsgml:NetworkElement" type="itsgml:NetworkConnectionType"/>
+  <complexType name="NetworkConnectionType">
+    <complexContent>
+      <extension base="itsgml:NetworkElementType">
+        <sequence>
+          <element name="type" nillable="true" type="gml:ReferenceType">
+            <annotation>
+              <appinfo>
+                <targetCodeList xmlns="http://www.opengis.net/gml/3.3/exr">ConnectionTypeValue</targetCodeList>
+              </appinfo>
+            </annotation>
+          </element>
+          <element maxOccurs="unbounded" minOccurs="2" name="element" type="gml:ReferenceType">
+            <annotation>
+              <appinfo>
+                <targetElement xmlns="http://www.opengis.net/gml/3.2">itsgml:NetworkElement</targetElement>
+              </appinfo>
+            </annotation>
+          </element>
+        </sequence>
+      </extension>
+    </complexContent>
+  </complexType>
+  <complexType name="NetworkConnectionPropertyType">
+    <sequence minOccurs="0">
+      <element ref="itsgml:NetworkConnection"/>
+    </sequence>
+    <attributeGroup ref="gml:AssociationAttributeGroup"/>
+    <attributeGroup ref="gml:OwnershipAttributeGroup"/>
+  </complexType>
+  <element abstract="true" name="NetworkElement" substitutionGroup="gml:AbstractFeature" type="itsgml:NetworkElementType"/>
+  <complexType abstract="true" name="NetworkElementType">
+    <complexContent>
+      <extension base="gml:AbstractFeatureType">
+        <sequence>
+          <element name="beginLifespanVersion" nillable="true">
+            <complexType>
+              <simpleContent>
+                <extension base="dateTime">
+                  <attribute name="nilReason" type="gml:NilReasonType"/>
+                </extension>
+              </simpleContent>
+            </complexType>
+          </element>
+          <element minOccurs="0" name="inspireId" type="itsgml:IdentifierPropertyType"/>
+          <element minOccurs="0" name="endLifespanVersion" nillable="true">
+            <complexType>
+              <simpleContent>
+                <extension base="dateTime">
+                  <attribute name="nilReason" type="gml:NilReasonType"/>
+                </extension>
+              </simpleContent>
+            </complexType>
+          </element>
+        </sequence>
+      </extension>
+    </complexContent>
+  </complexType>
+  <complexType name="NetworkElementPropertyType">
+    <sequence minOccurs="0">
+      <element ref="itsgml:NetworkElement"/>
+    </sequence>
+    <attributeGroup ref="gml:AssociationAttributeGroup"/>
+    <attributeGroup ref="gml:OwnershipAttributeGroup"/>
+  </complexType>
+  <element name="Node" substitutionGroup="itsgml:NetworkElement" type="itsgml:NodeType"/>
+  <complexType name="NodeType">
+    <complexContent>
+      <extension base="itsgml:NetworkElementType">
+        <sequence>
+          <element name="geometry" type="gml:PointPropertyType"/>
+        </sequence>
+      </extension>
+    </complexContent>
+  </complexType>
+  <complexType name="NodePropertyType">
+    <sequence minOccurs="0">
+      <element ref="itsgml:Node"/>
+    </sequence>
+    <attributeGroup ref="gml:AssociationAttributeGroup"/>
+    <attributeGroup ref="gml:OwnershipAttributeGroup"/>
+  </complexType>
+</schema>
