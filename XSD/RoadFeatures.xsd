@@ -1,11 +1,51 @@
-<?xml version="1.0" encoding="UTF-8"?><schema xmlns="http://www.w3.org/2001/XMLSchema" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:tnits="https://raw.githubusercontent.com/jetgeo/ITSGML/master/XSD" elementFormDefault="qualified" targetNamespace="https://raw.githubusercontent.com/jetgeo/ITSGML/master/XSD" version="2018-01">
+<?xml version="1.0" encoding="UTF-8"?>
+
+<schema xmlns="http://www.w3.org/2001/XMLSchema" xmlns:gml="http://www.opengis.net/gml/3.2"
+  xmlns:itsgml="https://raw.githubusercontent.com/jetgeo/ITSGML/master/XSD" elementFormDefault="qualified"
+  targetNamespace="https://raw.githubusercontent.com/jetgeo/ITSGML/master/XSD" version="0.1">
   <include schemaLocation="Conditions.xsd"/>
   <include schemaLocation="LocationReferencing.xsd"/>
   <include schemaLocation="itsgml.xsd"/>
-  <import namespace="http://www.opengis.net/gml/3.2" schemaLocation="http://schemas.opengis.net/gml/3.2.1/gml.xsd"/>
-  <!--XML Schema document created by ShapeChange - http://shapechange.net/-->
-  <element name="Feature" substitutionGroup="gml:AbstractFeature" type="tnits:FeatureType"/>
-  <complexType name="FeatureType">
+  <import namespace="http://www.opengis.net/gml/3.2"
+    schemaLocation="http://schemas.opengis.net/gml/3.2.1/gml.xsd"/>
+  <element abstract="true" name="AbstractRoadFeatureProperty" substitutionGroup="gml:AbstractObject"
+    type="itsgml:AbstractRoadFeaturePropertyType"/>
+  <complexType abstract="true" name="AbstractRoadFeaturePropertyType">
+    <sequence/>
+  </complexType>
+  <complexType name="AbstractRoadFeaturePropertyPropertyType">
+    <sequence>
+      <element ref="itsgml:AbstractRoadFeatureProperty"/>
+    </sequence>
+  </complexType>
+  <element name="GenericRoadFeatureProperty" substitutionGroup="itsgml:AbstractRoadFeatureProperty"
+    type="itsgml:GenericRoadFeaturePropertyType"/>
+  <complexType name="GenericRoadFeaturePropertyType">
+    <complexContent>
+      <extension base="itsgml:AbstractRoadFeaturePropertyType">
+        <sequence>
+          <element name="type" type="gml:ReferenceType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="value">
+            <complexType>
+              <sequence minOccurs="0">
+                <element ref="gml:AbstractObject"/>
+              </sequence>
+              <attributeGroup ref="gml:AssociationAttributeGroup"/>
+            </complexType>
+          </element>
+          <element maxOccurs="unbounded" minOccurs="0" name="valueReference"
+            type="gml:ReferenceType"/>
+        </sequence>
+      </extension>
+    </complexContent>
+  </complexType>
+  <complexType name="GenericRoadFeaturePropertyPropertyType">
+    <sequence>
+      <element ref="itsgml:GenericRoadFeatureProperty"/>
+    </sequence>
+  </complexType>
+  <element name="RoadFeature" substitutionGroup="gml:AbstractFeature" type="itsgml:RoadFeatureType"/>
+  <complexType name="RoadFeatureType">
     <complexContent>
       <extension base="gml:AbstractFeatureType">
         <sequence>
@@ -13,83 +53,37 @@
           <element minOccurs="0" name="validTo" type="date"/>
           <element name="beginLifespanVersion" type="dateTime">
             <annotation>
-              <documentation>Date and time at which this version of the spatial object was inserted or changed in the spatial data set.</documentation>
+              <documentation>Date and time at which this version of the spatial object was inserted
+                or changed in the spatial data set.</documentation>
             </annotation>
           </element>
           <element minOccurs="0" name="endLifespanVersion" type="dateTime">
             <annotation>
-              <documentation>Date and time at which this version of the spatial object was superseded or retired in the spatial data set.</documentation>
+              <documentation>Date and time at which this version of the spatial object was
+                superseded or retired in the spatial data set.</documentation>
             </annotation>
           </element>
-          <element maxOccurs="unbounded" name="locationReference" type="tnits:LocationReferencePropertyType"/>
-          <element name="featureTypeReference" type="itsgml:FC_FeatureTypePropertyType"/>
-          <element maxOccurs="unbounded" minOccurs="0" name="property" type="tnits:FeatureCharacteristicsPropertyType"/>
-          <element minOccurs="0" name="condition" type="tnits:ConditionPropertyType"/>
-          <element name="id" type="tnits:RoadFeatureIdPropertyType"/>
+          <element name="source" type="gml:ReferenceType"/>
+          <element name="type" type="gml:ReferenceType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="properties"
+            type="itsgml:AbstractRoadFeaturePropertyPropertyType"/>
+          <element name="id" type="itsgml:RoadFeatureIdPropertyType"/>
+          <element minOccurs="0" name="condition" type="itsgml:ConditionPropertyType"/>
+          <element maxOccurs="unbounded" name="locationReference"
+            type="itsgml:LocationReferencePropertyType"/>
         </sequence>
       </extension>
     </complexContent>
   </complexType>
-  <complexType name="FeaturePropertyType">
+  <complexType name="RoadFeaturePropertyType">
     <sequence minOccurs="0">
-      <element ref="tnits:Feature"/>
+      <element ref="itsgml:RoadFeature"/>
     </sequence>
     <attributeGroup ref="gml:AssociationAttributeGroup"/>
     <attributeGroup ref="gml:OwnershipAttributeGroup"/>
   </complexType>
-  <element name="FeatureCharacteristics" substitutionGroup="gml:AbstractObject" type="tnits:FeatureCharacteristicsType"/>
-  <complexType name="FeatureCharacteristicsType">
-    <sequence>
-      <element maxOccurs="unbounded" minOccurs="0" name="value">
-        <complexType>
-          <sequence minOccurs="0">
-            <element ref="gml:AbstractObject"/>
-          </sequence>
-          <attributeGroup ref="gml:AssociationAttributeGroup"/>
-        </complexType>
-      </element>
-      <element name="propertyTypeReference" type="itsgml:FC_PropertyTypePropertyType"/>
-    </sequence>
-  </complexType>
-  <complexType name="FeatureCharacteristicsPropertyType">
-    <sequence>
-      <element ref="tnits:FeatureCharacteristics"/>
-    </sequence>
-  </complexType>
-  <element name="FeatureSet" substitutionGroup="gml:AbstractFeature" type="tnits:FeatureSetType"/>
-  <complexType name="FeatureSetType">
-    <complexContent>
-      <extension base="gml:AbstractFeatureType">
-        <sequence>
-          <element minOccurs="0" name="defaultLRM">
-            <annotation>
-              <documentation>Default linear referencing method to be used in the data set.</documentation>
-            </annotation>
-          </element>
-          <element maxOccurs="unbounded" name="roadFeatures">
-            <complexType>
-              <complexContent>
-                <extension base="gml:AbstractMemberType">
-                  <sequence minOccurs="0">
-                    <element ref="tnits:Feature"/>
-                  </sequence>
-                  <attributeGroup ref="gml:AssociationAttributeGroup"/>
-                </extension>
-              </complexContent>
-            </complexType>
-          </element>
-        </sequence>
-      </extension>
-    </complexContent>
-  </complexType>
-  <complexType name="FeatureSetPropertyType">
-    <sequence minOccurs="0">
-      <element ref="tnits:FeatureSet"/>
-    </sequence>
-    <attributeGroup ref="gml:AssociationAttributeGroup"/>
-    <attributeGroup ref="gml:OwnershipAttributeGroup"/>
-  </complexType>
-  <element name="RoadFeatureId" substitutionGroup="gml:AbstractObject" type="tnits:RoadFeatureIdType"/>
+  <element name="RoadFeatureId" substitutionGroup="gml:AbstractObject"
+    type="itsgml:RoadFeatureIdType"/>
   <complexType name="RoadFeatureIdType">
     <sequence>
       <element name="providerId" type="string"/>
@@ -98,7 +92,39 @@
   </complexType>
   <complexType name="RoadFeatureIdPropertyType">
     <sequence>
-      <element ref="tnits:RoadFeatureId"/>
+      <element ref="itsgml:RoadFeatureId"/>
+    </sequence>
+  </complexType>
+  <element name="RoadSignContent" substitutionGroup="gml:AbstractObject"
+    type="itsgml:RoadSignContentType"/>
+  <complexType name="RoadSignContentType">
+    <sequence>
+      <element minOccurs="0" name="value" type="gml:MeasureType"/>
+      <element minOccurs="0" name="text" type="string"/>
+      <element minOccurs="0" name="natureOfDistance" type="gml:ReferenceType"/>
+    </sequence>
+  </complexType>
+  <complexType name="RoadSignContentPropertyType">
+    <sequence>
+      <element ref="itsgml:RoadSignContent"/>
+    </sequence>
+  </complexType>
+  <element name="RoadSignProperty" substitutionGroup="itsgml:AbstractRoadFeatureProperty"
+    type="itsgml:RoadSignPropertyType"/>
+  <complexType name="RoadSignPropertyType">
+    <complexContent>
+      <extension base="itsgml:AbstractRoadFeaturePropertyType">
+        <sequence>
+          <element name="gddCode" type="gml:ReferenceType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="content"
+            type="itsgml:RoadSignContentPropertyType"/>
+        </sequence>
+      </extension>
+    </complexContent>
+  </complexType>
+  <complexType name="RoadSignPropertyPropertyType">
+    <sequence>
+      <element ref="itsgml:RoadSignProperty"/>
     </sequence>
   </complexType>
 </schema>

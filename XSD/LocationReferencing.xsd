@@ -1,14 +1,29 @@
-<?xml version="1.0" encoding="UTF-8"?><schema xmlns="http://www.w3.org/2001/XMLSchema" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:itsgml="https://raw.githubusercontent.com/jetgeo/ITSGML/master/XSD" elementFormDefault="qualified" targetNamespace="https://raw.githubusercontent.com/jetgeo/ITSGML/master/XSD" version="2018-01">
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Change history:-->
+<!--Date             Version           Author     Change-->
+<!--==============================================================================================-->
+<!--XML Schema document created by ShapeChange - http://shapechange.net/-->
+<!--2018-01-28        01                 KJe      Manually change from gml:CodeType to gml:ReferenceType     -->
+<!--2018-01-28        01                 KJe      Manually add gml 3.3 namespace, schema and datatype     -->
+<schema xmlns="http://www.w3.org/2001/XMLSchema" xmlns:gml="http://www.opengis.net/gml/3.2"
+  xmlns:gmllr="http://www.opengis.net/gml/3.3/lr" xmlns:itsgml="https://raw.githubusercontent.com/jetgeo/ITSGML/master/XSD" elementFormDefault="qualified"
+  targetNamespace="https://raw.githubusercontent.com/jetgeo/ITSGML/master/XSD" version="0.1">
   <include schemaLocation="itsgml.xsd"/>
-  <import namespace="http://www.opengis.net/gml/3.2" schemaLocation="http://schemas.opengis.net/gml/3.2.1/gml.xsd"/>
+  <include schemaLocation="openlr.xsd"/>
+  <import namespace="http://www.opengis.net/gml/3.2"
+    schemaLocation="http://schemas.opengis.net/gml/3.2.1/gml.xsd"/>
+  <import namespace="http://www.opengis.net/gml/3.3/lr"
+    schemaLocation="http://schemas.opengis.net/gml/3.3/linearRef.xsd"/>
+ 
   <!--XML Schema document created by ShapeChange - http://shapechange.net/-->
-  <element name="AgoraLocationReference" substitutionGroup="itsgml:DynamicLocationReference" type="itsgml:AgoraLocationReferenceType"/>
+  <element name="AgoraLocationReference" substitutionGroup="itsgml:DynamicLocationReference"
+    type="itsgml:AgoraLocationReferenceType"/>
   <complexType name="AgoraLocationReferenceType">
     <complexContent>
       <extension base="itsgml:DynamicLocationReferenceType">
         <sequence>
           <element name="base64String" type="string"/>
-          <element name="agoraBinaryVersion" type="gml:CodeType"/>
+          <element name="agoraBinaryVersion" type="gml:ReferenceType"/>
         </sequence>
       </extension>
     </complexContent>
@@ -18,11 +33,12 @@
       <element ref="itsgml:AgoraLocationReference"/>
     </sequence>
   </complexType>
-  <element name="BinaryLocationReference" substitutionGroup="gml:AbstractObject" type="itsgml:BinaryLocationReferenceType"/>
+  <element name="BinaryLocationReference" substitutionGroup="gml:AbstractObject"
+    type="itsgml:BinaryLocationReferenceType"/>
   <complexType name="BinaryLocationReferenceType">
     <sequence>
       <element name="base64String" type="string"/>
-      <element name="openLRBinaryVersion" type="gml:CodeType"/>
+      <element name="openLRBinaryVersion" type="gml:ReferenceType"/>
     </sequence>
   </complexType>
   <complexType name="BinaryLocationReferencePropertyType">
@@ -30,7 +46,8 @@
       <element ref="itsgml:BinaryLocationReference"/>
     </sequence>
   </complexType>
-  <element abstract="true" name="DynamicLocationReference" substitutionGroup="itsgml:LocationReference" type="itsgml:DynamicLocationReferenceType"/>
+  <element abstract="true" name="DynamicLocationReference"
+    substitutionGroup="itsgml:LocationReference" type="itsgml:DynamicLocationReferenceType"/>
   <complexType abstract="true" name="DynamicLocationReferenceType">
     <complexContent>
       <extension base="itsgml:LocationReferenceType">
@@ -43,7 +60,8 @@
       <element ref="itsgml:DynamicLocationReference"/>
     </sequence>
   </complexType>
-  <element name="GeometryLocationReference" substitutionGroup="itsgml:LocationReference" type="itsgml:GeometryLocationReferenceType"/>
+  <element name="GeometryLocationReference" substitutionGroup="itsgml:LocationReference"
+    type="itsgml:GeometryLocationReferenceType"/>
   <complexType name="GeometryLocationReferenceType">
     <complexContent>
       <extension base="itsgml:LocationReferenceType">
@@ -58,19 +76,35 @@
       <element ref="itsgml:GeometryLocationReference"/>
     </sequence>
   </complexType>
-  <element name="Identifier" substitutionGroup="gml:AbstractObject" type="itsgml:IdentifierType"/>
+  <element name="Identifier" substitutionGroup="gml:AbstractObject" type="itsgml:IdentifierType">
+    <annotation>
+      <documentation>External unique object identifier published by the responsible body, which may
+        be used by external applications to reference the spatial object.</documentation>
+    </annotation>
+  </element>
   <complexType name="IdentifierType">
     <sequence>
-      <element name="localId" type="string"/>
-      <element name="namespace" type="string"/>
-      <element minOccurs="0" name="versionId" nillable="true">
-        <complexType>
-          <simpleContent>
-            <extension base="string">
-              <attribute name="nilReason" type="gml:NilReasonType"/>
-            </extension>
-          </simpleContent>
-        </complexType>
+      <element name="localId" type="string">
+        <annotation>
+          <documentation>A local identifier, assigned by the data provider. The local identifier is
+            unique within the namespace, that is no other spatial object carries the same unique
+            identifier.</documentation>
+        </annotation>
+      </element>
+      <element name="namespace" type="string">
+        <annotation>
+          <documentation>Namespace uniquely identifying the data source of the spatial
+            object.</documentation>
+        </annotation>
+      </element>
+      <element minOccurs="0" name="versionId" type="string">
+        <annotation>
+          <documentation>The identifier of the particular version of the spatial object, with a
+            maximum length of 25 characters. If the specification of a spatial object type with an
+            external object identifier includes life-cycle information, the version identifier is
+            used to distinguish between the different versions of a spatial object. Within the set
+            of all versions of a spatial object, the version identifier is unique.</documentation>
+        </annotation>
       </element>
     </sequence>
   </complexType>
@@ -79,14 +113,16 @@
       <element ref="itsgml:Identifier"/>
     </sequence>
   </complexType>
-  <element name="LinearLocationReference" substitutionGroup="itsgml:PreCodedLocationReference" type="itsgml:LinearLocationReferenceType"/>
+  <element name="LinearLocationReference" substitutionGroup="itsgml:PreCodedLocationReference"
+    type="itsgml:LinearLocationReferenceType"/>
   <complexType name="LinearLocationReferenceType">
     <complexContent>
       <extension base="itsgml:PreCodedLocationReferenceType">
         <sequence>
           <element minOccurs="0" name="name" type="string"/>
           <element minOccurs="0" name="description" type="string"/>
-          <element maxOccurs="unbounded" name="networkReference" type="itsgml:NetworkReferencePropertyType"/>
+          <element maxOccurs="unbounded" name="networkReference"
+            type="itsgml:NetworkReferencePropertyType"/>
         </sequence>
       </extension>
     </complexContent>
@@ -96,7 +132,8 @@
       <element ref="itsgml:LinearLocationReference"/>
     </sequence>
   </complexType>
-  <element name="LinkReference" substitutionGroup="itsgml:NetworkReference" type="itsgml:LinkReferenceType">
+  <element name="LinkReference" substitutionGroup="itsgml:NetworkReference"
+    type="itsgml:LinkReferenceType">
     <annotation>
       <documentation>A network reference to a linear network element.</documentation>
     </annotation>
@@ -105,11 +142,12 @@
     <complexContent>
       <extension base="itsgml:NetworkReferenceType">
         <sequence>
-          <element name="applicableDirection" type="gml:CodeType">
+          <element name="applicableDirection" type="gml:ReferenceType">
             <annotation>
-              <documentation>The directions of the link to which the reference applies.
-
-In cases where a property does not apply &lt;i&gt;to&lt;/i&gt; a direction along a link, but represents a phenomenon &lt;i&gt;along&lt;/i&gt; a link, “inDirection” refers to the right side in the direction of the link.</documentation>
+              <documentation>The directions of the link to which the reference applies. In cases
+                where a property does not apply &lt;i&gt;to&lt;/i&gt; a direction along a link, but
+                represents a phenomenon &lt;i&gt;along&lt;/i&gt; a link, “inDirection” refers to the
+                right side in the direction of the link.</documentation>
             </annotation>
           </element>
         </sequence>
@@ -121,12 +159,13 @@ In cases where a property does not apply &lt;i&gt;to&lt;/i&gt; a direction along
       <element ref="itsgml:LinkReference"/>
     </sequence>
   </complexType>
-  <element name="LocationByExternalReference" substitutionGroup="itsgml:PreCodedLocationReference" type="itsgml:LocationByExternalReferenceType"/>
+  <element name="LocationByExternalReference" substitutionGroup="itsgml:PreCodedLocationReference"
+    type="itsgml:LocationByExternalReferenceType"/>
   <complexType name="LocationByExternalReferenceType">
     <complexContent>
       <extension base="itsgml:PreCodedLocationReferenceType">
         <sequence>
-          <element name="predefinedLocationReference" type="gml:CodeType"/>
+          <element name="predefinedLocationReference" type="gml:ReferenceType"/>
         </sequence>
       </extension>
     </complexContent>
@@ -136,7 +175,8 @@ In cases where a property does not apply &lt;i&gt;to&lt;/i&gt; a direction along
       <element ref="itsgml:LocationByExternalReference"/>
     </sequence>
   </complexType>
-  <element abstract="true" name="LocationReference" substitutionGroup="gml:AbstractObject" type="itsgml:LocationReferenceType"/>
+  <element abstract="true" name="LocationReference" substitutionGroup="gml:AbstractObject"
+    type="itsgml:LocationReferenceType"/>
   <complexType abstract="true" name="LocationReferenceType">
     <sequence/>
   </complexType>
@@ -145,16 +185,36 @@ In cases where a property does not apply &lt;i&gt;to&lt;/i&gt; a direction along
       <element ref="itsgml:LocationReference"/>
     </sequence>
   </complexType>
-  <element name="NetworkReference" substitutionGroup="gml:AbstractObject" type="itsgml:NetworkReferenceType">
+  <element name="NetworkElement" substitutionGroup="gml:AbstractFeature"
+    type="itsgml:NetworkElementType"/>
+  <complexType name="NetworkElementType">
+    <complexContent>
+      <extension base="gml:AbstractFeatureType">
+        <sequence>
+          <element minOccurs="0" name="id" type="itsgml:IdentifierPropertyType"/>
+        </sequence>
+      </extension>
+    </complexContent>
+  </complexType>
+  <complexType name="NetworkElementPropertyType">
+    <sequence minOccurs="0">
+      <element ref="itsgml:NetworkElement"/>
+    </sequence>
+    <attributeGroup ref="gml:AssociationAttributeGroup"/>
+    <attributeGroup ref="gml:OwnershipAttributeGroup"/>
+  </complexType>
+  <element name="NetworkReference" substitutionGroup="gml:AbstractObject"
+    type="itsgml:NetworkReferenceType">
     <annotation>
       <documentation>A reference to a network element.</documentation>
     </annotation>
   </element>
   <complexType name="NetworkReferenceType">
     <sequence>
-      <element minOccurs="0" name="overridingLRM">
+      <element minOccurs="0" name="overridingLRM" type="gmllr:LinearReferencingMethodPropertyType">
         <annotation>
-          <documentation>linear referencing method overriding defalult method for the data set</documentation>
+          <documentation>linear referencing method overriding defalult method for the data
+            set</documentation>
         </annotation>
       </element>
       <element name="element" type="itsgml:NetworkElementPropertyType"/>
@@ -165,13 +225,16 @@ In cases where a property does not apply &lt;i&gt;to&lt;/i&gt; a direction along
       <element ref="itsgml:NetworkReference"/>
     </sequence>
   </complexType>
-  <element name="OpenLRLocationReference" substitutionGroup="itsgml:DynamicLocationReference" type="itsgml:OpenLRLocationReferenceType"/>
+  <element name="OpenLRLocationReference" substitutionGroup="itsgml:DynamicLocationReference"
+    type="itsgml:OpenLRLocationReferenceType"/>
   <complexType name="OpenLRLocationReferenceType">
     <complexContent>
       <extension base="itsgml:DynamicLocationReferenceType">
         <sequence>
-          <element minOccurs="0" name="binaryLocationReference" type="itsgml:BinaryLocationReferencePropertyType"/>
-          <element minOccurs="0" name="xMLLocationReference" type="itsgml:XMLLocationReferencePropertyType"/>
+          <element minOccurs="0" name="binaryLocationReference"
+            type="itsgml:BinaryLocationReferencePropertyType"/>
+          <element minOccurs="0" name="xMLLocationReference"
+            type="itsgml:XMLLocationReference"/>
         </sequence>
       </extension>
     </complexContent>
@@ -181,7 +244,8 @@ In cases where a property does not apply &lt;i&gt;to&lt;/i&gt; a direction along
       <element ref="itsgml:OpenLRLocationReference"/>
     </sequence>
   </complexType>
-  <element abstract="true" name="PreCodedLocationReference" substitutionGroup="itsgml:LocationReference" type="itsgml:PreCodedLocationReferenceType"/>
+  <element abstract="true" name="PreCodedLocationReference"
+    substitutionGroup="itsgml:LocationReference" type="itsgml:PreCodedLocationReferenceType"/>
   <complexType abstract="true" name="PreCodedLocationReferenceType">
     <complexContent>
       <extension base="itsgml:LocationReferenceType">
@@ -194,23 +258,27 @@ In cases where a property does not apply &lt;i&gt;to&lt;/i&gt; a direction along
       <element ref="itsgml:PreCodedLocationReference"/>
     </sequence>
   </complexType>
-  <element name="SimpleLinearReference" substitutionGroup="itsgml:LinkReference" type="itsgml:SimpleLinearReferenceType">
+  <element name="SimpleLinearReference" substitutionGroup="itsgml:LinkReference"
+    type="itsgml:SimpleLinearReferenceType">
     <annotation>
-      <documentation>A network reference that is restricted to part of a linear network element. The part is the part of the network element between fromPosition and toPosition.</documentation>
+      <documentation>A network reference that is restricted to part of a linear network element. The
+        part is the part of the network element between fromPosition and toPosition.</documentation>
     </annotation>
   </element>
   <complexType name="SimpleLinearReferenceType">
     <complexContent>
       <extension base="itsgml:LinkReferenceType">
         <sequence>
-          <element name="fromPosition">
+          <element name="fromPosition" type="gmllr:DistanceExpressionPropertyType">
             <annotation>
-              <documentation>The start position of the linear element, expressed as the distance along the linear network element.</documentation>
+              <documentation>The start position of the linear element, expressed as the distance
+                along the linear network element.</documentation>
             </annotation>
           </element>
-          <element name="toPosition">
+          <element name="toPosition" type="gmllr:DistanceExpressionPropertyType">
             <annotation>
-              <documentation>The end position of the linear element, expressed as the distance along the linear network element.</documentation>
+              <documentation>The end position of the linear element, expressed as the distance along
+                the linear network element.</documentation>
             </annotation>
           </element>
         </sequence>
@@ -222,18 +290,22 @@ In cases where a property does not apply &lt;i&gt;to&lt;/i&gt; a direction along
       <element ref="itsgml:SimpleLinearReference"/>
     </sequence>
   </complexType>
-  <element name="SimplePointReference" substitutionGroup="itsgml:LinkReference" type="itsgml:SimplePointReferenceType">
+  <element name="SimplePointReference" substitutionGroup="itsgml:LinkReference"
+    type="itsgml:SimplePointReferenceType">
     <annotation>
-      <documentation>A network reference that is restricted to a point on a linear network element. The point is the location on the network element at the position atPosition along the network.</documentation>
+      <documentation>A network reference that is restricted to a point on a linear network element.
+        The point is the location on the network element at the position atPosition along the
+        network.</documentation>
     </annotation>
   </element>
   <complexType name="SimplePointReferenceType">
     <complexContent>
       <extension base="itsgml:LinkReferenceType">
         <sequence>
-          <element name="atPosition">
+          <element name="atPosition" type="gmllr:DistanceExpressionPropertyType">
             <annotation>
-              <documentation>Position of the point, expressed as the distance along the linear network element.</documentation>
+              <documentation>Position of the point, expressed as the distance along the linear
+                network element.</documentation>
             </annotation>
           </element>
         </sequence>

@@ -1,13 +1,17 @@
-<?xml version="1.0" encoding="UTF-8"?><schema xmlns="http://www.w3.org/2001/XMLSchema" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:itsgml="https://raw.githubusercontent.com/jetgeo/ITSGML/master/XSD" elementFormDefault="qualified" targetNamespace="https://raw.githubusercontent.com/jetgeo/ITSGML/master/XSD" version="2018-01">
+<?xml version="1.0" encoding="UTF-8"?>
+
+<schema xmlns="http://www.w3.org/2001/XMLSchema" xmlns:gml="http://www.opengis.net/gml/3.2"
+  xmlns:itsgml="https://raw.githubusercontent.com/jetgeo/ITSGML/master/XSD" elementFormDefault="qualified"
+  targetNamespace="https://raw.githubusercontent.com/jetgeo/ITSGML/master/XSD" version="0.1">
   <include schemaLocation="itsgml.xsd"/>
-  <import namespace="http://www.opengis.net/gml/3.2" schemaLocation="http://schemas.opengis.net/gml/3.2.1/gml.xsd"/>
-  <!--XML Schema document created by ShapeChange - http://shapechange.net/-->
+  <import namespace="http://www.opengis.net/gml/3.2"
+    schemaLocation="http://schemas.opengis.net/gml/3.2.1/gml.xsd"/>
   <element name="AreaCondition" substitutionGroup="itsgml:Condition" type="itsgml:AreaConditionType"/>
   <complexType name="AreaConditionType">
     <complexContent>
       <extension base="itsgml:ConditionType">
         <sequence>
-          <element name="areaType" type="gml:CodeType"/>
+          <element name="areaType" type="gml:ReferenceType"/>
         </sequence>
       </extension>
     </complexContent>
@@ -17,28 +21,17 @@
       <element ref="itsgml:AreaCondition"/>
     </sequence>
   </complexType>
-  <element name="CarriagewaySpecificCondition" substitutionGroup="itsgml:Condition" type="itsgml:CarriagewaySpecificConditionType"/>
-  <complexType name="CarriagewaySpecificConditionType">
-    <complexContent>
-      <extension base="itsgml:ConditionType">
-        <sequence>
-          <element minOccurs="0" name="type"/>
-          <element minOccurs="0" name="trafficFlow"/>
-          <element minOccurs="0" name="relativeReferenceDirection"/>
-          <element minOccurs="0" name="carriageWayNumber" type="integer"/>
-          <element minOccurs="0" name="numberOfTrafficLanes" type="integer"/>
-          <element minOccurs="0" name="numberOfLanes" type="integer"/>
-          <element maxOccurs="unbounded" minOccurs="0" name="lane" type="itsgml:LaneSpecificConditionPropertyType"/>
-        </sequence>
-      </extension>
-    </complexContent>
-  </complexType>
-  <complexType name="CarriagewaySpecificConditionPropertyType">
-    <sequence>
-      <element ref="itsgml:CarriagewaySpecificCondition"/>
-    </sequence>
-  </complexType>
-  <element abstract="true" name="Condition" substitutionGroup="gml:AbstractObject" type="itsgml:ConditionType"/>
+  <simpleType name="ComparisonOperatorType">
+    <restriction base="string">
+      <enumeration value="equalTo"/>
+      <enumeration value="greaterThan"/>
+      <enumeration value="greaterThanOrEqualTo"/>
+      <enumeration value="lessThan"/>
+      <enumeration value="lessThanOrEqualTo"/>
+    </restriction>
+  </simpleType>
+  <element abstract="true" name="Condition" substitutionGroup="gml:AbstractObject"
+    type="itsgml:ConditionType"/>
   <complexType abstract="true" name="ConditionType">
     <sequence>
       <element minOccurs="0" name="negate" type="boolean"/>
@@ -49,12 +42,19 @@
       <element ref="itsgml:Condition"/>
     </sequence>
   </complexType>
+  <simpleType name="ConditionOperatorType">
+    <restriction base="string">
+      <enumeration value="OR"/>
+      <enumeration value="XOR"/>
+      <enumeration value="AND"/>
+    </restriction>
+  </simpleType>
   <element name="ConditionSet" substitutionGroup="itsgml:Condition" type="itsgml:ConditionSetType"/>
   <complexType name="ConditionSetType">
     <complexContent>
       <extension base="itsgml:ConditionType">
         <sequence>
-          <element name="operator"/>
+          <element name="operator" type="itsgml:ConditionOperatorType"/>
           <element maxOccurs="unbounded" name="conditions" type="itsgml:ConditionPropertyType"/>
         </sequence>
       </extension>
@@ -65,12 +65,23 @@
       <element ref="itsgml:ConditionSet"/>
     </sequence>
   </complexType>
+  <simpleType name="DayOfWeekType">
+    <restriction base="string">
+      <enumeration value="monday"/>
+      <enumeration value="tuesday"/>
+      <enumeration value="wednesday"/>
+      <enumeration value="thursday"/>
+      <enumeration value="friday"/>
+      <enumeration value="saturday"/>
+      <enumeration value="sunday"/>
+    </restriction>
+  </simpleType>
   <element name="DayWeekMonth" substitutionGroup="gml:AbstractObject" type="itsgml:DayWeekMonthType"/>
   <complexType name="DayWeekMonthType">
     <sequence>
-      <element maxOccurs="7" minOccurs="0" name="applicableDay"/>
-      <element maxOccurs="5" minOccurs="0" name="applicableWeek"/>
-      <element maxOccurs="12" minOccurs="0" name="applicableMonth"/>
+      <element maxOccurs="7" minOccurs="0" name="applicableDay" type="itsgml:DayOfWeekType"/>
+      <element maxOccurs="5" minOccurs="0" name="applicableWeek" type="itsgml:WeekOfMonthType"/>
+      <element maxOccurs="12" minOccurs="0" name="applicableMonth" type="itsgml:MonthOfYearType"/>
     </sequence>
   </complexType>
   <complexType name="DayWeekMonthPropertyType">
@@ -81,9 +92,9 @@
   <element name="Emissions" substitutionGroup="gml:AbstractObject" type="itsgml:EmissionsType"/>
   <complexType name="EmissionsType">
     <sequence>
-      <element minOccurs="0" name="emissionClassificationEuro" type="gml:CodeType"/>
+      <element minOccurs="0" name="emissionClassificationEuro" type="gml:ReferenceType"/>
       <element maxOccurs="unbounded" minOccurs="0" name="emissionClassificationOther" type="string"/>
-      <element minOccurs="0" name="emissionLevel" type="gml:CodeType"/>
+      <element minOccurs="0" name="emissionLevel" type="gml:ReferenceType"/>
     </sequence>
   </complexType>
   <complexType name="EmissionsPropertyType">
@@ -91,26 +102,16 @@
       <element ref="itsgml:Emissions"/>
     </sequence>
   </complexType>
-  <element name="FuzzyTimePeriod" substitutionGroup="gml:AbstractObject" type="itsgml:FuzzyTimePeriodType">
+  <element name="FuzzyTimePeriod" substitutionGroup="gml:AbstractObject"
+    type="itsgml:FuzzyTimePeriodType">
     <annotation>
-      <documentation>Time described with a fuzzy time.
-[EuroRoadS]</documentation>
+      <documentation>Time described with a fuzzy time. </documentation>
     </annotation>
   </element>
   <complexType name="FuzzyTimePeriodType">
     <sequence>
-      <element name="beginOrDuration" type="gml:CodeType">
-        <annotation>
-          <documentation>time period begins with a fuzzy time or the duration is a fuzzy time
-[EuroRoadS]</documentation>
-        </annotation>
-      </element>
-      <element name="endOrDuration" type="gml:CodeType">
-        <annotation>
-          <documentation>time period ends with a fuzzy time or the duration is a fuzzy time
-[EuroRoadS]</documentation>
-        </annotation>
-      </element>
+      <element name="beginOrDuration" type="gml:ReferenceType"/>
+      <element name="endOrDuration" type="gml:ReferenceType"/>
     </sequence>
   </complexType>
   <complexType name="FuzzyTimePeriodPropertyType">
@@ -118,12 +119,13 @@
       <element ref="itsgml:FuzzyTimePeriod"/>
     </sequence>
   </complexType>
-  <element name="GrossWeightCharacteristic" substitutionGroup="gml:AbstractObject" type="itsgml:GrossWeightCharacteristicType"/>
+  <element name="GrossWeightCharacteristic" substitutionGroup="gml:AbstractObject"
+    type="itsgml:GrossWeightCharacteristicType"/>
   <complexType name="GrossWeightCharacteristicType">
     <sequence>
-      <element name="comparisonOperator"/>
+      <element name="comparisonOperator" type="itsgml:ComparisonOperatorType"/>
       <element name="grossVehicleWeight" type="gml:MeasureType"/>
-      <element name="typeOfWeight" type="gml:CodeType"/>
+      <element name="typeOfWeight" type="gml:ReferenceType"/>
     </sequence>
   </complexType>
   <complexType name="GrossWeightCharacteristicPropertyType">
@@ -131,10 +133,11 @@
       <element ref="itsgml:GrossWeightCharacteristic"/>
     </sequence>
   </complexType>
-  <element name="HeaviestAxleWeightCharacteristic" substitutionGroup="gml:AbstractObject" type="itsgml:HeaviestAxleWeightCharacteristicType"/>
+  <element name="HeaviestAxleWeightCharacteristic" substitutionGroup="gml:AbstractObject"
+    type="itsgml:HeaviestAxleWeightCharacteristicType"/>
   <complexType name="HeaviestAxleWeightCharacteristicType">
     <sequence>
-      <element name="comparisonOperator"/>
+      <element name="comparisonOperator" type="itsgml:ComparisonOperatorType"/>
       <element name="heaviestAxleWeight" type="gml:MeasureType"/>
     </sequence>
   </complexType>
@@ -143,10 +146,11 @@
       <element ref="itsgml:HeaviestAxleWeightCharacteristic"/>
     </sequence>
   </complexType>
-  <element name="HeightCharacteristic" substitutionGroup="gml:AbstractObject" type="itsgml:HeightCharacteristicType"/>
+  <element name="HeightCharacteristic" substitutionGroup="gml:AbstractObject"
+    type="itsgml:HeightCharacteristicType"/>
   <complexType name="HeightCharacteristicType">
     <sequence>
-      <element name="comparisonOperator"/>
+      <element name="comparisonOperator" type="itsgml:ComparisonOperatorType"/>
       <element name="vehicleHeight" type="gml:MeasureType"/>
     </sequence>
   </complexType>
@@ -155,28 +159,27 @@
       <element ref="itsgml:HeightCharacteristic"/>
     </sequence>
   </complexType>
-  <element name="LaneSpecificCondition" substitutionGroup="itsgml:Condition" type="itsgml:LaneSpecificConditionType"/>
-  <complexType name="LaneSpecificConditionType">
+  <element name="LaneCondition" substitutionGroup="itsgml:Condition" type="itsgml:LaneConditionType"/>
+  <complexType name="LaneConditionType">
     <complexContent>
       <extension base="itsgml:ConditionType">
         <sequence>
-          <element minOccurs="0" name="laneNumber" type="integer"/>
-          <element minOccurs="0" name="laneNumberTraffic" type="integer"/>
-          <element minOccurs="0" name="laneUsage"/>
-          <element minOccurs="0" name="trafficFlowDirection"/>
+          <element name="startLane" type="integer"/>
+          <element name="laneExtension" type="integer"/>
         </sequence>
       </extension>
     </complexContent>
   </complexType>
-  <complexType name="LaneSpecificConditionPropertyType">
+  <complexType name="LaneConditionPropertyType">
     <sequence>
-      <element ref="itsgml:LaneSpecificCondition"/>
+      <element ref="itsgml:LaneCondition"/>
     </sequence>
   </complexType>
-  <element name="LengthCharacteristic" substitutionGroup="gml:AbstractObject" type="itsgml:LengthCharacteristicType"/>
+  <element name="LengthCharacteristic" substitutionGroup="gml:AbstractObject"
+    type="itsgml:LengthCharacteristicType"/>
   <complexType name="LengthCharacteristicType">
     <sequence>
-      <element name="comparisonOperator"/>
+      <element name="comparisonOperator" type="itsgml:ComparisonOperatorType"/>
       <element name="vehicleLength" type="gml:MeasureType"/>
     </sequence>
   </complexType>
@@ -185,10 +188,27 @@
       <element ref="itsgml:LengthCharacteristic"/>
     </sequence>
   </complexType>
-  <element name="NumberOfAxlesCharacteristic" substitutionGroup="gml:AbstractObject" type="itsgml:NumberOfAxlesCharacteristicType"/>
+  <simpleType name="MonthOfYearType">
+    <restriction base="string">
+      <enumeration value="january"/>
+      <enumeration value="february"/>
+      <enumeration value="march"/>
+      <enumeration value="april"/>
+      <enumeration value="may"/>
+      <enumeration value="june"/>
+      <enumeration value="july"/>
+      <enumeration value="august"/>
+      <enumeration value="september"/>
+      <enumeration value="october"/>
+      <enumeration value="november"/>
+      <enumeration value="december"/>
+    </restriction>
+  </simpleType>
+  <element name="NumberOfAxlesCharacteristic" substitutionGroup="gml:AbstractObject"
+    type="itsgml:NumberOfAxlesCharacteristicType"/>
   <complexType name="NumberOfAxlesCharacteristicType">
     <sequence>
-      <element name="comparisonOperator"/>
+      <element name="comparisonOperator" type="itsgml:ComparisonOperatorType"/>
       <element name="numberOfAxles" type="integer"/>
     </sequence>
   </complexType>
@@ -197,13 +217,16 @@
       <element ref="itsgml:NumberOfAxlesCharacteristic"/>
     </sequence>
   </complexType>
-  <element name="OverallPeriod" substitutionGroup="gml:AbstractObject" type="itsgml:OverallPeriodType"/>
+  <element name="OverallPeriod" substitutionGroup="gml:AbstractObject"
+    type="itsgml:OverallPeriodType"/>
   <complexType name="OverallPeriodType">
     <sequence>
       <element name="overallStartTime" type="dateTime"/>
       <element minOccurs="0" name="overallEndTime" type="dateTime"/>
-      <element maxOccurs="unbounded" minOccurs="0" name="validPeriod" type="itsgml:PeriodPropertyType"/>
-      <element maxOccurs="unbounded" minOccurs="0" name="exceptionPeriod" type="itsgml:PeriodPropertyType"/>
+      <element maxOccurs="unbounded" minOccurs="0" name="validPeriod"
+        type="itsgml:PeriodPropertyType"/>
+      <element maxOccurs="unbounded" minOccurs="0" name="exceptionPeriod"
+        type="itsgml:PeriodPropertyType"/>
     </sequence>
   </complexType>
   <complexType name="OverallPeriodPropertyType">
@@ -217,10 +240,14 @@
       <element minOccurs="0" name="startOfPeriod" type="dateTime"/>
       <element minOccurs="0" name="endOfPeriod" type="dateTime"/>
       <element minOccurs="0" name="periodName" type="string"/>
-      <element maxOccurs="unbounded" minOccurs="0" name="recurringDayWeekMonthPeriod" type="itsgml:DayWeekMonthPropertyType"/>
-      <element maxOccurs="unbounded" minOccurs="0" name="recurringFuzzyTimePeriod" type="itsgml:FuzzyTimePeriodPropertyType"/>
-      <element maxOccurs="unbounded" minOccurs="0" name="recurringTimePeriodOfDay" type="itsgml:TimePeriodOfDayPropertyType"/>
-      <element maxOccurs="unbounded" minOccurs="0" name="recurringSpecialDay" type="itsgml:SpecialDayPropertyType"/>
+      <element maxOccurs="unbounded" minOccurs="0" name="recurringDayWeekMonthPeriod"
+        type="itsgml:DayWeekMonthPropertyType"/>
+      <element maxOccurs="unbounded" minOccurs="0" name="recurringFuzzyTimePeriod"
+        type="itsgml:FuzzyTimePeriodPropertyType"/>
+      <element maxOccurs="unbounded" minOccurs="0" name="recurringTimePeriodOfDay"
+        type="itsgml:TimePeriodOfDayPropertyType"/>
+      <element maxOccurs="unbounded" minOccurs="0" name="recurringSpecialDay"
+        type="itsgml:SpecialDayPropertyType"/>
     </sequence>
   </complexType>
   <complexType name="PeriodPropertyType">
@@ -243,31 +270,27 @@
       <element ref="itsgml:PublicHoliday"/>
     </sequence>
   </complexType>
-  <element name="RoadSpecificCondition" substitutionGroup="itsgml:Condition" type="itsgml:RoadSpecificConditionType"/>
-  <complexType name="RoadSpecificConditionType">
+  <element name="RoadCategoryCondition" substitutionGroup="itsgml:Condition"
+    type="itsgml:RoadCategoryConditionType"/>
+  <complexType name="RoadCategoryConditionType">
     <complexContent>
       <extension base="itsgml:ConditionType">
         <sequence>
-          <element minOccurs="0" name="roadCategory" type="gml:CodeType"/>
-          <element minOccurs="0" name="roadName" type="string"/>
-          <element minOccurs="0" name="roadNumber" type="integer"/>
-          <element minOccurs="0" name="numberOfCarriageways" type="integer"/>
-          <element minOccurs="0" name="referenceDirectionBearing" type="integer"/>
-          <element maxOccurs="unbounded" minOccurs="0" name="carriageway" type="itsgml:CarriagewaySpecificConditionPropertyType"/>
+          <element name="roadCategory" type="gml:ReferenceType"/>
         </sequence>
       </extension>
     </complexContent>
   </complexType>
-  <complexType name="RoadSpecificConditionPropertyType">
+  <complexType name="RoadCategoryConditionPropertyType">
     <sequence>
-      <element ref="itsgml:RoadSpecificCondition"/>
+      <element ref="itsgml:RoadCategoryCondition"/>
     </sequence>
   </complexType>
   <element name="SpecialDay" substitutionGroup="gml:AbstractObject" type="itsgml:SpecialDayType"/>
   <complexType name="SpecialDayType">
     <sequence>
       <element name="intersectWithApplicableDays" type="boolean"/>
-      <element name="specialDayType" type="gml:CodeType"/>
+      <element name="specialDayType" type="gml:ReferenceType"/>
       <element minOccurs="0" name="publicEvent" type="string"/>
     </sequence>
   </complexType>
@@ -291,7 +314,8 @@
       <element ref="itsgml:TimeCondition"/>
     </sequence>
   </complexType>
-  <element name="TimePeriodOfDay" substitutionGroup="gml:AbstractObject" type="itsgml:TimePeriodOfDayType"/>
+  <element name="TimePeriodOfDay" substitutionGroup="gml:AbstractObject"
+    type="itsgml:TimePeriodOfDayType"/>
   <complexType name="TimePeriodOfDayType">
     <sequence>
       <element name="startTimeOfPeriod" type="time"/>
@@ -314,22 +338,30 @@
       <element ref="itsgml:Validity"/>
     </sequence>
   </complexType>
-  <element name="VehicleCharacteristics" substitutionGroup="gml:AbstractObject" type="itsgml:VehicleCharacteristicsType"/>
+  <element name="VehicleCharacteristics" substitutionGroup="gml:AbstractObject"
+    type="itsgml:VehicleCharacteristicsType"/>
   <complexType name="VehicleCharacteristicsType">
     <sequence>
-      <element maxOccurs="unbounded" minOccurs="0" name="fuelType" type="gml:CodeType"/>
-      <element minOccurs="0" name="loadType" type="gml:CodeType"/>
-      <element minOccurs="0" name="vehicleEquipment" type="gml:CodeType"/>
-      <element maxOccurs="unbounded" minOccurs="0" name="vehicleType" type="gml:CodeType"/>
-      <element minOccurs="0" name="vehicleUsage" type="gml:CodeType"/>
+      <element maxOccurs="unbounded" minOccurs="0" name="fuelType" type="gml:ReferenceType"/>
+      <element minOccurs="0" name="loadType" type="gml:ReferenceType"/>
+      <element minOccurs="0" name="vehicleEquipment" type="gml:ReferenceType"/>
+      <element maxOccurs="unbounded" minOccurs="0" name="vehicleType" type="gml:ReferenceType"/>
+      <element minOccurs="0" name="vehicleUsage" type="gml:ReferenceType"/>
       <element minOccurs="0" name="yearOfFirstRegistration" type="integer"/>
-      <element maxOccurs="unbounded" minOccurs="0" name="heaviestAxleWeightCharacteristic" type="itsgml:HeaviestAxleWeightCharacteristicPropertyType"/>
-      <element maxOccurs="unbounded" minOccurs="0" name="grossWeightCharacteristic" type="itsgml:GrossWeightCharacteristicPropertyType"/>
-      <element maxOccurs="unbounded" minOccurs="0" name="numberOfAxlesCharacteristic" type="itsgml:NumberOfAxlesCharacteristicPropertyType"/>
-      <element maxOccurs="unbounded" minOccurs="0" name="lengthCharacteristic" type="itsgml:LengthCharacteristicPropertyType"/>
-      <element maxOccurs="unbounded" minOccurs="0" name="emissions" type="itsgml:EmissionsPropertyType"/>
-      <element maxOccurs="unbounded" minOccurs="0" name="widthCharacteristic" type="itsgml:WidthCharacteristicPropertyType"/>
-      <element maxOccurs="unbounded" minOccurs="0" name="heightCharacteristic" type="itsgml:HeightCharacteristicPropertyType"/>
+      <element maxOccurs="unbounded" minOccurs="0" name="heightCharacteristic"
+        type="itsgml:HeightCharacteristicPropertyType"/>
+      <element maxOccurs="unbounded" minOccurs="0" name="widthCharacteristic"
+        type="itsgml:WidthCharacteristicPropertyType"/>
+      <element maxOccurs="unbounded" minOccurs="0" name="heaviestAxleWeightCharacteristic"
+        type="itsgml:HeaviestAxleWeightCharacteristicPropertyType"/>
+      <element maxOccurs="unbounded" minOccurs="0" name="grossWeightCharacteristic"
+        type="itsgml:GrossWeightCharacteristicPropertyType"/>
+      <element maxOccurs="unbounded" minOccurs="0" name="numberOfAxlesCharacteristic"
+        type="itsgml:NumberOfAxlesCharacteristicPropertyType"/>
+      <element maxOccurs="unbounded" minOccurs="0" name="emissions"
+        type="itsgml:EmissionsPropertyType"/>
+      <element maxOccurs="unbounded" minOccurs="0" name="lengthCharacteristic"
+        type="itsgml:LengthCharacteristicPropertyType"/>
     </sequence>
   </complexType>
   <complexType name="VehicleCharacteristicsPropertyType">
@@ -337,7 +369,8 @@
       <element ref="itsgml:VehicleCharacteristics"/>
     </sequence>
   </complexType>
-  <element name="VehicleCondition" substitutionGroup="itsgml:Condition" type="itsgml:VehicleConditionType"/>
+  <element name="VehicleCondition" substitutionGroup="itsgml:Condition"
+    type="itsgml:VehicleConditionType"/>
   <complexType name="VehicleConditionType">
     <complexContent>
       <extension base="itsgml:ConditionType">
@@ -352,12 +385,13 @@
       <element ref="itsgml:VehicleCondition"/>
     </sequence>
   </complexType>
-  <element name="WeatherCondition" substitutionGroup="itsgml:Condition" type="itsgml:WeatherConditionType"/>
+  <element name="WeatherCondition" substitutionGroup="itsgml:Condition"
+    type="itsgml:WeatherConditionType"/>
   <complexType name="WeatherConditionType">
     <complexContent>
       <extension base="itsgml:ConditionType">
         <sequence>
-          <element name="weatherType" type="gml:CodeType"/>
+          <element name="weatherType" type="gml:ReferenceType"/>
         </sequence>
       </extension>
     </complexContent>
@@ -367,10 +401,22 @@
       <element ref="itsgml:WeatherCondition"/>
     </sequence>
   </complexType>
-  <element name="WidthCharacteristic" substitutionGroup="gml:AbstractObject" type="itsgml:WidthCharacteristicType"/>
+  <simpleType name="WeekOfMonthType">
+    <restriction base="string">
+      <enumeration value="firstWeek"/>
+      <enumeration value="secondWeek"/>
+      <enumeration value="thirdWeek"/>
+      <enumeration value="fourthWeek"/>
+      <enumeration value="fifthWeek"/>
+      <enumeration value="sixthWeek"/>
+      <enumeration value="lastWeek"/>
+    </restriction>
+  </simpleType>
+  <element name="WidthCharacteristic" substitutionGroup="gml:AbstractObject"
+    type="itsgml:WidthCharacteristicType"/>
   <complexType name="WidthCharacteristicType">
     <sequence>
-      <element name="comparisonOperator"/>
+      <element name="comparisonOperator" type="itsgml:ComparisonOperatorType"/>
       <element name="vehicleWidth" type="gml:MeasureType"/>
     </sequence>
   </complexType>

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Change history:-->
+<!--Date             Version           Author     Change-->
+<!--==============================================================================================-->
+<!--XML Schema document created by ShapeChange - http://shapechange.net/-->
+<!--2018-01-10        01                 KJe      Manually add gml 3.3 namespace, schema and datatype     -->
+
+<schema xmlns="http://www.w3.org/2001/XMLSchema" xmlns:gml="http://www.opengis.net/gml/3.2"
+  xmlns:gmllr="http://www.opengis.net/gml/3.3/lr" xmlns:itsgml="https://raw.githubusercontent.com/jetgeo/ITSGML/master/XSD"
+  elementFormDefault="qualified" targetNamespace="https://raw.githubusercontent.com/jetgeo/ITSGML/master/XSD" version="0.1">
+  <include schemaLocation="RoadFeatures.xsd"/>
+  <include schemaLocation="itsgml.xsd"/>
+  <import namespace="http://www.opengis.net/gml/3.3/lr"
+    schemaLocation="http://schemas.opengis.net/gml/3.3/linearRef.xsd"/>
+  <import namespace="http://www.opengis.net/gml/3.2"
+    schemaLocation="http://schemas.opengis.net/gml/3.2.1/gml.xsd"/>
+  <!--XML Schema document created by ShapeChange - http://shapechange.net/-->
+  <element abstract="true" name="Dataset" substitutionGroup="gml:AbstractFeature"
+    type="itsgml:DatasetType"/>
+  <complexType abstract="true" name="DatasetType">
+    <complexContent>
+      <extension base="gml:AbstractFeatureType">
+        <sequence> </sequence>
+      </extension>
+    </complexContent>
+  </complexType>
+  <complexType name="DatasetPropertyType">
+    <sequence minOccurs="0">
+      <element ref="itsgml:Dataset"/>
+    </sequence>
+    <attributeGroup ref="gml:AssociationAttributeGroup"/>
+    <attributeGroup ref="gml:OwnershipAttributeGroup"/>
+  </complexType>
+  <simpleType name="DatasetTypeType">
+    <restriction base="string">
+      <enumeration value="Update"/>
+      <enumeration value="Snapshot"/>
+    </restriction>
+  </simpleType>
+  <element name="RoadFeatureDataset" substitutionGroup="itsgml:Dataset"
+    type="itsgml:RoadFeatureDatasetType"/>
+  <complexType name="RoadFeatureDatasetType">
+    <complexContent>
+      <extension base="itsgml:DatasetType">
+        <sequence>
+          <element name="type" type="itsgml:DatasetTypeType"/>
+          <element minOccurs="0" name="defaultLRM" type="gmllr:LinearReferencingMethodPropertyType"/>
+          <element maxOccurs="unbounded" name="roadFeatures">
+            <complexType>
+              <complexContent>
+                <extension base="gml:AbstractFeatureMemberType">
+                  <sequence minOccurs="0">
+                    <element ref="itsgml:RoadFeature"/>
+                  </sequence>
+                  <attributeGroup ref="gml:AssociationAttributeGroup"/>
+                </extension>
+              </complexContent>
+            </complexType>
+          </element>
+        </sequence>
+      </extension>
+    </complexContent>
+  </complexType>
+  <complexType name="RoadFeatureDatasetPropertyType">
+    <sequence minOccurs="0">
+      <element ref="itsgml:RoadFeatureDataset"/>
+    </sequence>
+    <attributeGroup ref="gml:AssociationAttributeGroup"/>
+    <attributeGroup ref="gml:OwnershipAttributeGroup"/>
+  </complexType>
+</schema>
