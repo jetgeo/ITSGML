@@ -72,11 +72,11 @@
               <documentation>Date and time at which this version of the spatial object was superseded or retired in the spatial data set.</documentation>
             </annotation>
           </element>
-          <element maxOccurs="unbounded" minOccurs="0" name="property"
-            type="itsgml:GenericFeaturePropertyPropertyType"/>
           <element name="featureTypeReference" type="itsgml:FC_FeatureTypePropertyType"/>
           <element maxOccurs="unbounded" name="locationReference"
             type="itsgml:LocationReferencePropertyType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="property"
+            type="itsgml:GenericFeaturePropertyPropertyType"/>
         </sequence>
       </extension>
     </complexContent>
