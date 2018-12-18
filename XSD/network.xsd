@@ -1,8 +1,15 @@
-<?xml version="1.0" encoding="UTF-8"?><schema xmlns="http://www.w3.org/2001/XMLSchema" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:gmlexr="http://www.opengis.net/gml/3.3/exr" xmlns:itsgml="https://raw.githubusercontent.com/jetgeo/ITSGML/master/XSD" elementFormDefault="qualified" targetNamespace="https://raw.githubusercontent.com/jetgeo/ITSGML/master/XSD" version="0.1">
-  <import namespace="http://www.opengis.net/gml/3.2" schemaLocation="http://schemas.opengis.net/gml/3.2.1/gml.xsd"/>
-  <import namespace="http://www.opengis.net/gml/3.3/exr" schemaLocation="http://schemas.opengis.net/gml/3.3/extdEncRule.xsd"/>
+<?xml version="1.0" encoding="UTF-8"?><schema xmlns="http://www.w3.org/2001/XMLSchema" xmlns:gml="http://www.opengis.net/gml/3.2"
+  xmlns:gmlexr="http://www.opengis.net/gml/3.3/exr"
+  xmlns:itsgml="https://raw.githubusercontent.com/jetgeo/ITSGML/master/XSD"
+  elementFormDefault="qualified"
+  targetNamespace="https://raw.githubusercontent.com/jetgeo/ITSGML/master/XSD" version="0.1">
+  <import namespace="http://www.opengis.net/gml/3.2"
+    schemaLocation="http://schemas.opengis.net/gml/3.2.1/gml.xsd"/>
+  <import namespace="http://www.opengis.net/gml/3.3/exr"
+    schemaLocation="http://schemas.opengis.net/gml/3.3/extdEncRule.xsd"/>
   <!--XML Schema document created by ShapeChange - http://shapechange.net/-->
-  <element name="CrossReference" substitutionGroup="gml:AbstractFeature" type="itsgml:CrossReferenceType"/>
+  <element name="CrossReference" substitutionGroup="gml:AbstractFeature"
+    type="itsgml:CrossReferenceType"/>
   <complexType name="CrossReferenceType">
     <complexContent>
       <extension base="gml:AbstractFeatureType">
@@ -48,7 +55,8 @@
       <element ref="itsgml:DirectedLink"/>
     </sequence>
   </complexType>
-  <element abstract="true" name="GeneralisedLink" substitutionGroup="itsgml:NetworkElement" type="itsgml:GeneralisedLinkType"/>
+  <element abstract="true" name="GeneralisedLink" substitutionGroup="itsgml:NetworkElement"
+    type="itsgml:GeneralisedLinkType"/>
   <complexType abstract="true" name="GeneralisedLinkType">
     <complexContent>
       <extension base="itsgml:NetworkElementType">
@@ -63,7 +71,8 @@
     <attributeGroup ref="gml:AssociationAttributeGroup"/>
     <attributeGroup ref="gml:OwnershipAttributeGroup"/>
   </complexType>
-  <element name="GradeSeparatedCrossing" substitutionGroup="itsgml:NetworkElement" type="itsgml:GradeSeparatedCrossingType"/>
+  <element name="GradeSeparatedCrossing" substitutionGroup="itsgml:NetworkElement"
+    type="itsgml:GradeSeparatedCrossingType"/>
   <complexType name="GradeSeparatedCrossingType">
     <complexContent>
       <extension base="itsgml:NetworkElementType">
@@ -140,7 +149,8 @@
     <attributeGroup ref="gml:AssociationAttributeGroup"/>
     <attributeGroup ref="gml:OwnershipAttributeGroup"/>
   </complexType>
-  <element name="LinkSequence" substitutionGroup="itsgml:GeneralisedLink" type="itsgml:LinkSequenceType"/>
+  <element name="LinkSequence" substitutionGroup="itsgml:GeneralisedLink"
+    type="itsgml:LinkSequenceType"/>
   <complexType name="LinkSequenceType">
     <complexContent>
       <extension base="itsgml:GeneralisedLinkType">
@@ -194,7 +204,7 @@
       <extension base="gml:AbstractFeatureType">
         <sequence>
           <element maxOccurs="unbounded" minOccurs="0" name="geographicalName" nillable="true"/>
-          <element maxOccurs="unbounded" minOccurs="0" name="elements">
+          <element maxOccurs="unbounded" minOccurs="0" name="element">
             <annotation>
               <appinfo>
                 <targetElement xmlns="http://www.opengis.net/gml/3.2">itsgml:NetworkElement</targetElement>
@@ -213,7 +223,8 @@
       </extension>
     </complexContent>
   </complexType>
-  <element abstract="true" name="NetworkArea" substitutionGroup="itsgml:NetworkElement" type="itsgml:NetworkAreaType"/>
+  <element abstract="true" name="NetworkArea" substitutionGroup="itsgml:NetworkElement"
+    type="itsgml:NetworkAreaType"/>
   <complexType abstract="true" name="NetworkAreaType">
     <complexContent>
       <extension base="itsgml:NetworkElementType">
@@ -230,7 +241,8 @@
     <attributeGroup ref="gml:AssociationAttributeGroup"/>
     <attributeGroup ref="gml:OwnershipAttributeGroup"/>
   </complexType>
-  <element name="NetworkConnection" substitutionGroup="itsgml:NetworkElement" type="itsgml:NetworkConnectionType"/>
+  <element name="NetworkConnection" substitutionGroup="itsgml:NetworkElement"
+    type="itsgml:NetworkConnectionType"/>
   <complexType name="NetworkConnectionType">
     <complexContent>
       <extension base="itsgml:NetworkElementType">
@@ -260,7 +272,8 @@
     <attributeGroup ref="gml:AssociationAttributeGroup"/>
     <attributeGroup ref="gml:OwnershipAttributeGroup"/>
   </complexType>
-  <element abstract="true" name="NetworkElement" substitutionGroup="gml:AbstractFeature" type="itsgml:NetworkElementType"/>
+  <element abstract="true" name="NetworkElement" substitutionGroup="gml:AbstractFeature"
+    type="itsgml:NetworkElementType"/>
   <complexType abstract="true" name="NetworkElementType">
     <complexContent>
       <extension base="gml:AbstractFeatureType">
