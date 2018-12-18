@@ -108,6 +108,8 @@
       <extension base="itsgml:GeneralisedLinkType">
         <sequence>
           <element name="centrelineGeometry" type="gml:CurvePropertyType"/>
+          <element minOccurs="0" name="startMeasure" type="gml:MeasureType"/>
+          <element minOccurs="0" name="endMeasure" type="gml:MeasureType"/>
           <element minOccurs="0" name="startNode" type="gml:ReferenceType">
             <annotation>
               <appinfo>
