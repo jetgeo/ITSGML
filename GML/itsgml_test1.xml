@@ -20,16 +20,13 @@
      </itsgml:encodedGeometry>
     </itsgml:GeometryLocationReference>
    </itsgml:locationReference>
-   <itsgml:featureTypeReference
-    xlink:href="file:/C:/DATA/GitHub/ITSGML/GML/TransportNetworks.gml#TransportNetworks.RoadWidth"/>
    <itsgml:property>
     <itsgml:GenericFeatureProperty>
      <itsgml:propertyTypeReference/>
     </itsgml:GenericFeatureProperty>
-    <itsgml:GenericFeatureProperty>
-     <itsgml:propertyTypeReference/>
-    </itsgml:GenericFeatureProperty>
    </itsgml:property>
+   <itsgml:featureTypeReference
+    xlink:href="TransportNetworks.gml#TransportNetworks.RoadWidth"/>
   </itsgml:Feature>
 
   <itsgml:FeatureSet>
