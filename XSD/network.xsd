@@ -29,12 +29,17 @@
   <complexType name="DirectedLinkType">
     <sequence>
       <element name="direction" type="gml:SignType"/>
-      <element name="link" type="string">
-        <annotation>
-          <appinfo>
-            <targetElement xmlns="http://www.opengis.net/gml/3.2">itsgml:Link</targetElement>
-          </appinfo>
-        </annotation>
+      <element maxOccurs="1" name="link">
+        <complexType>
+          <complexContent>
+            <extension base="gml:AbstractFeatureMemberType">
+              <sequence minOccurs="0">
+                <element ref="itsgml:Link"/>
+              </sequence>
+              <attributeGroup ref="gml:AssociationAttributeGroup"/>
+            </extension>
+          </complexContent>
+        </complexType>
       </element>
     </sequence>
   </complexType>
