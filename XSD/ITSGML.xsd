@@ -132,15 +132,9 @@
         </annotation>
       </element>
       <element name="propertyStructure" type="itsgml:PropertyStructureType"/>
-      <element maxOccurs="unbounded" minOccurs="0" name="value">
-        <complexType>
-          <sequence minOccurs="0">
-            <element ref="gml:AbstractObject"/>
-          </sequence>
-          <attributeGroup ref="gml:AssociationAttributeGroup"/>
-        </complexType>
-      </element>
       <element name="propertyTypeReference" type="itsgml:FC_PropertyTypePropertyType"/>
+      <element minOccurs="0" name="value" type="string"/>
+      <element minOccurs="0" name="unitOfMeasure" type="string"/>
       <element maxOccurs="unbounded" minOccurs="0" name="subproperty"
         type="itsgml:GenericFeaturePropertyPropertyType"/>
     </sequence>
