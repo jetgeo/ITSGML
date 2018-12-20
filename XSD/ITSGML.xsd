@@ -61,6 +61,7 @@
               <documentation>text string that uniquely identifies this feature type within the feature catalogue that contains this feature type</documentation>
             </annotation>
           </element>
+          <element name="validFrom" type="date" nillable="true"/>
           <element minOccurs="0" name="validTo" type="date"/>
           <element name="beginLifespanVersion" type="dateTime" nillable="true">
             <annotation>
@@ -72,7 +73,6 @@
               <documentation>Date and time at which this version of the spatial object was superseded or retired in the spatial data set.</documentation>
             </annotation>
           </element>
-          <element name="validFrom" type="date"/>
           <element name="featureTypeReference" type="itsgml:FC_FeatureTypePropertyType"/>
           <element maxOccurs="unbounded" name="locationReference"
             type="itsgml:LocationReferencePropertyType"/>
