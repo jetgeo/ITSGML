@@ -135,6 +135,7 @@
       <element name="propertyTypeReference" type="itsgml:FC_PropertyTypePropertyType"/>
       <element minOccurs="0" name="value" type="string"/>
       <element minOccurs="0" name="unitOfMeasure" type="string"/>
+      <element maxOccurs="unbounded" minOccurs="0" name="valueReference" type="gml:ReferenceType"/>
       <element maxOccurs="unbounded" minOccurs="0" name="subproperty"
         type="itsgml:GenericFeaturePropertyPropertyType"/>
     </sequence>
