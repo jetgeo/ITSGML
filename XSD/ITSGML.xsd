@@ -62,7 +62,7 @@
             </annotation>
           </element>
           <element minOccurs="0" name="validTo" type="date"/>
-          <element name="beginLifespanVersion" type="dateTime">
+          <element name="beginLifespanVersion" type="dateTime" nillable="true">
             <annotation>
               <documentation>Date and time at which this version of the spatial object was inserted or changed in the spatial data set.</documentation>
             </annotation>
