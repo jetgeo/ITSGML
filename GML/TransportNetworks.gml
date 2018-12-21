@@ -1396,152 +1396,152 @@
         <itsgml:FC_FeatureAssociation gml:id="TransportNetworks.Associations.93878">
             <itsgml:typeName>TransportLink_ThoroughfareName</itsgml:typeName>
             <itsgml:isAbstract>false</itsgml:isAbstract>
-            <itsgml:roleName xlink:href="TransportNetworks.gml#TransportNetworks.AssociationRoles.TransportLink.93878" />
-            <itsgml:roleName xlink:href="TransportNetworks.gml#TransportNetworks.AssociationRoles.ThoroughfareName.93878" />
+            <itsgml:roleName xlink:href="TransportNetworks.gml#TransportNetworks.AssociationRoles.TransportLink.ThoroughfareName.93878"/>
+            <itsgml:roleName xlink:href="TransportNetworks.gml#TransportNetworks.AssociationRoles.ThoroughfareName.TransportLink.transportLink"/>
         </itsgml:FC_FeatureAssociation>
     </itsgml:classifier>
     <itsgml:classifier>
         <itsgml:FC_FeatureAssociation gml:id="TransportNetworks.Associations.93938">
             <itsgml:typeName>PronunciationOfName_</itsgml:typeName>
             <itsgml:isAbstract>false</itsgml:isAbstract>
-            <itsgml:roleName xlink:href="TransportNetworks.gml#TransportNetworks.AssociationRoles.PronunciationOfName.93938" />
-            <itsgml:roleName xlink:href="TransportNetworks.gml#TransportNetworks.AssociationRoles..93938" />
+            <itsgml:roleName xlink:href="TransportNetworks.gml#TransportNetworks.AssociationRoles.PronunciationOfName..93938"/>
+            <itsgml:roleName xlink:href="TransportNetworks.gml#TransportNetworks.AssociationRoles..PronunciationOfName.93938"/>
         </itsgml:FC_FeatureAssociation>
     </itsgml:classifier>
     <itsgml:classifier>
         <itsgml:FC_FeatureAssociation gml:id="TransportNetworks.Associations.93795">
             <itsgml:typeName>Link_GradeSeparatedCrossing</itsgml:typeName>
             <itsgml:isAbstract>false</itsgml:isAbstract>
-            <itsgml:roleName xlink:href="TransportNetworks.gml#TransportNetworks.AssociationRoles.Link.93795" />
-            <itsgml:roleName xlink:href="TransportNetworks.gml#TransportNetworks.AssociationRoles.GradeSeparatedCrossing.93795" />
+            <itsgml:roleName xlink:href="TransportNetworks.gml#TransportNetworks.AssociationRoles.Link.GradeSeparatedCrossing.93795"/>
+            <itsgml:roleName xlink:href="TransportNetworks.gml#TransportNetworks.AssociationRoles.GradeSeparatedCrossing.Link.element"/>
         </itsgml:FC_FeatureAssociation>
     </itsgml:classifier>
     <itsgml:classifier>
         <itsgml:FC_FeatureAssociation gml:id="TransportNetworks.Associations.93802">
             <itsgml:typeName>Link_DirectedLink</itsgml:typeName>
             <itsgml:isAbstract>false</itsgml:isAbstract>
-            <itsgml:roleName xlink:href="TransportNetworks.gml#TransportNetworks.AssociationRoles.Link.93802" />
-            <itsgml:roleName xlink:href="TransportNetworks.gml#TransportNetworks.AssociationRoles.DirectedLink.93802" />
+            <itsgml:roleName xlink:href="TransportNetworks.gml#TransportNetworks.AssociationRoles.Link.DirectedLink.93802"/>
+            <itsgml:roleName xlink:href="TransportNetworks.gml#TransportNetworks.AssociationRoles.DirectedLink.Link.link"/>
         </itsgml:FC_FeatureAssociation>
     </itsgml:classifier>
     <itsgml:classifier>
         <itsgml:FC_FeatureAssociation gml:id="TransportNetworks.Associations.93813">
             <itsgml:typeName>Link_Node</itsgml:typeName>
             <itsgml:isAbstract>false</itsgml:isAbstract>
-            <itsgml:roleName xlink:href="TransportNetworks.gml#TransportNetworks.AssociationRoles.Link.93813" />
-            <itsgml:roleName xlink:href="TransportNetworks.gml#TransportNetworks.AssociationRoles.Node.93813" />
+            <itsgml:roleName xlink:href="TransportNetworks.gml#TransportNetworks.AssociationRoles.Link.Node.endNode"/>
+            <itsgml:roleName xlink:href="TransportNetworks.gml#TransportNetworks.AssociationRoles.Node.Link.spokeEnd"/>
         </itsgml:FC_FeatureAssociation>
     </itsgml:classifier>
     <itsgml:classifier>
         <itsgml:FC_FeatureAssociation gml:id="TransportNetworks.Associations.93814">
             <itsgml:typeName>Link_Node</itsgml:typeName>
             <itsgml:isAbstract>false</itsgml:isAbstract>
-            <itsgml:roleName xlink:href="TransportNetworks.gml#TransportNetworks.AssociationRoles.Link.93814" />
-            <itsgml:roleName xlink:href="TransportNetworks.gml#TransportNetworks.AssociationRoles.Node.93814" />
+            <itsgml:roleName xlink:href="TransportNetworks.gml#TransportNetworks.AssociationRoles.Link.Node.startNode"/>
+            <itsgml:roleName xlink:href="TransportNetworks.gml#TransportNetworks.AssociationRoles.Node.Link.spokeStart"/>
         </itsgml:FC_FeatureAssociation>
     </itsgml:classifier>
     <itsgml:classifier>
         <itsgml:FC_FeatureAssociation gml:id="TransportNetworks.Associations.93800">
             <itsgml:typeName>GeneralisedLink_LinkSet</itsgml:typeName>
             <itsgml:isAbstract>false</itsgml:isAbstract>
-            <itsgml:roleName xlink:href="TransportNetworks.gml#TransportNetworks.AssociationRoles.GeneralisedLink.93800" />
-            <itsgml:roleName xlink:href="TransportNetworks.gml#TransportNetworks.AssociationRoles.LinkSet.93800" />
+            <itsgml:roleName xlink:href="TransportNetworks.gml#TransportNetworks.AssociationRoles.GeneralisedLink.LinkSet.93800"/>
+            <itsgml:roleName xlink:href="TransportNetworks.gml#TransportNetworks.AssociationRoles.LinkSet.GeneralisedLink.link"/>
         </itsgml:FC_FeatureAssociation>
     </itsgml:classifier>
     <itsgml:classifier>
         <itsgml:FC_FeatureAssociation gml:id="TransportNetworks.Associations.93791">
             <itsgml:typeName>NetworkElement_NetworkReference</itsgml:typeName>
             <itsgml:isAbstract>false</itsgml:isAbstract>
-            <itsgml:roleName xlink:href="TransportNetworks.gml#TransportNetworks.AssociationRoles.NetworkElement.93791" />
-            <itsgml:roleName xlink:href="TransportNetworks.gml#TransportNetworks.AssociationRoles.NetworkReference.93791" />
+            <itsgml:roleName xlink:href="TransportNetworks.gml#TransportNetworks.AssociationRoles.NetworkElement.NetworkReference.93791"/>
+            <itsgml:roleName xlink:href="TransportNetworks.gml#TransportNetworks.AssociationRoles.NetworkReference.NetworkElement.element"/>
         </itsgml:FC_FeatureAssociation>
     </itsgml:classifier>
     <itsgml:classifier>
         <itsgml:FC_FeatureAssociation gml:id="TransportNetworks.Associations.93792">
             <itsgml:typeName>NetworkElement_Network</itsgml:typeName>
             <itsgml:isAbstract>false</itsgml:isAbstract>
-            <itsgml:roleName xlink:href="TransportNetworks.gml#TransportNetworks.AssociationRoles.NetworkElement.93792" />
-            <itsgml:roleName xlink:href="TransportNetworks.gml#TransportNetworks.AssociationRoles.Network.93792" />
+            <itsgml:roleName xlink:href="TransportNetworks.gml#TransportNetworks.AssociationRoles.NetworkElement.Network.inNetwork"/>
+            <itsgml:roleName xlink:href="TransportNetworks.gml#TransportNetworks.AssociationRoles.Network.NetworkElement.elements"/>
         </itsgml:FC_FeatureAssociation>
     </itsgml:classifier>
     <itsgml:classifier>
         <itsgml:FC_FeatureAssociation gml:id="TransportNetworks.Associations.93797">
             <itsgml:typeName>NetworkElement_CrossReference</itsgml:typeName>
             <itsgml:isAbstract>false</itsgml:isAbstract>
-            <itsgml:roleName xlink:href="TransportNetworks.gml#TransportNetworks.AssociationRoles.NetworkElement.93797" />
-            <itsgml:roleName xlink:href="TransportNetworks.gml#TransportNetworks.AssociationRoles.CrossReference.93797" />
+            <itsgml:roleName xlink:href="TransportNetworks.gml#TransportNetworks.AssociationRoles.NetworkElement.CrossReference.93797"/>
+            <itsgml:roleName xlink:href="TransportNetworks.gml#TransportNetworks.AssociationRoles.CrossReference.NetworkElement.element"/>
         </itsgml:FC_FeatureAssociation>
     </itsgml:classifier>
     <itsgml:classifier>
         <itsgml:FC_FeatureAssociation gml:id="TransportNetworks.Associations.93809">
             <itsgml:typeName>NetworkElement_NetworkConnection</itsgml:typeName>
             <itsgml:isAbstract>false</itsgml:isAbstract>
-            <itsgml:roleName xlink:href="TransportNetworks.gml#TransportNetworks.AssociationRoles.NetworkElement.93809" />
-            <itsgml:roleName xlink:href="TransportNetworks.gml#TransportNetworks.AssociationRoles.NetworkConnection.93809" />
+            <itsgml:roleName xlink:href="TransportNetworks.gml#TransportNetworks.AssociationRoles.NetworkElement.NetworkConnection.93809"/>
+            <itsgml:roleName xlink:href="TransportNetworks.gml#TransportNetworks.AssociationRoles.NetworkConnection.NetworkElement.element"/>
         </itsgml:FC_FeatureAssociation>
     </itsgml:classifier>
     <itsgml:classifier>
         <itsgml:FC_FeatureAssociation gml:id="TransportNetworks.Associations.93609">
             <itsgml:typeName>TransportLinkSet_MarkerPost</itsgml:typeName>
             <itsgml:isAbstract>false</itsgml:isAbstract>
-            <itsgml:roleName xlink:href="TransportNetworks.gml#TransportNetworks.AssociationRoles.TransportLinkSet.93609" />
-            <itsgml:roleName xlink:href="TransportNetworks.gml#TransportNetworks.AssociationRoles.MarkerPost.93609" />
+            <itsgml:roleName xlink:href="TransportNetworks.gml#TransportNetworks.AssociationRoles.TransportLinkSet.MarkerPost.post"/>
+            <itsgml:roleName xlink:href="TransportNetworks.gml#TransportNetworks.AssociationRoles.MarkerPost.TransportLinkSet.route"/>
         </itsgml:FC_FeatureAssociation>
     </itsgml:classifier>
     <itsgml:classifier>
         <itsgml:FC_FeatureAssociation gml:id="TransportNetworks.Associations.93812">
             <itsgml:typeName>Node_NodeLocationReference</itsgml:typeName>
             <itsgml:isAbstract>false</itsgml:isAbstract>
-            <itsgml:roleName xlink:href="TransportNetworks.gml#TransportNetworks.AssociationRoles.Node.93812" />
-            <itsgml:roleName xlink:href="TransportNetworks.gml#TransportNetworks.AssociationRoles.NodeLocationReference.93812" />
+            <itsgml:roleName xlink:href="TransportNetworks.gml#TransportNetworks.AssociationRoles.Node.NodeLocationReference.93812"/>
+            <itsgml:roleName xlink:href="TransportNetworks.gml#TransportNetworks.AssociationRoles.NodeLocationReference.Node.node"/>
         </itsgml:FC_FeatureAssociation>
     </itsgml:classifier>
     <itsgml:classifier>
         <itsgml:FC_FeatureAssociation gml:id="TransportNetworks.Associations.94904">
             <itsgml:typeName>NetworkReference_TrafficRelatedEvent</itsgml:typeName>
             <itsgml:isAbstract>false</itsgml:isAbstract>
-            <itsgml:roleName xlink:href="TransportNetworks.gml#TransportNetworks.AssociationRoles.NetworkReference.94904" />
-            <itsgml:roleName xlink:href="TransportNetworks.gml#TransportNetworks.AssociationRoles.TrafficRelatedEvent.94904" />
+            <itsgml:roleName xlink:href="TransportNetworks.gml#TransportNetworks.AssociationRoles.NetworkReference.TrafficRelatedEvent.involves"/>
+            <itsgml:roleName xlink:href="TransportNetworks.gml#TransportNetworks.AssociationRoles.TrafficRelatedEvent.NetworkReference.involvedIn"/>
         </itsgml:FC_FeatureAssociation>
     </itsgml:classifier>
     <itsgml:classifier>
         <itsgml:FC_FeatureAssociation gml:id="TransportNetworks.Associations.93706">
             <itsgml:typeName>Beacon_TrafficSeparationScheme</itsgml:typeName>
             <itsgml:isAbstract>false</itsgml:isAbstract>
-            <itsgml:roleName xlink:href="TransportNetworks.gml#TransportNetworks.AssociationRoles.Beacon.93706" />
-            <itsgml:roleName xlink:href="TransportNetworks.gml#TransportNetworks.AssociationRoles.TrafficSeparationScheme.93706" />
+            <itsgml:roleName xlink:href="TransportNetworks.gml#TransportNetworks.AssociationRoles.Beacon.TrafficSeparationScheme.93706"/>
+            <itsgml:roleName xlink:href="TransportNetworks.gml#TransportNetworks.AssociationRoles.TrafficSeparationScheme.Beacon.markerBeacon"/>
         </itsgml:FC_FeatureAssociation>
     </itsgml:classifier>
     <itsgml:classifier>
         <itsgml:FC_FeatureAssociation gml:id="TransportNetworks.Associations.93704">
             <itsgml:typeName>Buoy_TrafficSeparationScheme</itsgml:typeName>
             <itsgml:isAbstract>false</itsgml:isAbstract>
-            <itsgml:roleName xlink:href="TransportNetworks.gml#TransportNetworks.AssociationRoles.Buoy.93704" />
-            <itsgml:roleName xlink:href="TransportNetworks.gml#TransportNetworks.AssociationRoles.TrafficSeparationScheme.93704" />
+            <itsgml:roleName xlink:href="TransportNetworks.gml#TransportNetworks.AssociationRoles.Buoy.TrafficSeparationScheme.93704"/>
+            <itsgml:roleName xlink:href="TransportNetworks.gml#TransportNetworks.AssociationRoles.TrafficSeparationScheme.Buoy.markerBuoy"/>
         </itsgml:FC_FeatureAssociation>
     </itsgml:classifier>
     <itsgml:classifier>
         <itsgml:FC_FeatureAssociation gml:id="TransportNetworks.Associations.93705">
             <itsgml:typeName>MarineWaterway_TrafficSeparationScheme</itsgml:typeName>
             <itsgml:isAbstract>false</itsgml:isAbstract>
-            <itsgml:roleName xlink:href="TransportNetworks.gml#TransportNetworks.AssociationRoles.MarineWaterway.93705" />
-            <itsgml:roleName xlink:href="TransportNetworks.gml#TransportNetworks.AssociationRoles.TrafficSeparationScheme.93705" />
+            <itsgml:roleName xlink:href="TransportNetworks.gml#TransportNetworks.AssociationRoles.MarineWaterway.TrafficSeparationScheme.93705"/>
+            <itsgml:roleName xlink:href="TransportNetworks.gml#TransportNetworks.AssociationRoles.TrafficSeparationScheme.MarineWaterway.marineWaterRoute"/>
         </itsgml:FC_FeatureAssociation>
     </itsgml:classifier>
     <itsgml:classifier>
         <itsgml:FC_FeatureAssociation gml:id="TransportNetworks.Associations.93703">
             <itsgml:typeName>TrafficSeparationScheme_TrafficSeparationSchemeArea</itsgml:typeName>
             <itsgml:isAbstract>false</itsgml:isAbstract>
-            <itsgml:roleName xlink:href="TransportNetworks.gml#TransportNetworks.AssociationRoles.TrafficSeparationScheme.93703" />
-            <itsgml:roleName xlink:href="TransportNetworks.gml#TransportNetworks.AssociationRoles.TrafficSeparationSchemeArea.93703" />
+            <itsgml:roleName xlink:href="TransportNetworks.gml#TransportNetworks.AssociationRoles.TrafficSeparationScheme.TrafficSeparationSchemeArea.component"/>
+            <itsgml:roleName xlink:href="TransportNetworks.gml#TransportNetworks.AssociationRoles.TrafficSeparationSchemeArea.TrafficSeparationScheme.93703"/>
         </itsgml:FC_FeatureAssociation>
     </itsgml:classifier>
     <itsgml:classifier>
         <itsgml:FC_FeatureAssociation gml:id="TransportNetworks.Associations.93683">
             <itsgml:typeName>WaterwayNode_</itsgml:typeName>
             <itsgml:isAbstract>false</itsgml:isAbstract>
-            <itsgml:roleName xlink:href="TransportNetworks.gml#TransportNetworks.AssociationRoles.WaterwayNode.93683" />
-            <itsgml:roleName xlink:href="TransportNetworks.gml#TransportNetworks.AssociationRoles..93683" />
+            <itsgml:roleName xlink:href="TransportNetworks.gml#TransportNetworks.AssociationRoles.WaterwayNode..93683"/>
+            <itsgml:roleName xlink:href="TransportNetworks.gml#TransportNetworks.AssociationRoles..WaterwayNode.93683"/>
         </itsgml:FC_FeatureAssociation>
     </itsgml:classifier>
     <itsgml:classifier>
@@ -1579,8 +1579,8 @@
             <itsgml:inheritsFrom xlink:href="TransportNetworks.gml#TransportNetworks.TransportObject" />
             <itsgml:inheritsFrom xlink:href="TransportNetworks.gml#TransportNetworks.Link" />
             <itsgml:property>
-                <itsgml:FC_AssociationRole gml:id="TransportNetworks.AssociationRoles.TransportLink.93878">
-                    <itsgml:memberName>none</itsgml:memberName>
+                <itsgml:FC_AssociationRole gml:id="TransportNetworks.AssociationRoles.TransportLink.ThoroughfareName.93878">
+                    <itsgml:memberName>noName</itsgml:memberName>
                     <itsgml:cardinality>
                         <gco:Multiplicity>
                             <gco:range>
@@ -1847,8 +1847,8 @@
             <itsgml:typeName>PronunciationOfName</itsgml:typeName>
             <itsgml:isAbstract>false</itsgml:isAbstract>
             <itsgml:property>
-                <itsgml:FC_AssociationRole gml:id="TransportNetworks.AssociationRoles.PronunciationOfName.93938">
-                    <itsgml:memberName>none</itsgml:memberName>
+                <itsgml:FC_AssociationRole gml:id="TransportNetworks.AssociationRoles.PronunciationOfName..93938">
+                    <itsgml:memberName>noName</itsgml:memberName>
                     <itsgml:cardinality>
                         <gco:Multiplicity>
                             <gco:range>
@@ -1983,8 +1983,8 @@
             <itsgml:isAbstract>true</itsgml:isAbstract>
             <itsgml:inheritsFrom xlink:href="TransportNetworks.gml#TransportNetworks.GeneralisedLink" />
             <itsgml:property>
-                <itsgml:FC_AssociationRole gml:id="TransportNetworks.AssociationRoles.Link.93795">
-                    <itsgml:memberName>none</itsgml:memberName>
+                <itsgml:FC_AssociationRole gml:id="TransportNetworks.AssociationRoles.Link.GradeSeparatedCrossing.93795">
+                    <itsgml:memberName>noName</itsgml:memberName>
                     <itsgml:cardinality>
                         <gco:Multiplicity>
                             <gco:range>
@@ -2006,8 +2006,8 @@
                 </itsgml:FC_AssociationRole>
             </itsgml:property>
             <itsgml:property>
-                <itsgml:FC_AssociationRole gml:id="TransportNetworks.AssociationRoles.Link.93802">
-                    <itsgml:memberName>none</itsgml:memberName>
+                <itsgml:FC_AssociationRole gml:id="TransportNetworks.AssociationRoles.Link.DirectedLink.93802">
+                    <itsgml:memberName>noName</itsgml:memberName>
                     <itsgml:cardinality>
                         <gco:Multiplicity>
                             <gco:range>
@@ -2029,7 +2029,7 @@
                 </itsgml:FC_AssociationRole>
             </itsgml:property>
             <itsgml:property>
-                <itsgml:FC_AssociationRole gml:id="TransportNetworks.AssociationRoles.Link.93813">
+                <itsgml:FC_AssociationRole gml:id="TransportNetworks.AssociationRoles.Link.Node.endNode">
                     <itsgml:memberName>endNode</itsgml:memberName>
                     <itsgml:cardinality>
                         <gco:Multiplicity>
@@ -2052,7 +2052,7 @@
                 </itsgml:FC_AssociationRole>
             </itsgml:property>
             <itsgml:property>
-                <itsgml:FC_AssociationRole gml:id="TransportNetworks.AssociationRoles.Link.93814">
+                <itsgml:FC_AssociationRole gml:id="TransportNetworks.AssociationRoles.Link.Node.startNode">
                     <itsgml:memberName>startNode</itsgml:memberName>
                     <itsgml:cardinality>
                         <gco:Multiplicity>
@@ -2123,8 +2123,8 @@
             <itsgml:isAbstract>true</itsgml:isAbstract>
             <itsgml:inheritsFrom xlink:href="TransportNetworks.gml#TransportNetworks.NetworkElement" />
             <itsgml:property>
-                <itsgml:FC_AssociationRole gml:id="TransportNetworks.AssociationRoles.GeneralisedLink.93800">
-                    <itsgml:memberName>none</itsgml:memberName>
+                <itsgml:FC_AssociationRole gml:id="TransportNetworks.AssociationRoles.GeneralisedLink.LinkSet.93800">
+                    <itsgml:memberName>noName</itsgml:memberName>
                     <itsgml:cardinality>
                         <gco:Multiplicity>
                             <gco:range>
@@ -2152,8 +2152,8 @@
             <itsgml:typeName>NetworkElement</itsgml:typeName>
             <itsgml:isAbstract>true</itsgml:isAbstract>
             <itsgml:property>
-                <itsgml:FC_AssociationRole gml:id="TransportNetworks.AssociationRoles.NetworkElement.93791">
-                    <itsgml:memberName>none</itsgml:memberName>
+                <itsgml:FC_AssociationRole gml:id="TransportNetworks.AssociationRoles.NetworkElement.NetworkReference.93791">
+                    <itsgml:memberName>noName</itsgml:memberName>
                     <itsgml:cardinality>
                         <gco:Multiplicity>
                             <gco:range>
@@ -2175,7 +2175,7 @@
                 </itsgml:FC_AssociationRole>
             </itsgml:property>
             <itsgml:property>
-                <itsgml:FC_AssociationRole gml:id="TransportNetworks.AssociationRoles.NetworkElement.93792">
+                <itsgml:FC_AssociationRole gml:id="TransportNetworks.AssociationRoles.NetworkElement.Network.inNetwork">
                     <itsgml:memberName>inNetwork</itsgml:memberName>
                     <itsgml:cardinality>
                         <gco:Multiplicity>
@@ -2198,8 +2198,8 @@
                 </itsgml:FC_AssociationRole>
             </itsgml:property>
             <itsgml:property>
-                <itsgml:FC_AssociationRole gml:id="TransportNetworks.AssociationRoles.NetworkElement.93797">
-                    <itsgml:memberName>none</itsgml:memberName>
+                <itsgml:FC_AssociationRole gml:id="TransportNetworks.AssociationRoles.NetworkElement.CrossReference.93797">
+                    <itsgml:memberName>noName</itsgml:memberName>
                     <itsgml:cardinality>
                         <gco:Multiplicity>
                             <gco:range>
@@ -2221,8 +2221,8 @@
                 </itsgml:FC_AssociationRole>
             </itsgml:property>
             <itsgml:property>
-                <itsgml:FC_AssociationRole gml:id="TransportNetworks.AssociationRoles.NetworkElement.93809">
-                    <itsgml:memberName>none</itsgml:memberName>
+                <itsgml:FC_AssociationRole gml:id="TransportNetworks.AssociationRoles.NetworkElement.NetworkConnection.93809">
+                    <itsgml:memberName>noName</itsgml:memberName>
                     <itsgml:cardinality>
                         <gco:Multiplicity>
                             <gco:range>
@@ -2460,7 +2460,7 @@
             <itsgml:typeName>DirectedLink</itsgml:typeName>
             <itsgml:isAbstract>false</itsgml:isAbstract>
             <itsgml:property>
-                <itsgml:FC_AssociationRole gml:id="TransportNetworks.AssociationRoles.DirectedLink.93802">
+                <itsgml:FC_AssociationRole gml:id="TransportNetworks.AssociationRoles.DirectedLink.Link.link">
                     <itsgml:memberName>link</itsgml:memberName>
                     <itsgml:cardinality>
                         <gco:Multiplicity>
@@ -2518,7 +2518,7 @@
             <itsgml:inheritsFrom xlink:href="TransportNetworks.gml#TransportNetworks.TransportObject" />
             <itsgml:inheritsFrom xlink:href="TransportNetworks.gml#TransportNetworks.LinkSet" />
             <itsgml:property>
-                <itsgml:FC_AssociationRole gml:id="TransportNetworks.AssociationRoles.TransportLinkSet.93609">
+                <itsgml:FC_AssociationRole gml:id="TransportNetworks.AssociationRoles.TransportLinkSet.MarkerPost.post">
                     <itsgml:memberName>post</itsgml:memberName>
                     <itsgml:cardinality>
                         <gco:Multiplicity>
@@ -2588,7 +2588,7 @@
             <itsgml:isAbstract>true</itsgml:isAbstract>
             <itsgml:inheritsFrom xlink:href="TransportNetworks.gml#TransportNetworks.NetworkElement" />
             <itsgml:property>
-                <itsgml:FC_AssociationRole gml:id="TransportNetworks.AssociationRoles.LinkSet.93800">
+                <itsgml:FC_AssociationRole gml:id="TransportNetworks.AssociationRoles.LinkSet.GeneralisedLink.link">
                     <itsgml:memberName>link</itsgml:memberName>
                     <itsgml:cardinality>
                         <gco:Multiplicity>
@@ -2673,8 +2673,8 @@
             <itsgml:isAbstract>true</itsgml:isAbstract>
             <itsgml:inheritsFrom xlink:href="TransportNetworks.gml#TransportNetworks.NetworkElement" />
             <itsgml:property>
-                <itsgml:FC_AssociationRole gml:id="TransportNetworks.AssociationRoles.Node.93812">
-                    <itsgml:memberName>none</itsgml:memberName>
+                <itsgml:FC_AssociationRole gml:id="TransportNetworks.AssociationRoles.Node.NodeLocationReference.93812">
+                    <itsgml:memberName>noName</itsgml:memberName>
                     <itsgml:cardinality>
                         <gco:Multiplicity>
                             <gco:range>
@@ -2696,7 +2696,7 @@
                 </itsgml:FC_AssociationRole>
             </itsgml:property>
             <itsgml:property>
-                <itsgml:FC_AssociationRole gml:id="TransportNetworks.AssociationRoles.Node.93813">
+                <itsgml:FC_AssociationRole gml:id="TransportNetworks.AssociationRoles.Node.Link.spokeEnd">
                     <itsgml:memberName>spokeEnd</itsgml:memberName>
                     <itsgml:cardinality>
                         <gco:Multiplicity>
@@ -2719,7 +2719,7 @@
                 </itsgml:FC_AssociationRole>
             </itsgml:property>
             <itsgml:property>
-                <itsgml:FC_AssociationRole gml:id="TransportNetworks.AssociationRoles.Node.93814">
+                <itsgml:FC_AssociationRole gml:id="TransportNetworks.AssociationRoles.Node.Link.spokeStart">
                     <itsgml:memberName>spokeStart</itsgml:memberName>
                     <itsgml:cardinality>
                         <gco:Multiplicity>
@@ -3013,7 +3013,7 @@
             <itsgml:typeName>NetworkReference</itsgml:typeName>
             <itsgml:isAbstract>false</itsgml:isAbstract>
             <itsgml:property>
-                <itsgml:FC_AssociationRole gml:id="TransportNetworks.AssociationRoles.NetworkReference.93791">
+                <itsgml:FC_AssociationRole gml:id="TransportNetworks.AssociationRoles.NetworkReference.NetworkElement.element">
                     <itsgml:memberName>element</itsgml:memberName>
                     <itsgml:cardinality>
                         <gco:Multiplicity>
@@ -3036,7 +3036,7 @@
                 </itsgml:FC_AssociationRole>
             </itsgml:property>
             <itsgml:property>
-                <itsgml:FC_AssociationRole gml:id="TransportNetworks.AssociationRoles.NetworkReference.94904">
+                <itsgml:FC_AssociationRole gml:id="TransportNetworks.AssociationRoles.NetworkReference.TrafficRelatedEvent.involves">
                     <itsgml:memberName>involves</itsgml:memberName>
                     <itsgml:cardinality>
                         <gco:Multiplicity>
@@ -4309,8 +4309,8 @@
             <itsgml:isAbstract>false</itsgml:isAbstract>
             <itsgml:inheritsFrom xlink:href="TransportNetworks.gml#TransportNetworks.TransportPoint" />
             <itsgml:property>
-                <itsgml:FC_AssociationRole gml:id="TransportNetworks.AssociationRoles.Beacon.93706">
-                    <itsgml:memberName>none</itsgml:memberName>
+                <itsgml:FC_AssociationRole gml:id="TransportNetworks.AssociationRoles.Beacon.TrafficSeparationScheme.93706">
+                    <itsgml:memberName>noName</itsgml:memberName>
                     <itsgml:cardinality>
                         <gco:Multiplicity>
                             <gco:range>
@@ -4407,8 +4407,8 @@
             <itsgml:isAbstract>false</itsgml:isAbstract>
             <itsgml:inheritsFrom xlink:href="TransportNetworks.gml#TransportNetworks.TransportPoint" />
             <itsgml:property>
-                <itsgml:FC_AssociationRole gml:id="TransportNetworks.AssociationRoles.Buoy.93704">
-                    <itsgml:memberName>none</itsgml:memberName>
+                <itsgml:FC_AssociationRole gml:id="TransportNetworks.AssociationRoles.Buoy.TrafficSeparationScheme.93704">
+                    <itsgml:memberName>noName</itsgml:memberName>
                     <itsgml:cardinality>
                         <gco:Multiplicity>
                             <gco:range>
@@ -4528,8 +4528,8 @@
             <itsgml:isAbstract>false</itsgml:isAbstract>
             <itsgml:inheritsFrom xlink:href="TransportNetworks.gml#TransportNetworks.Waterway" />
             <itsgml:property>
-                <itsgml:FC_AssociationRole gml:id="TransportNetworks.AssociationRoles.MarineWaterway.93705">
-                    <itsgml:memberName>none</itsgml:memberName>
+                <itsgml:FC_AssociationRole gml:id="TransportNetworks.AssociationRoles.MarineWaterway.TrafficSeparationScheme.93705">
+                    <itsgml:memberName>noName</itsgml:memberName>
                     <itsgml:cardinality>
                         <gco:Multiplicity>
                             <gco:range>
@@ -4653,7 +4653,7 @@
             <itsgml:typeName>TrafficSeparationScheme</itsgml:typeName>
             <itsgml:isAbstract>true</itsgml:isAbstract>
             <itsgml:property>
-                <itsgml:FC_AssociationRole gml:id="TransportNetworks.AssociationRoles.TrafficSeparationScheme.93703">
+                <itsgml:FC_AssociationRole gml:id="TransportNetworks.AssociationRoles.TrafficSeparationScheme.TrafficSeparationSchemeArea.component">
                     <itsgml:memberName>component</itsgml:memberName>
                     <itsgml:cardinality>
                         <gco:Multiplicity>
@@ -4676,7 +4676,7 @@
                 </itsgml:FC_AssociationRole>
             </itsgml:property>
             <itsgml:property>
-                <itsgml:FC_AssociationRole gml:id="TransportNetworks.AssociationRoles.TrafficSeparationScheme.93704">
+                <itsgml:FC_AssociationRole gml:id="TransportNetworks.AssociationRoles.TrafficSeparationScheme.Buoy.markerBuoy">
                     <itsgml:memberName>markerBuoy</itsgml:memberName>
                     <itsgml:cardinality>
                         <gco:Multiplicity>
@@ -4699,7 +4699,7 @@
                 </itsgml:FC_AssociationRole>
             </itsgml:property>
             <itsgml:property>
-                <itsgml:FC_AssociationRole gml:id="TransportNetworks.AssociationRoles.TrafficSeparationScheme.93705">
+                <itsgml:FC_AssociationRole gml:id="TransportNetworks.AssociationRoles.TrafficSeparationScheme.MarineWaterway.marineWaterRoute">
                     <itsgml:memberName>marineWaterRoute</itsgml:memberName>
                     <itsgml:cardinality>
                         <gco:Multiplicity>
@@ -4722,7 +4722,7 @@
                 </itsgml:FC_AssociationRole>
             </itsgml:property>
             <itsgml:property>
-                <itsgml:FC_AssociationRole gml:id="TransportNetworks.AssociationRoles.TrafficSeparationScheme.93706">
+                <itsgml:FC_AssociationRole gml:id="TransportNetworks.AssociationRoles.TrafficSeparationScheme.Beacon.markerBeacon">
                     <itsgml:memberName>markerBeacon</itsgml:memberName>
                     <itsgml:cardinality>
                         <gco:Multiplicity>
@@ -4752,8 +4752,8 @@
             <itsgml:isAbstract>true</itsgml:isAbstract>
             <itsgml:inheritsFrom xlink:href="TransportNetworks.gml#TransportNetworks.TransportArea" />
             <itsgml:property>
-                <itsgml:FC_AssociationRole gml:id="TransportNetworks.AssociationRoles.TrafficSeparationSchemeArea.93703">
-                    <itsgml:memberName>none</itsgml:memberName>
+                <itsgml:FC_AssociationRole gml:id="TransportNetworks.AssociationRoles.TrafficSeparationSchemeArea.TrafficSeparationScheme.93703">
+                    <itsgml:memberName>noName</itsgml:memberName>
                     <itsgml:cardinality>
                         <gco:Multiplicity>
                             <gco:range>
@@ -4859,8 +4859,8 @@
             <itsgml:isAbstract>false</itsgml:isAbstract>
             <itsgml:inheritsFrom xlink:href="TransportNetworks.gml#TransportNetworks.WaterNode" />
             <itsgml:property>
-                <itsgml:FC_AssociationRole gml:id="TransportNetworks.AssociationRoles.WaterwayNode.93683">
-                    <itsgml:memberName>none</itsgml:memberName>
+                <itsgml:FC_AssociationRole gml:id="TransportNetworks.AssociationRoles.WaterwayNode..93683">
+                    <itsgml:memberName>noName</itsgml:memberName>
                     <itsgml:cardinality>
                         <gco:Multiplicity>
                             <gco:range>
@@ -4965,7 +4965,7 @@
             <itsgml:isAbstract>false</itsgml:isAbstract>
             <itsgml:inheritsFrom xlink:href="TransportNetworks.gml#TransportNetworks.TransportPoint" />
             <itsgml:property>
-                <itsgml:FC_AssociationRole gml:id="TransportNetworks.AssociationRoles.MarkerPost.93609">
+                <itsgml:FC_AssociationRole gml:id="TransportNetworks.AssociationRoles.MarkerPost.TransportLinkSet.route">
                     <itsgml:memberName>route</itsgml:memberName>
                     <itsgml:cardinality>
                         <gco:Multiplicity>
@@ -5090,7 +5090,7 @@
             <itsgml:typeName>Network</itsgml:typeName>
             <itsgml:isAbstract>false</itsgml:isAbstract>
             <itsgml:property>
-                <itsgml:FC_AssociationRole gml:id="TransportNetworks.AssociationRoles.Network.93792">
+                <itsgml:FC_AssociationRole gml:id="TransportNetworks.AssociationRoles.Network.NetworkElement.elements">
                     <itsgml:memberName>elements</itsgml:memberName>
                     <itsgml:cardinality>
                         <gco:Multiplicity>
