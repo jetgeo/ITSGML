@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<gml:FeatureCollection xmlns:gss="http://www.isotc211.org/2005/gss" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:gsr="http://www.isotc211.org/2005/gsr" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:gmx="http://www.isotc211.org/2005/gmx" xmlns:itsgml="https://raw.githubusercontent.com/jetgeo/ITSGML/master/XSD" xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gmlexr="http://www.opengis.net/gml/3.3/exr" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:gts="http://www.isotc211.org/2005/gts" gml:id="idca756a73-e964-4c71-a1b0-36a5b9ccbbed" xsi:schemaLocation="https://raw.githubusercontent.com/jetgeo/ITSGML/master/XSD https://raw.githubusercontent.com/jetgeo/ITSGML/master/XSD/ITSGML.xsd">
+<gml:FeatureCollection xmlns:gss="http://www.isotc211.org/2005/gss" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:gsr="http://www.isotc211.org/2005/gsr" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:gmx="http://www.isotc211.org/2005/gmx" xmlns:itsgml="https://raw.githubusercontent.com/jetgeo/ITSGML/master/XSD" xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gmlexr="http://www.opengis.net/gml/3.3/exr" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:gts="http://www.isotc211.org/2005/gts" gml:id="id3ba7f1ca-2d06-46c2-a546-9c666c1078c2" xsi:schemaLocation="https://raw.githubusercontent.com/jetgeo/ITSGML/master/XSD https://raw.githubusercontent.com/jetgeo/ITSGML/master/XSD/ITSGML.xsd">
 	<gml:boundedBy>
 		<gml:Envelope srsName="EPSG:6173" srsDimension="3">
 			<gml:lowerCorner>283836.9 6745638.88 0</gml:lowerCorner>
@@ -39,33 +39,33 @@
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>priority</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.priority"/>
-					<itsgml:value>pedestriansOverRoadTraffic</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingPriority.pedestriansOverRoadTraffic"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>signage</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
-					<itsgml:propertyTypeReference xlink:href="TransportNetworks.gml#TransportNetworks.PedestrianCrossing.signage"/>
-					<itsgml:value>passiveTrafficSigns</itsgml:value>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
+					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.signage"/>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingSignage.passiveTrafficSigns"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>type</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.type"/>
-					<itsgml:value>zebraCrossingWithOrWithoutAdditionalAids</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingType.zebraCrossingWithOrWithoutAdditionalAids"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>level</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.level"/>
-					<itsgml:value>streetLevelCrossing</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingLevel.streetLevelCrossing"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 		</itsgml:Feature>
@@ -103,32 +103,32 @@
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>priority</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.priority"/>
-					<itsgml:value>pedestriansOverRoadTraffic</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingPriority.pedestriansOverRoadTraffic"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>signage</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
-					<itsgml:propertyTypeReference xlink:href="TransportNetworks.gml#TransportNetworks.PedestrianCrossing.signage"/>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
+					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.signage"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>type</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.type"/>
-					<itsgml:value>zebraCrossingWithOrWithoutAdditionalAids</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingType.zebraCrossingWithOrWithoutAdditionalAids"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>level</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.level"/>
-					<itsgml:value>streetLevelCrossing</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingLevel.streetLevelCrossing"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 		</itsgml:Feature>
@@ -166,33 +166,32 @@
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>priority</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.priority"/>
-					<itsgml:value>pedestriansOverRoadTraffic</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingPriority.pedestriansOverRoadTraffic"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>signage</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
-					<itsgml:propertyTypeReference xlink:href="TransportNetworks.gml#TransportNetworks.PedestrianCrossing.signage"/>
-					<itsgml:value>passiveTrafficSigns</itsgml:value>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
+					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.signage"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>type</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.type"/>
-					<itsgml:value>zebraCrossingWithOrWithoutAdditionalAids</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingType.zebraCrossingWithOrWithoutAdditionalAids"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>level</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.level"/>
-					<itsgml:value>streetLevelCrossing</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingLevel.streetLevelCrossing"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 		</itsgml:Feature>
@@ -230,33 +229,32 @@
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>priority</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.priority"/>
-					<itsgml:value>pedestriansOverRoadTraffic</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingPriority.pedestriansOverRoadTraffic"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>signage</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
-					<itsgml:propertyTypeReference xlink:href="TransportNetworks.gml#TransportNetworks.PedestrianCrossing.signage"/>
-					<itsgml:value>passiveTrafficSigns</itsgml:value>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
+					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.signage"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>type</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.type"/>
-					<itsgml:value>zebraCrossingWithOrWithoutAdditionalAids</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingType.zebraCrossingWithOrWithoutAdditionalAids"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>level</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.level"/>
-					<itsgml:value>streetLevelCrossing</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingLevel.streetLevelCrossing"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 		</itsgml:Feature>
@@ -294,32 +292,32 @@
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>priority</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.priority"/>
-					<itsgml:value>pedestriansOverRoadTraffic</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingPriority.pedestriansOverRoadTraffic"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>signage</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
-					<itsgml:propertyTypeReference xlink:href="TransportNetworks.gml#TransportNetworks.PedestrianCrossing.signage"/>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
+					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.signage"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>type</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.type"/>
-					<itsgml:value>zebraCrossingWithOrWithoutAdditionalAids</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingType.zebraCrossingWithOrWithoutAdditionalAids"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>level</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.level"/>
-					<itsgml:value>streetLevelCrossing</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingLevel.streetLevelCrossing"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 		</itsgml:Feature>
@@ -357,33 +355,32 @@
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>priority</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.priority"/>
-					<itsgml:value>pedestriansOverRoadTraffic</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingPriority.pedestriansOverRoadTraffic"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>signage</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
-					<itsgml:propertyTypeReference xlink:href="TransportNetworks.gml#TransportNetworks.PedestrianCrossing.signage"/>
-					<itsgml:value>passiveTrafficSigns</itsgml:value>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
+					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.signage"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>type</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.type"/>
-					<itsgml:value>zebraCrossingWithOrWithoutAdditionalAids</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingType.zebraCrossingWithOrWithoutAdditionalAids"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>level</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.level"/>
-					<itsgml:value>streetLevelCrossing</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingLevel.streetLevelCrossing"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 		</itsgml:Feature>
@@ -421,33 +418,32 @@
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>priority</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.priority"/>
-					<itsgml:value>pedestriansOverRoadTraffic</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingPriority.pedestriansOverRoadTraffic"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>signage</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
-					<itsgml:propertyTypeReference xlink:href="TransportNetworks.gml#TransportNetworks.PedestrianCrossing.signage"/>
-					<itsgml:value>passiveTrafficSigns</itsgml:value>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
+					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.signage"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>type</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.type"/>
-					<itsgml:value>zebraCrossingWithOrWithoutAdditionalAids</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingType.zebraCrossingWithOrWithoutAdditionalAids"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>level</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.level"/>
-					<itsgml:value>streetLevelCrossing</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingLevel.streetLevelCrossing"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 		</itsgml:Feature>
@@ -485,33 +481,32 @@
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>priority</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.priority"/>
-					<itsgml:value>pedestriansOverRoadTraffic</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingPriority.pedestriansOverRoadTraffic"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>signage</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
-					<itsgml:propertyTypeReference xlink:href="TransportNetworks.gml#TransportNetworks.PedestrianCrossing.signage"/>
-					<itsgml:value>passiveTrafficSigns</itsgml:value>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
+					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.signage"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>type</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.type"/>
-					<itsgml:value>zebraCrossingWithOrWithoutAdditionalAids</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingType.zebraCrossingWithOrWithoutAdditionalAids"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>level</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.level"/>
-					<itsgml:value>streetLevelCrossing</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingLevel.streetLevelCrossing"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 		</itsgml:Feature>
@@ -549,33 +544,32 @@
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>priority</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.priority"/>
-					<itsgml:value>pedestriansOverRoadTraffic</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingPriority.pedestriansOverRoadTraffic"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>signage</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
-					<itsgml:propertyTypeReference xlink:href="TransportNetworks.gml#TransportNetworks.PedestrianCrossing.signage"/>
-					<itsgml:value>passiveTrafficSigns</itsgml:value>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
+					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.signage"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>type</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.type"/>
-					<itsgml:value>zebraCrossingWithOrWithoutAdditionalAids</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingType.zebraCrossingWithOrWithoutAdditionalAids"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>level</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.level"/>
-					<itsgml:value>streetLevelCrossing</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingLevel.streetLevelCrossing"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 		</itsgml:Feature>
@@ -613,33 +607,32 @@
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>priority</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.priority"/>
-					<itsgml:value>pedestriansOverRoadTraffic</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingPriority.pedestriansOverRoadTraffic"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>signage</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
-					<itsgml:propertyTypeReference xlink:href="TransportNetworks.gml#TransportNetworks.PedestrianCrossing.signage"/>
-					<itsgml:value>passiveTrafficSigns</itsgml:value>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
+					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.signage"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>type</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.type"/>
-					<itsgml:value>zebraCrossingWithOrWithoutAdditionalAids</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingType.zebraCrossingWithOrWithoutAdditionalAids"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>level</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.level"/>
-					<itsgml:value>streetLevelCrossing</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingLevel.streetLevelCrossing"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 		</itsgml:Feature>
@@ -677,32 +670,32 @@
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>priority</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.priority"/>
-					<itsgml:value>pedestriansOverRoadTraffic</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingPriority.pedestriansOverRoadTraffic"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>signage</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
-					<itsgml:propertyTypeReference xlink:href="TransportNetworks.gml#TransportNetworks.PedestrianCrossing.signage"/>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
+					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.signage"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>type</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.type"/>
-					<itsgml:value>zebraCrossingWithOrWithoutAdditionalAids</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingType.zebraCrossingWithOrWithoutAdditionalAids"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>level</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.level"/>
-					<itsgml:value>streetLevelCrossing</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingLevel.streetLevelCrossing"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 		</itsgml:Feature>
@@ -740,32 +733,32 @@
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>priority</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.priority"/>
-					<itsgml:value>pedestriansOverRoadTraffic</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingPriority.pedestriansOverRoadTraffic"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>signage</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
-					<itsgml:propertyTypeReference xlink:href="TransportNetworks.gml#TransportNetworks.PedestrianCrossing.signage"/>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
+					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.signage"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>type</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.type"/>
-					<itsgml:value>zebraCrossingWithOrWithoutAdditionalAids</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingType.zebraCrossingWithOrWithoutAdditionalAids"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>level</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.level"/>
-					<itsgml:value>streetLevelCrossing</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingLevel.streetLevelCrossing"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 		</itsgml:Feature>
@@ -803,32 +796,32 @@
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>priority</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.priority"/>
-					<itsgml:value>pedestriansOverRoadTraffic</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingPriority.pedestriansOverRoadTraffic"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>signage</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
-					<itsgml:propertyTypeReference xlink:href="TransportNetworks.gml#TransportNetworks.PedestrianCrossing.signage"/>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
+					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.signage"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>type</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.type"/>
-					<itsgml:value>zebraCrossingWithOrWithoutAdditionalAids</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingType.zebraCrossingWithOrWithoutAdditionalAids"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>level</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.level"/>
-					<itsgml:value>streetLevelCrossing</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingLevel.streetLevelCrossing"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 		</itsgml:Feature>
@@ -866,33 +859,32 @@
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>priority</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.priority"/>
-					<itsgml:value>pedestriansOverRoadTraffic</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingPriority.pedestriansOverRoadTraffic"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>signage</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
-					<itsgml:propertyTypeReference xlink:href="TransportNetworks.gml#TransportNetworks.PedestrianCrossing.signage"/>
-					<itsgml:value>passiveTrafficSigns</itsgml:value>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
+					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.signage"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>type</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.type"/>
-					<itsgml:value>zebraCrossingWithOrWithoutAdditionalAids</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingType.zebraCrossingWithOrWithoutAdditionalAids"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>level</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.level"/>
-					<itsgml:value>streetLevelCrossing</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingLevel.streetLevelCrossing"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 		</itsgml:Feature>
@@ -930,32 +922,32 @@
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>priority</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.priority"/>
-					<itsgml:value>pedestriansOverRoadTraffic</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingPriority.pedestriansOverRoadTraffic"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>signage</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
-					<itsgml:propertyTypeReference xlink:href="TransportNetworks.gml#TransportNetworks.PedestrianCrossing.signage"/>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
+					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.signage"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>type</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.type"/>
-					<itsgml:value>otherType</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingType.otherType"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>level</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.level"/>
-					<itsgml:value>streetLevelCrossing</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingLevel.streetLevelCrossing"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 		</itsgml:Feature>
@@ -993,33 +985,32 @@
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>priority</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.priority"/>
-					<itsgml:value>pedestriansOverRoadTraffic</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingPriority.pedestriansOverRoadTraffic"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>signage</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
-					<itsgml:propertyTypeReference xlink:href="TransportNetworks.gml#TransportNetworks.PedestrianCrossing.signage"/>
-					<itsgml:value>passiveTrafficSigns</itsgml:value>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
+					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.signage"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>type</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.type"/>
-					<itsgml:value>zebraCrossingWithOrWithoutAdditionalAids</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingType.zebraCrossingWithOrWithoutAdditionalAids"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>level</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.level"/>
-					<itsgml:value>streetLevelCrossing</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingLevel.streetLevelCrossing"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 		</itsgml:Feature>
@@ -1057,32 +1048,32 @@
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>priority</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.priority"/>
-					<itsgml:value>pedestriansOverRoadTraffic</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingPriority.pedestriansOverRoadTraffic"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>signage</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
-					<itsgml:propertyTypeReference xlink:href="TransportNetworks.gml#TransportNetworks.PedestrianCrossing.signage"/>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
+					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.signage"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>type</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.type"/>
-					<itsgml:value>zebraCrossingWithOrWithoutAdditionalAids</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingType.zebraCrossingWithOrWithoutAdditionalAids"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>level</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.level"/>
-					<itsgml:value>streetLevelCrossing</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingLevel.streetLevelCrossing"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 		</itsgml:Feature>
@@ -1120,33 +1111,32 @@
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>priority</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.priority"/>
-					<itsgml:value>pedestriansOverRoadTraffic</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingPriority.pedestriansOverRoadTraffic"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>signage</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
-					<itsgml:propertyTypeReference xlink:href="TransportNetworks.gml#TransportNetworks.PedestrianCrossing.signage"/>
-					<itsgml:value>passiveTrafficSigns</itsgml:value>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
+					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.signage"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>type</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.type"/>
-					<itsgml:value>zebraCrossingWithOrWithoutAdditionalAids</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingType.zebraCrossingWithOrWithoutAdditionalAids"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>level</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.level"/>
-					<itsgml:value>streetLevelCrossing</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingLevel.streetLevelCrossing"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 		</itsgml:Feature>
@@ -1184,33 +1174,32 @@
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>priority</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.priority"/>
-					<itsgml:value>pedestriansOverRoadTraffic</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingPriority.pedestriansOverRoadTraffic"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>signage</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
-					<itsgml:propertyTypeReference xlink:href="TransportNetworks.gml#TransportNetworks.PedestrianCrossing.signage"/>
-					<itsgml:value>passiveTrafficSigns</itsgml:value>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
+					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.signage"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>type</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.type"/>
-					<itsgml:value>zebraCrossingWithOrWithoutAdditionalAids</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingType.zebraCrossingWithOrWithoutAdditionalAids"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>level</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.level"/>
-					<itsgml:value>streetLevelCrossing</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingLevel.streetLevelCrossing"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 		</itsgml:Feature>
@@ -1248,33 +1237,32 @@
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>priority</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.priority"/>
-					<itsgml:value>pedestriansOverRoadTraffic</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingPriority.pedestriansOverRoadTraffic"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>signage</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
-					<itsgml:propertyTypeReference xlink:href="TransportNetworks.gml#TransportNetworks.PedestrianCrossing.signage"/>
-					<itsgml:value>passiveTrafficSigns</itsgml:value>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
+					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.signage"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>type</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.type"/>
-					<itsgml:value>zebraCrossingWithOrWithoutAdditionalAids</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingType.zebraCrossingWithOrWithoutAdditionalAids"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>level</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.level"/>
-					<itsgml:value>streetLevelCrossing</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingLevel.streetLevelCrossing"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 		</itsgml:Feature>
@@ -1312,33 +1300,33 @@
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>priority</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.priority"/>
-					<itsgml:value>pedestriansOverRoadTraffic</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingPriority.pedestriansOverRoadTraffic"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>signage</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
-					<itsgml:propertyTypeReference xlink:href="TransportNetworks.gml#TransportNetworks.PedestrianCrossing.signage"/>
-					<itsgml:value>passiveTrafficSigns</itsgml:value>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
+					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.signage"/>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingSignage.passiveTrafficSigns"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>type</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.type"/>
-					<itsgml:value>noRoadMarkings</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingType.noRoadMarkings"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>level</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.level"/>
-					<itsgml:value>streetLevelCrossing</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingLevel.streetLevelCrossing"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 		</itsgml:Feature>
@@ -1376,33 +1364,32 @@
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>priority</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.priority"/>
-					<itsgml:value>pedestriansOverRoadTraffic</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingPriority.pedestriansOverRoadTraffic"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>signage</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
-					<itsgml:propertyTypeReference xlink:href="TransportNetworks.gml#TransportNetworks.PedestrianCrossing.signage"/>
-					<itsgml:value>passiveTrafficSigns</itsgml:value>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
+					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.signage"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>type</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.type"/>
-					<itsgml:value>zebraCrossingWithOrWithoutAdditionalAids</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingType.zebraCrossingWithOrWithoutAdditionalAids"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>level</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.level"/>
-					<itsgml:value>streetLevelCrossing</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingLevel.streetLevelCrossing"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 		</itsgml:Feature>
@@ -1440,33 +1427,32 @@
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>priority</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.priority"/>
-					<itsgml:value>pedestriansOverRoadTraffic</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingPriority.pedestriansOverRoadTraffic"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>signage</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
-					<itsgml:propertyTypeReference xlink:href="TransportNetworks.gml#TransportNetworks.PedestrianCrossing.signage"/>
-					<itsgml:value>passiveTrafficSigns</itsgml:value>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
+					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.signage"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>type</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.type"/>
-					<itsgml:value>zebraCrossingWithOrWithoutAdditionalAids</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingType.zebraCrossingWithOrWithoutAdditionalAids"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>level</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.level"/>
-					<itsgml:value>streetLevelCrossing</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingLevel.streetLevelCrossing"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 		</itsgml:Feature>
@@ -1504,33 +1490,33 @@
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>priority</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.priority"/>
-					<itsgml:value>pedestriansOverRoadTraffic</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingPriority.pedestriansOverRoadTraffic"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>signage</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
-					<itsgml:propertyTypeReference xlink:href="TransportNetworks.gml#TransportNetworks.PedestrianCrossing.signage"/>
-					<itsgml:value>passiveTrafficSigns</itsgml:value>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
+					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.signage"/>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingSignage.passiveTrafficSigns"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>type</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.type"/>
-					<itsgml:value>zebraCrossingWithOrWithoutAdditionalAids</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingType.zebraCrossingWithOrWithoutAdditionalAids"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>level</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.level"/>
-					<itsgml:value>streetLevelCrossing</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingLevel.streetLevelCrossing"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 		</itsgml:Feature>
@@ -1568,32 +1554,32 @@
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>priority</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.priority"/>
-					<itsgml:value>pedestriansOverRoadTraffic</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingPriority.pedestriansOverRoadTraffic"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>signage</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
-					<itsgml:propertyTypeReference xlink:href="TransportNetworks.gml#TransportNetworks.PedestrianCrossing.signage"/>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
+					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.signage"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>type</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.type"/>
-					<itsgml:value>zebraCrossingWithOrWithoutAdditionalAids</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingType.zebraCrossingWithOrWithoutAdditionalAids"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>level</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.level"/>
-					<itsgml:value>streetLevelCrossing</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingLevel.streetLevelCrossing"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 		</itsgml:Feature>
@@ -1631,32 +1617,32 @@
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>priority</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.priority"/>
-					<itsgml:value>pedestriansOverRoadTraffic</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingPriority.pedestriansOverRoadTraffic"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>signage</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
-					<itsgml:propertyTypeReference xlink:href="TransportNetworks.gml#TransportNetworks.PedestrianCrossing.signage"/>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
+					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.signage"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>type</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.type"/>
-					<itsgml:value>zebraCrossingWithOrWithoutAdditionalAids</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingType.zebraCrossingWithOrWithoutAdditionalAids"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>level</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.level"/>
-					<itsgml:value>streetLevelCrossing</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingLevel.streetLevelCrossing"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 		</itsgml:Feature>
@@ -1694,33 +1680,32 @@
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>priority</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.priority"/>
-					<itsgml:value>pedestriansOverRoadTraffic</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingPriority.pedestriansOverRoadTraffic"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>signage</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
-					<itsgml:propertyTypeReference xlink:href="TransportNetworks.gml#TransportNetworks.PedestrianCrossing.signage"/>
-					<itsgml:value>passiveTrafficSigns</itsgml:value>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
+					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.signage"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>type</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.type"/>
-					<itsgml:value>zebraCrossingWithOrWithoutAdditionalAids</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingType.zebraCrossingWithOrWithoutAdditionalAids"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>level</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.level"/>
-					<itsgml:value>streetLevelCrossing</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingLevel.streetLevelCrossing"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 		</itsgml:Feature>
@@ -1758,33 +1743,33 @@
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>priority</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.priority"/>
-					<itsgml:value>pedestriansOverRoadTraffic</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingPriority.pedestriansOverRoadTraffic"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>signage</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
-					<itsgml:propertyTypeReference xlink:href="TransportNetworks.gml#TransportNetworks.PedestrianCrossing.signage"/>
-					<itsgml:value>noTrafficSigns</itsgml:value>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
+					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.signage"/>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingSignage.noTrafficSigns"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>type</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.type"/>
-					<itsgml:value>zebraCrossingWithOrWithoutAdditionalAids</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingType.zebraCrossingWithOrWithoutAdditionalAids"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>level</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.level"/>
-					<itsgml:value>streetLevelCrossing</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingLevel.streetLevelCrossing"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 		</itsgml:Feature>
@@ -1822,32 +1807,32 @@
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>priority</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.priority"/>
-					<itsgml:value>pedestriansOverRoadTraffic</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingPriority.pedestriansOverRoadTraffic"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>signage</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
-					<itsgml:propertyTypeReference xlink:href="TransportNetworks.gml#TransportNetworks.PedestrianCrossing.signage"/>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
+					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.signage"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>type</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.type"/>
-					<itsgml:value>zebraCrossingWithOrWithoutAdditionalAids</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingType.zebraCrossingWithOrWithoutAdditionalAids"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>level</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.level"/>
-					<itsgml:value>streetLevelCrossing</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingLevel.streetLevelCrossing"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 		</itsgml:Feature>
@@ -1885,32 +1870,32 @@
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>priority</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.priority"/>
-					<itsgml:value>pedestriansOverRoadTraffic</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingPriority.pedestriansOverRoadTraffic"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>signage</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
-					<itsgml:propertyTypeReference xlink:href="TransportNetworks.gml#TransportNetworks.PedestrianCrossing.signage"/>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
+					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.signage"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>type</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.type"/>
-					<itsgml:value>zebraCrossingWithOrWithoutAdditionalAids</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingType.zebraCrossingWithOrWithoutAdditionalAids"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>level</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.level"/>
-					<itsgml:value>streetLevelCrossing</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingLevel.streetLevelCrossing"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 		</itsgml:Feature>
@@ -1948,33 +1933,32 @@
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>priority</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.priority"/>
-					<itsgml:value>pedestriansOverRoadTraffic</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingPriority.pedestriansOverRoadTraffic"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>signage</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
-					<itsgml:propertyTypeReference xlink:href="TransportNetworks.gml#TransportNetworks.PedestrianCrossing.signage"/>
-					<itsgml:value>passiveTrafficSigns</itsgml:value>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
+					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.signage"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>type</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.type"/>
-					<itsgml:value>zebraCrossingWithOrWithoutAdditionalAids</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingType.zebraCrossingWithOrWithoutAdditionalAids"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>level</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.level"/>
-					<itsgml:value>streetLevelCrossing</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingLevel.streetLevelCrossing"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 		</itsgml:Feature>
@@ -2012,33 +1996,32 @@
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>priority</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.priority"/>
-					<itsgml:value>pedestriansOverRoadTraffic</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingPriority.pedestriansOverRoadTraffic"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>signage</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
-					<itsgml:propertyTypeReference xlink:href="TransportNetworks.gml#TransportNetworks.PedestrianCrossing.signage"/>
-					<itsgml:value>passiveTrafficSigns</itsgml:value>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
+					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.signage"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>type</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.type"/>
-					<itsgml:value>zebraCrossingWithOrWithoutAdditionalAids</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingType.zebraCrossingWithOrWithoutAdditionalAids"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>level</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.level"/>
-					<itsgml:value>streetLevelCrossing</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingLevel.streetLevelCrossing"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 		</itsgml:Feature>
@@ -2076,33 +2059,32 @@
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>priority</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.priority"/>
-					<itsgml:value>pedestriansOverRoadTraffic</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingPriority.pedestriansOverRoadTraffic"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>signage</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
-					<itsgml:propertyTypeReference xlink:href="TransportNetworks.gml#TransportNetworks.PedestrianCrossing.signage"/>
-					<itsgml:value>passiveTrafficSigns</itsgml:value>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
+					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.signage"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>type</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.type"/>
-					<itsgml:value>zebraCrossingWithOrWithoutAdditionalAids</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingType.zebraCrossingWithOrWithoutAdditionalAids"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>level</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.level"/>
-					<itsgml:value>streetLevelCrossing</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingLevel.streetLevelCrossing"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 		</itsgml:Feature>
@@ -2140,32 +2122,32 @@
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>priority</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.priority"/>
-					<itsgml:value>pedestriansOverRoadTraffic</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingPriority.pedestriansOverRoadTraffic"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>signage</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
-					<itsgml:propertyTypeReference xlink:href="TransportNetworks.gml#TransportNetworks.PedestrianCrossing.signage"/>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
+					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.signage"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>type</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.type"/>
-					<itsgml:value>zebraCrossingWithOrWithoutAdditionalAids</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingType.zebraCrossingWithOrWithoutAdditionalAids"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>level</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.level"/>
-					<itsgml:value>streetLevelCrossing</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingLevel.streetLevelCrossing"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 		</itsgml:Feature>
@@ -2203,32 +2185,32 @@
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>priority</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.priority"/>
-					<itsgml:value>pedestriansOverRoadTraffic</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingPriority.pedestriansOverRoadTraffic"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>signage</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
-					<itsgml:propertyTypeReference xlink:href="TransportNetworks.gml#TransportNetworks.PedestrianCrossing.signage"/>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
+					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.signage"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>type</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.type"/>
-					<itsgml:value>zebraCrossingWithOrWithoutAdditionalAids</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingType.zebraCrossingWithOrWithoutAdditionalAids"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>level</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.level"/>
-					<itsgml:value>streetLevelCrossing</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingLevel.streetLevelCrossing"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 		</itsgml:Feature>
@@ -2266,33 +2248,33 @@
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>priority</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.priority"/>
-					<itsgml:value>pedestriansOverRoadTraffic</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingPriority.pedestriansOverRoadTraffic"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>signage</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
-					<itsgml:propertyTypeReference xlink:href="TransportNetworks.gml#TransportNetworks.PedestrianCrossing.signage"/>
-					<itsgml:value>passiveTrafficSigns</itsgml:value>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
+					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.signage"/>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingSignage.passiveTrafficSigns"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>type</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.type"/>
-					<itsgml:value>zebraCrossingWithOrWithoutAdditionalAids</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingType.zebraCrossingWithOrWithoutAdditionalAids"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>level</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.level"/>
-					<itsgml:value>streetLevelCrossing</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingLevel.streetLevelCrossing"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 		</itsgml:Feature>
@@ -2330,32 +2312,32 @@
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>priority</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.priority"/>
-					<itsgml:value>pedestriansOverRoadTraffic</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingPriority.pedestriansOverRoadTraffic"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>signage</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
-					<itsgml:propertyTypeReference xlink:href="TransportNetworks.gml#TransportNetworks.PedestrianCrossing.signage"/>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
+					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.signage"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>type</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.type"/>
-					<itsgml:value>zebraCrossingWithOrWithoutAdditionalAids</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingType.zebraCrossingWithOrWithoutAdditionalAids"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>level</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.level"/>
-					<itsgml:value>streetLevelCrossing</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingLevel.streetLevelCrossing"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 		</itsgml:Feature>
@@ -2393,33 +2375,32 @@
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>priority</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.priority"/>
-					<itsgml:value>pedestriansOverRoadTraffic</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingPriority.pedestriansOverRoadTraffic"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>signage</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
-					<itsgml:propertyTypeReference xlink:href="TransportNetworks.gml#TransportNetworks.PedestrianCrossing.signage"/>
-					<itsgml:value>passiveTrafficSigns</itsgml:value>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
+					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.signage"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>type</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.type"/>
-					<itsgml:value>zebraCrossingWithOrWithoutAdditionalAids</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingType.zebraCrossingWithOrWithoutAdditionalAids"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>level</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.level"/>
-					<itsgml:value>streetLevelCrossing</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingLevel.streetLevelCrossing"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 		</itsgml:Feature>
@@ -2457,32 +2438,32 @@
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>priority</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.priority"/>
-					<itsgml:value>pedestriansOverRoadTraffic</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingPriority.pedestriansOverRoadTraffic"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>signage</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
-					<itsgml:propertyTypeReference xlink:href="TransportNetworks.gml#TransportNetworks.PedestrianCrossing.signage"/>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
+					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.signage"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>type</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.type"/>
-					<itsgml:value>zebraCrossingWithOrWithoutAdditionalAids</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingType.zebraCrossingWithOrWithoutAdditionalAids"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>level</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.level"/>
-					<itsgml:value>streetLevelCrossing</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingLevel.streetLevelCrossing"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 		</itsgml:Feature>
@@ -2520,33 +2501,32 @@
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>priority</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.priority"/>
-					<itsgml:value>pedestriansOverRoadTraffic</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingPriority.pedestriansOverRoadTraffic"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>signage</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
-					<itsgml:propertyTypeReference xlink:href="TransportNetworks.gml#TransportNetworks.PedestrianCrossing.signage"/>
-					<itsgml:value>passiveTrafficSigns</itsgml:value>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
+					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.signage"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>type</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.type"/>
-					<itsgml:value>zebraCrossingWithOrWithoutAdditionalAids</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingType.zebraCrossingWithOrWithoutAdditionalAids"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>level</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.level"/>
-					<itsgml:value>streetLevelCrossing</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingLevel.streetLevelCrossing"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 		</itsgml:Feature>
@@ -2584,33 +2564,32 @@
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>priority</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.priority"/>
-					<itsgml:value>pedestriansOverRoadTraffic</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingPriority.pedestriansOverRoadTraffic"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>signage</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
-					<itsgml:propertyTypeReference xlink:href="TransportNetworks.gml#TransportNetworks.PedestrianCrossing.signage"/>
-					<itsgml:value>passiveTrafficSigns</itsgml:value>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
+					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.signage"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>type</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.type"/>
-					<itsgml:value>zebraCrossingWithOrWithoutAdditionalAids</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingType.zebraCrossingWithOrWithoutAdditionalAids"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>level</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.level"/>
-					<itsgml:value>streetLevelCrossing</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingLevel.streetLevelCrossing"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 		</itsgml:Feature>
@@ -2648,33 +2627,33 @@
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>priority</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.priority"/>
-					<itsgml:value>pedestriansOverRoadTraffic</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingPriority.pedestriansOverRoadTraffic"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>signage</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
-					<itsgml:propertyTypeReference xlink:href="TransportNetworks.gml#TransportNetworks.PedestrianCrossing.signage"/>
-					<itsgml:value>passiveTrafficSigns</itsgml:value>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
+					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.signage"/>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingSignage.passiveTrafficSigns"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>type</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.type"/>
-					<itsgml:value>zebraCrossingWithOrWithoutAdditionalAids</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingType.zebraCrossingWithOrWithoutAdditionalAids"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>level</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.level"/>
-					<itsgml:value>streetLevelCrossing</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingLevel.streetLevelCrossing"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 		</itsgml:Feature>
@@ -2712,33 +2691,32 @@
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>priority</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.priority"/>
-					<itsgml:value>pedestriansOverRoadTraffic</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingPriority.pedestriansOverRoadTraffic"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>signage</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
-					<itsgml:propertyTypeReference xlink:href="TransportNetworks.gml#TransportNetworks.PedestrianCrossing.signage"/>
-					<itsgml:value>passiveTrafficSigns</itsgml:value>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
+					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.signage"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>type</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.type"/>
-					<itsgml:value>zebraCrossingWithOrWithoutAdditionalAids</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingType.zebraCrossingWithOrWithoutAdditionalAids"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>level</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.level"/>
-					<itsgml:value>streetLevelCrossing</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingLevel.streetLevelCrossing"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 		</itsgml:Feature>
@@ -2776,32 +2754,32 @@
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>priority</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.priority"/>
-					<itsgml:value>pedestriansOverRoadTraffic</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingPriority.pedestriansOverRoadTraffic"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>signage</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
-					<itsgml:propertyTypeReference xlink:href="TransportNetworks.gml#TransportNetworks.PedestrianCrossing.signage"/>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
+					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.signage"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>type</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.type"/>
-					<itsgml:value>zebraCrossingWithOrWithoutAdditionalAids</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingType.zebraCrossingWithOrWithoutAdditionalAids"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>level</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.level"/>
-					<itsgml:value>streetLevelCrossing</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingLevel.streetLevelCrossing"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 		</itsgml:Feature>
@@ -2839,32 +2817,32 @@
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>priority</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.priority"/>
-					<itsgml:value>pedestriansOverRoadTraffic</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingPriority.pedestriansOverRoadTraffic"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>signage</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
-					<itsgml:propertyTypeReference xlink:href="TransportNetworks.gml#TransportNetworks.PedestrianCrossing.signage"/>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
+					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.signage"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>type</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.type"/>
-					<itsgml:value>zebraCrossingWithOrWithoutAdditionalAids</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingType.zebraCrossingWithOrWithoutAdditionalAids"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>level</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.level"/>
-					<itsgml:value>streetLevelCrossing</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingLevel.streetLevelCrossing"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 		</itsgml:Feature>
@@ -2902,33 +2880,33 @@
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>priority</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.priority"/>
-					<itsgml:value>pedestriansOverRoadTraffic</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingPriority.pedestriansOverRoadTraffic"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>signage</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
-					<itsgml:propertyTypeReference xlink:href="TransportNetworks.gml#TransportNetworks.PedestrianCrossing.signage"/>
-					<itsgml:value>passiveTrafficSigns</itsgml:value>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
+					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.signage"/>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingSignage.passiveTrafficSigns"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>type</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.type"/>
-					<itsgml:value>zebraCrossingWithOrWithoutAdditionalAids</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingType.zebraCrossingWithOrWithoutAdditionalAids"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>level</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.level"/>
-					<itsgml:value>streetLevelCrossing</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingLevel.streetLevelCrossing"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 		</itsgml:Feature>
@@ -2966,32 +2944,32 @@
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>priority</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.priority"/>
-					<itsgml:value>pedestriansOverRoadTraffic</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingPriority.pedestriansOverRoadTraffic"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>signage</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
-					<itsgml:propertyTypeReference xlink:href="TransportNetworks.gml#TransportNetworks.PedestrianCrossing.signage"/>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
+					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.signage"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>type</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.type"/>
-					<itsgml:value>otherType</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingType.otherType"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>level</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.level"/>
-					<itsgml:value>streetLevelCrossing</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingLevel.streetLevelCrossing"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 		</itsgml:Feature>
@@ -3029,33 +3007,32 @@
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>priority</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.priority"/>
-					<itsgml:value>pedestriansOverRoadTraffic</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingPriority.pedestriansOverRoadTraffic"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>signage</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
-					<itsgml:propertyTypeReference xlink:href="TransportNetworks.gml#TransportNetworks.PedestrianCrossing.signage"/>
-					<itsgml:value>passiveTrafficSigns</itsgml:value>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
+					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.signage"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>type</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.type"/>
-					<itsgml:value>zebraCrossingWithOrWithoutAdditionalAids</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingType.zebraCrossingWithOrWithoutAdditionalAids"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>level</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.level"/>
-					<itsgml:value>streetLevelCrossing</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingLevel.streetLevelCrossing"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 		</itsgml:Feature>
@@ -3093,32 +3070,32 @@
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>priority</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.priority"/>
-					<itsgml:value>pedestriansOverRoadTraffic</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingPriority.pedestriansOverRoadTraffic"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>signage</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
-					<itsgml:propertyTypeReference xlink:href="TransportNetworks.gml#TransportNetworks.PedestrianCrossing.signage"/>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
+					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.signage"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>type</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.type"/>
-					<itsgml:value>zebraCrossingWithOrWithoutAdditionalAids</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingType.zebraCrossingWithOrWithoutAdditionalAids"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>level</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.level"/>
-					<itsgml:value>streetLevelCrossing</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingLevel.streetLevelCrossing"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 		</itsgml:Feature>
@@ -3156,33 +3133,32 @@
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>priority</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.priority"/>
-					<itsgml:value>pedestriansOverRoadTraffic</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingPriority.pedestriansOverRoadTraffic"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>signage</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
-					<itsgml:propertyTypeReference xlink:href="TransportNetworks.gml#TransportNetworks.PedestrianCrossing.signage"/>
-					<itsgml:value>passiveTrafficSigns</itsgml:value>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
+					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.signage"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>type</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.type"/>
-					<itsgml:value>zebraCrossingWithOrWithoutAdditionalAids</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingType.zebraCrossingWithOrWithoutAdditionalAids"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>level</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.level"/>
-					<itsgml:value>streetLevelCrossing</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingLevel.streetLevelCrossing"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 		</itsgml:Feature>
@@ -3220,33 +3196,32 @@
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>priority</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.priority"/>
-					<itsgml:value>pedestriansOverRoadTraffic</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingPriority.pedestriansOverRoadTraffic"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>signage</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
-					<itsgml:propertyTypeReference xlink:href="TransportNetworks.gml#TransportNetworks.PedestrianCrossing.signage"/>
-					<itsgml:value>passiveTrafficSigns</itsgml:value>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
+					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.signage"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>type</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.type"/>
-					<itsgml:value>zebraCrossingWithOrWithoutAdditionalAids</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingType.zebraCrossingWithOrWithoutAdditionalAids"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>level</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.level"/>
-					<itsgml:value>streetLevelCrossing</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingLevel.streetLevelCrossing"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 		</itsgml:Feature>
@@ -3284,32 +3259,32 @@
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>priority</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.priority"/>
-					<itsgml:value>pedestriansOverRoadTraffic</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingPriority.pedestriansOverRoadTraffic"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>signage</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
-					<itsgml:propertyTypeReference xlink:href="TransportNetworks.gml#TransportNetworks.PedestrianCrossing.signage"/>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
+					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.signage"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>type</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.type"/>
-					<itsgml:value>zebraCrossingWithOrWithoutAdditionalAids</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingType.zebraCrossingWithOrWithoutAdditionalAids"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>level</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.level"/>
-					<itsgml:value>streetLevelCrossing</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingLevel.streetLevelCrossing"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 		</itsgml:Feature>
@@ -3347,32 +3322,32 @@
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>priority</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.priority"/>
-					<itsgml:value>pedestriansOverRoadTraffic</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingPriority.pedestriansOverRoadTraffic"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>signage</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
-					<itsgml:propertyTypeReference xlink:href="TransportNetworks.gml#TransportNetworks.PedestrianCrossing.signage"/>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
+					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.signage"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>type</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.type"/>
-					<itsgml:value>zebraCrossingWithOrWithoutAdditionalAids</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingType.zebraCrossingWithOrWithoutAdditionalAids"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>level</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.level"/>
-					<itsgml:value>streetLevelCrossing</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingLevel.streetLevelCrossing"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 		</itsgml:Feature>
@@ -3410,32 +3385,32 @@
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>priority</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.priority"/>
-					<itsgml:value>pedestriansOverRoadTraffic</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingPriority.pedestriansOverRoadTraffic"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>signage</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
-					<itsgml:propertyTypeReference xlink:href="TransportNetworks.gml#TransportNetworks.PedestrianCrossing.signage"/>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
+					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.signage"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>type</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.type"/>
-					<itsgml:value>zebraCrossingWithOrWithoutAdditionalAids</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingType.zebraCrossingWithOrWithoutAdditionalAids"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>level</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.level"/>
-					<itsgml:value>streetLevelCrossing</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingLevel.streetLevelCrossing"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 		</itsgml:Feature>
@@ -3473,33 +3448,32 @@
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>priority</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.priority"/>
-					<itsgml:value>pedestriansOverRoadTraffic</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingPriority.pedestriansOverRoadTraffic"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>signage</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
-					<itsgml:propertyTypeReference xlink:href="TransportNetworks.gml#TransportNetworks.PedestrianCrossing.signage"/>
-					<itsgml:value>passiveTrafficSigns</itsgml:value>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
+					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.signage"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>type</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.type"/>
-					<itsgml:value>zebraCrossingWithOrWithoutAdditionalAids</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingType.zebraCrossingWithOrWithoutAdditionalAids"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>level</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.level"/>
-					<itsgml:value>streetLevelCrossing</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingLevel.streetLevelCrossing"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 		</itsgml:Feature>
@@ -3537,32 +3511,32 @@
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>priority</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.priority"/>
-					<itsgml:value>pedestriansOverRoadTraffic</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingPriority.pedestriansOverRoadTraffic"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>signage</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
-					<itsgml:propertyTypeReference xlink:href="TransportNetworks.gml#TransportNetworks.PedestrianCrossing.signage"/>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
+					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.signage"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>type</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.type"/>
-					<itsgml:value>zebraCrossingWithOrWithoutAdditionalAids</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingType.zebraCrossingWithOrWithoutAdditionalAids"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>level</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.level"/>
-					<itsgml:value>streetLevelCrossing</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingLevel.streetLevelCrossing"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 		</itsgml:Feature>
@@ -3600,33 +3574,32 @@
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>priority</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.priority"/>
-					<itsgml:value>pedestriansOverRoadTraffic</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingPriority.pedestriansOverRoadTraffic"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>signage</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
-					<itsgml:propertyTypeReference xlink:href="TransportNetworks.gml#TransportNetworks.PedestrianCrossing.signage"/>
-					<itsgml:value>passiveTrafficSigns</itsgml:value>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
+					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.signage"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>type</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.type"/>
-					<itsgml:value>zebraCrossingWithOrWithoutAdditionalAids</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingType.zebraCrossingWithOrWithoutAdditionalAids"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>level</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.level"/>
-					<itsgml:value>streetLevelCrossing</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingLevel.streetLevelCrossing"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 		</itsgml:Feature>
@@ -3664,32 +3637,32 @@
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>priority</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.priority"/>
-					<itsgml:value>pedestriansOverRoadTraffic</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingPriority.pedestriansOverRoadTraffic"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>signage</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
-					<itsgml:propertyTypeReference xlink:href="TransportNetworks.gml#TransportNetworks.PedestrianCrossing.signage"/>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
+					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.signage"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>type</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.type"/>
-					<itsgml:value>zebraCrossingWithOrWithoutAdditionalAids</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingType.zebraCrossingWithOrWithoutAdditionalAids"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>level</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.level"/>
-					<itsgml:value>streetLevelCrossing</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingLevel.streetLevelCrossing"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 		</itsgml:Feature>
@@ -3727,32 +3700,32 @@
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>priority</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.priority"/>
-					<itsgml:value>pedestriansOverRoadTraffic</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingPriority.pedestriansOverRoadTraffic"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>signage</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
-					<itsgml:propertyTypeReference xlink:href="TransportNetworks.gml#TransportNetworks.PedestrianCrossing.signage"/>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
+					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.signage"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>type</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.type"/>
-					<itsgml:value>zebraCrossingWithOrWithoutAdditionalAids</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingType.zebraCrossingWithOrWithoutAdditionalAids"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>level</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.level"/>
-					<itsgml:value>streetLevelCrossing</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingLevel.streetLevelCrossing"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 		</itsgml:Feature>
@@ -3790,33 +3763,32 @@
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>priority</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.priority"/>
-					<itsgml:value>pedestriansOverRoadTraffic</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingPriority.pedestriansOverRoadTraffic"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>signage</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
-					<itsgml:propertyTypeReference xlink:href="TransportNetworks.gml#TransportNetworks.PedestrianCrossing.signage"/>
-					<itsgml:value>passiveTrafficSigns</itsgml:value>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
+					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.signage"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>type</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.type"/>
-					<itsgml:value>zebraCrossingWithOrWithoutAdditionalAids</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingType.zebraCrossingWithOrWithoutAdditionalAids"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>level</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.level"/>
-					<itsgml:value>streetLevelCrossing</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingLevel.streetLevelCrossing"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 		</itsgml:Feature>
@@ -3854,33 +3826,32 @@
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>priority</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.priority"/>
-					<itsgml:value>pedestriansOverRoadTraffic</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingPriority.pedestriansOverRoadTraffic"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>signage</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
-					<itsgml:propertyTypeReference xlink:href="TransportNetworks.gml#TransportNetworks.PedestrianCrossing.signage"/>
-					<itsgml:value>passiveTrafficSigns</itsgml:value>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
+					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.signage"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>type</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.type"/>
-					<itsgml:value>zebraCrossingWithOrWithoutAdditionalAids</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingType.zebraCrossingWithOrWithoutAdditionalAids"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>level</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.level"/>
-					<itsgml:value>streetLevelCrossing</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingLevel.streetLevelCrossing"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 		</itsgml:Feature>
@@ -3918,33 +3889,33 @@
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>priority</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.priority"/>
-					<itsgml:value>pedestriansOverRoadTraffic</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingPriority.pedestriansOverRoadTraffic"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>signage</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
-					<itsgml:propertyTypeReference xlink:href="TransportNetworks.gml#TransportNetworks.PedestrianCrossing.signage"/>
-					<itsgml:value>noTrafficSigns</itsgml:value>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
+					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.signage"/>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingSignage.noTrafficSigns"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>type</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.type"/>
-					<itsgml:value>zebraCrossingWithOrWithoutAdditionalAids</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingType.zebraCrossingWithOrWithoutAdditionalAids"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>level</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.level"/>
-					<itsgml:value>streetLevelCrossing</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingLevel.streetLevelCrossing"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 		</itsgml:Feature>
@@ -3982,32 +3953,32 @@
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>priority</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.priority"/>
-					<itsgml:value>pedestriansOverRoadTraffic</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingPriority.pedestriansOverRoadTraffic"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>signage</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
-					<itsgml:propertyTypeReference xlink:href="TransportNetworks.gml#TransportNetworks.PedestrianCrossing.signage"/>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
+					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.signage"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>type</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.type"/>
-					<itsgml:value>zebraCrossingWithOrWithoutAdditionalAids</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingType.zebraCrossingWithOrWithoutAdditionalAids"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>level</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.level"/>
-					<itsgml:value>streetLevelCrossing</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingLevel.streetLevelCrossing"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 		</itsgml:Feature>
@@ -4045,33 +4016,32 @@
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>priority</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.priority"/>
-					<itsgml:value>pedestriansOverRoadTraffic</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingPriority.pedestriansOverRoadTraffic"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>signage</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
-					<itsgml:propertyTypeReference xlink:href="TransportNetworks.gml#TransportNetworks.PedestrianCrossing.signage"/>
-					<itsgml:value>passiveTrafficSigns</itsgml:value>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
+					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.signage"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>type</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.type"/>
-					<itsgml:value>zebraCrossingWithOrWithoutAdditionalAids</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingType.zebraCrossingWithOrWithoutAdditionalAids"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>level</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.level"/>
-					<itsgml:value>streetLevelCrossing</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingLevel.streetLevelCrossing"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 		</itsgml:Feature>
@@ -4109,32 +4079,32 @@
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>priority</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.priority"/>
-					<itsgml:value>pedestriansOverRoadTraffic</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingPriority.pedestriansOverRoadTraffic"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>signage</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
-					<itsgml:propertyTypeReference xlink:href="TransportNetworks.gml#TransportNetworks.PedestrianCrossing.signage"/>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
+					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.signage"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>type</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.type"/>
-					<itsgml:value>zebraCrossingWithOrWithoutAdditionalAids</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingType.zebraCrossingWithOrWithoutAdditionalAids"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>level</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.level"/>
-					<itsgml:value>streetLevelCrossing</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingLevel.streetLevelCrossing"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 		</itsgml:Feature>
@@ -4172,33 +4142,32 @@
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>priority</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.priority"/>
-					<itsgml:value>pedestriansOverRoadTraffic</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingPriority.pedestriansOverRoadTraffic"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>signage</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
-					<itsgml:propertyTypeReference xlink:href="TransportNetworks.gml#TransportNetworks.PedestrianCrossing.signage"/>
-					<itsgml:value>passiveTrafficSigns</itsgml:value>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
+					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.signage"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>type</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.type"/>
-					<itsgml:value>zebraCrossingWithOrWithoutAdditionalAids</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingType.zebraCrossingWithOrWithoutAdditionalAids"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>level</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.level"/>
-					<itsgml:value>streetLevelCrossing</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingLevel.streetLevelCrossing"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 		</itsgml:Feature>
@@ -4236,33 +4205,32 @@
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>priority</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.priority"/>
-					<itsgml:value>pedestriansOverRoadTraffic</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingPriority.pedestriansOverRoadTraffic"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>signage</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
-					<itsgml:propertyTypeReference xlink:href="TransportNetworks.gml#TransportNetworks.PedestrianCrossing.signage"/>
-					<itsgml:value>passiveTrafficSigns</itsgml:value>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
+					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.signage"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>type</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.type"/>
-					<itsgml:value>zebraCrossingWithOrWithoutAdditionalAids</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingType.zebraCrossingWithOrWithoutAdditionalAids"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>level</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.level"/>
-					<itsgml:value>streetLevelCrossing</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingLevel.streetLevelCrossing"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 		</itsgml:Feature>
@@ -4300,32 +4268,32 @@
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>priority</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.priority"/>
-					<itsgml:value>pedestriansOverRoadTraffic</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingPriority.pedestriansOverRoadTraffic"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>signage</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
-					<itsgml:propertyTypeReference xlink:href="TransportNetworks.gml#TransportNetworks.PedestrianCrossing.signage"/>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
+					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.signage"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>type</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.type"/>
-					<itsgml:value>zebraCrossingWithOrWithoutAdditionalAids</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingType.zebraCrossingWithOrWithoutAdditionalAids"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>level</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.level"/>
-					<itsgml:value>streetLevelCrossing</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingLevel.streetLevelCrossing"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 		</itsgml:Feature>
@@ -4363,33 +4331,32 @@
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>priority</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.priority"/>
-					<itsgml:value>pedestriansOverRoadTraffic</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingPriority.pedestriansOverRoadTraffic"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>signage</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
-					<itsgml:propertyTypeReference xlink:href="TransportNetworks.gml#TransportNetworks.PedestrianCrossing.signage"/>
-					<itsgml:value>passiveTrafficSigns</itsgml:value>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
+					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.signage"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>type</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.type"/>
-					<itsgml:value>zebraCrossingWithOrWithoutAdditionalAids</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingType.zebraCrossingWithOrWithoutAdditionalAids"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>level</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.level"/>
-					<itsgml:value>streetLevelCrossing</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingLevel.streetLevelCrossing"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 		</itsgml:Feature>
@@ -4427,32 +4394,32 @@
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>priority</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.priority"/>
-					<itsgml:value>pedestriansOverRoadTraffic</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingPriority.pedestriansOverRoadTraffic"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>signage</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
-					<itsgml:propertyTypeReference xlink:href="TransportNetworks.gml#TransportNetworks.PedestrianCrossing.signage"/>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
+					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.signage"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>type</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.type"/>
-					<itsgml:value>zebraCrossingWithOrWithoutAdditionalAids</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingType.zebraCrossingWithOrWithoutAdditionalAids"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>level</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.level"/>
-					<itsgml:value>streetLevelCrossing</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingLevel.streetLevelCrossing"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 		</itsgml:Feature>
@@ -4490,33 +4457,32 @@
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>priority</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.priority"/>
-					<itsgml:value>pedestriansOverRoadTraffic</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingPriority.pedestriansOverRoadTraffic"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>signage</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
-					<itsgml:propertyTypeReference xlink:href="TransportNetworks.gml#TransportNetworks.PedestrianCrossing.signage"/>
-					<itsgml:value>passiveTrafficSigns</itsgml:value>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
+					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.signage"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>type</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.type"/>
-					<itsgml:value>zebraCrossingWithOrWithoutAdditionalAids</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingType.zebraCrossingWithOrWithoutAdditionalAids"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>level</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.level"/>
-					<itsgml:value>streetLevelCrossing</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingLevel.streetLevelCrossing"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 		</itsgml:Feature>
@@ -4554,33 +4520,32 @@
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>priority</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.priority"/>
-					<itsgml:value>pedestriansOverRoadTraffic</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingPriority.pedestriansOverRoadTraffic"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>signage</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
-					<itsgml:propertyTypeReference xlink:href="TransportNetworks.gml#TransportNetworks.PedestrianCrossing.signage"/>
-					<itsgml:value>passiveTrafficSigns</itsgml:value>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
+					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.signage"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>type</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.type"/>
-					<itsgml:value>zebraCrossingWithOrWithoutAdditionalAids</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingType.zebraCrossingWithOrWithoutAdditionalAids"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>level</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.level"/>
-					<itsgml:value>streetLevelCrossing</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingLevel.streetLevelCrossing"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 		</itsgml:Feature>
@@ -4618,33 +4583,32 @@
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>priority</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.priority"/>
-					<itsgml:value>pedestriansOverRoadTraffic</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingPriority.pedestriansOverRoadTraffic"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>signage</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
-					<itsgml:propertyTypeReference xlink:href="TransportNetworks.gml#TransportNetworks.PedestrianCrossing.signage"/>
-					<itsgml:value>passiveTrafficSigns</itsgml:value>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
+					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.signage"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>type</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.type"/>
-					<itsgml:value>zebraCrossingWithOrWithoutAdditionalAids</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingType.zebraCrossingWithOrWithoutAdditionalAids"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>level</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.level"/>
-					<itsgml:value>streetLevelCrossing</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingLevel.streetLevelCrossing"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 		</itsgml:Feature>
@@ -4682,33 +4646,32 @@
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>priority</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.priority"/>
-					<itsgml:value>pedestriansOverRoadTraffic</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingPriority.pedestriansOverRoadTraffic"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>signage</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
-					<itsgml:propertyTypeReference xlink:href="TransportNetworks.gml#TransportNetworks.PedestrianCrossing.signage"/>
-					<itsgml:value>passiveTrafficSigns</itsgml:value>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
+					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.signage"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>type</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.type"/>
-					<itsgml:value>otherType</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingType.otherType"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>level</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.level"/>
-					<itsgml:value>streetLevelCrossing</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingLevel.streetLevelCrossing"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 		</itsgml:Feature>
@@ -4746,32 +4709,32 @@
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>priority</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.priority"/>
-					<itsgml:value>pedestriansOverRoadTraffic</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingPriority.pedestriansOverRoadTraffic"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>signage</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
-					<itsgml:propertyTypeReference xlink:href="TransportNetworks.gml#TransportNetworks.PedestrianCrossing.signage"/>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
+					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.signage"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>type</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.type"/>
-					<itsgml:value>otherType</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingType.otherType"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>level</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.level"/>
-					<itsgml:value>streetLevelCrossing</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingLevel.streetLevelCrossing"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 		</itsgml:Feature>
@@ -4809,33 +4772,32 @@
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>priority</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.priority"/>
-					<itsgml:value>pedestriansOverRoadTraffic</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingPriority.pedestriansOverRoadTraffic"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>signage</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
-					<itsgml:propertyTypeReference xlink:href="TransportNetworks.gml#TransportNetworks.PedestrianCrossing.signage"/>
-					<itsgml:value>passiveTrafficSigns</itsgml:value>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
+					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.signage"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>type</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.type"/>
-					<itsgml:value>zebraCrossingWithOrWithoutAdditionalAids</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingType.zebraCrossingWithOrWithoutAdditionalAids"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>level</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.level"/>
-					<itsgml:value>streetLevelCrossing</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingLevel.streetLevelCrossing"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 		</itsgml:Feature>
@@ -4873,33 +4835,32 @@
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>priority</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.priority"/>
-					<itsgml:value>pedestriansOverRoadTraffic</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingPriority.pedestriansOverRoadTraffic"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>signage</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
-					<itsgml:propertyTypeReference xlink:href="TransportNetworks.gml#TransportNetworks.PedestrianCrossing.signage"/>
-					<itsgml:value>passiveTrafficSigns</itsgml:value>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
+					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.signage"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>type</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.type"/>
-					<itsgml:value>zebraCrossingWithOrWithoutAdditionalAids</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingType.zebraCrossingWithOrWithoutAdditionalAids"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>level</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.level"/>
-					<itsgml:value>streetLevelCrossing</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingLevel.streetLevelCrossing"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 		</itsgml:Feature>
@@ -4937,32 +4898,32 @@
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>priority</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.priority"/>
-					<itsgml:value>pedestriansOverRoadTraffic</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingPriority.pedestriansOverRoadTraffic"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>signage</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
-					<itsgml:propertyTypeReference xlink:href="TransportNetworks.gml#TransportNetworks.PedestrianCrossing.signage"/>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
+					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.signage"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>type</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.type"/>
-					<itsgml:value>zebraCrossingWithOrWithoutAdditionalAids</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingType.zebraCrossingWithOrWithoutAdditionalAids"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>level</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.level"/>
-					<itsgml:value>streetLevelCrossing</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingLevel.streetLevelCrossing"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 		</itsgml:Feature>
@@ -5000,32 +4961,32 @@
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>priority</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.priority"/>
-					<itsgml:value>pedestriansOverRoadTraffic</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingPriority.pedestriansOverRoadTraffic"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>signage</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
-					<itsgml:propertyTypeReference xlink:href="TransportNetworks.gml#TransportNetworks.PedestrianCrossing.signage"/>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
+					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.signage"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>type</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.type"/>
-					<itsgml:value>zebraCrossingWithOrWithoutAdditionalAids</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingType.zebraCrossingWithOrWithoutAdditionalAids"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>level</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.level"/>
-					<itsgml:value>streetLevelCrossing</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingLevel.streetLevelCrossing"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 		</itsgml:Feature>
@@ -5063,32 +5024,32 @@
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>priority</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.priority"/>
-					<itsgml:value>pedestriansOverRoadTraffic</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingPriority.pedestriansOverRoadTraffic"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>signage</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
-					<itsgml:propertyTypeReference xlink:href="TransportNetworks.gml#TransportNetworks.PedestrianCrossing.signage"/>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
+					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.signage"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>type</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.type"/>
-					<itsgml:value>zebraCrossingWithOrWithoutAdditionalAids</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingType.zebraCrossingWithOrWithoutAdditionalAids"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>level</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.level"/>
-					<itsgml:value>streetLevelCrossing</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingLevel.streetLevelCrossing"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 		</itsgml:Feature>
@@ -5126,32 +5087,32 @@
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>priority</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.priority"/>
-					<itsgml:value>pedestriansOverRoadTraffic</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingPriority.pedestriansOverRoadTraffic"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>signage</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
-					<itsgml:propertyTypeReference xlink:href="TransportNetworks.gml#TransportNetworks.PedestrianCrossing.signage"/>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
+					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.signage"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>type</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.type"/>
-					<itsgml:value>zebraCrossingWithOrWithoutAdditionalAids</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingType.zebraCrossingWithOrWithoutAdditionalAids"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>level</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.level"/>
-					<itsgml:value>streetLevelCrossing</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingLevel.streetLevelCrossing"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 		</itsgml:Feature>
@@ -5189,33 +5150,32 @@
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>priority</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.priority"/>
-					<itsgml:value>pedestriansOverRoadTraffic</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingPriority.pedestriansOverRoadTraffic"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>signage</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
-					<itsgml:propertyTypeReference xlink:href="TransportNetworks.gml#TransportNetworks.PedestrianCrossing.signage"/>
-					<itsgml:value>passiveTrafficSigns</itsgml:value>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
+					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.signage"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>type</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.type"/>
-					<itsgml:value>zebraCrossingWithOrWithoutAdditionalAids</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingType.zebraCrossingWithOrWithoutAdditionalAids"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>level</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.level"/>
-					<itsgml:value>streetLevelCrossing</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingLevel.streetLevelCrossing"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 		</itsgml:Feature>
@@ -5253,33 +5213,32 @@
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>priority</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.priority"/>
-					<itsgml:value>pedestriansOverRoadTraffic</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingPriority.pedestriansOverRoadTraffic"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>signage</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
-					<itsgml:propertyTypeReference xlink:href="TransportNetworks.gml#TransportNetworks.PedestrianCrossing.signage"/>
-					<itsgml:value>passiveTrafficSigns</itsgml:value>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
+					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.signage"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>type</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.type"/>
-					<itsgml:value>zebraCrossingWithOrWithoutAdditionalAids</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingType.zebraCrossingWithOrWithoutAdditionalAids"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>level</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.level"/>
-					<itsgml:value>streetLevelCrossing</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingLevel.streetLevelCrossing"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 		</itsgml:Feature>
@@ -5317,32 +5276,32 @@
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>priority</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.priority"/>
-					<itsgml:value>pedestriansOverRoadTraffic</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingPriority.pedestriansOverRoadTraffic"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>signage</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
-					<itsgml:propertyTypeReference xlink:href="TransportNetworks.gml#TransportNetworks.PedestrianCrossing.signage"/>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
+					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.signage"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>type</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.type"/>
-					<itsgml:value>zebraCrossingWithOrWithoutAdditionalAids</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingType.zebraCrossingWithOrWithoutAdditionalAids"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>level</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.level"/>
-					<itsgml:value>streetLevelCrossing</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingLevel.streetLevelCrossing"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 		</itsgml:Feature>
@@ -5380,33 +5339,32 @@
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>priority</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.priority"/>
-					<itsgml:value>pedestriansOverRoadTraffic</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingPriority.pedestriansOverRoadTraffic"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>signage</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
-					<itsgml:propertyTypeReference xlink:href="TransportNetworks.gml#TransportNetworks.PedestrianCrossing.signage"/>
-					<itsgml:value>passiveTrafficSigns</itsgml:value>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
+					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.signage"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>type</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.type"/>
-					<itsgml:value>zebraCrossingWithOrWithoutAdditionalAids</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingType.zebraCrossingWithOrWithoutAdditionalAids"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>level</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.level"/>
-					<itsgml:value>streetLevelCrossing</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingLevel.streetLevelCrossing"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 		</itsgml:Feature>
@@ -5444,33 +5402,33 @@
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>priority</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.priority"/>
-					<itsgml:value>pedestriansOverRoadTraffic</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingPriority.pedestriansOverRoadTraffic"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>signage</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
-					<itsgml:propertyTypeReference xlink:href="TransportNetworks.gml#TransportNetworks.PedestrianCrossing.signage"/>
-					<itsgml:value>passiveTrafficSigns</itsgml:value>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
+					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.signage"/>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingSignage.passiveTrafficSigns"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>type</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.type"/>
-					<itsgml:value>zebraCrossingWithOrWithoutAdditionalAids</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingType.zebraCrossingWithOrWithoutAdditionalAids"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>level</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.level"/>
-					<itsgml:value>streetLevelCrossing</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingLevel.streetLevelCrossing"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 		</itsgml:Feature>
@@ -5508,33 +5466,32 @@
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>priority</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.priority"/>
-					<itsgml:value>pedestriansOverRoadTraffic</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingPriority.pedestriansOverRoadTraffic"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>signage</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
-					<itsgml:propertyTypeReference xlink:href="TransportNetworks.gml#TransportNetworks.PedestrianCrossing.signage"/>
-					<itsgml:value>passiveTrafficSigns</itsgml:value>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
+					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.signage"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>type</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.type"/>
-					<itsgml:value>zebraCrossingWithOrWithoutAdditionalAids</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingType.zebraCrossingWithOrWithoutAdditionalAids"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>level</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.level"/>
-					<itsgml:value>streetLevelCrossing</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingLevel.streetLevelCrossing"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 		</itsgml:Feature>
@@ -5572,33 +5529,33 @@
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>priority</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.priority"/>
-					<itsgml:value>pedestriansOverRoadTrafficOnRequest</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingPriority.pedestriansOverRoadTrafficOnRequest"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>signage</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
-					<itsgml:propertyTypeReference xlink:href="TransportNetworks.gml#TransportNetworks.PedestrianCrossing.signage"/>
-					<itsgml:value>noTrafficSigns</itsgml:value>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
+					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.signage"/>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingSignage.trafficLightRegulated"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>type</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.type"/>
-					<itsgml:value>zebraCrossingWithOrWithoutAdditionalAids</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingType.zebraCrossingWithOrWithoutAdditionalAids"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>level</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.level"/>
-					<itsgml:value>streetLevelCrossing</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingLevel.streetLevelCrossing"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 		</itsgml:Feature>
@@ -5636,33 +5593,32 @@
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>priority</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.priority"/>
-					<itsgml:value>pedestriansOverRoadTraffic</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingPriority.pedestriansOverRoadTraffic"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>signage</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
-					<itsgml:propertyTypeReference xlink:href="TransportNetworks.gml#TransportNetworks.PedestrianCrossing.signage"/>
-					<itsgml:value>passiveTrafficSigns</itsgml:value>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
+					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.signage"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>type</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.type"/>
-					<itsgml:value>zebraCrossingWithOrWithoutAdditionalAids</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingType.zebraCrossingWithOrWithoutAdditionalAids"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>level</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.level"/>
-					<itsgml:value>streetLevelCrossing</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingLevel.streetLevelCrossing"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 		</itsgml:Feature>
@@ -5700,33 +5656,32 @@
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>priority</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.priority"/>
-					<itsgml:value>pedestriansOverRoadTraffic</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingPriority.pedestriansOverRoadTraffic"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>signage</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
-					<itsgml:propertyTypeReference xlink:href="TransportNetworks.gml#TransportNetworks.PedestrianCrossing.signage"/>
-					<itsgml:value>passiveTrafficSigns</itsgml:value>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
+					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.signage"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>type</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.type"/>
-					<itsgml:value>zebraCrossingWithOrWithoutAdditionalAids</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingType.zebraCrossingWithOrWithoutAdditionalAids"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>level</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.level"/>
-					<itsgml:value>streetLevelCrossing</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingLevel.streetLevelCrossing"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 		</itsgml:Feature>
@@ -5764,32 +5719,32 @@
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>priority</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.priority"/>
-					<itsgml:value>pedestriansOverRoadTraffic</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingPriority.pedestriansOverRoadTraffic"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>signage</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
-					<itsgml:propertyTypeReference xlink:href="TransportNetworks.gml#TransportNetworks.PedestrianCrossing.signage"/>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
+					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.signage"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>type</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.type"/>
-					<itsgml:value>zebraCrossingWithOrWithoutAdditionalAids</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingType.zebraCrossingWithOrWithoutAdditionalAids"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>level</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.level"/>
-					<itsgml:value>streetLevelCrossing</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingLevel.streetLevelCrossing"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 		</itsgml:Feature>
@@ -5827,33 +5782,32 @@
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>priority</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.priority"/>
-					<itsgml:value>pedestriansOverRoadTraffic</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingPriority.pedestriansOverRoadTraffic"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>signage</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
-					<itsgml:propertyTypeReference xlink:href="TransportNetworks.gml#TransportNetworks.PedestrianCrossing.signage"/>
-					<itsgml:value>passiveTrafficSigns</itsgml:value>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
+					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.signage"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>type</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.type"/>
-					<itsgml:value>zebraCrossingWithOrWithoutAdditionalAids</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingType.zebraCrossingWithOrWithoutAdditionalAids"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>level</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.level"/>
-					<itsgml:value>streetLevelCrossing</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingLevel.streetLevelCrossing"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 		</itsgml:Feature>
@@ -5891,33 +5845,33 @@
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>priority</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.priority"/>
-					<itsgml:value>pedestriansOverRoadTraffic</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingPriority.pedestriansOverRoadTraffic"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>signage</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
-					<itsgml:propertyTypeReference xlink:href="TransportNetworks.gml#TransportNetworks.PedestrianCrossing.signage"/>
-					<itsgml:value>noTrafficSigns</itsgml:value>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
+					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.signage"/>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingSignage.noTrafficSigns"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>type</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.type"/>
-					<itsgml:value>zebraCrossingWithOrWithoutAdditionalAids</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingType.zebraCrossingWithOrWithoutAdditionalAids"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>level</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.level"/>
-					<itsgml:value>streetLevelCrossing</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingLevel.streetLevelCrossing"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 		</itsgml:Feature>
@@ -5955,32 +5909,32 @@
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>priority</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.priority"/>
-					<itsgml:value>pedestriansOverRoadTraffic</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingPriority.pedestriansOverRoadTraffic"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>signage</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
-					<itsgml:propertyTypeReference xlink:href="TransportNetworks.gml#TransportNetworks.PedestrianCrossing.signage"/>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
+					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.signage"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>type</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.type"/>
-					<itsgml:value>zebraCrossingWithOrWithoutAdditionalAids</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingType.zebraCrossingWithOrWithoutAdditionalAids"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>level</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.level"/>
-					<itsgml:value>streetLevelCrossing</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingLevel.streetLevelCrossing"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 		</itsgml:Feature>
@@ -6018,33 +5972,32 @@
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>priority</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.priority"/>
-					<itsgml:value>pedestriansOverRoadTraffic</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingPriority.pedestriansOverRoadTraffic"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>signage</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
-					<itsgml:propertyTypeReference xlink:href="TransportNetworks.gml#TransportNetworks.PedestrianCrossing.signage"/>
-					<itsgml:value>passiveTrafficSigns</itsgml:value>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
+					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.signage"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>type</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.type"/>
-					<itsgml:value>zebraCrossingWithOrWithoutAdditionalAids</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingType.zebraCrossingWithOrWithoutAdditionalAids"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>level</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.level"/>
-					<itsgml:value>streetLevelCrossing</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingLevel.streetLevelCrossing"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 		</itsgml:Feature>
@@ -6082,32 +6035,32 @@
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>priority</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.priority"/>
-					<itsgml:value>pedestriansOverRoadTraffic</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingPriority.pedestriansOverRoadTraffic"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>signage</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
-					<itsgml:propertyTypeReference xlink:href="TransportNetworks.gml#TransportNetworks.PedestrianCrossing.signage"/>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
+					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.signage"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>type</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.type"/>
-					<itsgml:value>zebraCrossingWithOrWithoutAdditionalAids</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingType.zebraCrossingWithOrWithoutAdditionalAids"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>level</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.level"/>
-					<itsgml:value>streetLevelCrossing</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingLevel.streetLevelCrossing"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 		</itsgml:Feature>
@@ -6145,33 +6098,32 @@
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>priority</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.priority"/>
-					<itsgml:value>pedestriansOverRoadTraffic</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingPriority.pedestriansOverRoadTraffic"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>signage</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
-					<itsgml:propertyTypeReference xlink:href="TransportNetworks.gml#TransportNetworks.PedestrianCrossing.signage"/>
-					<itsgml:value>passiveTrafficSigns</itsgml:value>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
+					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.signage"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>type</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.type"/>
-					<itsgml:value>zebraCrossingWithOrWithoutAdditionalAids</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingType.zebraCrossingWithOrWithoutAdditionalAids"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>level</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.level"/>
-					<itsgml:value>streetLevelCrossing</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingLevel.streetLevelCrossing"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 		</itsgml:Feature>
@@ -6209,33 +6161,33 @@
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>priority</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.priority"/>
-					<itsgml:value>pedestriansOverRoadTraffic</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingPriority.pedestriansOverRoadTraffic"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>signage</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
-					<itsgml:propertyTypeReference xlink:href="TransportNetworks.gml#TransportNetworks.PedestrianCrossing.signage"/>
-					<itsgml:value>passiveTrafficSigns</itsgml:value>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
+					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.signage"/>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingSignage.passiveTrafficSigns"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>type</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.type"/>
-					<itsgml:value>zebraCrossingWithOrWithoutAdditionalAids</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingType.zebraCrossingWithOrWithoutAdditionalAids"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>level</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.level"/>
-					<itsgml:value>streetLevelCrossing</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingLevel.streetLevelCrossing"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 		</itsgml:Feature>
@@ -6273,33 +6225,32 @@
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>priority</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.priority"/>
-					<itsgml:value>pedestriansOverRoadTraffic</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingPriority.pedestriansOverRoadTraffic"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>signage</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
-					<itsgml:propertyTypeReference xlink:href="TransportNetworks.gml#TransportNetworks.PedestrianCrossing.signage"/>
-					<itsgml:value>passiveTrafficSigns</itsgml:value>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
+					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.signage"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>type</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.type"/>
-					<itsgml:value>zebraCrossingWithOrWithoutAdditionalAids</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingType.zebraCrossingWithOrWithoutAdditionalAids"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>level</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.level"/>
-					<itsgml:value>streetLevelCrossing</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingLevel.streetLevelCrossing"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 		</itsgml:Feature>
@@ -6337,33 +6288,32 @@
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>priority</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.priority"/>
-					<itsgml:value>pedestriansOverRoadTraffic</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingPriority.pedestriansOverRoadTraffic"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>signage</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
-					<itsgml:propertyTypeReference xlink:href="TransportNetworks.gml#TransportNetworks.PedestrianCrossing.signage"/>
-					<itsgml:value>passiveTrafficSigns</itsgml:value>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
+					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.signage"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>type</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.type"/>
-					<itsgml:value>zebraCrossingWithOrWithoutAdditionalAids</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingType.zebraCrossingWithOrWithoutAdditionalAids"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>level</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.level"/>
-					<itsgml:value>streetLevelCrossing</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingLevel.streetLevelCrossing"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 		</itsgml:Feature>
@@ -6401,32 +6351,32 @@
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>priority</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.priority"/>
-					<itsgml:value>pedestriansOverRoadTraffic</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingPriority.pedestriansOverRoadTraffic"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>signage</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
-					<itsgml:propertyTypeReference xlink:href="TransportNetworks.gml#TransportNetworks.PedestrianCrossing.signage"/>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
+					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.signage"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>type</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.type"/>
-					<itsgml:value>otherType</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingType.otherType"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>level</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.level"/>
-					<itsgml:value>streetLevelCrossing</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingLevel.streetLevelCrossing"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 		</itsgml:Feature>
@@ -6464,32 +6414,32 @@
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>priority</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.priority"/>
-					<itsgml:value>pedestriansOverRoadTraffic</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingPriority.pedestriansOverRoadTraffic"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>signage</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
-					<itsgml:propertyTypeReference xlink:href="TransportNetworks.gml#TransportNetworks.PedestrianCrossing.signage"/>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
+					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.signage"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>type</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.type"/>
-					<itsgml:value>zebraCrossingWithOrWithoutAdditionalAids</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingType.zebraCrossingWithOrWithoutAdditionalAids"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>level</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.level"/>
-					<itsgml:value>streetLevelCrossing</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingLevel.streetLevelCrossing"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 		</itsgml:Feature>
@@ -6527,32 +6477,32 @@
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>priority</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.priority"/>
-					<itsgml:value>pedestriansOverRoadTraffic</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingPriority.pedestriansOverRoadTraffic"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>signage</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
-					<itsgml:propertyTypeReference xlink:href="TransportNetworks.gml#TransportNetworks.PedestrianCrossing.signage"/>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
+					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.signage"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>type</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.type"/>
-					<itsgml:value>zebraCrossingWithOrWithoutAdditionalAids</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingType.zebraCrossingWithOrWithoutAdditionalAids"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>level</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.level"/>
-					<itsgml:value>streetLevelCrossing</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingLevel.streetLevelCrossing"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 		</itsgml:Feature>
@@ -6590,33 +6540,33 @@
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>priority</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.priority"/>
-					<itsgml:value>pedestriansOverRoadTraffic</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingPriority.pedestriansOverRoadTraffic"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>signage</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
-					<itsgml:propertyTypeReference xlink:href="TransportNetworks.gml#TransportNetworks.PedestrianCrossing.signage"/>
-					<itsgml:value>noTrafficSigns</itsgml:value>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
+					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.signage"/>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingSignage.noTrafficSigns"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>type</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.type"/>
-					<itsgml:value>zebraCrossingWithOrWithoutAdditionalAids</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingType.zebraCrossingWithOrWithoutAdditionalAids"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>level</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.level"/>
-					<itsgml:value>streetLevelCrossing</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingLevel.streetLevelCrossing"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 		</itsgml:Feature>
@@ -6654,32 +6604,32 @@
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>priority</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.priority"/>
-					<itsgml:value>pedestriansOverRoadTraffic</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingPriority.pedestriansOverRoadTraffic"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>signage</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
-					<itsgml:propertyTypeReference xlink:href="TransportNetworks.gml#TransportNetworks.PedestrianCrossing.signage"/>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
+					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.signage"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>type</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.type"/>
-					<itsgml:value>zebraCrossingWithOrWithoutAdditionalAids</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingType.zebraCrossingWithOrWithoutAdditionalAids"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>level</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.level"/>
-					<itsgml:value>streetLevelCrossing</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingLevel.streetLevelCrossing"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 		</itsgml:Feature>
@@ -6717,33 +6667,33 @@
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>priority</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.priority"/>
-					<itsgml:value>pedestriansOverRoadTraffic</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingPriority.pedestriansOverRoadTraffic"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>signage</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
-					<itsgml:propertyTypeReference xlink:href="TransportNetworks.gml#TransportNetworks.PedestrianCrossing.signage"/>
-					<itsgml:value>noTrafficSigns</itsgml:value>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
+					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.signage"/>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingSignage.noTrafficSigns"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>type</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.type"/>
-					<itsgml:value>zebraCrossingWithOrWithoutAdditionalAids</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingType.zebraCrossingWithOrWithoutAdditionalAids"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>level</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.level"/>
-					<itsgml:value>streetLevelCrossing</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingLevel.streetLevelCrossing"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 		</itsgml:Feature>
@@ -6781,33 +6731,32 @@
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>priority</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.priority"/>
-					<itsgml:value>pedestriansOverRoadTraffic</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingPriority.pedestriansOverRoadTraffic"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>signage</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
-					<itsgml:propertyTypeReference xlink:href="TransportNetworks.gml#TransportNetworks.PedestrianCrossing.signage"/>
-					<itsgml:value>passiveTrafficSigns</itsgml:value>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
+					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.signage"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>type</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.type"/>
-					<itsgml:value>zebraCrossingWithOrWithoutAdditionalAids</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingType.zebraCrossingWithOrWithoutAdditionalAids"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>level</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.level"/>
-					<itsgml:value>streetLevelCrossing</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingLevel.streetLevelCrossing"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 		</itsgml:Feature>
@@ -6845,32 +6794,32 @@
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>priority</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.priority"/>
-					<itsgml:value>pedestriansOverRoadTraffic</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingPriority.pedestriansOverRoadTraffic"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>signage</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
-					<itsgml:propertyTypeReference xlink:href="TransportNetworks.gml#TransportNetworks.PedestrianCrossing.signage"/>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
+					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.signage"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>type</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.type"/>
-					<itsgml:value>zebraCrossingWithOrWithoutAdditionalAids</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingType.zebraCrossingWithOrWithoutAdditionalAids"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>level</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.level"/>
-					<itsgml:value>streetLevelCrossing</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingLevel.streetLevelCrossing"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 		</itsgml:Feature>
@@ -6908,33 +6857,32 @@
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>priority</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.priority"/>
-					<itsgml:value>pedestriansOverRoadTraffic</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingPriority.pedestriansOverRoadTraffic"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>signage</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
-					<itsgml:propertyTypeReference xlink:href="TransportNetworks.gml#TransportNetworks.PedestrianCrossing.signage"/>
-					<itsgml:value>passiveTrafficSigns</itsgml:value>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
+					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.signage"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>type</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.type"/>
-					<itsgml:value>zebraCrossingWithOrWithoutAdditionalAids</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingType.zebraCrossingWithOrWithoutAdditionalAids"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>level</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.level"/>
-					<itsgml:value>streetLevelCrossing</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingLevel.streetLevelCrossing"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 		</itsgml:Feature>
@@ -6972,33 +6920,32 @@
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>priority</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.priority"/>
-					<itsgml:value>pedestriansOverRoadTraffic</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingPriority.pedestriansOverRoadTraffic"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>signage</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
-					<itsgml:propertyTypeReference xlink:href="TransportNetworks.gml#TransportNetworks.PedestrianCrossing.signage"/>
-					<itsgml:value>passiveTrafficSigns</itsgml:value>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
+					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.signage"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>type</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.type"/>
-					<itsgml:value>zebraCrossingWithOrWithoutAdditionalAids</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingType.zebraCrossingWithOrWithoutAdditionalAids"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>level</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.level"/>
-					<itsgml:value>streetLevelCrossing</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingLevel.streetLevelCrossing"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 		</itsgml:Feature>
@@ -7036,32 +6983,32 @@
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>priority</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.priority"/>
-					<itsgml:value>pedestriansOverRoadTraffic</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingPriority.pedestriansOverRoadTraffic"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>signage</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
-					<itsgml:propertyTypeReference xlink:href="TransportNetworks.gml#TransportNetworks.PedestrianCrossing.signage"/>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
+					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.signage"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>type</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.type"/>
-					<itsgml:value>zebraCrossingWithOrWithoutAdditionalAids</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingType.zebraCrossingWithOrWithoutAdditionalAids"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>level</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.level"/>
-					<itsgml:value>streetLevelCrossing</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingLevel.streetLevelCrossing"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 		</itsgml:Feature>
@@ -7099,33 +7046,33 @@
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>priority</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.priority"/>
-					<itsgml:value>pedestriansOverRoadTraffic</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingPriority.pedestriansOverRoadTraffic"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>signage</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
-					<itsgml:propertyTypeReference xlink:href="TransportNetworks.gml#TransportNetworks.PedestrianCrossing.signage"/>
-					<itsgml:value>passiveTrafficSigns</itsgml:value>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
+					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.signage"/>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingSignage.passiveTrafficSigns"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>type</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.type"/>
-					<itsgml:value>zebraCrossingWithOrWithoutAdditionalAids</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingType.zebraCrossingWithOrWithoutAdditionalAids"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>level</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.level"/>
-					<itsgml:value>streetLevelCrossing</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingLevel.streetLevelCrossing"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 		</itsgml:Feature>
@@ -7163,33 +7110,32 @@
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>priority</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.priority"/>
-					<itsgml:value>pedestriansOverRoadTraffic</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingPriority.pedestriansOverRoadTraffic"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>signage</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
-					<itsgml:propertyTypeReference xlink:href="TransportNetworks.gml#TransportNetworks.PedestrianCrossing.signage"/>
-					<itsgml:value>passiveTrafficSigns</itsgml:value>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
+					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.signage"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>type</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.type"/>
-					<itsgml:value>zebraCrossingWithOrWithoutAdditionalAids</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingType.zebraCrossingWithOrWithoutAdditionalAids"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>level</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.level"/>
-					<itsgml:value>streetLevelCrossing</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingLevel.streetLevelCrossing"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 		</itsgml:Feature>
@@ -7227,33 +7173,33 @@
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>priority</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.priority"/>
-					<itsgml:value>pedestriansOverRoadTraffic</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingPriority.pedestriansOverRoadTraffic"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>signage</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
-					<itsgml:propertyTypeReference xlink:href="TransportNetworks.gml#TransportNetworks.PedestrianCrossing.signage"/>
-					<itsgml:value>passiveTrafficSigns</itsgml:value>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
+					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.signage"/>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingSignage.passiveTrafficSigns"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>type</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.type"/>
-					<itsgml:value>zebraCrossingWithOrWithoutAdditionalAids</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingType.zebraCrossingWithOrWithoutAdditionalAids"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>level</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.level"/>
-					<itsgml:value>streetLevelCrossing</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingLevel.streetLevelCrossing"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 		</itsgml:Feature>
@@ -7291,33 +7237,32 @@
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>priority</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.priority"/>
-					<itsgml:value>pedestriansOverRoadTraffic</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingPriority.pedestriansOverRoadTraffic"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>signage</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
-					<itsgml:propertyTypeReference xlink:href="TransportNetworks.gml#TransportNetworks.PedestrianCrossing.signage"/>
-					<itsgml:value>passiveTrafficSigns</itsgml:value>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
+					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.signage"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>type</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.type"/>
-					<itsgml:value>zebraCrossingWithOrWithoutAdditionalAids</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingType.zebraCrossingWithOrWithoutAdditionalAids"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>level</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.level"/>
-					<itsgml:value>streetLevelCrossing</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingLevel.streetLevelCrossing"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 		</itsgml:Feature>
@@ -7355,33 +7300,33 @@
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>priority</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.priority"/>
-					<itsgml:value>pedestriansOverRoadTraffic</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingPriority.pedestriansOverRoadTraffic"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>signage</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
-					<itsgml:propertyTypeReference xlink:href="TransportNetworks.gml#TransportNetworks.PedestrianCrossing.signage"/>
-					<itsgml:value>passiveTrafficSigns</itsgml:value>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
+					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.signage"/>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingSignage.passiveTrafficSigns"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>type</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.type"/>
-					<itsgml:value>zebraCrossingWithOrWithoutAdditionalAids</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingType.zebraCrossingWithOrWithoutAdditionalAids"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>level</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.level"/>
-					<itsgml:value>streetLevelCrossing</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingLevel.streetLevelCrossing"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 		</itsgml:Feature>
@@ -7419,33 +7364,32 @@
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>priority</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.priority"/>
-					<itsgml:value>pedestriansOverRoadTraffic</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingPriority.pedestriansOverRoadTraffic"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>signage</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
-					<itsgml:propertyTypeReference xlink:href="TransportNetworks.gml#TransportNetworks.PedestrianCrossing.signage"/>
-					<itsgml:value>passiveTrafficSigns</itsgml:value>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
+					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.signage"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>type</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.type"/>
-					<itsgml:value>zebraCrossingWithOrWithoutAdditionalAids</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingType.zebraCrossingWithOrWithoutAdditionalAids"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>level</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.level"/>
-					<itsgml:value>streetLevelCrossing</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingLevel.streetLevelCrossing"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 		</itsgml:Feature>
@@ -7483,33 +7427,33 @@
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>priority</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.priority"/>
-					<itsgml:value>pedestriansOverRoadTraffic</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingPriority.pedestriansOverRoadTraffic"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>signage</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
-					<itsgml:propertyTypeReference xlink:href="TransportNetworks.gml#TransportNetworks.PedestrianCrossing.signage"/>
-					<itsgml:value>noTrafficSigns</itsgml:value>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
+					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.signage"/>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingSignage.noTrafficSigns"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>type</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.type"/>
-					<itsgml:value>zebraCrossingWithOrWithoutAdditionalAids</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingType.zebraCrossingWithOrWithoutAdditionalAids"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>level</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.level"/>
-					<itsgml:value>streetLevelCrossing</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingLevel.streetLevelCrossing"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 		</itsgml:Feature>
@@ -7547,33 +7491,32 @@
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>priority</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.priority"/>
-					<itsgml:value>pedestriansOverRoadTraffic</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingPriority.pedestriansOverRoadTraffic"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>signage</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
-					<itsgml:propertyTypeReference xlink:href="TransportNetworks.gml#TransportNetworks.PedestrianCrossing.signage"/>
-					<itsgml:value>passiveTrafficSigns</itsgml:value>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
+					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.signage"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>type</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.type"/>
-					<itsgml:value>zebraCrossingWithOrWithoutAdditionalAids</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingType.zebraCrossingWithOrWithoutAdditionalAids"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>level</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.level"/>
-					<itsgml:value>streetLevelCrossing</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingLevel.streetLevelCrossing"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 		</itsgml:Feature>
@@ -7611,33 +7554,32 @@
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>priority</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.priority"/>
-					<itsgml:value>pedestriansOverRoadTraffic</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingPriority.pedestriansOverRoadTraffic"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>signage</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
-					<itsgml:propertyTypeReference xlink:href="TransportNetworks.gml#TransportNetworks.PedestrianCrossing.signage"/>
-					<itsgml:value>passiveTrafficSigns</itsgml:value>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
+					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.signage"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>type</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.type"/>
-					<itsgml:value>zebraCrossingWithOrWithoutAdditionalAids</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingType.zebraCrossingWithOrWithoutAdditionalAids"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>level</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.level"/>
-					<itsgml:value>streetLevelCrossing</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingLevel.streetLevelCrossing"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 		</itsgml:Feature>
@@ -7675,33 +7617,32 @@
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>priority</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.priority"/>
-					<itsgml:value>pedestriansOverRoadTraffic</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingPriority.pedestriansOverRoadTraffic"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>signage</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
-					<itsgml:propertyTypeReference xlink:href="TransportNetworks.gml#TransportNetworks.PedestrianCrossing.signage"/>
-					<itsgml:value>passiveTrafficSigns</itsgml:value>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
+					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.signage"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>type</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.type"/>
-					<itsgml:value>zebraCrossingWithOrWithoutAdditionalAids</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingType.zebraCrossingWithOrWithoutAdditionalAids"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>level</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.level"/>
-					<itsgml:value>streetLevelCrossing</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingLevel.streetLevelCrossing"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 		</itsgml:Feature>
@@ -7739,32 +7680,32 @@
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>priority</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.priority"/>
-					<itsgml:value>pedestriansOverRoadTraffic</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingPriority.pedestriansOverRoadTraffic"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>signage</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
-					<itsgml:propertyTypeReference xlink:href="TransportNetworks.gml#TransportNetworks.PedestrianCrossing.signage"/>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
+					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.signage"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>type</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.type"/>
-					<itsgml:value>zebraCrossingWithOrWithoutAdditionalAids</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingType.zebraCrossingWithOrWithoutAdditionalAids"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>level</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.level"/>
-					<itsgml:value>streetLevelCrossing</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingLevel.streetLevelCrossing"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 		</itsgml:Feature>
@@ -7802,33 +7743,32 @@
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>priority</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.priority"/>
-					<itsgml:value>pedestriansOverRoadTraffic</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingPriority.pedestriansOverRoadTraffic"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>signage</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
-					<itsgml:propertyTypeReference xlink:href="TransportNetworks.gml#TransportNetworks.PedestrianCrossing.signage"/>
-					<itsgml:value>passiveTrafficSigns</itsgml:value>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
+					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.signage"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>type</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.type"/>
-					<itsgml:value>zebraCrossingWithOrWithoutAdditionalAids</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingType.zebraCrossingWithOrWithoutAdditionalAids"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>level</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.level"/>
-					<itsgml:value>streetLevelCrossing</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingLevel.streetLevelCrossing"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 		</itsgml:Feature>
@@ -7866,33 +7806,32 @@
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>priority</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.priority"/>
-					<itsgml:value>pedestriansOverRoadTraffic</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingPriority.pedestriansOverRoadTraffic"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>signage</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
-					<itsgml:propertyTypeReference xlink:href="TransportNetworks.gml#TransportNetworks.PedestrianCrossing.signage"/>
-					<itsgml:value>passiveTrafficSigns</itsgml:value>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
+					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.signage"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>type</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.type"/>
-					<itsgml:value>zebraCrossingWithOrWithoutAdditionalAids</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingType.zebraCrossingWithOrWithoutAdditionalAids"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>level</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.level"/>
-					<itsgml:value>streetLevelCrossing</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingLevel.streetLevelCrossing"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 		</itsgml:Feature>
@@ -7930,33 +7869,33 @@
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>priority</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.priority"/>
-					<itsgml:value>pedestriansOverRoadTraffic</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingPriority.pedestriansOverRoadTraffic"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>signage</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
-					<itsgml:propertyTypeReference xlink:href="TransportNetworks.gml#TransportNetworks.PedestrianCrossing.signage"/>
-					<itsgml:value>noTrafficSigns</itsgml:value>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
+					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.signage"/>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingSignage.noTrafficSigns"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>type</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.type"/>
-					<itsgml:value>zebraCrossingWithOrWithoutAdditionalAids</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingType.zebraCrossingWithOrWithoutAdditionalAids"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>level</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.level"/>
-					<itsgml:value>streetLevelCrossing</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingLevel.streetLevelCrossing"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 		</itsgml:Feature>
@@ -7994,33 +7933,32 @@
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>priority</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.priority"/>
-					<itsgml:value>pedestriansOverRoadTraffic</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingPriority.pedestriansOverRoadTraffic"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>signage</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
-					<itsgml:propertyTypeReference xlink:href="TransportNetworks.gml#TransportNetworks.PedestrianCrossing.signage"/>
-					<itsgml:value>passiveTrafficSigns</itsgml:value>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
+					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.signage"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>type</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.type"/>
-					<itsgml:value>zebraCrossingWithOrWithoutAdditionalAids</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingType.zebraCrossingWithOrWithoutAdditionalAids"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>level</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.level"/>
-					<itsgml:value>streetLevelCrossing</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingLevel.streetLevelCrossing"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 		</itsgml:Feature>
@@ -8058,32 +7996,32 @@
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>priority</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.priority"/>
-					<itsgml:value>pedestriansOverRoadTraffic</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingPriority.pedestriansOverRoadTraffic"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>signage</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
-					<itsgml:propertyTypeReference xlink:href="TransportNetworks.gml#TransportNetworks.PedestrianCrossing.signage"/>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
+					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.signage"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>type</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.type"/>
-					<itsgml:value>zebraCrossingWithOrWithoutAdditionalAids</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingType.zebraCrossingWithOrWithoutAdditionalAids"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>level</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.level"/>
-					<itsgml:value>streetLevelCrossing</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingLevel.streetLevelCrossing"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 		</itsgml:Feature>
@@ -8121,32 +8059,32 @@
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>priority</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.priority"/>
-					<itsgml:value>pedestriansOverRoadTraffic</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingPriority.pedestriansOverRoadTraffic"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>signage</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
-					<itsgml:propertyTypeReference xlink:href="TransportNetworks.gml#TransportNetworks.PedestrianCrossing.signage"/>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
+					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.signage"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>type</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.type"/>
-					<itsgml:value>zebraCrossingWithOrWithoutAdditionalAids</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingType.zebraCrossingWithOrWithoutAdditionalAids"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>level</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.level"/>
-					<itsgml:value>streetLevelCrossing</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingLevel.streetLevelCrossing"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 		</itsgml:Feature>
@@ -8184,32 +8122,32 @@
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>priority</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.priority"/>
-					<itsgml:value>pedestriansOverRoadTraffic</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingPriority.pedestriansOverRoadTraffic"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>signage</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
-					<itsgml:propertyTypeReference xlink:href="TransportNetworks.gml#TransportNetworks.PedestrianCrossing.signage"/>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
+					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.signage"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>type</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.type"/>
-					<itsgml:value>zebraCrossingWithOrWithoutAdditionalAids</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingType.zebraCrossingWithOrWithoutAdditionalAids"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>level</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.level"/>
-					<itsgml:value>streetLevelCrossing</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingLevel.streetLevelCrossing"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 		</itsgml:Feature>
@@ -8247,32 +8185,32 @@
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>priority</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.priority"/>
-					<itsgml:value>pedestriansOverRoadTraffic</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingPriority.pedestriansOverRoadTraffic"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>signage</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
-					<itsgml:propertyTypeReference xlink:href="TransportNetworks.gml#TransportNetworks.PedestrianCrossing.signage"/>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
+					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.signage"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>type</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.type"/>
-					<itsgml:value>zebraCrossingWithOrWithoutAdditionalAids</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingType.zebraCrossingWithOrWithoutAdditionalAids"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>level</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.level"/>
-					<itsgml:value>streetLevelCrossing</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingLevel.streetLevelCrossing"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 		</itsgml:Feature>
@@ -8310,32 +8248,32 @@
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>priority</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.priority"/>
-					<itsgml:value>pedestriansOverRoadTraffic</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingPriority.pedestriansOverRoadTraffic"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>signage</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
-					<itsgml:propertyTypeReference xlink:href="TransportNetworks.gml#TransportNetworks.PedestrianCrossing.signage"/>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
+					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.signage"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>type</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.type"/>
-					<itsgml:value>zebraCrossingWithOrWithoutAdditionalAids</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingType.zebraCrossingWithOrWithoutAdditionalAids"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>level</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.level"/>
-					<itsgml:value>streetLevelCrossing</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingLevel.streetLevelCrossing"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 		</itsgml:Feature>
@@ -8373,33 +8311,33 @@
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>priority</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.priority"/>
-					<itsgml:value>pedestriansOverRoadTraffic</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingPriority.pedestriansOverRoadTraffic"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>signage</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
-					<itsgml:propertyTypeReference xlink:href="TransportNetworks.gml#TransportNetworks.PedestrianCrossing.signage"/>
-					<itsgml:value>passiveTrafficSigns</itsgml:value>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
+					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.signage"/>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingSignage.passiveTrafficSigns"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>type</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.type"/>
-					<itsgml:value>zebraCrossingWithOrWithoutAdditionalAids</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingType.zebraCrossingWithOrWithoutAdditionalAids"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>level</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.level"/>
-					<itsgml:value>streetLevelCrossing</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingLevel.streetLevelCrossing"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 		</itsgml:Feature>
@@ -8437,32 +8375,32 @@
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>priority</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.priority"/>
-					<itsgml:value>pedestriansOverRoadTraffic</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingPriority.pedestriansOverRoadTraffic"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>signage</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
-					<itsgml:propertyTypeReference xlink:href="TransportNetworks.gml#TransportNetworks.PedestrianCrossing.signage"/>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
+					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.signage"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>type</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.type"/>
-					<itsgml:value>zebraCrossingWithOrWithoutAdditionalAids</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingType.zebraCrossingWithOrWithoutAdditionalAids"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>level</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.level"/>
-					<itsgml:value>streetLevelCrossing</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingLevel.streetLevelCrossing"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 		</itsgml:Feature>
@@ -8500,33 +8438,32 @@
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>priority</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.priority"/>
-					<itsgml:value>pedestriansOverRoadTraffic</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingPriority.pedestriansOverRoadTraffic"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>signage</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
-					<itsgml:propertyTypeReference xlink:href="TransportNetworks.gml#TransportNetworks.PedestrianCrossing.signage"/>
-					<itsgml:value>passiveTrafficSigns</itsgml:value>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
+					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.signage"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>type</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.type"/>
-					<itsgml:value>zebraCrossingWithOrWithoutAdditionalAids</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingType.zebraCrossingWithOrWithoutAdditionalAids"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>level</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.level"/>
-					<itsgml:value>streetLevelCrossing</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingLevel.streetLevelCrossing"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 		</itsgml:Feature>
@@ -8564,32 +8501,32 @@
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>priority</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.priority"/>
-					<itsgml:value>pedestriansOverRoadTraffic</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingPriority.pedestriansOverRoadTraffic"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>signage</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
-					<itsgml:propertyTypeReference xlink:href="TransportNetworks.gml#TransportNetworks.PedestrianCrossing.signage"/>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
+					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.signage"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>type</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.type"/>
-					<itsgml:value>zebraCrossingWithOrWithoutAdditionalAids</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingType.zebraCrossingWithOrWithoutAdditionalAids"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>level</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.level"/>
-					<itsgml:value>streetLevelCrossing</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingLevel.streetLevelCrossing"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 		</itsgml:Feature>
@@ -8627,32 +8564,32 @@
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>priority</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.priority"/>
-					<itsgml:value>pedestriansOverRoadTraffic</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingPriority.pedestriansOverRoadTraffic"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>signage</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
-					<itsgml:propertyTypeReference xlink:href="TransportNetworks.gml#TransportNetworks.PedestrianCrossing.signage"/>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
+					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.signage"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>type</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.type"/>
-					<itsgml:value>zebraCrossingWithOrWithoutAdditionalAids</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingType.zebraCrossingWithOrWithoutAdditionalAids"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>level</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.level"/>
-					<itsgml:value>streetLevelCrossing</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingLevel.streetLevelCrossing"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 		</itsgml:Feature>
@@ -8690,33 +8627,32 @@
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>priority</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.priority"/>
-					<itsgml:value>pedestriansOverRoadTraffic</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingPriority.pedestriansOverRoadTraffic"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>signage</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
-					<itsgml:propertyTypeReference xlink:href="TransportNetworks.gml#TransportNetworks.PedestrianCrossing.signage"/>
-					<itsgml:value>passiveTrafficSigns</itsgml:value>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
+					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.signage"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>type</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.type"/>
-					<itsgml:value>zebraCrossingWithOrWithoutAdditionalAids</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingType.zebraCrossingWithOrWithoutAdditionalAids"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>level</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.level"/>
-					<itsgml:value>streetLevelCrossing</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingLevel.streetLevelCrossing"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 		</itsgml:Feature>
@@ -8754,32 +8690,32 @@
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>priority</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.priority"/>
-					<itsgml:value>pedestriansOverRoadTraffic</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingPriority.pedestriansOverRoadTraffic"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>signage</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
-					<itsgml:propertyTypeReference xlink:href="TransportNetworks.gml#TransportNetworks.PedestrianCrossing.signage"/>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
+					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.signage"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>type</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.type"/>
-					<itsgml:value>zebraCrossingWithOrWithoutAdditionalAids</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingType.zebraCrossingWithOrWithoutAdditionalAids"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>level</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.level"/>
-					<itsgml:value>streetLevelCrossing</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingLevel.streetLevelCrossing"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 		</itsgml:Feature>
@@ -8817,32 +8753,32 @@
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>priority</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.priority"/>
-					<itsgml:value>pedestriansOverRoadTraffic</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingPriority.pedestriansOverRoadTraffic"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>signage</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
-					<itsgml:propertyTypeReference xlink:href="TransportNetworks.gml#TransportNetworks.PedestrianCrossing.signage"/>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
+					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.signage"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>type</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.type"/>
-					<itsgml:value>zebraCrossingWithOrWithoutAdditionalAids</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingType.zebraCrossingWithOrWithoutAdditionalAids"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>level</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.level"/>
-					<itsgml:value>streetLevelCrossing</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingLevel.streetLevelCrossing"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 		</itsgml:Feature>
@@ -8880,32 +8816,32 @@
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>priority</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.priority"/>
-					<itsgml:value>pedestriansOverRoadTraffic</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingPriority.pedestriansOverRoadTraffic"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>signage</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
-					<itsgml:propertyTypeReference xlink:href="TransportNetworks.gml#TransportNetworks.PedestrianCrossing.signage"/>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
+					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.signage"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>type</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.type"/>
-					<itsgml:value>zebraCrossingWithOrWithoutAdditionalAids</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingType.zebraCrossingWithOrWithoutAdditionalAids"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>level</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.level"/>
-					<itsgml:value>streetLevelCrossing</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingLevel.streetLevelCrossing"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 		</itsgml:Feature>
@@ -8943,33 +8879,32 @@
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>priority</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.priority"/>
-					<itsgml:value>pedestriansOverRoadTraffic</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingPriority.pedestriansOverRoadTraffic"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>signage</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
-					<itsgml:propertyTypeReference xlink:href="TransportNetworks.gml#TransportNetworks.PedestrianCrossing.signage"/>
-					<itsgml:value>passiveTrafficSigns</itsgml:value>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
+					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.signage"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>type</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.type"/>
-					<itsgml:value>zebraCrossingWithOrWithoutAdditionalAids</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingType.zebraCrossingWithOrWithoutAdditionalAids"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>level</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.level"/>
-					<itsgml:value>streetLevelCrossing</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingLevel.streetLevelCrossing"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 		</itsgml:Feature>
@@ -9007,33 +8942,32 @@
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>priority</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.priority"/>
-					<itsgml:value>pedestriansOverRoadTraffic</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingPriority.pedestriansOverRoadTraffic"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>signage</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
-					<itsgml:propertyTypeReference xlink:href="TransportNetworks.gml#TransportNetworks.PedestrianCrossing.signage"/>
-					<itsgml:value>passiveTrafficSigns</itsgml:value>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
+					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.signage"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>type</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.type"/>
-					<itsgml:value>zebraCrossingWithOrWithoutAdditionalAids</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingType.zebraCrossingWithOrWithoutAdditionalAids"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>level</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.level"/>
-					<itsgml:value>streetLevelCrossing</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingLevel.streetLevelCrossing"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 		</itsgml:Feature>
@@ -9071,33 +9005,32 @@
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>priority</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.priority"/>
-					<itsgml:value>pedestriansOverRoadTraffic</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingPriority.pedestriansOverRoadTraffic"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>signage</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
-					<itsgml:propertyTypeReference xlink:href="TransportNetworks.gml#TransportNetworks.PedestrianCrossing.signage"/>
-					<itsgml:value>passiveTrafficSigns</itsgml:value>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
+					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.signage"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>type</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.type"/>
-					<itsgml:value>zebraCrossingWithOrWithoutAdditionalAids</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingType.zebraCrossingWithOrWithoutAdditionalAids"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>level</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.level"/>
-					<itsgml:value>streetLevelCrossing</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingLevel.streetLevelCrossing"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 		</itsgml:Feature>
@@ -9135,33 +9068,32 @@
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>priority</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.priority"/>
-					<itsgml:value>pedestriansOverRoadTraffic</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingPriority.pedestriansOverRoadTraffic"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>signage</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
-					<itsgml:propertyTypeReference xlink:href="TransportNetworks.gml#TransportNetworks.PedestrianCrossing.signage"/>
-					<itsgml:value>passiveTrafficSigns</itsgml:value>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
+					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.signage"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>type</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.type"/>
-					<itsgml:value>zebraCrossingWithOrWithoutAdditionalAids</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingType.zebraCrossingWithOrWithoutAdditionalAids"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>level</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.level"/>
-					<itsgml:value>streetLevelCrossing</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingLevel.streetLevelCrossing"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 		</itsgml:Feature>
@@ -9199,32 +9131,32 @@
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>priority</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.priority"/>
-					<itsgml:value>pedestriansOverRoadTraffic</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingPriority.pedestriansOverRoadTraffic"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>signage</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
-					<itsgml:propertyTypeReference xlink:href="TransportNetworks.gml#TransportNetworks.PedestrianCrossing.signage"/>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
+					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.signage"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>type</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.type"/>
-					<itsgml:value>otherType</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingType.otherType"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>level</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.level"/>
-					<itsgml:value>streetLevelCrossing</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingLevel.streetLevelCrossing"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 		</itsgml:Feature>
@@ -9262,33 +9194,32 @@
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>priority</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.priority"/>
-					<itsgml:value>pedestriansOverRoadTraffic</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingPriority.pedestriansOverRoadTraffic"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>signage</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
-					<itsgml:propertyTypeReference xlink:href="TransportNetworks.gml#TransportNetworks.PedestrianCrossing.signage"/>
-					<itsgml:value>passiveTrafficSigns</itsgml:value>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
+					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.signage"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>type</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.type"/>
-					<itsgml:value>zebraCrossingWithOrWithoutAdditionalAids</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingType.zebraCrossingWithOrWithoutAdditionalAids"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>level</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.level"/>
-					<itsgml:value>streetLevelCrossing</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingLevel.streetLevelCrossing"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 		</itsgml:Feature>
@@ -9326,33 +9257,32 @@
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>priority</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.priority"/>
-					<itsgml:value>pedestriansOverRoadTraffic</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingPriority.pedestriansOverRoadTraffic"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>signage</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
-					<itsgml:propertyTypeReference xlink:href="TransportNetworks.gml#TransportNetworks.PedestrianCrossing.signage"/>
-					<itsgml:value>passiveTrafficSigns</itsgml:value>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
+					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.signage"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>type</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.type"/>
-					<itsgml:value>zebraCrossingWithOrWithoutAdditionalAids</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingType.zebraCrossingWithOrWithoutAdditionalAids"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>level</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.level"/>
-					<itsgml:value>streetLevelCrossing</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingLevel.streetLevelCrossing"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 		</itsgml:Feature>
@@ -9390,32 +9320,32 @@
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>priority</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.priority"/>
-					<itsgml:value>pedestriansOverRoadTraffic</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingPriority.pedestriansOverRoadTraffic"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>signage</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
-					<itsgml:propertyTypeReference xlink:href="TransportNetworks.gml#TransportNetworks.PedestrianCrossing.signage"/>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
+					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.signage"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>type</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.type"/>
-					<itsgml:value>zebraCrossingWithOrWithoutAdditionalAids</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingType.zebraCrossingWithOrWithoutAdditionalAids"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>level</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.level"/>
-					<itsgml:value>streetLevelCrossing</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingLevel.streetLevelCrossing"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 		</itsgml:Feature>
@@ -9453,32 +9383,32 @@
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>priority</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.priority"/>
-					<itsgml:value>pedestriansOverRoadTraffic</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingPriority.pedestriansOverRoadTraffic"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>signage</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
-					<itsgml:propertyTypeReference xlink:href="TransportNetworks.gml#TransportNetworks.PedestrianCrossing.signage"/>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
+					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.signage"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>type</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.type"/>
-					<itsgml:value>zebraCrossingWithOrWithoutAdditionalAids</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingType.zebraCrossingWithOrWithoutAdditionalAids"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>level</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.level"/>
-					<itsgml:value>streetLevelCrossing</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingLevel.streetLevelCrossing"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 		</itsgml:Feature>
@@ -9516,33 +9446,32 @@
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>priority</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.priority"/>
-					<itsgml:value>pedestriansOverRoadTraffic</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingPriority.pedestriansOverRoadTraffic"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>signage</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
-					<itsgml:propertyTypeReference xlink:href="TransportNetworks.gml#TransportNetworks.PedestrianCrossing.signage"/>
-					<itsgml:value>passiveTrafficSigns</itsgml:value>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
+					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.signage"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>type</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.type"/>
-					<itsgml:value>zebraCrossingWithOrWithoutAdditionalAids</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingType.zebraCrossingWithOrWithoutAdditionalAids"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>level</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.level"/>
-					<itsgml:value>streetLevelCrossing</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingLevel.streetLevelCrossing"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 		</itsgml:Feature>
@@ -9580,33 +9509,32 @@
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>priority</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.priority"/>
-					<itsgml:value>pedestriansOverRoadTraffic</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingPriority.pedestriansOverRoadTraffic"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>signage</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
-					<itsgml:propertyTypeReference xlink:href="TransportNetworks.gml#TransportNetworks.PedestrianCrossing.signage"/>
-					<itsgml:value>passiveTrafficSigns</itsgml:value>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
+					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.signage"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>type</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.type"/>
-					<itsgml:value>zebraCrossingWithOrWithoutAdditionalAids</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingType.zebraCrossingWithOrWithoutAdditionalAids"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>level</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.level"/>
-					<itsgml:value>streetLevelCrossing</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingLevel.streetLevelCrossing"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 		</itsgml:Feature>
@@ -9644,33 +9572,32 @@
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>priority</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.priority"/>
-					<itsgml:value>pedestriansOverRoadTraffic</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingPriority.pedestriansOverRoadTraffic"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>signage</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
-					<itsgml:propertyTypeReference xlink:href="TransportNetworks.gml#TransportNetworks.PedestrianCrossing.signage"/>
-					<itsgml:value>passiveTrafficSigns</itsgml:value>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
+					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.signage"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>type</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.type"/>
-					<itsgml:value>zebraCrossingWithOrWithoutAdditionalAids</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingType.zebraCrossingWithOrWithoutAdditionalAids"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>level</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.level"/>
-					<itsgml:value>streetLevelCrossing</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingLevel.streetLevelCrossing"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 		</itsgml:Feature>
@@ -9708,32 +9635,32 @@
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>priority</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.priority"/>
-					<itsgml:value>pedestriansOverRoadTraffic</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingPriority.pedestriansOverRoadTraffic"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>signage</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
-					<itsgml:propertyTypeReference xlink:href="TransportNetworks.gml#TransportNetworks.PedestrianCrossing.signage"/>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
+					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.signage"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>type</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.type"/>
-					<itsgml:value>zebraCrossingWithOrWithoutAdditionalAids</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingType.zebraCrossingWithOrWithoutAdditionalAids"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>level</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.level"/>
-					<itsgml:value>streetLevelCrossing</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingLevel.streetLevelCrossing"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 		</itsgml:Feature>
@@ -9771,33 +9698,32 @@
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>priority</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.priority"/>
-					<itsgml:value>pedestriansOverRoadTraffic</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingPriority.pedestriansOverRoadTraffic"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>signage</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
-					<itsgml:propertyTypeReference xlink:href="TransportNetworks.gml#TransportNetworks.PedestrianCrossing.signage"/>
-					<itsgml:value>passiveTrafficSigns</itsgml:value>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
+					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.signage"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>type</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.type"/>
-					<itsgml:value>zebraCrossingWithOrWithoutAdditionalAids</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingType.zebraCrossingWithOrWithoutAdditionalAids"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>level</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.level"/>
-					<itsgml:value>streetLevelCrossing</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingLevel.streetLevelCrossing"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 		</itsgml:Feature>
@@ -9835,33 +9761,32 @@
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>priority</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.priority"/>
-					<itsgml:value>pedestriansOverRoadTraffic</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingPriority.pedestriansOverRoadTraffic"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>signage</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
-					<itsgml:propertyTypeReference xlink:href="TransportNetworks.gml#TransportNetworks.PedestrianCrossing.signage"/>
-					<itsgml:value>passiveTrafficSigns</itsgml:value>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
+					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.signage"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>type</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.type"/>
-					<itsgml:value>zebraCrossingWithOrWithoutAdditionalAids</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingType.zebraCrossingWithOrWithoutAdditionalAids"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>level</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.level"/>
-					<itsgml:value>streetLevelCrossing</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingLevel.streetLevelCrossing"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 		</itsgml:Feature>
@@ -9899,33 +9824,32 @@
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>priority</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.priority"/>
-					<itsgml:value>pedestriansOverRoadTraffic</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingPriority.pedestriansOverRoadTraffic"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>signage</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
-					<itsgml:propertyTypeReference xlink:href="TransportNetworks.gml#TransportNetworks.PedestrianCrossing.signage"/>
-					<itsgml:value>passiveTrafficSigns</itsgml:value>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
+					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.signage"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>type</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.type"/>
-					<itsgml:value>zebraCrossingWithOrWithoutAdditionalAids</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingType.zebraCrossingWithOrWithoutAdditionalAids"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>level</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.level"/>
-					<itsgml:value>streetLevelCrossing</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingLevel.streetLevelCrossing"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 		</itsgml:Feature>
@@ -9963,33 +9887,33 @@
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>priority</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.priority"/>
-					<itsgml:value>pedestriansOverRoadTraffic</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingPriority.pedestriansOverRoadTraffic"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>signage</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
-					<itsgml:propertyTypeReference xlink:href="TransportNetworks.gml#TransportNetworks.PedestrianCrossing.signage"/>
-					<itsgml:value>passiveTrafficSigns</itsgml:value>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
+					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.signage"/>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingSignage.passiveTrafficSigns"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>type</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.type"/>
-					<itsgml:value>noRoadMarkings</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingType.noRoadMarkings"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>level</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.level"/>
-					<itsgml:value>streetLevelCrossing</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingLevel.streetLevelCrossing"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 		</itsgml:Feature>
@@ -10027,32 +9951,32 @@
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>priority</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.priority"/>
-					<itsgml:value>pedestriansOverRoadTraffic</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingPriority.pedestriansOverRoadTraffic"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>signage</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
-					<itsgml:propertyTypeReference xlink:href="TransportNetworks.gml#TransportNetworks.PedestrianCrossing.signage"/>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
+					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.signage"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>type</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.type"/>
-					<itsgml:value>zebraCrossingWithOrWithoutAdditionalAids</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingType.zebraCrossingWithOrWithoutAdditionalAids"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>level</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.level"/>
-					<itsgml:value>streetLevelCrossing</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingLevel.streetLevelCrossing"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 		</itsgml:Feature>
@@ -10090,32 +10014,32 @@
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>priority</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.priority"/>
-					<itsgml:value>pedestriansOverRoadTraffic</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingPriority.pedestriansOverRoadTraffic"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>signage</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
-					<itsgml:propertyTypeReference xlink:href="TransportNetworks.gml#TransportNetworks.PedestrianCrossing.signage"/>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
+					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.signage"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>type</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.type"/>
-					<itsgml:value>zebraCrossingWithOrWithoutAdditionalAids</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingType.zebraCrossingWithOrWithoutAdditionalAids"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>level</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.level"/>
-					<itsgml:value>streetLevelCrossing</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingLevel.streetLevelCrossing"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 		</itsgml:Feature>
@@ -10153,32 +10077,32 @@
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>priority</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.priority"/>
-					<itsgml:value>pedestriansOverRoadTraffic</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingPriority.pedestriansOverRoadTraffic"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>signage</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
-					<itsgml:propertyTypeReference xlink:href="TransportNetworks.gml#TransportNetworks.PedestrianCrossing.signage"/>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
+					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.signage"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>type</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.type"/>
-					<itsgml:value>zebraCrossingWithOrWithoutAdditionalAids</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingType.zebraCrossingWithOrWithoutAdditionalAids"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>level</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.level"/>
-					<itsgml:value>streetLevelCrossing</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingLevel.streetLevelCrossing"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 		</itsgml:Feature>
@@ -10216,32 +10140,32 @@
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>priority</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.priority"/>
-					<itsgml:value>pedestriansOverRoadTraffic</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingPriority.pedestriansOverRoadTraffic"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>signage</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
-					<itsgml:propertyTypeReference xlink:href="TransportNetworks.gml#TransportNetworks.PedestrianCrossing.signage"/>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
+					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.signage"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>type</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.type"/>
-					<itsgml:value>zebraCrossingWithOrWithoutAdditionalAids</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingType.zebraCrossingWithOrWithoutAdditionalAids"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>level</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.level"/>
-					<itsgml:value>streetLevelCrossing</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingLevel.streetLevelCrossing"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 		</itsgml:Feature>
@@ -10279,33 +10203,32 @@
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>priority</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.priority"/>
-					<itsgml:value>pedestriansOverRoadTraffic</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingPriority.pedestriansOverRoadTraffic"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>signage</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
-					<itsgml:propertyTypeReference xlink:href="TransportNetworks.gml#TransportNetworks.PedestrianCrossing.signage"/>
-					<itsgml:value>passiveTrafficSigns</itsgml:value>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
+					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.signage"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>type</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.type"/>
-					<itsgml:value>zebraCrossingWithOrWithoutAdditionalAids</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingType.zebraCrossingWithOrWithoutAdditionalAids"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>level</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.level"/>
-					<itsgml:value>streetLevelCrossing</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingLevel.streetLevelCrossing"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 		</itsgml:Feature>
@@ -10343,33 +10266,33 @@
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>priority</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.priority"/>
-					<itsgml:value>pedestriansOverRoadTraffic</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingPriority.pedestriansOverRoadTraffic"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>signage</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
-					<itsgml:propertyTypeReference xlink:href="TransportNetworks.gml#TransportNetworks.PedestrianCrossing.signage"/>
-					<itsgml:value>passiveTrafficSigns</itsgml:value>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
+					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.signage"/>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingSignage.passiveTrafficSigns"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>type</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.type"/>
-					<itsgml:value>zebraCrossingWithOrWithoutAdditionalAids</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingType.zebraCrossingWithOrWithoutAdditionalAids"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>level</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.level"/>
-					<itsgml:value>streetLevelCrossing</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingLevel.streetLevelCrossing"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 		</itsgml:Feature>
@@ -10407,33 +10330,32 @@
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>priority</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.priority"/>
-					<itsgml:value>pedestriansOverRoadTraffic</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingPriority.pedestriansOverRoadTraffic"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>signage</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
-					<itsgml:propertyTypeReference xlink:href="TransportNetworks.gml#TransportNetworks.PedestrianCrossing.signage"/>
-					<itsgml:value>passiveTrafficSigns</itsgml:value>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
+					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.signage"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>type</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.type"/>
-					<itsgml:value>zebraCrossingWithOrWithoutAdditionalAids</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingType.zebraCrossingWithOrWithoutAdditionalAids"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>level</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.level"/>
-					<itsgml:value>streetLevelCrossing</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingLevel.streetLevelCrossing"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 		</itsgml:Feature>
@@ -10471,32 +10393,32 @@
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>priority</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.priority"/>
-					<itsgml:value>pedestriansOverRoadTraffic</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingPriority.pedestriansOverRoadTraffic"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>signage</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
-					<itsgml:propertyTypeReference xlink:href="TransportNetworks.gml#TransportNetworks.PedestrianCrossing.signage"/>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
+					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.signage"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>type</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.type"/>
-					<itsgml:value>zebraCrossingWithOrWithoutAdditionalAids</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingType.zebraCrossingWithOrWithoutAdditionalAids"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>level</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.level"/>
-					<itsgml:value>streetLevelCrossing</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingLevel.streetLevelCrossing"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 		</itsgml:Feature>
@@ -10534,33 +10456,32 @@
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>priority</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.priority"/>
-					<itsgml:value>pedestriansOverRoadTraffic</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingPriority.pedestriansOverRoadTraffic"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>signage</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
-					<itsgml:propertyTypeReference xlink:href="TransportNetworks.gml#TransportNetworks.PedestrianCrossing.signage"/>
-					<itsgml:value>passiveTrafficSigns</itsgml:value>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
+					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.signage"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>type</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.type"/>
-					<itsgml:value>zebraCrossingWithOrWithoutAdditionalAids</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingType.zebraCrossingWithOrWithoutAdditionalAids"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>level</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.level"/>
-					<itsgml:value>streetLevelCrossing</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingLevel.streetLevelCrossing"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 		</itsgml:Feature>
@@ -10598,33 +10519,32 @@
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>priority</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.priority"/>
-					<itsgml:value>pedestriansOverRoadTraffic</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingPriority.pedestriansOverRoadTraffic"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>signage</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
-					<itsgml:propertyTypeReference xlink:href="TransportNetworks.gml#TransportNetworks.PedestrianCrossing.signage"/>
-					<itsgml:value>passiveTrafficSigns</itsgml:value>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
+					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.signage"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>type</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.type"/>
-					<itsgml:value>zebraCrossingWithOrWithoutAdditionalAids</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingType.zebraCrossingWithOrWithoutAdditionalAids"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>level</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.level"/>
-					<itsgml:value>streetLevelCrossing</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingLevel.streetLevelCrossing"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 		</itsgml:Feature>
@@ -10662,33 +10582,32 @@
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>priority</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.priority"/>
-					<itsgml:value>pedestriansOverRoadTraffic</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingPriority.pedestriansOverRoadTraffic"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>signage</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
-					<itsgml:propertyTypeReference xlink:href="TransportNetworks.gml#TransportNetworks.PedestrianCrossing.signage"/>
-					<itsgml:value>passiveTrafficSigns</itsgml:value>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
+					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.signage"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>type</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.type"/>
-					<itsgml:value>zebraCrossingWithOrWithoutAdditionalAids</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingType.zebraCrossingWithOrWithoutAdditionalAids"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>level</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.level"/>
-					<itsgml:value>streetLevelCrossing</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingLevel.streetLevelCrossing"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 		</itsgml:Feature>
@@ -10726,33 +10645,32 @@
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>priority</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.priority"/>
-					<itsgml:value>pedestriansOverRoadTraffic</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingPriority.pedestriansOverRoadTraffic"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>signage</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
-					<itsgml:propertyTypeReference xlink:href="TransportNetworks.gml#TransportNetworks.PedestrianCrossing.signage"/>
-					<itsgml:value>passiveTrafficSigns</itsgml:value>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
+					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.signage"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>type</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.type"/>
-					<itsgml:value>zebraCrossingWithOrWithoutAdditionalAids</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingType.zebraCrossingWithOrWithoutAdditionalAids"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>level</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.level"/>
-					<itsgml:value>streetLevelCrossing</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingLevel.streetLevelCrossing"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 		</itsgml:Feature>
@@ -10790,32 +10708,32 @@
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>priority</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.priority"/>
-					<itsgml:value>pedestriansOverRoadTraffic</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingPriority.pedestriansOverRoadTraffic"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>signage</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
-					<itsgml:propertyTypeReference xlink:href="TransportNetworks.gml#TransportNetworks.PedestrianCrossing.signage"/>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
+					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.signage"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>type</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.type"/>
-					<itsgml:value>zebraCrossingWithOrWithoutAdditionalAids</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingType.zebraCrossingWithOrWithoutAdditionalAids"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>level</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.level"/>
-					<itsgml:value>streetLevelCrossing</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingLevel.streetLevelCrossing"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 		</itsgml:Feature>
@@ -10853,33 +10771,33 @@
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>priority</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.priority"/>
-					<itsgml:value>pedestriansOverRoadTraffic</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingPriority.pedestriansOverRoadTraffic"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>signage</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
-					<itsgml:propertyTypeReference xlink:href="TransportNetworks.gml#TransportNetworks.PedestrianCrossing.signage"/>
-					<itsgml:value>passiveTrafficSigns</itsgml:value>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
+					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.signage"/>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingSignage.passiveTrafficSigns"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>type</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.type"/>
-					<itsgml:value>zebraCrossingWithOrWithoutAdditionalAids</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingType.zebraCrossingWithOrWithoutAdditionalAids"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>level</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.level"/>
-					<itsgml:value>streetLevelCrossing</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingLevel.streetLevelCrossing"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 		</itsgml:Feature>
@@ -10917,32 +10835,32 @@
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>priority</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.priority"/>
-					<itsgml:value>pedestriansOverRoadTraffic</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingPriority.pedestriansOverRoadTraffic"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>signage</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
-					<itsgml:propertyTypeReference xlink:href="TransportNetworks.gml#TransportNetworks.PedestrianCrossing.signage"/>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
+					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.signage"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>type</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.type"/>
-					<itsgml:value>zebraCrossingWithOrWithoutAdditionalAids</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingType.zebraCrossingWithOrWithoutAdditionalAids"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>level</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.level"/>
-					<itsgml:value>streetLevelCrossing</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingLevel.streetLevelCrossing"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 		</itsgml:Feature>
@@ -10980,33 +10898,33 @@
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>priority</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.priority"/>
-					<itsgml:value>pedestriansOverRoadTraffic</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingPriority.pedestriansOverRoadTraffic"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>signage</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
-					<itsgml:propertyTypeReference xlink:href="TransportNetworks.gml#TransportNetworks.PedestrianCrossing.signage"/>
-					<itsgml:value>noTrafficSigns</itsgml:value>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
+					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.signage"/>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingSignage.noTrafficSigns"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>type</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.type"/>
-					<itsgml:value>zebraCrossingWithOrWithoutAdditionalAids</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingType.zebraCrossingWithOrWithoutAdditionalAids"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>level</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.level"/>
-					<itsgml:value>streetLevelCrossing</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingLevel.streetLevelCrossing"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 		</itsgml:Feature>
@@ -11044,32 +10962,32 @@
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>priority</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.priority"/>
-					<itsgml:value>pedestriansOverRoadTraffic</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingPriority.pedestriansOverRoadTraffic"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>signage</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
-					<itsgml:propertyTypeReference xlink:href="TransportNetworks.gml#TransportNetworks.PedestrianCrossing.signage"/>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
+					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.signage"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>type</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.type"/>
-					<itsgml:value>zebraCrossingWithOrWithoutAdditionalAids</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingType.zebraCrossingWithOrWithoutAdditionalAids"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>level</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.level"/>
-					<itsgml:value>streetLevelCrossing</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingLevel.streetLevelCrossing"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 		</itsgml:Feature>
@@ -11107,32 +11025,32 @@
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>priority</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.priority"/>
-					<itsgml:value>pedestriansOverRoadTraffic</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingPriority.pedestriansOverRoadTraffic"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>signage</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
-					<itsgml:propertyTypeReference xlink:href="TransportNetworks.gml#TransportNetworks.PedestrianCrossing.signage"/>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
+					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.signage"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>type</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.type"/>
-					<itsgml:value>zebraCrossingWithOrWithoutAdditionalAids</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingType.zebraCrossingWithOrWithoutAdditionalAids"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>level</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.level"/>
-					<itsgml:value>streetLevelCrossing</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingLevel.streetLevelCrossing"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 		</itsgml:Feature>
@@ -11170,32 +11088,32 @@
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>priority</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.priority"/>
-					<itsgml:value>pedestriansOverRoadTraffic</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingPriority.pedestriansOverRoadTraffic"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>signage</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
-					<itsgml:propertyTypeReference xlink:href="TransportNetworks.gml#TransportNetworks.PedestrianCrossing.signage"/>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
+					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.signage"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>type</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.type"/>
-					<itsgml:value>zebraCrossingWithOrWithoutAdditionalAids</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingType.zebraCrossingWithOrWithoutAdditionalAids"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>level</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.level"/>
-					<itsgml:value>streetLevelCrossing</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingLevel.streetLevelCrossing"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 		</itsgml:Feature>
@@ -11233,32 +11151,32 @@
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>priority</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.priority"/>
-					<itsgml:value>pedestriansOverRoadTraffic</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingPriority.pedestriansOverRoadTraffic"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>signage</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
-					<itsgml:propertyTypeReference xlink:href="TransportNetworks.gml#TransportNetworks.PedestrianCrossing.signage"/>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
+					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.signage"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>type</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.type"/>
-					<itsgml:value>zebraCrossingWithOrWithoutAdditionalAids</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingType.zebraCrossingWithOrWithoutAdditionalAids"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>level</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.level"/>
-					<itsgml:value>streetLevelCrossing</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingLevel.streetLevelCrossing"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 		</itsgml:Feature>
@@ -11296,33 +11214,32 @@
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>priority</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.priority"/>
-					<itsgml:value>pedestriansOverRoadTraffic</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingPriority.pedestriansOverRoadTraffic"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>signage</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
-					<itsgml:propertyTypeReference xlink:href="TransportNetworks.gml#TransportNetworks.PedestrianCrossing.signage"/>
-					<itsgml:value>passiveTrafficSigns</itsgml:value>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
+					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.signage"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>type</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.type"/>
-					<itsgml:value>zebraCrossingWithOrWithoutAdditionalAids</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingType.zebraCrossingWithOrWithoutAdditionalAids"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>level</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.level"/>
-					<itsgml:value>streetLevelCrossing</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingLevel.streetLevelCrossing"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 		</itsgml:Feature>
@@ -11360,32 +11277,32 @@
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>priority</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.priority"/>
-					<itsgml:value>pedestriansOverRoadTraffic</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingPriority.pedestriansOverRoadTraffic"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>signage</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
-					<itsgml:propertyTypeReference xlink:href="TransportNetworks.gml#TransportNetworks.PedestrianCrossing.signage"/>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
+					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.signage"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>type</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.type"/>
-					<itsgml:value>zebraCrossingWithOrWithoutAdditionalAids</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingType.zebraCrossingWithOrWithoutAdditionalAids"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>level</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.level"/>
-					<itsgml:value>streetLevelCrossing</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingLevel.streetLevelCrossing"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 		</itsgml:Feature>
@@ -11423,33 +11340,32 @@
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>priority</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.priority"/>
-					<itsgml:value>pedestriansOverRoadTraffic</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingPriority.pedestriansOverRoadTraffic"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>signage</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
-					<itsgml:propertyTypeReference xlink:href="TransportNetworks.gml#TransportNetworks.PedestrianCrossing.signage"/>
-					<itsgml:value>passiveTrafficSigns</itsgml:value>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
+					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.signage"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>type</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.type"/>
-					<itsgml:value>zebraCrossingWithOrWithoutAdditionalAids</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingType.zebraCrossingWithOrWithoutAdditionalAids"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>level</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.level"/>
-					<itsgml:value>streetLevelCrossing</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingLevel.streetLevelCrossing"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 		</itsgml:Feature>
@@ -11487,33 +11403,32 @@
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>priority</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.priority"/>
-					<itsgml:value>pedestriansOverRoadTraffic</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingPriority.pedestriansOverRoadTraffic"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>signage</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
-					<itsgml:propertyTypeReference xlink:href="TransportNetworks.gml#TransportNetworks.PedestrianCrossing.signage"/>
-					<itsgml:value>passiveTrafficSigns</itsgml:value>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
+					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.signage"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>type</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.type"/>
-					<itsgml:value>zebraCrossingWithOrWithoutAdditionalAids</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingType.zebraCrossingWithOrWithoutAdditionalAids"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>level</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.level"/>
-					<itsgml:value>streetLevelCrossing</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingLevel.streetLevelCrossing"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 		</itsgml:Feature>
@@ -11551,33 +11466,32 @@
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>priority</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.priority"/>
-					<itsgml:value>pedestriansOverRoadTraffic</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingPriority.pedestriansOverRoadTraffic"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>signage</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
-					<itsgml:propertyTypeReference xlink:href="TransportNetworks.gml#TransportNetworks.PedestrianCrossing.signage"/>
-					<itsgml:value>passiveTrafficSigns</itsgml:value>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
+					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.signage"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>type</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.type"/>
-					<itsgml:value>zebraCrossingWithOrWithoutAdditionalAids</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingType.zebraCrossingWithOrWithoutAdditionalAids"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>level</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.level"/>
-					<itsgml:value>streetLevelCrossing</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingLevel.streetLevelCrossing"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 		</itsgml:Feature>
@@ -11615,32 +11529,32 @@
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>priority</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.priority"/>
-					<itsgml:value>pedestriansOverRoadTraffic</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingPriority.pedestriansOverRoadTraffic"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>signage</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
-					<itsgml:propertyTypeReference xlink:href="TransportNetworks.gml#TransportNetworks.PedestrianCrossing.signage"/>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
+					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.signage"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>type</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.type"/>
-					<itsgml:value>zebraCrossingWithOrWithoutAdditionalAids</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingType.zebraCrossingWithOrWithoutAdditionalAids"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>level</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.level"/>
-					<itsgml:value>streetLevelCrossing</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingLevel.streetLevelCrossing"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 		</itsgml:Feature>
@@ -11678,33 +11592,32 @@
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>priority</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.priority"/>
-					<itsgml:value>pedestriansOverRoadTraffic</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingPriority.pedestriansOverRoadTraffic"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>signage</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
-					<itsgml:propertyTypeReference xlink:href="TransportNetworks.gml#TransportNetworks.PedestrianCrossing.signage"/>
-					<itsgml:value>passiveTrafficSigns</itsgml:value>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
+					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.signage"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>type</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.type"/>
-					<itsgml:value>zebraCrossingWithOrWithoutAdditionalAids</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingType.zebraCrossingWithOrWithoutAdditionalAids"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>level</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.level"/>
-					<itsgml:value>streetLevelCrossing</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingLevel.streetLevelCrossing"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 		</itsgml:Feature>
@@ -11742,33 +11655,32 @@
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>priority</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.priority"/>
-					<itsgml:value>pedestriansOverRoadTraffic</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingPriority.pedestriansOverRoadTraffic"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>signage</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
-					<itsgml:propertyTypeReference xlink:href="TransportNetworks.gml#TransportNetworks.PedestrianCrossing.signage"/>
-					<itsgml:value>passiveTrafficSigns</itsgml:value>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
+					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.signage"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>type</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.type"/>
-					<itsgml:value>zebraCrossingWithOrWithoutAdditionalAids</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingType.zebraCrossingWithOrWithoutAdditionalAids"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>level</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.level"/>
-					<itsgml:value>streetLevelCrossing</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingLevel.streetLevelCrossing"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 		</itsgml:Feature>
@@ -11806,33 +11718,33 @@
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>priority</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.priority"/>
-					<itsgml:value>pedestriansOverRoadTraffic</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingPriority.pedestriansOverRoadTraffic"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>signage</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
-					<itsgml:propertyTypeReference xlink:href="TransportNetworks.gml#TransportNetworks.PedestrianCrossing.signage"/>
-					<itsgml:value>noTrafficSigns</itsgml:value>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
+					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.signage"/>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingSignage.noTrafficSigns"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>type</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.type"/>
-					<itsgml:value>zebraCrossingWithOrWithoutAdditionalAids</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingType.zebraCrossingWithOrWithoutAdditionalAids"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>level</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.level"/>
-					<itsgml:value>streetLevelCrossing</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingLevel.streetLevelCrossing"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 		</itsgml:Feature>
@@ -11870,32 +11782,32 @@
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>priority</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.priority"/>
-					<itsgml:value>pedestriansOverRoadTraffic</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingPriority.pedestriansOverRoadTraffic"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>signage</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
-					<itsgml:propertyTypeReference xlink:href="TransportNetworks.gml#TransportNetworks.PedestrianCrossing.signage"/>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
+					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.signage"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>type</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.type"/>
-					<itsgml:value>zebraCrossingWithOrWithoutAdditionalAids</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingType.zebraCrossingWithOrWithoutAdditionalAids"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>level</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.level"/>
-					<itsgml:value>streetLevelCrossing</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingLevel.streetLevelCrossing"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 		</itsgml:Feature>
@@ -11933,33 +11845,32 @@
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>priority</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.priority"/>
-					<itsgml:value>pedestriansOverRoadTraffic</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingPriority.pedestriansOverRoadTraffic"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>signage</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
-					<itsgml:propertyTypeReference xlink:href="TransportNetworks.gml#TransportNetworks.PedestrianCrossing.signage"/>
-					<itsgml:value>passiveTrafficSigns</itsgml:value>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
+					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.signage"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>type</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.type"/>
-					<itsgml:value>zebraCrossingWithOrWithoutAdditionalAids</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingType.zebraCrossingWithOrWithoutAdditionalAids"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>level</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.level"/>
-					<itsgml:value>streetLevelCrossing</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingLevel.streetLevelCrossing"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 		</itsgml:Feature>
@@ -11997,33 +11908,32 @@
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>priority</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.priority"/>
-					<itsgml:value>pedestriansOverRoadTraffic</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingPriority.pedestriansOverRoadTraffic"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>signage</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
-					<itsgml:propertyTypeReference xlink:href="TransportNetworks.gml#TransportNetworks.PedestrianCrossing.signage"/>
-					<itsgml:value>passiveTrafficSigns</itsgml:value>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
+					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.signage"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>type</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.type"/>
-					<itsgml:value>zebraCrossingWithOrWithoutAdditionalAids</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingType.zebraCrossingWithOrWithoutAdditionalAids"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>level</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.level"/>
-					<itsgml:value>streetLevelCrossing</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingLevel.streetLevelCrossing"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 		</itsgml:Feature>
@@ -12061,32 +11971,32 @@
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>priority</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.priority"/>
-					<itsgml:value>pedestriansOverRoadTraffic</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingPriority.pedestriansOverRoadTraffic"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>signage</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
-					<itsgml:propertyTypeReference xlink:href="TransportNetworks.gml#TransportNetworks.PedestrianCrossing.signage"/>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
+					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.signage"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>type</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.type"/>
-					<itsgml:value>zebraCrossingWithOrWithoutAdditionalAids</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingType.zebraCrossingWithOrWithoutAdditionalAids"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>level</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.level"/>
-					<itsgml:value>streetLevelCrossing</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingLevel.streetLevelCrossing"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 		</itsgml:Feature>
@@ -12124,32 +12034,32 @@
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>priority</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.priority"/>
-					<itsgml:value>pedestriansOverRoadTraffic</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingPriority.pedestriansOverRoadTraffic"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>signage</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
-					<itsgml:propertyTypeReference xlink:href="TransportNetworks.gml#TransportNetworks.PedestrianCrossing.signage"/>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
+					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.signage"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>type</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.type"/>
-					<itsgml:value>zebraCrossingWithOrWithoutAdditionalAids</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingType.zebraCrossingWithOrWithoutAdditionalAids"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>level</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.level"/>
-					<itsgml:value>streetLevelCrossing</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingLevel.streetLevelCrossing"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 		</itsgml:Feature>
@@ -12187,33 +12097,32 @@
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>priority</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.priority"/>
-					<itsgml:value>pedestriansOverRoadTraffic</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingPriority.pedestriansOverRoadTraffic"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>signage</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
-					<itsgml:propertyTypeReference xlink:href="TransportNetworks.gml#TransportNetworks.PedestrianCrossing.signage"/>
-					<itsgml:value>passiveTrafficSigns</itsgml:value>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
+					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.signage"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>type</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.type"/>
-					<itsgml:value>zebraCrossingWithOrWithoutAdditionalAids</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingType.zebraCrossingWithOrWithoutAdditionalAids"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>level</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.level"/>
-					<itsgml:value>streetLevelCrossing</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingLevel.streetLevelCrossing"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 		</itsgml:Feature>
@@ -12251,32 +12160,32 @@
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>priority</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.priority"/>
-					<itsgml:value>pedestriansOverRoadTraffic</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingPriority.pedestriansOverRoadTraffic"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>signage</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
-					<itsgml:propertyTypeReference xlink:href="TransportNetworks.gml#TransportNetworks.PedestrianCrossing.signage"/>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
+					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.signage"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>type</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.type"/>
-					<itsgml:value>zebraCrossingWithOrWithoutAdditionalAids</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingType.zebraCrossingWithOrWithoutAdditionalAids"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>level</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.level"/>
-					<itsgml:value>streetLevelCrossing</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingLevel.streetLevelCrossing"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 		</itsgml:Feature>
@@ -12314,32 +12223,32 @@
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>priority</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.priority"/>
-					<itsgml:value>pedestriansOverRoadTraffic</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingPriority.pedestriansOverRoadTraffic"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>signage</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
-					<itsgml:propertyTypeReference xlink:href="TransportNetworks.gml#TransportNetworks.PedestrianCrossing.signage"/>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
+					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.signage"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>type</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.type"/>
-					<itsgml:value>zebraCrossingWithOrWithoutAdditionalAids</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingType.zebraCrossingWithOrWithoutAdditionalAids"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>level</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.level"/>
-					<itsgml:value>streetLevelCrossing</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingLevel.streetLevelCrossing"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 		</itsgml:Feature>
@@ -12377,32 +12286,32 @@
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>priority</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.priority"/>
-					<itsgml:value>pedestriansOverRoadTraffic</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingPriority.pedestriansOverRoadTraffic"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>signage</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
-					<itsgml:propertyTypeReference xlink:href="TransportNetworks.gml#TransportNetworks.PedestrianCrossing.signage"/>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
+					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.signage"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>type</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.type"/>
-					<itsgml:value>zebraCrossingWithOrWithoutAdditionalAids</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingType.zebraCrossingWithOrWithoutAdditionalAids"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>level</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.level"/>
-					<itsgml:value>streetLevelCrossing</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingLevel.streetLevelCrossing"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 		</itsgml:Feature>
@@ -12440,33 +12349,32 @@
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>priority</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.priority"/>
-					<itsgml:value>pedestriansOverRoadTraffic</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingPriority.pedestriansOverRoadTraffic"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>signage</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
-					<itsgml:propertyTypeReference xlink:href="TransportNetworks.gml#TransportNetworks.PedestrianCrossing.signage"/>
-					<itsgml:value>passiveTrafficSigns</itsgml:value>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
+					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.signage"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>type</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.type"/>
-					<itsgml:value>zebraCrossingWithOrWithoutAdditionalAids</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingType.zebraCrossingWithOrWithoutAdditionalAids"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>level</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.level"/>
-					<itsgml:value>streetLevelCrossing</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingLevel.streetLevelCrossing"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 		</itsgml:Feature>
@@ -12504,32 +12412,32 @@
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>priority</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.priority"/>
-					<itsgml:value>pedestriansOverRoadTraffic</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingPriority.pedestriansOverRoadTraffic"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>signage</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
-					<itsgml:propertyTypeReference xlink:href="TransportNetworks.gml#TransportNetworks.PedestrianCrossing.signage"/>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
+					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.signage"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>type</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.type"/>
-					<itsgml:value>zebraCrossingWithOrWithoutAdditionalAids</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingType.zebraCrossingWithOrWithoutAdditionalAids"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>level</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.level"/>
-					<itsgml:value>streetLevelCrossing</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingLevel.streetLevelCrossing"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 		</itsgml:Feature>
@@ -12567,32 +12475,32 @@
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>priority</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.priority"/>
-					<itsgml:value>pedestriansOverRoadTraffic</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingPriority.pedestriansOverRoadTraffic"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>signage</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
-					<itsgml:propertyTypeReference xlink:href="TransportNetworks.gml#TransportNetworks.PedestrianCrossing.signage"/>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
+					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.signage"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>type</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.type"/>
-					<itsgml:value>zebraCrossingWithOrWithoutAdditionalAids</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingType.zebraCrossingWithOrWithoutAdditionalAids"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>level</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.level"/>
-					<itsgml:value>streetLevelCrossing</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingLevel.streetLevelCrossing"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 		</itsgml:Feature>
@@ -12630,33 +12538,32 @@
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>priority</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.priority"/>
-					<itsgml:value>pedestriansOverRoadTraffic</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingPriority.pedestriansOverRoadTraffic"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>signage</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
-					<itsgml:propertyTypeReference xlink:href="TransportNetworks.gml#TransportNetworks.PedestrianCrossing.signage"/>
-					<itsgml:value>passiveTrafficSigns</itsgml:value>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
+					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.signage"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>type</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.type"/>
-					<itsgml:value>zebraCrossingWithOrWithoutAdditionalAids</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingType.zebraCrossingWithOrWithoutAdditionalAids"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>level</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.level"/>
-					<itsgml:value>streetLevelCrossing</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingLevel.streetLevelCrossing"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 		</itsgml:Feature>
@@ -12694,33 +12601,32 @@
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>priority</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.priority"/>
-					<itsgml:value>pedestriansOverRoadTraffic</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingPriority.pedestriansOverRoadTraffic"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>signage</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
-					<itsgml:propertyTypeReference xlink:href="TransportNetworks.gml#TransportNetworks.PedestrianCrossing.signage"/>
-					<itsgml:value>passiveTrafficSigns</itsgml:value>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
+					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.signage"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>type</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.type"/>
-					<itsgml:value>zebraCrossingWithOrWithoutAdditionalAids</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingType.zebraCrossingWithOrWithoutAdditionalAids"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>level</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.level"/>
-					<itsgml:value>streetLevelCrossing</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingLevel.streetLevelCrossing"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 		</itsgml:Feature>
@@ -12758,32 +12664,32 @@
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>priority</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.priority"/>
-					<itsgml:value>pedestriansOverRoadTraffic</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingPriority.pedestriansOverRoadTraffic"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>signage</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
-					<itsgml:propertyTypeReference xlink:href="TransportNetworks.gml#TransportNetworks.PedestrianCrossing.signage"/>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
+					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.signage"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>type</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.type"/>
-					<itsgml:value>zebraCrossingWithOrWithoutAdditionalAids</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingType.zebraCrossingWithOrWithoutAdditionalAids"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>level</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.level"/>
-					<itsgml:value>streetLevelCrossing</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingLevel.streetLevelCrossing"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 		</itsgml:Feature>
@@ -12821,33 +12727,33 @@
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>priority</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.priority"/>
-					<itsgml:value>pedestriansOverRoadTraffic</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingPriority.pedestriansOverRoadTraffic"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>signage</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
-					<itsgml:propertyTypeReference xlink:href="TransportNetworks.gml#TransportNetworks.PedestrianCrossing.signage"/>
-					<itsgml:value>passiveTrafficSigns</itsgml:value>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
+					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.signage"/>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingSignage.passiveTrafficSigns"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>type</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.type"/>
-					<itsgml:value>zebraCrossingWithOrWithoutAdditionalAids</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingType.zebraCrossingWithOrWithoutAdditionalAids"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>level</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.level"/>
-					<itsgml:value>streetLevelCrossing</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingLevel.streetLevelCrossing"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 		</itsgml:Feature>
@@ -12885,33 +12791,32 @@
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>priority</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.priority"/>
-					<itsgml:value>pedestriansOverRoadTraffic</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingPriority.pedestriansOverRoadTraffic"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>signage</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
-					<itsgml:propertyTypeReference xlink:href="TransportNetworks.gml#TransportNetworks.PedestrianCrossing.signage"/>
-					<itsgml:value>passiveTrafficSigns</itsgml:value>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
+					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.signage"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>type</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.type"/>
-					<itsgml:value>zebraCrossingWithOrWithoutAdditionalAids</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingType.zebraCrossingWithOrWithoutAdditionalAids"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>level</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.level"/>
-					<itsgml:value>streetLevelCrossing</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingLevel.streetLevelCrossing"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 		</itsgml:Feature>
@@ -12949,32 +12854,32 @@
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>priority</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.priority"/>
-					<itsgml:value>pedestriansOverRoadTraffic</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingPriority.pedestriansOverRoadTraffic"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>signage</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
-					<itsgml:propertyTypeReference xlink:href="TransportNetworks.gml#TransportNetworks.PedestrianCrossing.signage"/>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
+					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.signage"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>type</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.type"/>
-					<itsgml:value>zebraCrossingWithOrWithoutAdditionalAids</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingType.zebraCrossingWithOrWithoutAdditionalAids"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>level</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.level"/>
-					<itsgml:value>streetLevelCrossing</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingLevel.streetLevelCrossing"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 		</itsgml:Feature>
@@ -13012,32 +12917,32 @@
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>priority</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.priority"/>
-					<itsgml:value>pedestriansOverRoadTraffic</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingPriority.pedestriansOverRoadTraffic"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>signage</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
-					<itsgml:propertyTypeReference xlink:href="TransportNetworks.gml#TransportNetworks.PedestrianCrossing.signage"/>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
+					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.signage"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>type</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.type"/>
-					<itsgml:value>zebraCrossingWithOrWithoutAdditionalAids</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingType.zebraCrossingWithOrWithoutAdditionalAids"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>level</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.level"/>
-					<itsgml:value>streetLevelCrossing</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingLevel.streetLevelCrossing"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 		</itsgml:Feature>
@@ -13075,33 +12980,32 @@
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>priority</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.priority"/>
-					<itsgml:value>pedestriansOverRoadTraffic</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingPriority.pedestriansOverRoadTraffic"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>signage</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
-					<itsgml:propertyTypeReference xlink:href="TransportNetworks.gml#TransportNetworks.PedestrianCrossing.signage"/>
-					<itsgml:value>passiveTrafficSigns</itsgml:value>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
+					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.signage"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>type</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.type"/>
-					<itsgml:value>zebraCrossingWithOrWithoutAdditionalAids</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingType.zebraCrossingWithOrWithoutAdditionalAids"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>level</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.level"/>
-					<itsgml:value>streetLevelCrossing</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingLevel.streetLevelCrossing"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 		</itsgml:Feature>
@@ -13139,32 +13043,32 @@
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>priority</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.priority"/>
-					<itsgml:value>pedestriansOverRoadTraffic</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingPriority.pedestriansOverRoadTraffic"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>signage</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
-					<itsgml:propertyTypeReference xlink:href="TransportNetworks.gml#TransportNetworks.PedestrianCrossing.signage"/>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
+					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.signage"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>type</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.type"/>
-					<itsgml:value>zebraCrossingWithOrWithoutAdditionalAids</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingType.zebraCrossingWithOrWithoutAdditionalAids"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>level</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.level"/>
-					<itsgml:value>streetLevelCrossing</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingLevel.streetLevelCrossing"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 		</itsgml:Feature>
@@ -13202,32 +13106,32 @@
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>priority</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.priority"/>
-					<itsgml:value>pedestriansOverRoadTraffic</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingPriority.pedestriansOverRoadTraffic"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>signage</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
-					<itsgml:propertyTypeReference xlink:href="TransportNetworks.gml#TransportNetworks.PedestrianCrossing.signage"/>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
+					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.signage"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>type</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.type"/>
-					<itsgml:value>zebraCrossingWithOrWithoutAdditionalAids</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingType.zebraCrossingWithOrWithoutAdditionalAids"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>level</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.level"/>
-					<itsgml:value>streetLevelCrossing</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingLevel.streetLevelCrossing"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 		</itsgml:Feature>
@@ -13265,33 +13169,33 @@
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>priority</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.priority"/>
-					<itsgml:value>pedestriansOverRoadTraffic</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingPriority.pedestriansOverRoadTraffic"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>signage</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
-					<itsgml:propertyTypeReference xlink:href="TransportNetworks.gml#TransportNetworks.PedestrianCrossing.signage"/>
-					<itsgml:value>noTrafficSigns</itsgml:value>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
+					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.signage"/>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingSignage.noTrafficSigns"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>type</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.type"/>
-					<itsgml:value>zebraCrossingWithOrWithoutAdditionalAids</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingType.zebraCrossingWithOrWithoutAdditionalAids"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>level</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.level"/>
-					<itsgml:value>streetLevelCrossing</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingLevel.streetLevelCrossing"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 		</itsgml:Feature>
@@ -13329,33 +13233,33 @@
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>priority</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.priority"/>
-					<itsgml:value>pedestriansOverRoadTraffic</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingPriority.pedestriansOverRoadTraffic"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>signage</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
-					<itsgml:propertyTypeReference xlink:href="TransportNetworks.gml#TransportNetworks.PedestrianCrossing.signage"/>
-					<itsgml:value>noTrafficSigns</itsgml:value>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
+					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.signage"/>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingSignage.noTrafficSigns"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>type</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.type"/>
-					<itsgml:value>zebraCrossingWithOrWithoutAdditionalAids</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingType.zebraCrossingWithOrWithoutAdditionalAids"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>level</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.level"/>
-					<itsgml:value>streetLevelCrossing</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingLevel.streetLevelCrossing"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 		</itsgml:Feature>
@@ -13393,33 +13297,32 @@
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>priority</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.priority"/>
-					<itsgml:value>pedestriansOverRoadTraffic</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingPriority.pedestriansOverRoadTraffic"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>signage</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
-					<itsgml:propertyTypeReference xlink:href="TransportNetworks.gml#TransportNetworks.PedestrianCrossing.signage"/>
-					<itsgml:value>passiveTrafficSigns</itsgml:value>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
+					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.signage"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>type</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.type"/>
-					<itsgml:value>zebraCrossingWithOrWithoutAdditionalAids</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingType.zebraCrossingWithOrWithoutAdditionalAids"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>level</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.level"/>
-					<itsgml:value>streetLevelCrossing</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingLevel.streetLevelCrossing"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 		</itsgml:Feature>
@@ -13457,33 +13360,32 @@
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>priority</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.priority"/>
-					<itsgml:value>pedestriansOverRoadTraffic</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingPriority.pedestriansOverRoadTraffic"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>signage</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
-					<itsgml:propertyTypeReference xlink:href="TransportNetworks.gml#TransportNetworks.PedestrianCrossing.signage"/>
-					<itsgml:value>passiveTrafficSigns</itsgml:value>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
+					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.signage"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>type</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.type"/>
-					<itsgml:value>zebraCrossingWithOrWithoutAdditionalAids</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingType.zebraCrossingWithOrWithoutAdditionalAids"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>level</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.level"/>
-					<itsgml:value>streetLevelCrossing</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingLevel.streetLevelCrossing"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 		</itsgml:Feature>
@@ -13521,33 +13423,32 @@
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>priority</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.priority"/>
-					<itsgml:value>pedestriansOverRoadTraffic</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingPriority.pedestriansOverRoadTraffic"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>signage</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
-					<itsgml:propertyTypeReference xlink:href="TransportNetworks.gml#TransportNetworks.PedestrianCrossing.signage"/>
-					<itsgml:value>passiveTrafficSigns</itsgml:value>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
+					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.signage"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>type</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.type"/>
-					<itsgml:value>zebraCrossingWithOrWithoutAdditionalAids</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingType.zebraCrossingWithOrWithoutAdditionalAids"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>level</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.level"/>
-					<itsgml:value>streetLevelCrossing</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingLevel.streetLevelCrossing"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 		</itsgml:Feature>
@@ -13585,32 +13486,32 @@
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>priority</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.priority"/>
-					<itsgml:value>pedestriansOverRoadTraffic</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingPriority.pedestriansOverRoadTraffic"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>signage</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
-					<itsgml:propertyTypeReference xlink:href="TransportNetworks.gml#TransportNetworks.PedestrianCrossing.signage"/>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
+					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.signage"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>type</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.type"/>
-					<itsgml:value>zebraCrossingWithOrWithoutAdditionalAids</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingType.zebraCrossingWithOrWithoutAdditionalAids"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>level</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.level"/>
-					<itsgml:value>streetLevelCrossing</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingLevel.streetLevelCrossing"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 		</itsgml:Feature>
@@ -13648,32 +13549,32 @@
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>priority</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.priority"/>
-					<itsgml:value>pedestriansOverRoadTraffic</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingPriority.pedestriansOverRoadTraffic"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>signage</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
-					<itsgml:propertyTypeReference xlink:href="TransportNetworks.gml#TransportNetworks.PedestrianCrossing.signage"/>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
+					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.signage"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>type</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.type"/>
-					<itsgml:value>zebraCrossingWithOrWithoutAdditionalAids</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingType.zebraCrossingWithOrWithoutAdditionalAids"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>level</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.level"/>
-					<itsgml:value>streetLevelCrossing</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingLevel.streetLevelCrossing"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 		</itsgml:Feature>
@@ -13711,33 +13612,32 @@
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>priority</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.priority"/>
-					<itsgml:value>pedestriansOverRoadTraffic</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingPriority.pedestriansOverRoadTraffic"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>signage</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
-					<itsgml:propertyTypeReference xlink:href="TransportNetworks.gml#TransportNetworks.PedestrianCrossing.signage"/>
-					<itsgml:value>passiveTrafficSigns</itsgml:value>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
+					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.signage"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>type</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.type"/>
-					<itsgml:value>zebraCrossingWithOrWithoutAdditionalAids</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingType.zebraCrossingWithOrWithoutAdditionalAids"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>level</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.level"/>
-					<itsgml:value>streetLevelCrossing</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingLevel.streetLevelCrossing"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 		</itsgml:Feature>
@@ -13775,32 +13675,32 @@
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>priority</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.priority"/>
-					<itsgml:value>pedestriansOverRoadTraffic</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingPriority.pedestriansOverRoadTraffic"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>signage</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
-					<itsgml:propertyTypeReference xlink:href="TransportNetworks.gml#TransportNetworks.PedestrianCrossing.signage"/>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
+					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.signage"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>type</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.type"/>
-					<itsgml:value>zebraCrossingWithOrWithoutAdditionalAids</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingType.zebraCrossingWithOrWithoutAdditionalAids"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>level</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.level"/>
-					<itsgml:value>streetLevelCrossing</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingLevel.streetLevelCrossing"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 		</itsgml:Feature>
@@ -13838,32 +13738,32 @@
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>priority</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.priority"/>
-					<itsgml:value>pedestriansOverRoadTraffic</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingPriority.pedestriansOverRoadTraffic"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>signage</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
-					<itsgml:propertyTypeReference xlink:href="TransportNetworks.gml#TransportNetworks.PedestrianCrossing.signage"/>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
+					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.signage"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>type</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.type"/>
-					<itsgml:value>zebraCrossingWithOrWithoutAdditionalAids</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingType.zebraCrossingWithOrWithoutAdditionalAids"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>level</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.level"/>
-					<itsgml:value>streetLevelCrossing</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingLevel.streetLevelCrossing"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 		</itsgml:Feature>
@@ -13901,33 +13801,32 @@
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>priority</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.priority"/>
-					<itsgml:value>pedestriansOverRoadTraffic</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingPriority.pedestriansOverRoadTraffic"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>signage</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
-					<itsgml:propertyTypeReference xlink:href="TransportNetworks.gml#TransportNetworks.PedestrianCrossing.signage"/>
-					<itsgml:value>passiveTrafficSigns</itsgml:value>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
+					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.signage"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>type</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.type"/>
-					<itsgml:value>zebraCrossingWithOrWithoutAdditionalAids</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingType.zebraCrossingWithOrWithoutAdditionalAids"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>level</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.level"/>
-					<itsgml:value>streetLevelCrossing</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingLevel.streetLevelCrossing"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 		</itsgml:Feature>
@@ -13965,32 +13864,32 @@
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>priority</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.priority"/>
-					<itsgml:value>pedestriansOverRoadTraffic</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingPriority.pedestriansOverRoadTraffic"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>signage</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
-					<itsgml:propertyTypeReference xlink:href="TransportNetworks.gml#TransportNetworks.PedestrianCrossing.signage"/>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
+					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.signage"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>type</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.type"/>
-					<itsgml:value>zebraCrossingWithOrWithoutAdditionalAids</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingType.zebraCrossingWithOrWithoutAdditionalAids"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>level</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.level"/>
-					<itsgml:value>streetLevelCrossing</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingLevel.streetLevelCrossing"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 		</itsgml:Feature>
@@ -14028,33 +13927,32 @@
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>priority</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.priority"/>
-					<itsgml:value>pedestriansOverRoadTraffic</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingPriority.pedestriansOverRoadTraffic"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>signage</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
-					<itsgml:propertyTypeReference xlink:href="TransportNetworks.gml#TransportNetworks.PedestrianCrossing.signage"/>
-					<itsgml:value>passiveTrafficSigns</itsgml:value>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
+					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.signage"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>type</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.type"/>
-					<itsgml:value>zebraCrossingWithOrWithoutAdditionalAids</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingType.zebraCrossingWithOrWithoutAdditionalAids"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>level</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.level"/>
-					<itsgml:value>streetLevelCrossing</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingLevel.streetLevelCrossing"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 		</itsgml:Feature>
@@ -14092,33 +13990,32 @@
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>priority</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.priority"/>
-					<itsgml:value>pedestriansOverRoadTraffic</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingPriority.pedestriansOverRoadTraffic"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>signage</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
-					<itsgml:propertyTypeReference xlink:href="TransportNetworks.gml#TransportNetworks.PedestrianCrossing.signage"/>
-					<itsgml:value>passiveTrafficSigns</itsgml:value>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
+					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.signage"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>type</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.type"/>
-					<itsgml:value>zebraCrossingWithOrWithoutAdditionalAids</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingType.zebraCrossingWithOrWithoutAdditionalAids"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>level</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.level"/>
-					<itsgml:value>streetLevelCrossing</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingLevel.streetLevelCrossing"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 		</itsgml:Feature>
@@ -14156,33 +14053,32 @@
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>priority</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.priority"/>
-					<itsgml:value>pedestriansOverRoadTraffic</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingPriority.pedestriansOverRoadTraffic"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>signage</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
-					<itsgml:propertyTypeReference xlink:href="TransportNetworks.gml#TransportNetworks.PedestrianCrossing.signage"/>
-					<itsgml:value>passiveTrafficSigns</itsgml:value>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
+					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.signage"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>type</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.type"/>
-					<itsgml:value>zebraCrossingWithOrWithoutAdditionalAids</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingType.zebraCrossingWithOrWithoutAdditionalAids"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>level</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.level"/>
-					<itsgml:value>streetLevelCrossing</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingLevel.streetLevelCrossing"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 		</itsgml:Feature>
@@ -14220,33 +14116,32 @@
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>priority</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.priority"/>
-					<itsgml:value>pedestriansOverRoadTraffic</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingPriority.pedestriansOverRoadTraffic"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>signage</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
-					<itsgml:propertyTypeReference xlink:href="TransportNetworks.gml#TransportNetworks.PedestrianCrossing.signage"/>
-					<itsgml:value>passiveTrafficSigns</itsgml:value>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
+					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.signage"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>type</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.type"/>
-					<itsgml:value>zebraCrossingWithOrWithoutAdditionalAids</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingType.zebraCrossingWithOrWithoutAdditionalAids"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>level</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.level"/>
-					<itsgml:value>streetLevelCrossing</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingLevel.streetLevelCrossing"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 		</itsgml:Feature>
@@ -14284,33 +14179,32 @@
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>priority</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.priority"/>
-					<itsgml:value>pedestriansOverRoadTraffic</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingPriority.pedestriansOverRoadTraffic"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>signage</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
-					<itsgml:propertyTypeReference xlink:href="TransportNetworks.gml#TransportNetworks.PedestrianCrossing.signage"/>
-					<itsgml:value>passiveTrafficSigns</itsgml:value>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
+					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.signage"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>type</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.type"/>
-					<itsgml:value>zebraCrossingWithOrWithoutAdditionalAids</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingType.zebraCrossingWithOrWithoutAdditionalAids"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>level</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.level"/>
-					<itsgml:value>streetLevelCrossing</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingLevel.streetLevelCrossing"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 		</itsgml:Feature>
@@ -14348,33 +14242,32 @@
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>priority</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.priority"/>
-					<itsgml:value>pedestriansOverRoadTraffic</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingPriority.pedestriansOverRoadTraffic"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>signage</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
-					<itsgml:propertyTypeReference xlink:href="TransportNetworks.gml#TransportNetworks.PedestrianCrossing.signage"/>
-					<itsgml:value>passiveTrafficSigns</itsgml:value>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
+					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.signage"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>type</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.type"/>
-					<itsgml:value>zebraCrossingWithOrWithoutAdditionalAids</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingType.zebraCrossingWithOrWithoutAdditionalAids"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>level</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.level"/>
-					<itsgml:value>streetLevelCrossing</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingLevel.streetLevelCrossing"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 		</itsgml:Feature>
@@ -14412,33 +14305,32 @@
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>priority</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.priority"/>
-					<itsgml:value>pedestriansOverRoadTraffic</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingPriority.pedestriansOverRoadTraffic"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>signage</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
-					<itsgml:propertyTypeReference xlink:href="TransportNetworks.gml#TransportNetworks.PedestrianCrossing.signage"/>
-					<itsgml:value>passiveTrafficSigns</itsgml:value>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
+					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.signage"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>type</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.type"/>
-					<itsgml:value>zebraCrossingWithOrWithoutAdditionalAids</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingType.zebraCrossingWithOrWithoutAdditionalAids"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>level</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.level"/>
-					<itsgml:value>streetLevelCrossing</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingLevel.streetLevelCrossing"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 		</itsgml:Feature>
@@ -14476,33 +14368,32 @@
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>priority</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.priority"/>
-					<itsgml:value>pedestriansOverRoadTraffic</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingPriority.pedestriansOverRoadTraffic"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>signage</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
-					<itsgml:propertyTypeReference xlink:href="TransportNetworks.gml#TransportNetworks.PedestrianCrossing.signage"/>
-					<itsgml:value>passiveTrafficSigns</itsgml:value>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
+					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.signage"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>type</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.type"/>
-					<itsgml:value>zebraCrossingWithOrWithoutAdditionalAids</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingType.zebraCrossingWithOrWithoutAdditionalAids"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>level</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.level"/>
-					<itsgml:value>streetLevelCrossing</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingLevel.streetLevelCrossing"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 		</itsgml:Feature>
@@ -14540,33 +14431,32 @@
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>priority</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.priority"/>
-					<itsgml:value>pedestriansOverRoadTraffic</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingPriority.pedestriansOverRoadTraffic"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>signage</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
-					<itsgml:propertyTypeReference xlink:href="TransportNetworks.gml#TransportNetworks.PedestrianCrossing.signage"/>
-					<itsgml:value>passiveTrafficSigns</itsgml:value>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
+					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.signage"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>type</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.type"/>
-					<itsgml:value>zebraCrossingWithOrWithoutAdditionalAids</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingType.zebraCrossingWithOrWithoutAdditionalAids"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>level</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.level"/>
-					<itsgml:value>streetLevelCrossing</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingLevel.streetLevelCrossing"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 		</itsgml:Feature>
@@ -14604,32 +14494,32 @@
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>priority</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.priority"/>
-					<itsgml:value>pedestriansOverRoadTraffic</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingPriority.pedestriansOverRoadTraffic"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>signage</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
-					<itsgml:propertyTypeReference xlink:href="TransportNetworks.gml#TransportNetworks.PedestrianCrossing.signage"/>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
+					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.signage"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>type</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.type"/>
-					<itsgml:value>zebraCrossingWithOrWithoutAdditionalAids</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingType.zebraCrossingWithOrWithoutAdditionalAids"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>level</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.level"/>
-					<itsgml:value>streetLevelCrossing</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingLevel.streetLevelCrossing"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 		</itsgml:Feature>
@@ -14667,33 +14557,32 @@
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>priority</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.priority"/>
-					<itsgml:value>pedestriansOverRoadTraffic</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingPriority.pedestriansOverRoadTraffic"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>signage</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
-					<itsgml:propertyTypeReference xlink:href="TransportNetworks.gml#TransportNetworks.PedestrianCrossing.signage"/>
-					<itsgml:value>passiveTrafficSigns</itsgml:value>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
+					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.signage"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>type</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.type"/>
-					<itsgml:value>zebraCrossingWithOrWithoutAdditionalAids</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingType.zebraCrossingWithOrWithoutAdditionalAids"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>level</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.level"/>
-					<itsgml:value>streetLevelCrossing</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingLevel.streetLevelCrossing"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 		</itsgml:Feature>
@@ -14731,33 +14620,32 @@
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>priority</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.priority"/>
-					<itsgml:value>pedestriansOverRoadTraffic</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingPriority.pedestriansOverRoadTraffic"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>signage</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
-					<itsgml:propertyTypeReference xlink:href="TransportNetworks.gml#TransportNetworks.PedestrianCrossing.signage"/>
-					<itsgml:value>passiveTrafficSigns</itsgml:value>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
+					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.signage"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>type</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.type"/>
-					<itsgml:value>zebraCrossingWithOrWithoutAdditionalAids</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingType.zebraCrossingWithOrWithoutAdditionalAids"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>level</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.level"/>
-					<itsgml:value>streetLevelCrossing</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingLevel.streetLevelCrossing"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 		</itsgml:Feature>
@@ -14795,32 +14683,32 @@
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>priority</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.priority"/>
-					<itsgml:value>pedestriansOverRoadTraffic</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingPriority.pedestriansOverRoadTraffic"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>signage</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
-					<itsgml:propertyTypeReference xlink:href="TransportNetworks.gml#TransportNetworks.PedestrianCrossing.signage"/>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
+					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.signage"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>type</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.type"/>
-					<itsgml:value>otherType</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingType.otherType"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>level</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.level"/>
-					<itsgml:value>streetLevelCrossing</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingLevel.streetLevelCrossing"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 		</itsgml:Feature>
@@ -14858,33 +14746,32 @@
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>priority</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.priority"/>
-					<itsgml:value>pedestriansOverRoadTraffic</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingPriority.pedestriansOverRoadTraffic"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>signage</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
-					<itsgml:propertyTypeReference xlink:href="TransportNetworks.gml#TransportNetworks.PedestrianCrossing.signage"/>
-					<itsgml:value>passiveTrafficSigns</itsgml:value>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
+					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.signage"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>type</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.type"/>
-					<itsgml:value>zebraCrossingWithOrWithoutAdditionalAids</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingType.zebraCrossingWithOrWithoutAdditionalAids"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>level</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.level"/>
-					<itsgml:value>streetLevelCrossing</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingLevel.streetLevelCrossing"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 		</itsgml:Feature>
@@ -14922,33 +14809,32 @@
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>priority</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.priority"/>
-					<itsgml:value>pedestriansOverRoadTraffic</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingPriority.pedestriansOverRoadTraffic"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>signage</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
-					<itsgml:propertyTypeReference xlink:href="TransportNetworks.gml#TransportNetworks.PedestrianCrossing.signage"/>
-					<itsgml:value>passiveTrafficSigns</itsgml:value>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
+					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.signage"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>type</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.type"/>
-					<itsgml:value>zebraCrossingWithOrWithoutAdditionalAids</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingType.zebraCrossingWithOrWithoutAdditionalAids"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>level</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.level"/>
-					<itsgml:value>streetLevelCrossing</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingLevel.streetLevelCrossing"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 		</itsgml:Feature>
@@ -14986,32 +14872,32 @@
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>priority</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.priority"/>
-					<itsgml:value>pedestriansOverRoadTraffic</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingPriority.pedestriansOverRoadTraffic"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>signage</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
-					<itsgml:propertyTypeReference xlink:href="TransportNetworks.gml#TransportNetworks.PedestrianCrossing.signage"/>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
+					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.signage"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>type</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.type"/>
-					<itsgml:value>zebraCrossingWithOrWithoutAdditionalAids</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingType.zebraCrossingWithOrWithoutAdditionalAids"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>level</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.level"/>
-					<itsgml:value>streetLevelCrossing</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingLevel.streetLevelCrossing"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 		</itsgml:Feature>
@@ -15049,32 +14935,32 @@
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>priority</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.priority"/>
-					<itsgml:value>pedestriansOverRoadTraffic</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingPriority.pedestriansOverRoadTraffic"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>signage</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
-					<itsgml:propertyTypeReference xlink:href="TransportNetworks.gml#TransportNetworks.PedestrianCrossing.signage"/>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
+					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.signage"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>type</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.type"/>
-					<itsgml:value>zebraCrossingWithOrWithoutAdditionalAids</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingType.zebraCrossingWithOrWithoutAdditionalAids"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>level</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.level"/>
-					<itsgml:value>streetLevelCrossing</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingLevel.streetLevelCrossing"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 		</itsgml:Feature>
@@ -15112,33 +14998,32 @@
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>priority</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.priority"/>
-					<itsgml:value>pedestriansOverRoadTraffic</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingPriority.pedestriansOverRoadTraffic"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>signage</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
-					<itsgml:propertyTypeReference xlink:href="TransportNetworks.gml#TransportNetworks.PedestrianCrossing.signage"/>
-					<itsgml:value>passiveTrafficSigns</itsgml:value>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
+					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.signage"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>type</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.type"/>
-					<itsgml:value>zebraCrossingWithOrWithoutAdditionalAids</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingType.zebraCrossingWithOrWithoutAdditionalAids"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>level</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.level"/>
-					<itsgml:value>streetLevelCrossing</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingLevel.streetLevelCrossing"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 		</itsgml:Feature>
@@ -15176,32 +15061,32 @@
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>priority</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.priority"/>
-					<itsgml:value>pedestriansOverRoadTraffic</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingPriority.pedestriansOverRoadTraffic"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>signage</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
-					<itsgml:propertyTypeReference xlink:href="TransportNetworks.gml#TransportNetworks.PedestrianCrossing.signage"/>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
+					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.signage"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>type</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.type"/>
-					<itsgml:value>zebraCrossingWithOrWithoutAdditionalAids</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingType.zebraCrossingWithOrWithoutAdditionalAids"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>level</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.level"/>
-					<itsgml:value>streetLevelCrossing</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingLevel.streetLevelCrossing"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 		</itsgml:Feature>
@@ -15239,33 +15124,33 @@
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>priority</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.priority"/>
-					<itsgml:value>pedestriansOverRoadTraffic</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingPriority.pedestriansOverRoadTraffic"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>signage</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
-					<itsgml:propertyTypeReference xlink:href="TransportNetworks.gml#TransportNetworks.PedestrianCrossing.signage"/>
-					<itsgml:value>noTrafficSigns</itsgml:value>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
+					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.signage"/>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingSignage.noTrafficSigns"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>type</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.type"/>
-					<itsgml:value>zebraCrossingWithOrWithoutAdditionalAids</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingType.zebraCrossingWithOrWithoutAdditionalAids"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>level</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.level"/>
-					<itsgml:value>streetLevelCrossing</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingLevel.streetLevelCrossing"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 		</itsgml:Feature>
@@ -15303,33 +15188,32 @@
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>priority</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.priority"/>
-					<itsgml:value>pedestriansOverRoadTraffic</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingPriority.pedestriansOverRoadTraffic"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>signage</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
-					<itsgml:propertyTypeReference xlink:href="TransportNetworks.gml#TransportNetworks.PedestrianCrossing.signage"/>
-					<itsgml:value>passiveTrafficSigns</itsgml:value>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
+					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.signage"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>type</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.type"/>
-					<itsgml:value>zebraCrossingWithOrWithoutAdditionalAids</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingType.zebraCrossingWithOrWithoutAdditionalAids"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>level</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.level"/>
-					<itsgml:value>streetLevelCrossing</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingLevel.streetLevelCrossing"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 		</itsgml:Feature>
@@ -15367,33 +15251,32 @@
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>priority</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.priority"/>
-					<itsgml:value>pedestriansOverRoadTraffic</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingPriority.pedestriansOverRoadTraffic"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>signage</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
-					<itsgml:propertyTypeReference xlink:href="TransportNetworks.gml#TransportNetworks.PedestrianCrossing.signage"/>
-					<itsgml:value>passiveTrafficSigns</itsgml:value>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
+					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.signage"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>type</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.type"/>
-					<itsgml:value>zebraCrossingWithOrWithoutAdditionalAids</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingType.zebraCrossingWithOrWithoutAdditionalAids"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>level</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.level"/>
-					<itsgml:value>streetLevelCrossing</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingLevel.streetLevelCrossing"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 		</itsgml:Feature>
@@ -15431,32 +15314,32 @@
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>priority</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.priority"/>
-					<itsgml:value>pedestriansOverRoadTraffic</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingPriority.pedestriansOverRoadTraffic"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>signage</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
-					<itsgml:propertyTypeReference xlink:href="TransportNetworks.gml#TransportNetworks.PedestrianCrossing.signage"/>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
+					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.signage"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>type</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.type"/>
-					<itsgml:value>zebraCrossingWithOrWithoutAdditionalAids</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingType.zebraCrossingWithOrWithoutAdditionalAids"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>level</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.level"/>
-					<itsgml:value>streetLevelCrossing</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingLevel.streetLevelCrossing"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 		</itsgml:Feature>
@@ -15494,33 +15377,32 @@
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>priority</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.priority"/>
-					<itsgml:value>pedestriansOverRoadTraffic</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingPriority.pedestriansOverRoadTraffic"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>signage</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
-					<itsgml:propertyTypeReference xlink:href="TransportNetworks.gml#TransportNetworks.PedestrianCrossing.signage"/>
-					<itsgml:value>passiveTrafficSigns</itsgml:value>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
+					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.signage"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>type</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.type"/>
-					<itsgml:value>zebraCrossingWithOrWithoutAdditionalAids</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingType.zebraCrossingWithOrWithoutAdditionalAids"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>level</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.level"/>
-					<itsgml:value>streetLevelCrossing</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingLevel.streetLevelCrossing"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 		</itsgml:Feature>
@@ -15558,33 +15440,32 @@
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>priority</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.priority"/>
-					<itsgml:value>pedestriansOverRoadTraffic</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingPriority.pedestriansOverRoadTraffic"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>signage</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
-					<itsgml:propertyTypeReference xlink:href="TransportNetworks.gml#TransportNetworks.PedestrianCrossing.signage"/>
-					<itsgml:value>passiveTrafficSigns</itsgml:value>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
+					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.signage"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>type</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.type"/>
-					<itsgml:value>zebraCrossingWithOrWithoutAdditionalAids</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingType.zebraCrossingWithOrWithoutAdditionalAids"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>level</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.level"/>
-					<itsgml:value>streetLevelCrossing</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingLevel.streetLevelCrossing"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 		</itsgml:Feature>
@@ -15622,32 +15503,32 @@
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>priority</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.priority"/>
-					<itsgml:value>pedestriansOverRoadTraffic</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingPriority.pedestriansOverRoadTraffic"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>signage</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
-					<itsgml:propertyTypeReference xlink:href="TransportNetworks.gml#TransportNetworks.PedestrianCrossing.signage"/>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
+					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.signage"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>type</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.type"/>
-					<itsgml:value>zebraCrossingWithOrWithoutAdditionalAids</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingType.zebraCrossingWithOrWithoutAdditionalAids"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>level</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.level"/>
-					<itsgml:value>streetLevelCrossing</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingLevel.streetLevelCrossing"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 		</itsgml:Feature>
@@ -15685,33 +15566,32 @@
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>priority</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.priority"/>
-					<itsgml:value>pedestriansOverRoadTraffic</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingPriority.pedestriansOverRoadTraffic"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>signage</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
-					<itsgml:propertyTypeReference xlink:href="TransportNetworks.gml#TransportNetworks.PedestrianCrossing.signage"/>
-					<itsgml:value>passiveTrafficSigns</itsgml:value>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
+					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.signage"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>type</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.type"/>
-					<itsgml:value>zebraCrossingWithOrWithoutAdditionalAids</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingType.zebraCrossingWithOrWithoutAdditionalAids"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>level</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.level"/>
-					<itsgml:value>streetLevelCrossing</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingLevel.streetLevelCrossing"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 		</itsgml:Feature>
@@ -15749,32 +15629,32 @@
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>priority</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.priority"/>
-					<itsgml:value>pedestriansOverRoadTraffic</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingPriority.pedestriansOverRoadTraffic"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>signage</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
-					<itsgml:propertyTypeReference xlink:href="TransportNetworks.gml#TransportNetworks.PedestrianCrossing.signage"/>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
+					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.signage"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>type</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.type"/>
-					<itsgml:value>zebraCrossingWithOrWithoutAdditionalAids</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingType.zebraCrossingWithOrWithoutAdditionalAids"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>level</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.level"/>
-					<itsgml:value>streetLevelCrossing</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingLevel.streetLevelCrossing"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 		</itsgml:Feature>
@@ -15812,33 +15692,32 @@
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>priority</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.priority"/>
-					<itsgml:value>pedestriansOverRoadTraffic</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingPriority.pedestriansOverRoadTraffic"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>signage</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
-					<itsgml:propertyTypeReference xlink:href="TransportNetworks.gml#TransportNetworks.PedestrianCrossing.signage"/>
-					<itsgml:value>passiveTrafficSigns</itsgml:value>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
+					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.signage"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>type</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.type"/>
-					<itsgml:value>zebraCrossingWithOrWithoutAdditionalAids</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingType.zebraCrossingWithOrWithoutAdditionalAids"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>level</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.level"/>
-					<itsgml:value>streetLevelCrossing</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingLevel.streetLevelCrossing"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 		</itsgml:Feature>
@@ -15876,33 +15755,32 @@
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>priority</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.priority"/>
-					<itsgml:value>pedestriansOverRoadTraffic</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingPriority.pedestriansOverRoadTraffic"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>signage</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
-					<itsgml:propertyTypeReference xlink:href="TransportNetworks.gml#TransportNetworks.PedestrianCrossing.signage"/>
-					<itsgml:value>passiveTrafficSigns</itsgml:value>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
+					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.signage"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>type</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.type"/>
-					<itsgml:value>zebraCrossingWithOrWithoutAdditionalAids</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingType.zebraCrossingWithOrWithoutAdditionalAids"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>level</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.level"/>
-					<itsgml:value>streetLevelCrossing</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingLevel.streetLevelCrossing"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 		</itsgml:Feature>
@@ -15940,32 +15818,32 @@
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>priority</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.priority"/>
-					<itsgml:value>pedestriansOverRoadTraffic</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingPriority.pedestriansOverRoadTraffic"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>signage</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
-					<itsgml:propertyTypeReference xlink:href="TransportNetworks.gml#TransportNetworks.PedestrianCrossing.signage"/>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
+					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.signage"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>type</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.type"/>
-					<itsgml:value>zebraCrossingWithOrWithoutAdditionalAids</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingType.zebraCrossingWithOrWithoutAdditionalAids"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>level</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.level"/>
-					<itsgml:value>streetLevelCrossing</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingLevel.streetLevelCrossing"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 		</itsgml:Feature>
@@ -16003,33 +15881,33 @@
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>priority</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.priority"/>
-					<itsgml:value>pedestriansOverRoadTraffic</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingPriority.pedestriansOverRoadTraffic"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>signage</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
-					<itsgml:propertyTypeReference xlink:href="TransportNetworks.gml#TransportNetworks.PedestrianCrossing.signage"/>
-					<itsgml:value>noTrafficSigns</itsgml:value>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
+					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.signage"/>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingSignage.noTrafficSigns"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>type</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.type"/>
-					<itsgml:value>zebraCrossingWithOrWithoutAdditionalAids</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingType.zebraCrossingWithOrWithoutAdditionalAids"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>level</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.level"/>
-					<itsgml:value>streetLevelCrossing</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingLevel.streetLevelCrossing"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 		</itsgml:Feature>
@@ -16067,32 +15945,32 @@
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>priority</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.priority"/>
-					<itsgml:value>pedestriansOverRoadTraffic</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingPriority.pedestriansOverRoadTraffic"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>signage</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
-					<itsgml:propertyTypeReference xlink:href="TransportNetworks.gml#TransportNetworks.PedestrianCrossing.signage"/>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
+					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.signage"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>type</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.type"/>
-					<itsgml:value>zebraCrossingWithOrWithoutAdditionalAids</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingType.zebraCrossingWithOrWithoutAdditionalAids"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>level</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.level"/>
-					<itsgml:value>streetLevelCrossing</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingLevel.streetLevelCrossing"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 		</itsgml:Feature>
@@ -16130,33 +16008,32 @@
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>priority</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.priority"/>
-					<itsgml:value>pedestriansOverRoadTraffic</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingPriority.pedestriansOverRoadTraffic"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>signage</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
-					<itsgml:propertyTypeReference xlink:href="TransportNetworks.gml#TransportNetworks.PedestrianCrossing.signage"/>
-					<itsgml:value>passiveTrafficSigns</itsgml:value>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
+					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.signage"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>type</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.type"/>
-					<itsgml:value>zebraCrossingWithOrWithoutAdditionalAids</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingType.zebraCrossingWithOrWithoutAdditionalAids"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>level</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.level"/>
-					<itsgml:value>streetLevelCrossing</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingLevel.streetLevelCrossing"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 		</itsgml:Feature>
@@ -16194,32 +16071,32 @@
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>priority</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.priority"/>
-					<itsgml:value>pedestriansOverRoadTraffic</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingPriority.pedestriansOverRoadTraffic"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>signage</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
-					<itsgml:propertyTypeReference xlink:href="TransportNetworks.gml#TransportNetworks.PedestrianCrossing.signage"/>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
+					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.signage"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>type</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.type"/>
-					<itsgml:value>zebraCrossingWithOrWithoutAdditionalAids</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingType.zebraCrossingWithOrWithoutAdditionalAids"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>level</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.level"/>
-					<itsgml:value>streetLevelCrossing</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingLevel.streetLevelCrossing"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 		</itsgml:Feature>
@@ -16257,33 +16134,32 @@
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>priority</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.priority"/>
-					<itsgml:value>pedestriansOverRoadTraffic</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingPriority.pedestriansOverRoadTraffic"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>signage</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
-					<itsgml:propertyTypeReference xlink:href="TransportNetworks.gml#TransportNetworks.PedestrianCrossing.signage"/>
-					<itsgml:value>passiveTrafficSigns</itsgml:value>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
+					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.signage"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>type</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.type"/>
-					<itsgml:value>zebraCrossingWithOrWithoutAdditionalAids</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingType.zebraCrossingWithOrWithoutAdditionalAids"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>level</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.level"/>
-					<itsgml:value>streetLevelCrossing</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingLevel.streetLevelCrossing"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 		</itsgml:Feature>
@@ -16321,33 +16197,32 @@
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>priority</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.priority"/>
-					<itsgml:value>pedestriansOverRoadTraffic</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingPriority.pedestriansOverRoadTraffic"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>signage</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
-					<itsgml:propertyTypeReference xlink:href="TransportNetworks.gml#TransportNetworks.PedestrianCrossing.signage"/>
-					<itsgml:value>passiveTrafficSigns</itsgml:value>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
+					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.signage"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>type</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.type"/>
-					<itsgml:value>zebraCrossingWithOrWithoutAdditionalAids</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingType.zebraCrossingWithOrWithoutAdditionalAids"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>level</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.level"/>
-					<itsgml:value>streetLevelCrossing</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingLevel.streetLevelCrossing"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 		</itsgml:Feature>
@@ -16385,32 +16260,32 @@
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>priority</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.priority"/>
-					<itsgml:value>pedestriansOverRoadTraffic</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingPriority.pedestriansOverRoadTraffic"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>signage</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
-					<itsgml:propertyTypeReference xlink:href="TransportNetworks.gml#TransportNetworks.PedestrianCrossing.signage"/>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
+					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.signage"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>type</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.type"/>
-					<itsgml:value>zebraCrossingWithOrWithoutAdditionalAids</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingType.zebraCrossingWithOrWithoutAdditionalAids"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>level</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.level"/>
-					<itsgml:value>streetLevelCrossing</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingLevel.streetLevelCrossing"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 		</itsgml:Feature>
@@ -16448,32 +16323,32 @@
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>priority</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.priority"/>
-					<itsgml:value>pedestriansOverRoadTraffic</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingPriority.pedestriansOverRoadTraffic"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>signage</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
-					<itsgml:propertyTypeReference xlink:href="TransportNetworks.gml#TransportNetworks.PedestrianCrossing.signage"/>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
+					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.signage"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>type</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.type"/>
-					<itsgml:value>zebraCrossingWithOrWithoutAdditionalAids</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingType.zebraCrossingWithOrWithoutAdditionalAids"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>level</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.level"/>
-					<itsgml:value>streetLevelCrossing</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingLevel.streetLevelCrossing"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 		</itsgml:Feature>
@@ -16511,32 +16386,32 @@
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>priority</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.priority"/>
-					<itsgml:value>pedestriansOverRoadTraffic</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingPriority.pedestriansOverRoadTraffic"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>signage</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
-					<itsgml:propertyTypeReference xlink:href="TransportNetworks.gml#TransportNetworks.PedestrianCrossing.signage"/>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
+					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.signage"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>type</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.type"/>
-					<itsgml:value>zebraCrossingWithOrWithoutAdditionalAids</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingType.zebraCrossingWithOrWithoutAdditionalAids"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>level</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.level"/>
-					<itsgml:value>streetLevelCrossing</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingLevel.streetLevelCrossing"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 		</itsgml:Feature>
@@ -16574,33 +16449,33 @@
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>priority</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.priority"/>
-					<itsgml:value>pedestriansOverRoadTraffic</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingPriority.pedestriansOverRoadTraffic"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>signage</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
-					<itsgml:propertyTypeReference xlink:href="TransportNetworks.gml#TransportNetworks.PedestrianCrossing.signage"/>
-					<itsgml:value>passiveTrafficSigns</itsgml:value>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
+					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.signage"/>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingSignage.passiveTrafficSigns"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>type</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.type"/>
-					<itsgml:value>zebraCrossingWithOrWithoutAdditionalAids</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingType.zebraCrossingWithOrWithoutAdditionalAids"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>level</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.level"/>
-					<itsgml:value>streetLevelCrossing</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingLevel.streetLevelCrossing"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 		</itsgml:Feature>
@@ -16638,32 +16513,32 @@
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>priority</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.priority"/>
-					<itsgml:value>pedestriansOverRoadTraffic</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingPriority.pedestriansOverRoadTraffic"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>signage</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
-					<itsgml:propertyTypeReference xlink:href="TransportNetworks.gml#TransportNetworks.PedestrianCrossing.signage"/>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
+					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.signage"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>type</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.type"/>
-					<itsgml:value>zebraCrossingWithOrWithoutAdditionalAids</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingType.zebraCrossingWithOrWithoutAdditionalAids"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>level</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.level"/>
-					<itsgml:value>streetLevelCrossing</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingLevel.streetLevelCrossing"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 		</itsgml:Feature>
@@ -16701,33 +16576,32 @@
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>priority</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.priority"/>
-					<itsgml:value>pedestriansOverRoadTraffic</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingPriority.pedestriansOverRoadTraffic"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>signage</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
-					<itsgml:propertyTypeReference xlink:href="TransportNetworks.gml#TransportNetworks.PedestrianCrossing.signage"/>
-					<itsgml:value>passiveTrafficSigns</itsgml:value>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
+					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.signage"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>type</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.type"/>
-					<itsgml:value>zebraCrossingWithOrWithoutAdditionalAids</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingType.zebraCrossingWithOrWithoutAdditionalAids"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>level</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.level"/>
-					<itsgml:value>streetLevelCrossing</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingLevel.streetLevelCrossing"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 		</itsgml:Feature>
@@ -16765,33 +16639,33 @@
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>priority</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.priority"/>
-					<itsgml:value>pedestriansOverRoadTraffic</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingPriority.pedestriansOverRoadTraffic"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>signage</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
-					<itsgml:propertyTypeReference xlink:href="TransportNetworks.gml#TransportNetworks.PedestrianCrossing.signage"/>
-					<itsgml:value>noTrafficSigns</itsgml:value>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
+					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.signage"/>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingSignage.noTrafficSigns"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>type</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.type"/>
-					<itsgml:value>zebraCrossingWithOrWithoutAdditionalAids</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingType.zebraCrossingWithOrWithoutAdditionalAids"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>level</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.level"/>
-					<itsgml:value>streetLevelCrossing</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingLevel.streetLevelCrossing"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 		</itsgml:Feature>
@@ -16829,32 +16703,32 @@
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>priority</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.priority"/>
-					<itsgml:value>pedestriansOverRoadTraffic</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingPriority.pedestriansOverRoadTraffic"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>signage</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
-					<itsgml:propertyTypeReference xlink:href="TransportNetworks.gml#TransportNetworks.PedestrianCrossing.signage"/>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
+					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.signage"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>type</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.type"/>
-					<itsgml:value>zebraCrossingWithOrWithoutAdditionalAids</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingType.zebraCrossingWithOrWithoutAdditionalAids"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>level</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.level"/>
-					<itsgml:value>streetLevelCrossing</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingLevel.streetLevelCrossing"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 		</itsgml:Feature>
@@ -16892,33 +16766,33 @@
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>priority</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.priority"/>
-					<itsgml:value>pedestriansOverRoadTraffic</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingPriority.pedestriansOverRoadTraffic"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>signage</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
-					<itsgml:propertyTypeReference xlink:href="TransportNetworks.gml#TransportNetworks.PedestrianCrossing.signage"/>
-					<itsgml:value>noTrafficSigns</itsgml:value>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
+					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.signage"/>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingSignage.noTrafficSigns"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>type</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.type"/>
-					<itsgml:value>zebraCrossingWithOrWithoutAdditionalAids</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingType.zebraCrossingWithOrWithoutAdditionalAids"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>level</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.level"/>
-					<itsgml:value>streetLevelCrossing</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingLevel.streetLevelCrossing"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 		</itsgml:Feature>
@@ -16956,33 +16830,32 @@
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>priority</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.priority"/>
-					<itsgml:value>pedestriansOverRoadTraffic</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingPriority.pedestriansOverRoadTraffic"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>signage</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
-					<itsgml:propertyTypeReference xlink:href="TransportNetworks.gml#TransportNetworks.PedestrianCrossing.signage"/>
-					<itsgml:value>passiveTrafficSigns</itsgml:value>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
+					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.signage"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>type</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.type"/>
-					<itsgml:value>zebraCrossingWithOrWithoutAdditionalAids</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingType.zebraCrossingWithOrWithoutAdditionalAids"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>level</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.level"/>
-					<itsgml:value>streetLevelCrossing</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingLevel.streetLevelCrossing"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 		</itsgml:Feature>
@@ -17020,33 +16893,32 @@
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>priority</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.priority"/>
-					<itsgml:value>pedestriansOverRoadTraffic</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingPriority.pedestriansOverRoadTraffic"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>signage</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
-					<itsgml:propertyTypeReference xlink:href="TransportNetworks.gml#TransportNetworks.PedestrianCrossing.signage"/>
-					<itsgml:value>passiveTrafficSigns</itsgml:value>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
+					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.signage"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>type</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.type"/>
-					<itsgml:value>zebraCrossingWithOrWithoutAdditionalAids</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingType.zebraCrossingWithOrWithoutAdditionalAids"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>level</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.level"/>
-					<itsgml:value>streetLevelCrossing</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingLevel.streetLevelCrossing"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 		</itsgml:Feature>
@@ -17084,33 +16956,32 @@
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>priority</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.priority"/>
-					<itsgml:value>pedestriansOverRoadTraffic</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingPriority.pedestriansOverRoadTraffic"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>signage</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
-					<itsgml:propertyTypeReference xlink:href="TransportNetworks.gml#TransportNetworks.PedestrianCrossing.signage"/>
-					<itsgml:value>passiveTrafficSigns</itsgml:value>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
+					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.signage"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>type</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.type"/>
-					<itsgml:value>zebraCrossingWithOrWithoutAdditionalAids</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingType.zebraCrossingWithOrWithoutAdditionalAids"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>level</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.level"/>
-					<itsgml:value>streetLevelCrossing</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingLevel.streetLevelCrossing"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 		</itsgml:Feature>
@@ -17148,32 +17019,32 @@
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>priority</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.priority"/>
-					<itsgml:value>pedestriansOverRoadTraffic</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingPriority.pedestriansOverRoadTraffic"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>signage</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
-					<itsgml:propertyTypeReference xlink:href="TransportNetworks.gml#TransportNetworks.PedestrianCrossing.signage"/>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
+					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.signage"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>type</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.type"/>
-					<itsgml:value>zebraCrossingWithOrWithoutAdditionalAids</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingType.zebraCrossingWithOrWithoutAdditionalAids"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>level</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.level"/>
-					<itsgml:value>streetLevelCrossing</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingLevel.streetLevelCrossing"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 		</itsgml:Feature>
@@ -17211,33 +17082,32 @@
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>priority</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.priority"/>
-					<itsgml:value>pedestriansOverRoadTraffic</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingPriority.pedestriansOverRoadTraffic"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>signage</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
-					<itsgml:propertyTypeReference xlink:href="TransportNetworks.gml#TransportNetworks.PedestrianCrossing.signage"/>
-					<itsgml:value>passiveTrafficSigns</itsgml:value>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
+					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.signage"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>type</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.type"/>
-					<itsgml:value>zebraCrossingWithOrWithoutAdditionalAids</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingType.zebraCrossingWithOrWithoutAdditionalAids"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>level</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.level"/>
-					<itsgml:value>streetLevelCrossing</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingLevel.streetLevelCrossing"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 		</itsgml:Feature>
@@ -17275,32 +17145,32 @@
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>priority</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.priority"/>
-					<itsgml:value>pedestriansOverRoadTraffic</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingPriority.pedestriansOverRoadTraffic"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>signage</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
-					<itsgml:propertyTypeReference xlink:href="TransportNetworks.gml#TransportNetworks.PedestrianCrossing.signage"/>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
+					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.signage"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>type</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.type"/>
-					<itsgml:value>zebraCrossingWithOrWithoutAdditionalAids</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingType.zebraCrossingWithOrWithoutAdditionalAids"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>level</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.level"/>
-					<itsgml:value>streetLevelCrossing</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingLevel.streetLevelCrossing"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 		</itsgml:Feature>
@@ -17338,32 +17208,32 @@
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>priority</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.priority"/>
-					<itsgml:value>pedestriansOverRoadTraffic</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingPriority.pedestriansOverRoadTraffic"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>signage</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
-					<itsgml:propertyTypeReference xlink:href="TransportNetworks.gml#TransportNetworks.PedestrianCrossing.signage"/>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
+					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.signage"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>type</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.type"/>
-					<itsgml:value>zebraCrossingWithOrWithoutAdditionalAids</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingType.zebraCrossingWithOrWithoutAdditionalAids"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>level</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.level"/>
-					<itsgml:value>streetLevelCrossing</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingLevel.streetLevelCrossing"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 		</itsgml:Feature>
@@ -17401,33 +17271,33 @@
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>priority</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.priority"/>
-					<itsgml:value>pedestriansOverRoadTraffic</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingPriority.pedestriansOverRoadTraffic"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>signage</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
-					<itsgml:propertyTypeReference xlink:href="TransportNetworks.gml#TransportNetworks.PedestrianCrossing.signage"/>
-					<itsgml:value>noTrafficSigns</itsgml:value>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
+					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.signage"/>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingSignage.noTrafficSigns"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>type</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.type"/>
-					<itsgml:value>zebraCrossingWithOrWithoutAdditionalAids</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingType.zebraCrossingWithOrWithoutAdditionalAids"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>level</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.level"/>
-					<itsgml:value>streetLevelCrossing</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingLevel.streetLevelCrossing"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 		</itsgml:Feature>
@@ -17465,33 +17335,32 @@
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>priority</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.priority"/>
-					<itsgml:value>pedestriansOverRoadTraffic</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingPriority.pedestriansOverRoadTraffic"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>signage</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
-					<itsgml:propertyTypeReference xlink:href="TransportNetworks.gml#TransportNetworks.PedestrianCrossing.signage"/>
-					<itsgml:value>passiveTrafficSigns</itsgml:value>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
+					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.signage"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>type</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.type"/>
-					<itsgml:value>zebraCrossingWithOrWithoutAdditionalAids</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingType.zebraCrossingWithOrWithoutAdditionalAids"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>level</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.level"/>
-					<itsgml:value>streetLevelCrossing</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingLevel.streetLevelCrossing"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 		</itsgml:Feature>
@@ -17529,33 +17398,32 @@
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>priority</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.priority"/>
-					<itsgml:value>pedestriansOverRoadTraffic</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingPriority.pedestriansOverRoadTraffic"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>signage</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
-					<itsgml:propertyTypeReference xlink:href="TransportNetworks.gml#TransportNetworks.PedestrianCrossing.signage"/>
-					<itsgml:value>passiveTrafficSigns</itsgml:value>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
+					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.signage"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>type</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.type"/>
-					<itsgml:value>zebraCrossingWithOrWithoutAdditionalAids</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingType.zebraCrossingWithOrWithoutAdditionalAids"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>level</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.level"/>
-					<itsgml:value>streetLevelCrossing</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingLevel.streetLevelCrossing"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 		</itsgml:Feature>
@@ -17593,32 +17461,32 @@
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>priority</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.priority"/>
-					<itsgml:value>pedestriansOverRoadTraffic</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingPriority.pedestriansOverRoadTraffic"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>signage</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
-					<itsgml:propertyTypeReference xlink:href="TransportNetworks.gml#TransportNetworks.PedestrianCrossing.signage"/>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
+					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.signage"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>type</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.type"/>
-					<itsgml:value>zebraCrossingWithOrWithoutAdditionalAids</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingType.zebraCrossingWithOrWithoutAdditionalAids"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>level</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.level"/>
-					<itsgml:value>streetLevelCrossing</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingLevel.streetLevelCrossing"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 		</itsgml:Feature>
@@ -17656,33 +17524,32 @@
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>priority</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.priority"/>
-					<itsgml:value>pedestriansOverRoadTraffic</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingPriority.pedestriansOverRoadTraffic"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>signage</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
-					<itsgml:propertyTypeReference xlink:href="TransportNetworks.gml#TransportNetworks.PedestrianCrossing.signage"/>
-					<itsgml:value>passiveTrafficSigns</itsgml:value>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
+					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.signage"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>type</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.type"/>
-					<itsgml:value>zebraCrossingWithOrWithoutAdditionalAids</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingType.zebraCrossingWithOrWithoutAdditionalAids"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>level</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.level"/>
-					<itsgml:value>streetLevelCrossing</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingLevel.streetLevelCrossing"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 		</itsgml:Feature>
@@ -17720,32 +17587,32 @@
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>priority</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.priority"/>
-					<itsgml:value>pedestriansOverRoadTraffic</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingPriority.pedestriansOverRoadTraffic"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>signage</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
-					<itsgml:propertyTypeReference xlink:href="TransportNetworks.gml#TransportNetworks.PedestrianCrossing.signage"/>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
+					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.signage"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>type</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.type"/>
-					<itsgml:value>zebraCrossingWithOrWithoutAdditionalAids</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingType.zebraCrossingWithOrWithoutAdditionalAids"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>level</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.level"/>
-					<itsgml:value>streetLevelCrossing</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingLevel.streetLevelCrossing"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 		</itsgml:Feature>
@@ -17783,32 +17650,32 @@
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>priority</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.priority"/>
-					<itsgml:value>pedestriansOverRoadTraffic</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingPriority.pedestriansOverRoadTraffic"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>signage</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
-					<itsgml:propertyTypeReference xlink:href="TransportNetworks.gml#TransportNetworks.PedestrianCrossing.signage"/>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
+					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.signage"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>type</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.type"/>
-					<itsgml:value>zebraCrossingWithOrWithoutAdditionalAids</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingType.zebraCrossingWithOrWithoutAdditionalAids"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>level</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.level"/>
-					<itsgml:value>streetLevelCrossing</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingLevel.streetLevelCrossing"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 		</itsgml:Feature>
@@ -17846,33 +17713,32 @@
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>priority</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.priority"/>
-					<itsgml:value>pedestriansOverRoadTraffic</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingPriority.pedestriansOverRoadTraffic"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>signage</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
-					<itsgml:propertyTypeReference xlink:href="TransportNetworks.gml#TransportNetworks.PedestrianCrossing.signage"/>
-					<itsgml:value>passiveTrafficSigns</itsgml:value>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
+					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.signage"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>type</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.type"/>
-					<itsgml:value>zebraCrossingWithOrWithoutAdditionalAids</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingType.zebraCrossingWithOrWithoutAdditionalAids"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>level</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.level"/>
-					<itsgml:value>streetLevelCrossing</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingLevel.streetLevelCrossing"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 		</itsgml:Feature>
@@ -17910,32 +17776,32 @@
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>priority</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.priority"/>
-					<itsgml:value>pedestriansOverRoadTraffic</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingPriority.pedestriansOverRoadTraffic"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>signage</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
-					<itsgml:propertyTypeReference xlink:href="TransportNetworks.gml#TransportNetworks.PedestrianCrossing.signage"/>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
+					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.signage"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>type</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.type"/>
-					<itsgml:value>zebraCrossingWithOrWithoutAdditionalAids</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingType.zebraCrossingWithOrWithoutAdditionalAids"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>level</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.level"/>
-					<itsgml:value>streetLevelCrossing</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingLevel.streetLevelCrossing"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 		</itsgml:Feature>
@@ -17973,33 +17839,32 @@
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>priority</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.priority"/>
-					<itsgml:value>pedestriansOverRoadTraffic</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingPriority.pedestriansOverRoadTraffic"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>signage</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
-					<itsgml:propertyTypeReference xlink:href="TransportNetworks.gml#TransportNetworks.PedestrianCrossing.signage"/>
-					<itsgml:value>passiveTrafficSigns</itsgml:value>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
+					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.signage"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>type</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.type"/>
-					<itsgml:value>zebraCrossingWithOrWithoutAdditionalAids</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingType.zebraCrossingWithOrWithoutAdditionalAids"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>level</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.level"/>
-					<itsgml:value>streetLevelCrossing</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingLevel.streetLevelCrossing"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 		</itsgml:Feature>
@@ -18037,33 +17902,33 @@
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>priority</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.priority"/>
-					<itsgml:value>pedestriansOverRoadTraffic</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingPriority.pedestriansOverRoadTraffic"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>signage</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
-					<itsgml:propertyTypeReference xlink:href="TransportNetworks.gml#TransportNetworks.PedestrianCrossing.signage"/>
-					<itsgml:value>noTrafficSigns</itsgml:value>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
+					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.signage"/>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingSignage.noTrafficSigns"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>type</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.type"/>
-					<itsgml:value>zebraCrossingWithOrWithoutAdditionalAids</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingType.zebraCrossingWithOrWithoutAdditionalAids"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>level</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.level"/>
-					<itsgml:value>streetLevelCrossing</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingLevel.streetLevelCrossing"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 		</itsgml:Feature>
@@ -18101,32 +17966,32 @@
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>priority</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.priority"/>
-					<itsgml:value>pedestriansOverRoadTraffic</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingPriority.pedestriansOverRoadTraffic"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>signage</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
-					<itsgml:propertyTypeReference xlink:href="TransportNetworks.gml#TransportNetworks.PedestrianCrossing.signage"/>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
+					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.signage"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>type</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.type"/>
-					<itsgml:value>zebraCrossingWithOrWithoutAdditionalAids</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingType.zebraCrossingWithOrWithoutAdditionalAids"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>level</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.level"/>
-					<itsgml:value>streetLevelCrossing</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingLevel.streetLevelCrossing"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 		</itsgml:Feature>
@@ -18164,33 +18029,32 @@
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>priority</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.priority"/>
-					<itsgml:value>pedestriansOverRoadTraffic</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingPriority.pedestriansOverRoadTraffic"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>signage</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
-					<itsgml:propertyTypeReference xlink:href="TransportNetworks.gml#TransportNetworks.PedestrianCrossing.signage"/>
-					<itsgml:value>passiveTrafficSigns</itsgml:value>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
+					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.signage"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>type</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.type"/>
-					<itsgml:value>zebraCrossingWithOrWithoutAdditionalAids</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingType.zebraCrossingWithOrWithoutAdditionalAids"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>level</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.level"/>
-					<itsgml:value>streetLevelCrossing</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingLevel.streetLevelCrossing"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 		</itsgml:Feature>
@@ -18228,33 +18092,32 @@
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>priority</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.priority"/>
-					<itsgml:value>pedestriansOverRoadTraffic</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingPriority.pedestriansOverRoadTraffic"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>signage</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
-					<itsgml:propertyTypeReference xlink:href="TransportNetworks.gml#TransportNetworks.PedestrianCrossing.signage"/>
-					<itsgml:value>passiveTrafficSigns</itsgml:value>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
+					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.signage"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>type</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.type"/>
-					<itsgml:value>zebraCrossingWithOrWithoutAdditionalAids</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingType.zebraCrossingWithOrWithoutAdditionalAids"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>level</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.level"/>
-					<itsgml:value>streetLevelCrossing</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingLevel.streetLevelCrossing"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 		</itsgml:Feature>
@@ -18292,32 +18155,32 @@
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>priority</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.priority"/>
-					<itsgml:value>pedestriansOverRoadTraffic</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingPriority.pedestriansOverRoadTraffic"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>signage</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
-					<itsgml:propertyTypeReference xlink:href="TransportNetworks.gml#TransportNetworks.PedestrianCrossing.signage"/>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
+					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.signage"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>type</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.type"/>
-					<itsgml:value>otherType</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingType.otherType"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>level</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.level"/>
-					<itsgml:value>streetLevelCrossing</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingLevel.streetLevelCrossing"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 		</itsgml:Feature>
@@ -18355,32 +18218,32 @@
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>priority</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.priority"/>
-					<itsgml:value>pedestriansOverRoadTraffic</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingPriority.pedestriansOverRoadTraffic"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>signage</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
-					<itsgml:propertyTypeReference xlink:href="TransportNetworks.gml#TransportNetworks.PedestrianCrossing.signage"/>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
+					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.signage"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>type</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.type"/>
-					<itsgml:value>zebraCrossingWithOrWithoutAdditionalAids</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingType.zebraCrossingWithOrWithoutAdditionalAids"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>level</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.level"/>
-					<itsgml:value>streetLevelCrossing</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingLevel.streetLevelCrossing"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 		</itsgml:Feature>
@@ -18418,33 +18281,32 @@
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>priority</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.priority"/>
-					<itsgml:value>pedestriansOverRoadTraffic</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingPriority.pedestriansOverRoadTraffic"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>signage</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
-					<itsgml:propertyTypeReference xlink:href="TransportNetworks.gml#TransportNetworks.PedestrianCrossing.signage"/>
-					<itsgml:value>passiveTrafficSigns</itsgml:value>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
+					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.signage"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>type</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.type"/>
-					<itsgml:value>zebraCrossingWithOrWithoutAdditionalAids</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingType.zebraCrossingWithOrWithoutAdditionalAids"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>level</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.level"/>
-					<itsgml:value>streetLevelCrossing</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingLevel.streetLevelCrossing"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 		</itsgml:Feature>
@@ -18482,32 +18344,32 @@
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>priority</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.priority"/>
-					<itsgml:value>pedestriansOverRoadTraffic</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingPriority.pedestriansOverRoadTraffic"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>signage</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
-					<itsgml:propertyTypeReference xlink:href="TransportNetworks.gml#TransportNetworks.PedestrianCrossing.signage"/>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
+					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.signage"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>type</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.type"/>
-					<itsgml:value>zebraCrossingWithOrWithoutAdditionalAids</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingType.zebraCrossingWithOrWithoutAdditionalAids"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>level</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.level"/>
-					<itsgml:value>streetLevelCrossing</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingLevel.streetLevelCrossing"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 		</itsgml:Feature>
@@ -18545,33 +18407,32 @@
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>priority</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.priority"/>
-					<itsgml:value>pedestriansOverRoadTraffic</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingPriority.pedestriansOverRoadTraffic"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>signage</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
-					<itsgml:propertyTypeReference xlink:href="TransportNetworks.gml#TransportNetworks.PedestrianCrossing.signage"/>
-					<itsgml:value>passiveTrafficSigns</itsgml:value>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
+					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.signage"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>type</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.type"/>
-					<itsgml:value>zebraCrossingWithOrWithoutAdditionalAids</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingType.zebraCrossingWithOrWithoutAdditionalAids"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>level</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.level"/>
-					<itsgml:value>streetLevelCrossing</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingLevel.streetLevelCrossing"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 		</itsgml:Feature>
@@ -18609,33 +18470,32 @@
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>priority</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.priority"/>
-					<itsgml:value>pedestriansOverRoadTraffic</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingPriority.pedestriansOverRoadTraffic"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>signage</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
-					<itsgml:propertyTypeReference xlink:href="TransportNetworks.gml#TransportNetworks.PedestrianCrossing.signage"/>
-					<itsgml:value>passiveTrafficSigns</itsgml:value>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
+					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.signage"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>type</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.type"/>
-					<itsgml:value>zebraCrossingWithOrWithoutAdditionalAids</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingType.zebraCrossingWithOrWithoutAdditionalAids"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>level</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.level"/>
-					<itsgml:value>streetLevelCrossing</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingLevel.streetLevelCrossing"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 		</itsgml:Feature>
@@ -18673,32 +18533,32 @@
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>priority</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.priority"/>
-					<itsgml:value>pedestriansOverRoadTraffic</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingPriority.pedestriansOverRoadTraffic"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>signage</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
-					<itsgml:propertyTypeReference xlink:href="TransportNetworks.gml#TransportNetworks.PedestrianCrossing.signage"/>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
+					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.signage"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>type</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.type"/>
-					<itsgml:value>zebraCrossingWithOrWithoutAdditionalAids</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingType.zebraCrossingWithOrWithoutAdditionalAids"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>level</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.level"/>
-					<itsgml:value>streetLevelCrossing</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingLevel.streetLevelCrossing"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 		</itsgml:Feature>
@@ -18736,32 +18596,32 @@
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>priority</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.priority"/>
-					<itsgml:value>pedestriansOverRoadTraffic</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingPriority.pedestriansOverRoadTraffic"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>signage</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
-					<itsgml:propertyTypeReference xlink:href="TransportNetworks.gml#TransportNetworks.PedestrianCrossing.signage"/>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
+					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.signage"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>type</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.type"/>
-					<itsgml:value>zebraCrossingWithOrWithoutAdditionalAids</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingType.zebraCrossingWithOrWithoutAdditionalAids"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>level</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.level"/>
-					<itsgml:value>streetLevelCrossing</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingLevel.streetLevelCrossing"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 		</itsgml:Feature>
@@ -18799,33 +18659,32 @@
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>priority</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.priority"/>
-					<itsgml:value>pedestriansOverRoadTraffic</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingPriority.pedestriansOverRoadTraffic"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>signage</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
-					<itsgml:propertyTypeReference xlink:href="TransportNetworks.gml#TransportNetworks.PedestrianCrossing.signage"/>
-					<itsgml:value>passiveTrafficSigns</itsgml:value>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
+					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.signage"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>type</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.type"/>
-					<itsgml:value>zebraCrossingWithOrWithoutAdditionalAids</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingType.zebraCrossingWithOrWithoutAdditionalAids"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>level</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.level"/>
-					<itsgml:value>streetLevelCrossing</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingLevel.streetLevelCrossing"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 		</itsgml:Feature>
@@ -18863,32 +18722,32 @@
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>priority</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.priority"/>
-					<itsgml:value>pedestriansOverRoadTraffic</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingPriority.pedestriansOverRoadTraffic"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>signage</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
-					<itsgml:propertyTypeReference xlink:href="TransportNetworks.gml#TransportNetworks.PedestrianCrossing.signage"/>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
+					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.signage"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>type</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.type"/>
-					<itsgml:value>zebraCrossingWithOrWithoutAdditionalAids</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingType.zebraCrossingWithOrWithoutAdditionalAids"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>level</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.level"/>
-					<itsgml:value>streetLevelCrossing</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingLevel.streetLevelCrossing"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 		</itsgml:Feature>
@@ -18926,33 +18785,33 @@
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>priority</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.priority"/>
-					<itsgml:value>pedestriansOverRoadTraffic</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingPriority.pedestriansOverRoadTraffic"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>signage</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
-					<itsgml:propertyTypeReference xlink:href="TransportNetworks.gml#TransportNetworks.PedestrianCrossing.signage"/>
-					<itsgml:value>passiveTrafficSigns</itsgml:value>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
+					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.signage"/>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingSignage.passiveTrafficSigns"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>type</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.type"/>
-					<itsgml:value>zebraCrossingWithOrWithoutAdditionalAids</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingType.zebraCrossingWithOrWithoutAdditionalAids"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>level</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.level"/>
-					<itsgml:value>streetLevelCrossing</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingLevel.streetLevelCrossing"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 		</itsgml:Feature>
@@ -18990,32 +18849,32 @@
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>priority</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.priority"/>
-					<itsgml:value>pedestriansOverRoadTraffic</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingPriority.pedestriansOverRoadTraffic"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>signage</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
-					<itsgml:propertyTypeReference xlink:href="TransportNetworks.gml#TransportNetworks.PedestrianCrossing.signage"/>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
+					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.signage"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>type</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.type"/>
-					<itsgml:value>zebraCrossingWithOrWithoutAdditionalAids</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingType.zebraCrossingWithOrWithoutAdditionalAids"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>level</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.level"/>
-					<itsgml:value>streetLevelCrossing</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingLevel.streetLevelCrossing"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 		</itsgml:Feature>
@@ -19053,32 +18912,32 @@
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>priority</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.priority"/>
-					<itsgml:value>pedestriansOverRoadTraffic</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingPriority.pedestriansOverRoadTraffic"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>signage</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
-					<itsgml:propertyTypeReference xlink:href="TransportNetworks.gml#TransportNetworks.PedestrianCrossing.signage"/>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
+					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.signage"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>type</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.type"/>
-					<itsgml:value>zebraCrossingWithOrWithoutAdditionalAids</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingType.zebraCrossingWithOrWithoutAdditionalAids"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>level</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.level"/>
-					<itsgml:value>streetLevelCrossing</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingLevel.streetLevelCrossing"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 		</itsgml:Feature>
@@ -19116,33 +18975,32 @@
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>priority</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.priority"/>
-					<itsgml:value>pedestriansOverRoadTraffic</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingPriority.pedestriansOverRoadTraffic"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>signage</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
-					<itsgml:propertyTypeReference xlink:href="TransportNetworks.gml#TransportNetworks.PedestrianCrossing.signage"/>
-					<itsgml:value>passiveTrafficSigns</itsgml:value>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
+					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.signage"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>type</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.type"/>
-					<itsgml:value>zebraCrossingWithOrWithoutAdditionalAids</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingType.zebraCrossingWithOrWithoutAdditionalAids"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>level</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.level"/>
-					<itsgml:value>streetLevelCrossing</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingLevel.streetLevelCrossing"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 		</itsgml:Feature>
@@ -19180,33 +19038,32 @@
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>priority</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.priority"/>
-					<itsgml:value>pedestriansOverRoadTraffic</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingPriority.pedestriansOverRoadTraffic"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>signage</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
-					<itsgml:propertyTypeReference xlink:href="TransportNetworks.gml#TransportNetworks.PedestrianCrossing.signage"/>
-					<itsgml:value>passiveTrafficSigns</itsgml:value>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
+					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.signage"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>type</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.type"/>
-					<itsgml:value>zebraCrossingWithOrWithoutAdditionalAids</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingType.zebraCrossingWithOrWithoutAdditionalAids"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>level</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.level"/>
-					<itsgml:value>streetLevelCrossing</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingLevel.streetLevelCrossing"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 		</itsgml:Feature>
@@ -19244,33 +19101,32 @@
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>priority</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.priority"/>
-					<itsgml:value>pedestriansOverRoadTraffic</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingPriority.pedestriansOverRoadTraffic"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>signage</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
-					<itsgml:propertyTypeReference xlink:href="TransportNetworks.gml#TransportNetworks.PedestrianCrossing.signage"/>
-					<itsgml:value>passiveTrafficSigns</itsgml:value>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
+					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.signage"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>type</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.type"/>
-					<itsgml:value>zebraCrossingWithOrWithoutAdditionalAids</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingType.zebraCrossingWithOrWithoutAdditionalAids"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>level</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.level"/>
-					<itsgml:value>streetLevelCrossing</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingLevel.streetLevelCrossing"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 		</itsgml:Feature>
@@ -19308,32 +19164,32 @@
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>priority</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.priority"/>
-					<itsgml:value>pedestriansOverRoadTraffic</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingPriority.pedestriansOverRoadTraffic"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>signage</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
-					<itsgml:propertyTypeReference xlink:href="TransportNetworks.gml#TransportNetworks.PedestrianCrossing.signage"/>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
+					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.signage"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>type</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.type"/>
-					<itsgml:value>zebraCrossingWithOrWithoutAdditionalAids</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingType.zebraCrossingWithOrWithoutAdditionalAids"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>level</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.level"/>
-					<itsgml:value>streetLevelCrossing</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingLevel.streetLevelCrossing"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 		</itsgml:Feature>
@@ -19371,33 +19227,32 @@
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>priority</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.priority"/>
-					<itsgml:value>pedestriansOverRoadTraffic</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingPriority.pedestriansOverRoadTraffic"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>signage</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
-					<itsgml:propertyTypeReference xlink:href="TransportNetworks.gml#TransportNetworks.PedestrianCrossing.signage"/>
-					<itsgml:value>passiveTrafficSigns</itsgml:value>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
+					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.signage"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>type</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.type"/>
-					<itsgml:value>zebraCrossingWithOrWithoutAdditionalAids</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingType.zebraCrossingWithOrWithoutAdditionalAids"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>level</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.level"/>
-					<itsgml:value>streetLevelCrossing</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingLevel.streetLevelCrossing"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 		</itsgml:Feature>
@@ -19435,32 +19290,32 @@
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>priority</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.priority"/>
-					<itsgml:value>pedestriansOverRoadTraffic</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingPriority.pedestriansOverRoadTraffic"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>signage</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
-					<itsgml:propertyTypeReference xlink:href="TransportNetworks.gml#TransportNetworks.PedestrianCrossing.signage"/>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
+					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.signage"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>type</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.type"/>
-					<itsgml:value>zebraCrossingWithOrWithoutAdditionalAids</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingType.zebraCrossingWithOrWithoutAdditionalAids"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>level</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.level"/>
-					<itsgml:value>streetLevelCrossing</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingLevel.streetLevelCrossing"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 		</itsgml:Feature>
@@ -19498,33 +19353,33 @@
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>priority</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.priority"/>
-					<itsgml:value>pedestriansOverRoadTraffic</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingPriority.pedestriansOverRoadTraffic"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>signage</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
-					<itsgml:propertyTypeReference xlink:href="TransportNetworks.gml#TransportNetworks.PedestrianCrossing.signage"/>
-					<itsgml:value>noTrafficSigns</itsgml:value>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
+					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.signage"/>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingSignage.noTrafficSigns"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>type</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.type"/>
-					<itsgml:value>zebraCrossingWithOrWithoutAdditionalAids</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingType.zebraCrossingWithOrWithoutAdditionalAids"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>level</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.level"/>
-					<itsgml:value>streetLevelCrossing</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingLevel.streetLevelCrossing"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 		</itsgml:Feature>
@@ -19562,33 +19417,32 @@
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>priority</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.priority"/>
-					<itsgml:value>pedestriansOverRoadTraffic</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingPriority.pedestriansOverRoadTraffic"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>signage</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
-					<itsgml:propertyTypeReference xlink:href="TransportNetworks.gml#TransportNetworks.PedestrianCrossing.signage"/>
-					<itsgml:value>passiveTrafficSigns</itsgml:value>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
+					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.signage"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>type</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.type"/>
-					<itsgml:value>zebraCrossingWithOrWithoutAdditionalAids</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingType.zebraCrossingWithOrWithoutAdditionalAids"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>level</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.level"/>
-					<itsgml:value>streetLevelCrossing</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingLevel.streetLevelCrossing"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 		</itsgml:Feature>
@@ -19626,33 +19480,32 @@
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>priority</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.priority"/>
-					<itsgml:value>pedestriansOverRoadTraffic</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingPriority.pedestriansOverRoadTraffic"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>signage</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
-					<itsgml:propertyTypeReference xlink:href="TransportNetworks.gml#TransportNetworks.PedestrianCrossing.signage"/>
-					<itsgml:value>passiveTrafficSigns</itsgml:value>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
+					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.signage"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>type</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.type"/>
-					<itsgml:value>zebraCrossingWithOrWithoutAdditionalAids</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingType.zebraCrossingWithOrWithoutAdditionalAids"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>level</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.level"/>
-					<itsgml:value>streetLevelCrossing</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingLevel.streetLevelCrossing"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 		</itsgml:Feature>
@@ -19690,33 +19543,32 @@
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>priority</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.priority"/>
-					<itsgml:value>pedestriansOverRoadTraffic</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingPriority.pedestriansOverRoadTraffic"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>signage</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
-					<itsgml:propertyTypeReference xlink:href="TransportNetworks.gml#TransportNetworks.PedestrianCrossing.signage"/>
-					<itsgml:value>passiveTrafficSigns</itsgml:value>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
+					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.signage"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>type</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.type"/>
-					<itsgml:value>zebraCrossingWithOrWithoutAdditionalAids</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingType.zebraCrossingWithOrWithoutAdditionalAids"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>level</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.level"/>
-					<itsgml:value>streetLevelCrossing</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingLevel.streetLevelCrossing"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 		</itsgml:Feature>
@@ -19754,32 +19606,32 @@
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>priority</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.priority"/>
-					<itsgml:value>pedestriansOverRoadTraffic</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingPriority.pedestriansOverRoadTraffic"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>signage</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
-					<itsgml:propertyTypeReference xlink:href="TransportNetworks.gml#TransportNetworks.PedestrianCrossing.signage"/>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
+					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.signage"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>type</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.type"/>
-					<itsgml:value>zebraCrossingWithOrWithoutAdditionalAids</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingType.zebraCrossingWithOrWithoutAdditionalAids"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>level</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.level"/>
-					<itsgml:value>streetLevelCrossing</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingLevel.streetLevelCrossing"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 		</itsgml:Feature>
@@ -19817,33 +19669,32 @@
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>priority</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.priority"/>
-					<itsgml:value>pedestriansOverRoadTraffic</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingPriority.pedestriansOverRoadTraffic"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>signage</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
-					<itsgml:propertyTypeReference xlink:href="TransportNetworks.gml#TransportNetworks.PedestrianCrossing.signage"/>
-					<itsgml:value>passiveTrafficSigns</itsgml:value>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
+					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.signage"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>type</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.type"/>
-					<itsgml:value>zebraCrossingWithOrWithoutAdditionalAids</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingType.zebraCrossingWithOrWithoutAdditionalAids"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>level</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.level"/>
-					<itsgml:value>streetLevelCrossing</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingLevel.streetLevelCrossing"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 		</itsgml:Feature>
@@ -19881,33 +19732,32 @@
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>priority</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.priority"/>
-					<itsgml:value>pedestriansOverRoadTraffic</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingPriority.pedestriansOverRoadTraffic"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>signage</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
-					<itsgml:propertyTypeReference xlink:href="TransportNetworks.gml#TransportNetworks.PedestrianCrossing.signage"/>
-					<itsgml:value>passiveTrafficSigns</itsgml:value>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
+					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.signage"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>type</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.type"/>
-					<itsgml:value>zebraCrossingWithOrWithoutAdditionalAids</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingType.zebraCrossingWithOrWithoutAdditionalAids"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>level</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.level"/>
-					<itsgml:value>streetLevelCrossing</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingLevel.streetLevelCrossing"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 		</itsgml:Feature>
@@ -19945,33 +19795,32 @@
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>priority</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.priority"/>
-					<itsgml:value>pedestriansOverRoadTraffic</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingPriority.pedestriansOverRoadTraffic"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>signage</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
-					<itsgml:propertyTypeReference xlink:href="TransportNetworks.gml#TransportNetworks.PedestrianCrossing.signage"/>
-					<itsgml:value>passiveTrafficSigns</itsgml:value>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
+					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.signage"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>type</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.type"/>
-					<itsgml:value>zebraCrossingWithOrWithoutAdditionalAids</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingType.zebraCrossingWithOrWithoutAdditionalAids"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>level</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.level"/>
-					<itsgml:value>streetLevelCrossing</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingLevel.streetLevelCrossing"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 		</itsgml:Feature>
@@ -20009,33 +19858,32 @@
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>priority</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.priority"/>
-					<itsgml:value>pedestriansOverRoadTraffic</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingPriority.pedestriansOverRoadTraffic"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>signage</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
-					<itsgml:propertyTypeReference xlink:href="TransportNetworks.gml#TransportNetworks.PedestrianCrossing.signage"/>
-					<itsgml:value>passiveTrafficSigns</itsgml:value>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
+					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.signage"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>type</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.type"/>
-					<itsgml:value>zebraCrossingWithOrWithoutAdditionalAids</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingType.zebraCrossingWithOrWithoutAdditionalAids"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>level</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.level"/>
-					<itsgml:value>streetLevelCrossing</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingLevel.streetLevelCrossing"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 		</itsgml:Feature>
@@ -20073,32 +19921,32 @@
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>priority</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.priority"/>
-					<itsgml:value>pedestriansOverRoadTraffic</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingPriority.pedestriansOverRoadTraffic"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>signage</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
-					<itsgml:propertyTypeReference xlink:href="TransportNetworks.gml#TransportNetworks.PedestrianCrossing.signage"/>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
+					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.signage"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>type</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.type"/>
-					<itsgml:value>zebraCrossingWithOrWithoutAdditionalAids</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingType.zebraCrossingWithOrWithoutAdditionalAids"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>level</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.level"/>
-					<itsgml:value>streetLevelCrossing</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingLevel.streetLevelCrossing"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 		</itsgml:Feature>
@@ -20136,32 +19984,32 @@
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>priority</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.priority"/>
-					<itsgml:value>pedestriansOverRoadTraffic</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingPriority.pedestriansOverRoadTraffic"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>signage</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
-					<itsgml:propertyTypeReference xlink:href="TransportNetworks.gml#TransportNetworks.PedestrianCrossing.signage"/>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
+					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.signage"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>type</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.type"/>
-					<itsgml:value>zebraCrossingWithOrWithoutAdditionalAids</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingType.zebraCrossingWithOrWithoutAdditionalAids"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>level</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.level"/>
-					<itsgml:value>streetLevelCrossing</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingLevel.streetLevelCrossing"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 		</itsgml:Feature>
@@ -20199,33 +20047,33 @@
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>priority</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.priority"/>
-					<itsgml:value>pedestriansOverRoadTraffic</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingPriority.pedestriansOverRoadTraffic"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>signage</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
-					<itsgml:propertyTypeReference xlink:href="TransportNetworks.gml#TransportNetworks.PedestrianCrossing.signage"/>
-					<itsgml:value>noTrafficSigns</itsgml:value>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
+					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.signage"/>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingSignage.noTrafficSigns"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>type</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.type"/>
-					<itsgml:value>zebraCrossingWithOrWithoutAdditionalAids</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingType.zebraCrossingWithOrWithoutAdditionalAids"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>level</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.level"/>
-					<itsgml:value>streetLevelCrossing</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingLevel.streetLevelCrossing"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 		</itsgml:Feature>
@@ -20263,33 +20111,33 @@
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>priority</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.priority"/>
-					<itsgml:value>pedestriansOverRoadTrafficOnRequest</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingPriority.pedestriansOverRoadTrafficOnRequest"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>signage</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
-					<itsgml:propertyTypeReference xlink:href="TransportNetworks.gml#TransportNetworks.PedestrianCrossing.signage"/>
-					<itsgml:value>passiveTrafficSigns</itsgml:value>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
+					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.signage"/>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingSignage.trafficLightRegulated"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>type</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.type"/>
-					<itsgml:value>zebraCrossingWithOrWithoutAdditionalAids</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingType.zebraCrossingWithOrWithoutAdditionalAids"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>level</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.level"/>
-					<itsgml:value>streetLevelCrossing</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingLevel.streetLevelCrossing"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 		</itsgml:Feature>
@@ -20327,33 +20175,32 @@
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>priority</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.priority"/>
-					<itsgml:value>pedestriansOverRoadTraffic</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingPriority.pedestriansOverRoadTraffic"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>signage</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
-					<itsgml:propertyTypeReference xlink:href="TransportNetworks.gml#TransportNetworks.PedestrianCrossing.signage"/>
-					<itsgml:value>passiveTrafficSigns</itsgml:value>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
+					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.signage"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>type</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.type"/>
-					<itsgml:value>zebraCrossingWithOrWithoutAdditionalAids</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingType.zebraCrossingWithOrWithoutAdditionalAids"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>level</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.level"/>
-					<itsgml:value>streetLevelCrossing</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingLevel.streetLevelCrossing"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 		</itsgml:Feature>
@@ -20391,33 +20238,33 @@
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>priority</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.priority"/>
-					<itsgml:value>pedestriansOverRoadTraffic</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingPriority.pedestriansOverRoadTraffic"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>signage</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
-					<itsgml:propertyTypeReference xlink:href="TransportNetworks.gml#TransportNetworks.PedestrianCrossing.signage"/>
-					<itsgml:value>passiveTrafficSigns</itsgml:value>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
+					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.signage"/>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingSignage.passiveTrafficSigns"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>type</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.type"/>
-					<itsgml:value>zebraCrossingWithOrWithoutAdditionalAids</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingType.zebraCrossingWithOrWithoutAdditionalAids"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>level</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.level"/>
-					<itsgml:value>streetLevelCrossing</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingLevel.streetLevelCrossing"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 		</itsgml:Feature>
@@ -20455,32 +20302,32 @@
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>priority</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.priority"/>
-					<itsgml:value>pedestriansOverRoadTraffic</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingPriority.pedestriansOverRoadTraffic"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>signage</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
-					<itsgml:propertyTypeReference xlink:href="TransportNetworks.gml#TransportNetworks.PedestrianCrossing.signage"/>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
+					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.signage"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>type</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.type"/>
-					<itsgml:value>zebraCrossingWithOrWithoutAdditionalAids</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingType.zebraCrossingWithOrWithoutAdditionalAids"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>level</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.level"/>
-					<itsgml:value>streetLevelCrossing</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingLevel.streetLevelCrossing"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 		</itsgml:Feature>
@@ -20518,33 +20365,33 @@
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>priority</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.priority"/>
-					<itsgml:value>pedestriansOverRoadTraffic</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingPriority.pedestriansOverRoadTraffic"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>signage</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
-					<itsgml:propertyTypeReference xlink:href="TransportNetworks.gml#TransportNetworks.PedestrianCrossing.signage"/>
-					<itsgml:value>noTrafficSigns</itsgml:value>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
+					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.signage"/>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingSignage.noTrafficSigns"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>type</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.type"/>
-					<itsgml:value>zebraCrossingWithOrWithoutAdditionalAids</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingType.zebraCrossingWithOrWithoutAdditionalAids"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>level</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.level"/>
-					<itsgml:value>streetLevelCrossing</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingLevel.streetLevelCrossing"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 		</itsgml:Feature>
@@ -20582,32 +20429,32 @@
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>priority</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.priority"/>
-					<itsgml:value>pedestriansOverRoadTraffic</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingPriority.pedestriansOverRoadTraffic"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>signage</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
-					<itsgml:propertyTypeReference xlink:href="TransportNetworks.gml#TransportNetworks.PedestrianCrossing.signage"/>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
+					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.signage"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>type</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.type"/>
-					<itsgml:value>zebraCrossingWithOrWithoutAdditionalAids</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingType.zebraCrossingWithOrWithoutAdditionalAids"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>level</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.level"/>
-					<itsgml:value>streetLevelCrossing</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingLevel.streetLevelCrossing"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 		</itsgml:Feature>
@@ -20645,32 +20492,32 @@
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>priority</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.priority"/>
-					<itsgml:value>pedestriansOverRoadTraffic</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingPriority.pedestriansOverRoadTraffic"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>signage</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
-					<itsgml:propertyTypeReference xlink:href="TransportNetworks.gml#TransportNetworks.PedestrianCrossing.signage"/>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
+					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.signage"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>type</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.type"/>
-					<itsgml:value>zebraCrossingWithOrWithoutAdditionalAids</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingType.zebraCrossingWithOrWithoutAdditionalAids"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>level</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.level"/>
-					<itsgml:value>streetLevelCrossing</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingLevel.streetLevelCrossing"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 		</itsgml:Feature>
@@ -20708,32 +20555,32 @@
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>priority</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.priority"/>
-					<itsgml:value>pedestriansOverRoadTraffic</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingPriority.pedestriansOverRoadTraffic"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>signage</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
-					<itsgml:propertyTypeReference xlink:href="TransportNetworks.gml#TransportNetworks.PedestrianCrossing.signage"/>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
+					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.signage"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>type</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.type"/>
-					<itsgml:value>zebraCrossingWithOrWithoutAdditionalAids</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingType.zebraCrossingWithOrWithoutAdditionalAids"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>level</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.level"/>
-					<itsgml:value>streetLevelCrossing</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingLevel.streetLevelCrossing"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 		</itsgml:Feature>
@@ -20771,32 +20618,32 @@
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>priority</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.priority"/>
-					<itsgml:value>pedestriansOverRoadTraffic</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingPriority.pedestriansOverRoadTraffic"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>signage</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
-					<itsgml:propertyTypeReference xlink:href="TransportNetworks.gml#TransportNetworks.PedestrianCrossing.signage"/>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
+					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.signage"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>type</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.type"/>
-					<itsgml:value>zebraCrossingWithOrWithoutAdditionalAids</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingType.zebraCrossingWithOrWithoutAdditionalAids"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>level</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.level"/>
-					<itsgml:value>streetLevelCrossing</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingLevel.streetLevelCrossing"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 		</itsgml:Feature>
@@ -20834,32 +20681,32 @@
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>priority</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.priority"/>
-					<itsgml:value>pedestriansOverRoadTraffic</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingPriority.pedestriansOverRoadTraffic"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>signage</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
-					<itsgml:propertyTypeReference xlink:href="TransportNetworks.gml#TransportNetworks.PedestrianCrossing.signage"/>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
+					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.signage"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>type</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.type"/>
-					<itsgml:value>zebraCrossingWithOrWithoutAdditionalAids</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingType.zebraCrossingWithOrWithoutAdditionalAids"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>level</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.level"/>
-					<itsgml:value>streetLevelCrossing</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingLevel.streetLevelCrossing"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 		</itsgml:Feature>
@@ -20897,33 +20744,33 @@
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>priority</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.priority"/>
-					<itsgml:value>pedestriansOverRoadTraffic</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingPriority.pedestriansOverRoadTraffic"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>signage</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
-					<itsgml:propertyTypeReference xlink:href="TransportNetworks.gml#TransportNetworks.PedestrianCrossing.signage"/>
-					<itsgml:value>noTrafficSigns</itsgml:value>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
+					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.signage"/>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingSignage.noTrafficSigns"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>type</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.type"/>
-					<itsgml:value>zebraCrossingWithOrWithoutAdditionalAids</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingType.zebraCrossingWithOrWithoutAdditionalAids"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>level</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.level"/>
-					<itsgml:value>streetLevelCrossing</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingLevel.streetLevelCrossing"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 		</itsgml:Feature>
@@ -20961,32 +20808,32 @@
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>priority</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.priority"/>
-					<itsgml:value>pedestriansOverRoadTraffic</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingPriority.pedestriansOverRoadTraffic"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>signage</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
-					<itsgml:propertyTypeReference xlink:href="TransportNetworks.gml#TransportNetworks.PedestrianCrossing.signage"/>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
+					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.signage"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>type</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.type"/>
-					<itsgml:value>zebraCrossingWithOrWithoutAdditionalAids</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingType.zebraCrossingWithOrWithoutAdditionalAids"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>level</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.level"/>
-					<itsgml:value>streetLevelCrossing</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingLevel.streetLevelCrossing"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 		</itsgml:Feature>
@@ -21024,33 +20871,32 @@
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>priority</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.priority"/>
-					<itsgml:value>pedestriansOverRoadTraffic</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingPriority.pedestriansOverRoadTraffic"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>signage</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
-					<itsgml:propertyTypeReference xlink:href="TransportNetworks.gml#TransportNetworks.PedestrianCrossing.signage"/>
-					<itsgml:value>passiveTrafficSigns</itsgml:value>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
+					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.signage"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>type</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.type"/>
-					<itsgml:value>zebraCrossingWithOrWithoutAdditionalAids</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingType.zebraCrossingWithOrWithoutAdditionalAids"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>level</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.level"/>
-					<itsgml:value>streetLevelCrossing</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingLevel.streetLevelCrossing"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 		</itsgml:Feature>
@@ -21088,33 +20934,32 @@
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>priority</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.priority"/>
-					<itsgml:value>pedestriansOverRoadTraffic</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingPriority.pedestriansOverRoadTraffic"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>signage</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
-					<itsgml:propertyTypeReference xlink:href="TransportNetworks.gml#TransportNetworks.PedestrianCrossing.signage"/>
-					<itsgml:value>passiveTrafficSigns</itsgml:value>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
+					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.signage"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>type</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.type"/>
-					<itsgml:value>zebraCrossingWithOrWithoutAdditionalAids</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingType.zebraCrossingWithOrWithoutAdditionalAids"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>level</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.level"/>
-					<itsgml:value>streetLevelCrossing</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingLevel.streetLevelCrossing"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 		</itsgml:Feature>
@@ -21152,33 +20997,32 @@
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>priority</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.priority"/>
-					<itsgml:value>pedestriansOverRoadTraffic</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingPriority.pedestriansOverRoadTraffic"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>signage</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
-					<itsgml:propertyTypeReference xlink:href="TransportNetworks.gml#TransportNetworks.PedestrianCrossing.signage"/>
-					<itsgml:value>passiveTrafficSigns</itsgml:value>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
+					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.signage"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>type</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.type"/>
-					<itsgml:value>zebraCrossingWithOrWithoutAdditionalAids</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingType.zebraCrossingWithOrWithoutAdditionalAids"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>level</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.level"/>
-					<itsgml:value>streetLevelCrossing</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingLevel.streetLevelCrossing"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 		</itsgml:Feature>
@@ -21216,33 +21060,33 @@
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>priority</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.priority"/>
-					<itsgml:value>pedestriansOverRoadTraffic</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingPriority.pedestriansOverRoadTraffic"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>signage</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
-					<itsgml:propertyTypeReference xlink:href="TransportNetworks.gml#TransportNetworks.PedestrianCrossing.signage"/>
-					<itsgml:value>noTrafficSigns</itsgml:value>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
+					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.signage"/>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingSignage.noTrafficSigns"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>type</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.type"/>
-					<itsgml:value>zebraCrossingWithOrWithoutAdditionalAids</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingType.zebraCrossingWithOrWithoutAdditionalAids"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>level</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.level"/>
-					<itsgml:value>streetLevelCrossing</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingLevel.streetLevelCrossing"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 		</itsgml:Feature>
@@ -21280,33 +21124,32 @@
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>priority</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.priority"/>
-					<itsgml:value>pedestriansOverRoadTraffic</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingPriority.pedestriansOverRoadTraffic"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>signage</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
-					<itsgml:propertyTypeReference xlink:href="TransportNetworks.gml#TransportNetworks.PedestrianCrossing.signage"/>
-					<itsgml:value>passiveTrafficSigns</itsgml:value>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
+					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.signage"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>type</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.type"/>
-					<itsgml:value>zebraCrossingWithOrWithoutAdditionalAids</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingType.zebraCrossingWithOrWithoutAdditionalAids"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>level</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.level"/>
-					<itsgml:value>streetLevelCrossing</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingLevel.streetLevelCrossing"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 		</itsgml:Feature>
@@ -21344,32 +21187,32 @@
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>priority</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.priority"/>
-					<itsgml:value>pedestriansOverRoadTraffic</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingPriority.pedestriansOverRoadTraffic"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>signage</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
-					<itsgml:propertyTypeReference xlink:href="TransportNetworks.gml#TransportNetworks.PedestrianCrossing.signage"/>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
+					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.signage"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>type</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.type"/>
-					<itsgml:value>zebraCrossingWithOrWithoutAdditionalAids</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingType.zebraCrossingWithOrWithoutAdditionalAids"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>level</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.level"/>
-					<itsgml:value>streetLevelCrossing</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingLevel.streetLevelCrossing"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 		</itsgml:Feature>
@@ -21407,32 +21250,32 @@
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>priority</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.priority"/>
-					<itsgml:value>pedestriansOverRoadTraffic</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingPriority.pedestriansOverRoadTraffic"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>signage</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
-					<itsgml:propertyTypeReference xlink:href="TransportNetworks.gml#TransportNetworks.PedestrianCrossing.signage"/>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
+					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.signage"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>type</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.type"/>
-					<itsgml:value>zebraCrossingWithOrWithoutAdditionalAids</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingType.zebraCrossingWithOrWithoutAdditionalAids"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>level</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.level"/>
-					<itsgml:value>streetLevelCrossing</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingLevel.streetLevelCrossing"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 		</itsgml:Feature>
@@ -21470,33 +21313,32 @@
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>priority</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.priority"/>
-					<itsgml:value>pedestriansOverRoadTraffic</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingPriority.pedestriansOverRoadTraffic"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>signage</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
-					<itsgml:propertyTypeReference xlink:href="TransportNetworks.gml#TransportNetworks.PedestrianCrossing.signage"/>
-					<itsgml:value>passiveTrafficSigns</itsgml:value>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
+					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.signage"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>type</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.type"/>
-					<itsgml:value>zebraCrossingWithOrWithoutAdditionalAids</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingType.zebraCrossingWithOrWithoutAdditionalAids"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>level</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.level"/>
-					<itsgml:value>streetLevelCrossing</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingLevel.streetLevelCrossing"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 		</itsgml:Feature>
@@ -21534,32 +21376,32 @@
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>priority</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.priority"/>
-					<itsgml:value>pedestriansOverRoadTraffic</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingPriority.pedestriansOverRoadTraffic"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>signage</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
-					<itsgml:propertyTypeReference xlink:href="TransportNetworks.gml#TransportNetworks.PedestrianCrossing.signage"/>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
+					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.signage"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>type</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.type"/>
-					<itsgml:value>zebraCrossingWithOrWithoutAdditionalAids</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingType.zebraCrossingWithOrWithoutAdditionalAids"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>level</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.level"/>
-					<itsgml:value>streetLevelCrossing</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingLevel.streetLevelCrossing"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 		</itsgml:Feature>
@@ -21597,32 +21439,32 @@
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>priority</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.priority"/>
-					<itsgml:value>pedestriansOverRoadTraffic</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingPriority.pedestriansOverRoadTraffic"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>signage</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
-					<itsgml:propertyTypeReference xlink:href="TransportNetworks.gml#TransportNetworks.PedestrianCrossing.signage"/>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
+					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.signage"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>type</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.type"/>
-					<itsgml:value>zebraCrossingWithOrWithoutAdditionalAids</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingType.zebraCrossingWithOrWithoutAdditionalAids"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>level</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.level"/>
-					<itsgml:value>streetLevelCrossing</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingLevel.streetLevelCrossing"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 		</itsgml:Feature>
@@ -21660,32 +21502,32 @@
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>priority</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.priority"/>
-					<itsgml:value>pedestriansOverRoadTraffic</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingPriority.pedestriansOverRoadTraffic"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>signage</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
-					<itsgml:propertyTypeReference xlink:href="TransportNetworks.gml#TransportNetworks.PedestrianCrossing.signage"/>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
+					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.signage"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>type</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.type"/>
-					<itsgml:value>zebraCrossingWithOrWithoutAdditionalAids</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingType.zebraCrossingWithOrWithoutAdditionalAids"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>level</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.level"/>
-					<itsgml:value>streetLevelCrossing</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingLevel.streetLevelCrossing"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 		</itsgml:Feature>
@@ -21723,32 +21565,32 @@
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>priority</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.priority"/>
-					<itsgml:value>pedestriansOverRoadTraffic</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingPriority.pedestriansOverRoadTraffic"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>signage</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
-					<itsgml:propertyTypeReference xlink:href="TransportNetworks.gml#TransportNetworks.PedestrianCrossing.signage"/>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
+					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.signage"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>type</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.type"/>
-					<itsgml:value>zebraCrossingWithOrWithoutAdditionalAids</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingType.zebraCrossingWithOrWithoutAdditionalAids"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>level</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.level"/>
-					<itsgml:value>streetLevelCrossing</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingLevel.streetLevelCrossing"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 		</itsgml:Feature>
@@ -21786,32 +21628,32 @@
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>priority</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.priority"/>
-					<itsgml:value>pedestriansOverRoadTraffic</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingPriority.pedestriansOverRoadTraffic"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>signage</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
-					<itsgml:propertyTypeReference xlink:href="TransportNetworks.gml#TransportNetworks.PedestrianCrossing.signage"/>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
+					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.signage"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>type</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.type"/>
-					<itsgml:value>zebraCrossingWithOrWithoutAdditionalAids</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingType.zebraCrossingWithOrWithoutAdditionalAids"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>level</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.level"/>
-					<itsgml:value>streetLevelCrossing</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingLevel.streetLevelCrossing"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 		</itsgml:Feature>
@@ -21849,32 +21691,32 @@
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>priority</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.priority"/>
-					<itsgml:value>pedestriansOverRoadTraffic</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingPriority.pedestriansOverRoadTraffic"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>signage</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
-					<itsgml:propertyTypeReference xlink:href="TransportNetworks.gml#TransportNetworks.PedestrianCrossing.signage"/>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
+					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.signage"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>type</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.type"/>
-					<itsgml:value>zebraCrossingWithOrWithoutAdditionalAids</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingType.zebraCrossingWithOrWithoutAdditionalAids"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>level</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.level"/>
-					<itsgml:value>streetLevelCrossing</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingLevel.streetLevelCrossing"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 		</itsgml:Feature>
@@ -21912,33 +21754,32 @@
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>priority</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.priority"/>
-					<itsgml:value>pedestriansOverRoadTraffic</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingPriority.pedestriansOverRoadTraffic"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>signage</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
-					<itsgml:propertyTypeReference xlink:href="TransportNetworks.gml#TransportNetworks.PedestrianCrossing.signage"/>
-					<itsgml:value>passiveTrafficSigns</itsgml:value>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
+					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.signage"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>type</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.type"/>
-					<itsgml:value>zebraCrossingWithOrWithoutAdditionalAids</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingType.zebraCrossingWithOrWithoutAdditionalAids"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>level</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.level"/>
-					<itsgml:value>streetLevelCrossing</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingLevel.streetLevelCrossing"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 		</itsgml:Feature>
@@ -21976,32 +21817,32 @@
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>priority</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.priority"/>
-					<itsgml:value>pedestriansOverRoadTraffic</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingPriority.pedestriansOverRoadTraffic"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>signage</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
-					<itsgml:propertyTypeReference xlink:href="TransportNetworks.gml#TransportNetworks.PedestrianCrossing.signage"/>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
+					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.signage"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>type</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.type"/>
-					<itsgml:value>zebraCrossingWithOrWithoutAdditionalAids</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingType.zebraCrossingWithOrWithoutAdditionalAids"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>level</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.level"/>
-					<itsgml:value>streetLevelCrossing</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingLevel.streetLevelCrossing"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 		</itsgml:Feature>
@@ -22039,33 +21880,32 @@
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>priority</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.priority"/>
-					<itsgml:value>pedestriansOverRoadTraffic</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingPriority.pedestriansOverRoadTraffic"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>signage</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
-					<itsgml:propertyTypeReference xlink:href="TransportNetworks.gml#TransportNetworks.PedestrianCrossing.signage"/>
-					<itsgml:value>passiveTrafficSigns</itsgml:value>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
+					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.signage"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>type</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.type"/>
-					<itsgml:value>zebraCrossingWithOrWithoutAdditionalAids</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingType.zebraCrossingWithOrWithoutAdditionalAids"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>level</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.level"/>
-					<itsgml:value>streetLevelCrossing</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingLevel.streetLevelCrossing"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 		</itsgml:Feature>
@@ -22103,33 +21943,33 @@
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>priority</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.priority"/>
-					<itsgml:value>pedestriansOverRoadTraffic</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingPriority.pedestriansOverRoadTraffic"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>signage</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
-					<itsgml:propertyTypeReference xlink:href="TransportNetworks.gml#TransportNetworks.PedestrianCrossing.signage"/>
-					<itsgml:value>passiveTrafficSigns</itsgml:value>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
+					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.signage"/>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingSignage.passiveTrafficSigns"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>type</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.type"/>
-					<itsgml:value>zebraCrossingWithOrWithoutAdditionalAids</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingType.zebraCrossingWithOrWithoutAdditionalAids"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>level</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.level"/>
-					<itsgml:value>streetLevelCrossing</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingLevel.streetLevelCrossing"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 		</itsgml:Feature>
@@ -22167,33 +22007,32 @@
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>priority</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.priority"/>
-					<itsgml:value>pedestriansOverRoadTraffic</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingPriority.pedestriansOverRoadTraffic"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>signage</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
-					<itsgml:propertyTypeReference xlink:href="TransportNetworks.gml#TransportNetworks.PedestrianCrossing.signage"/>
-					<itsgml:value>passiveTrafficSigns</itsgml:value>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
+					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.signage"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>type</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.type"/>
-					<itsgml:value>otherType</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingType.otherType"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>level</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.level"/>
-					<itsgml:value>streetLevelCrossing</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingLevel.streetLevelCrossing"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 		</itsgml:Feature>
@@ -22231,32 +22070,32 @@
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>priority</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.priority"/>
-					<itsgml:value>pedestriansOverRoadTraffic</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingPriority.pedestriansOverRoadTraffic"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>signage</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
-					<itsgml:propertyTypeReference xlink:href="TransportNetworks.gml#TransportNetworks.PedestrianCrossing.signage"/>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
+					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.signage"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>type</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.type"/>
-					<itsgml:value>zebraCrossingWithOrWithoutAdditionalAids</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingType.zebraCrossingWithOrWithoutAdditionalAids"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>level</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.level"/>
-					<itsgml:value>streetLevelCrossing</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingLevel.streetLevelCrossing"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 		</itsgml:Feature>
@@ -22294,33 +22133,32 @@
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>priority</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.priority"/>
-					<itsgml:value>pedestriansOverRoadTraffic</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingPriority.pedestriansOverRoadTraffic"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>signage</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
-					<itsgml:propertyTypeReference xlink:href="TransportNetworks.gml#TransportNetworks.PedestrianCrossing.signage"/>
-					<itsgml:value>passiveTrafficSigns</itsgml:value>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
+					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.signage"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>type</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.type"/>
-					<itsgml:value>zebraCrossingWithOrWithoutAdditionalAids</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingType.zebraCrossingWithOrWithoutAdditionalAids"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>level</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.level"/>
-					<itsgml:value>streetLevelCrossing</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingLevel.streetLevelCrossing"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 		</itsgml:Feature>
@@ -22358,33 +22196,32 @@
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>priority</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.priority"/>
-					<itsgml:value>pedestriansOverRoadTraffic</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingPriority.pedestriansOverRoadTraffic"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>signage</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
-					<itsgml:propertyTypeReference xlink:href="TransportNetworks.gml#TransportNetworks.PedestrianCrossing.signage"/>
-					<itsgml:value>passiveTrafficSigns</itsgml:value>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
+					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.signage"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>type</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.type"/>
-					<itsgml:value>zebraCrossingWithOrWithoutAdditionalAids</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingType.zebraCrossingWithOrWithoutAdditionalAids"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>level</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.level"/>
-					<itsgml:value>streetLevelCrossing</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingLevel.streetLevelCrossing"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 		</itsgml:Feature>
@@ -22422,33 +22259,33 @@
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>priority</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.priority"/>
-					<itsgml:value>pedestriansOverRoadTraffic</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingPriority.pedestriansOverRoadTraffic"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>signage</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
-					<itsgml:propertyTypeReference xlink:href="TransportNetworks.gml#TransportNetworks.PedestrianCrossing.signage"/>
-					<itsgml:value>noTrafficSigns</itsgml:value>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
+					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.signage"/>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingSignage.noTrafficSigns"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>type</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.type"/>
-					<itsgml:value>zebraCrossingWithOrWithoutAdditionalAids</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingType.zebraCrossingWithOrWithoutAdditionalAids"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>level</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.level"/>
-					<itsgml:value>streetLevelCrossing</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingLevel.streetLevelCrossing"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 		</itsgml:Feature>
@@ -22486,32 +22323,32 @@
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>priority</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.priority"/>
-					<itsgml:value>pedestriansOverRoadTraffic</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingPriority.pedestriansOverRoadTraffic"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>signage</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
-					<itsgml:propertyTypeReference xlink:href="TransportNetworks.gml#TransportNetworks.PedestrianCrossing.signage"/>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
+					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.signage"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>type</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.type"/>
-					<itsgml:value>zebraCrossingWithOrWithoutAdditionalAids</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingType.zebraCrossingWithOrWithoutAdditionalAids"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>level</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.level"/>
-					<itsgml:value>streetLevelCrossing</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingLevel.streetLevelCrossing"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 		</itsgml:Feature>
@@ -22549,33 +22386,33 @@
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>priority</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.priority"/>
-					<itsgml:value>pedestriansOverRoadTraffic</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingPriority.pedestriansOverRoadTraffic"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>signage</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
-					<itsgml:propertyTypeReference xlink:href="TransportNetworks.gml#TransportNetworks.PedestrianCrossing.signage"/>
-					<itsgml:value>passiveTrafficSigns</itsgml:value>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
+					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.signage"/>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingSignage.passiveTrafficSigns"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>type</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.type"/>
-					<itsgml:value>noRoadMarkings</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingType.noRoadMarkings"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>level</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.level"/>
-					<itsgml:value>streetLevelCrossing</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingLevel.streetLevelCrossing"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 		</itsgml:Feature>
@@ -22613,33 +22450,32 @@
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>priority</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.priority"/>
-					<itsgml:value>pedestriansOverRoadTraffic</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingPriority.pedestriansOverRoadTraffic"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>signage</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
-					<itsgml:propertyTypeReference xlink:href="TransportNetworks.gml#TransportNetworks.PedestrianCrossing.signage"/>
-					<itsgml:value>passiveTrafficSigns</itsgml:value>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
+					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.signage"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>type</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.type"/>
-					<itsgml:value>zebraCrossingWithOrWithoutAdditionalAids</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingType.zebraCrossingWithOrWithoutAdditionalAids"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>level</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.level"/>
-					<itsgml:value>streetLevelCrossing</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingLevel.streetLevelCrossing"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 		</itsgml:Feature>
@@ -22677,33 +22513,32 @@
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>priority</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.priority"/>
-					<itsgml:value>pedestriansOverRoadTraffic</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingPriority.pedestriansOverRoadTraffic"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>signage</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
-					<itsgml:propertyTypeReference xlink:href="TransportNetworks.gml#TransportNetworks.PedestrianCrossing.signage"/>
-					<itsgml:value>passiveTrafficSigns</itsgml:value>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
+					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.signage"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>type</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.type"/>
-					<itsgml:value>zebraCrossingWithOrWithoutAdditionalAids</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingType.zebraCrossingWithOrWithoutAdditionalAids"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>level</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.level"/>
-					<itsgml:value>streetLevelCrossing</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingLevel.streetLevelCrossing"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 		</itsgml:Feature>
@@ -22741,33 +22576,32 @@
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>priority</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.priority"/>
-					<itsgml:value>pedestriansOverRoadTraffic</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingPriority.pedestriansOverRoadTraffic"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>signage</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
-					<itsgml:propertyTypeReference xlink:href="TransportNetworks.gml#TransportNetworks.PedestrianCrossing.signage"/>
-					<itsgml:value>passiveTrafficSigns</itsgml:value>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
+					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.signage"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>type</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.type"/>
-					<itsgml:value>zebraCrossingWithOrWithoutAdditionalAids</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingType.zebraCrossingWithOrWithoutAdditionalAids"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>level</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.level"/>
-					<itsgml:value>streetLevelCrossing</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingLevel.streetLevelCrossing"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 		</itsgml:Feature>
@@ -22805,32 +22639,32 @@
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>priority</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.priority"/>
-					<itsgml:value>pedestriansOverRoadTraffic</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingPriority.pedestriansOverRoadTraffic"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>signage</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
-					<itsgml:propertyTypeReference xlink:href="TransportNetworks.gml#TransportNetworks.PedestrianCrossing.signage"/>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
+					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.signage"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>type</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.type"/>
-					<itsgml:value>zebraCrossingWithOrWithoutAdditionalAids</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingType.zebraCrossingWithOrWithoutAdditionalAids"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>level</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.level"/>
-					<itsgml:value>streetLevelCrossing</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingLevel.streetLevelCrossing"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 		</itsgml:Feature>
@@ -22868,32 +22702,32 @@
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>priority</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.priority"/>
-					<itsgml:value>pedestriansOverRoadTraffic</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingPriority.pedestriansOverRoadTraffic"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>signage</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
-					<itsgml:propertyTypeReference xlink:href="TransportNetworks.gml#TransportNetworks.PedestrianCrossing.signage"/>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
+					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.signage"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>type</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.type"/>
-					<itsgml:value>zebraCrossingWithOrWithoutAdditionalAids</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingType.zebraCrossingWithOrWithoutAdditionalAids"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>level</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.level"/>
-					<itsgml:value>streetLevelCrossing</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingLevel.streetLevelCrossing"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 		</itsgml:Feature>
@@ -22931,33 +22765,32 @@
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>priority</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.priority"/>
-					<itsgml:value>pedestriansOverRoadTraffic</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingPriority.pedestriansOverRoadTraffic"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>signage</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
-					<itsgml:propertyTypeReference xlink:href="TransportNetworks.gml#TransportNetworks.PedestrianCrossing.signage"/>
-					<itsgml:value>passiveTrafficSigns</itsgml:value>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
+					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.signage"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>type</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.type"/>
-					<itsgml:value>zebraCrossingWithOrWithoutAdditionalAids</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingType.zebraCrossingWithOrWithoutAdditionalAids"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>level</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.level"/>
-					<itsgml:value>streetLevelCrossing</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingLevel.streetLevelCrossing"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 		</itsgml:Feature>
@@ -22995,32 +22828,32 @@
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>priority</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.priority"/>
-					<itsgml:value>pedestriansOverRoadTraffic</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingPriority.pedestriansOverRoadTraffic"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>signage</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
-					<itsgml:propertyTypeReference xlink:href="TransportNetworks.gml#TransportNetworks.PedestrianCrossing.signage"/>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
+					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.signage"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>type</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.type"/>
-					<itsgml:value>zebraCrossingWithOrWithoutAdditionalAids</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingType.zebraCrossingWithOrWithoutAdditionalAids"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>level</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.level"/>
-					<itsgml:value>streetLevelCrossing</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingLevel.streetLevelCrossing"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 		</itsgml:Feature>
@@ -23058,32 +22891,32 @@
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>priority</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.priority"/>
-					<itsgml:value>pedestriansOverRoadTraffic</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingPriority.pedestriansOverRoadTraffic"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>signage</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
-					<itsgml:propertyTypeReference xlink:href="TransportNetworks.gml#TransportNetworks.PedestrianCrossing.signage"/>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
+					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.signage"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>type</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.type"/>
-					<itsgml:value>zebraCrossingWithOrWithoutAdditionalAids</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingType.zebraCrossingWithOrWithoutAdditionalAids"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>level</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.level"/>
-					<itsgml:value>streetLevelCrossing</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingLevel.streetLevelCrossing"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 		</itsgml:Feature>
@@ -23121,32 +22954,32 @@
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>priority</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.priority"/>
-					<itsgml:value>pedestriansOverRoadTraffic</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingPriority.pedestriansOverRoadTraffic"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>signage</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
-					<itsgml:propertyTypeReference xlink:href="TransportNetworks.gml#TransportNetworks.PedestrianCrossing.signage"/>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
+					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.signage"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>type</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.type"/>
-					<itsgml:value>zebraCrossingWithOrWithoutAdditionalAids</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingType.zebraCrossingWithOrWithoutAdditionalAids"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>level</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.level"/>
-					<itsgml:value>streetLevelCrossing</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingLevel.streetLevelCrossing"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 		</itsgml:Feature>
@@ -23184,32 +23017,32 @@
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>priority</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.priority"/>
-					<itsgml:value>pedestriansOverRoadTraffic</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingPriority.pedestriansOverRoadTraffic"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>signage</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
-					<itsgml:propertyTypeReference xlink:href="TransportNetworks.gml#TransportNetworks.PedestrianCrossing.signage"/>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
+					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.signage"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>type</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.type"/>
-					<itsgml:value>zebraCrossingWithOrWithoutAdditionalAids</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingType.zebraCrossingWithOrWithoutAdditionalAids"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>level</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.level"/>
-					<itsgml:value>streetLevelCrossing</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingLevel.streetLevelCrossing"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 		</itsgml:Feature>
@@ -23247,33 +23080,32 @@
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>priority</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.priority"/>
-					<itsgml:value>pedestriansOverRoadTraffic</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingPriority.pedestriansOverRoadTraffic"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>signage</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
-					<itsgml:propertyTypeReference xlink:href="TransportNetworks.gml#TransportNetworks.PedestrianCrossing.signage"/>
-					<itsgml:value>passiveTrafficSigns</itsgml:value>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
+					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.signage"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>type</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.type"/>
-					<itsgml:value>zebraCrossingWithOrWithoutAdditionalAids</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingType.zebraCrossingWithOrWithoutAdditionalAids"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>level</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.level"/>
-					<itsgml:value>streetLevelCrossing</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingLevel.streetLevelCrossing"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 		</itsgml:Feature>
@@ -23311,32 +23143,32 @@
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>priority</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.priority"/>
-					<itsgml:value>pedestriansOverRoadTraffic</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingPriority.pedestriansOverRoadTraffic"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>signage</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
-					<itsgml:propertyTypeReference xlink:href="TransportNetworks.gml#TransportNetworks.PedestrianCrossing.signage"/>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
+					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.signage"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>type</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.type"/>
-					<itsgml:value>zebraCrossingWithOrWithoutAdditionalAids</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingType.zebraCrossingWithOrWithoutAdditionalAids"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>level</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.level"/>
-					<itsgml:value>streetLevelCrossing</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingLevel.streetLevelCrossing"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 		</itsgml:Feature>
@@ -23374,32 +23206,32 @@
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>priority</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.priority"/>
-					<itsgml:value>pedestriansOverRoadTraffic</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingPriority.pedestriansOverRoadTraffic"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>signage</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
-					<itsgml:propertyTypeReference xlink:href="TransportNetworks.gml#TransportNetworks.PedestrianCrossing.signage"/>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
+					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.signage"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>type</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.type"/>
-					<itsgml:value>zebraCrossingWithOrWithoutAdditionalAids</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingType.zebraCrossingWithOrWithoutAdditionalAids"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>level</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.level"/>
-					<itsgml:value>streetLevelCrossing</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingLevel.streetLevelCrossing"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 		</itsgml:Feature>
@@ -23437,32 +23269,32 @@
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>priority</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.priority"/>
-					<itsgml:value>pedestriansOverRoadTraffic</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingPriority.pedestriansOverRoadTraffic"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>signage</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
-					<itsgml:propertyTypeReference xlink:href="TransportNetworks.gml#TransportNetworks.PedestrianCrossing.signage"/>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
+					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.signage"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>type</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.type"/>
-					<itsgml:value>zebraCrossingWithOrWithoutAdditionalAids</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingType.zebraCrossingWithOrWithoutAdditionalAids"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>level</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.level"/>
-					<itsgml:value>streetLevelCrossing</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingLevel.streetLevelCrossing"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 		</itsgml:Feature>
@@ -23500,33 +23332,32 @@
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>priority</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.priority"/>
-					<itsgml:value>pedestriansOverRoadTraffic</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingPriority.pedestriansOverRoadTraffic"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>signage</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
-					<itsgml:propertyTypeReference xlink:href="TransportNetworks.gml#TransportNetworks.PedestrianCrossing.signage"/>
-					<itsgml:value>passiveTrafficSigns</itsgml:value>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
+					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.signage"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>type</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.type"/>
-					<itsgml:value>zebraCrossingWithOrWithoutAdditionalAids</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingType.zebraCrossingWithOrWithoutAdditionalAids"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>level</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.level"/>
-					<itsgml:value>streetLevelCrossing</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingLevel.streetLevelCrossing"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 		</itsgml:Feature>
@@ -23564,32 +23395,32 @@
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>priority</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.priority"/>
-					<itsgml:value>pedestriansOverRoadTraffic</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingPriority.pedestriansOverRoadTraffic"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>signage</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
-					<itsgml:propertyTypeReference xlink:href="TransportNetworks.gml#TransportNetworks.PedestrianCrossing.signage"/>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
+					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.signage"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>type</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.type"/>
-					<itsgml:value>zebraCrossingWithOrWithoutAdditionalAids</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingType.zebraCrossingWithOrWithoutAdditionalAids"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>level</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.level"/>
-					<itsgml:value>streetLevelCrossing</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingLevel.streetLevelCrossing"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 		</itsgml:Feature>
@@ -23627,33 +23458,33 @@
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>priority</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.priority"/>
-					<itsgml:value>pedestriansOverRoadTraffic</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingPriority.pedestriansOverRoadTraffic"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>signage</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
-					<itsgml:propertyTypeReference xlink:href="TransportNetworks.gml#TransportNetworks.PedestrianCrossing.signage"/>
-					<itsgml:value>passiveTrafficSigns</itsgml:value>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
+					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.signage"/>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingSignage.passiveTrafficSigns"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>type</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.type"/>
-					<itsgml:value>noRoadMarkings</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingType.noRoadMarkings"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>level</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.level"/>
-					<itsgml:value>streetLevelCrossing</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingLevel.streetLevelCrossing"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 		</itsgml:Feature>
@@ -23691,33 +23522,32 @@
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>priority</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.priority"/>
-					<itsgml:value>pedestriansOverRoadTraffic</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingPriority.pedestriansOverRoadTraffic"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>signage</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
-					<itsgml:propertyTypeReference xlink:href="TransportNetworks.gml#TransportNetworks.PedestrianCrossing.signage"/>
-					<itsgml:value>passiveTrafficSigns</itsgml:value>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
+					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.signage"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>type</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.type"/>
-					<itsgml:value>zebraCrossingWithOrWithoutAdditionalAids</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingType.zebraCrossingWithOrWithoutAdditionalAids"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>level</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.level"/>
-					<itsgml:value>streetLevelCrossing</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingLevel.streetLevelCrossing"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 		</itsgml:Feature>
@@ -23755,32 +23585,32 @@
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>priority</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.priority"/>
-					<itsgml:value>pedestriansOverRoadTraffic</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingPriority.pedestriansOverRoadTraffic"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>signage</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
-					<itsgml:propertyTypeReference xlink:href="TransportNetworks.gml#TransportNetworks.PedestrianCrossing.signage"/>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
+					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.signage"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>type</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.type"/>
-					<itsgml:value>zebraCrossingWithOrWithoutAdditionalAids</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingType.zebraCrossingWithOrWithoutAdditionalAids"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>level</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.level"/>
-					<itsgml:value>streetLevelCrossing</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingLevel.streetLevelCrossing"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 		</itsgml:Feature>
@@ -23818,32 +23648,32 @@
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>priority</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.priority"/>
-					<itsgml:value>pedestriansOverRoadTraffic</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingPriority.pedestriansOverRoadTraffic"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>signage</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
-					<itsgml:propertyTypeReference xlink:href="TransportNetworks.gml#TransportNetworks.PedestrianCrossing.signage"/>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
+					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.signage"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>type</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.type"/>
-					<itsgml:value>zebraCrossingWithOrWithoutAdditionalAids</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingType.zebraCrossingWithOrWithoutAdditionalAids"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>level</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.level"/>
-					<itsgml:value>streetLevelCrossing</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingLevel.streetLevelCrossing"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 		</itsgml:Feature>
@@ -23881,33 +23711,33 @@
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>priority</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.priority"/>
-					<itsgml:value>pedestriansOverRoadTraffic</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingPriority.pedestriansOverRoadTraffic"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>signage</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
-					<itsgml:propertyTypeReference xlink:href="TransportNetworks.gml#TransportNetworks.PedestrianCrossing.signage"/>
-					<itsgml:value>noTrafficSigns</itsgml:value>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
+					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.signage"/>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingSignage.noTrafficSigns"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>type</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.type"/>
-					<itsgml:value>zebraCrossingWithOrWithoutAdditionalAids</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingType.zebraCrossingWithOrWithoutAdditionalAids"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>level</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.level"/>
-					<itsgml:value>streetLevelCrossing</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingLevel.streetLevelCrossing"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 		</itsgml:Feature>
@@ -23945,33 +23775,33 @@
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>priority</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.priority"/>
-					<itsgml:value>pedestriansOverRoadTraffic</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingPriority.pedestriansOverRoadTraffic"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>signage</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
-					<itsgml:propertyTypeReference xlink:href="TransportNetworks.gml#TransportNetworks.PedestrianCrossing.signage"/>
-					<itsgml:value>passiveTrafficSigns</itsgml:value>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
+					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.signage"/>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingSignage.passiveTrafficSigns"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>type</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.type"/>
-					<itsgml:value>zebraCrossingWithOrWithoutAdditionalAids</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingType.zebraCrossingWithOrWithoutAdditionalAids"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>level</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.level"/>
-					<itsgml:value>streetLevelCrossing</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingLevel.streetLevelCrossing"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 		</itsgml:Feature>
@@ -24009,33 +23839,33 @@
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>priority</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.priority"/>
-					<itsgml:value>pedestriansOverRoadTraffic</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingPriority.pedestriansOverRoadTraffic"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>signage</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
-					<itsgml:propertyTypeReference xlink:href="TransportNetworks.gml#TransportNetworks.PedestrianCrossing.signage"/>
-					<itsgml:value>noTrafficSigns</itsgml:value>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
+					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.signage"/>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingSignage.noTrafficSigns"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>type</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.type"/>
-					<itsgml:value>zebraCrossingWithOrWithoutAdditionalAids</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingType.zebraCrossingWithOrWithoutAdditionalAids"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>level</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.level"/>
-					<itsgml:value>streetLevelCrossing</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingLevel.streetLevelCrossing"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 		</itsgml:Feature>
@@ -24073,33 +23903,32 @@
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>priority</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.priority"/>
-					<itsgml:value>pedestriansOverRoadTraffic</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingPriority.pedestriansOverRoadTraffic"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>signage</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
-					<itsgml:propertyTypeReference xlink:href="TransportNetworks.gml#TransportNetworks.PedestrianCrossing.signage"/>
-					<itsgml:value>passiveTrafficSigns</itsgml:value>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
+					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.signage"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>type</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.type"/>
-					<itsgml:value>zebraCrossingWithOrWithoutAdditionalAids</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingType.zebraCrossingWithOrWithoutAdditionalAids"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>level</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.level"/>
-					<itsgml:value>streetLevelCrossing</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingLevel.streetLevelCrossing"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 		</itsgml:Feature>
@@ -24137,33 +23966,32 @@
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>priority</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.priority"/>
-					<itsgml:value>pedestriansOverRoadTraffic</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingPriority.pedestriansOverRoadTraffic"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>signage</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
-					<itsgml:propertyTypeReference xlink:href="TransportNetworks.gml#TransportNetworks.PedestrianCrossing.signage"/>
-					<itsgml:value>passiveTrafficSigns</itsgml:value>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
+					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.signage"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>type</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.type"/>
-					<itsgml:value>zebraCrossingWithOrWithoutAdditionalAids</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingType.zebraCrossingWithOrWithoutAdditionalAids"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>level</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.level"/>
-					<itsgml:value>streetLevelCrossing</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingLevel.streetLevelCrossing"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 		</itsgml:Feature>
@@ -24201,33 +24029,32 @@
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>priority</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.priority"/>
-					<itsgml:value>pedestriansOverRoadTraffic</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingPriority.pedestriansOverRoadTraffic"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>signage</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
-					<itsgml:propertyTypeReference xlink:href="TransportNetworks.gml#TransportNetworks.PedestrianCrossing.signage"/>
-					<itsgml:value>passiveTrafficSigns</itsgml:value>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
+					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.signage"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>type</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.type"/>
-					<itsgml:value>zebraCrossingWithOrWithoutAdditionalAids</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingType.zebraCrossingWithOrWithoutAdditionalAids"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>level</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.level"/>
-					<itsgml:value>streetLevelCrossing</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingLevel.streetLevelCrossing"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 		</itsgml:Feature>
@@ -24265,32 +24092,32 @@
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>priority</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.priority"/>
-					<itsgml:value>pedestriansOverRoadTraffic</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingPriority.pedestriansOverRoadTraffic"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>signage</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
-					<itsgml:propertyTypeReference xlink:href="TransportNetworks.gml#TransportNetworks.PedestrianCrossing.signage"/>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
+					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.signage"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>type</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.type"/>
-					<itsgml:value>zebraCrossingWithOrWithoutAdditionalAids</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingType.zebraCrossingWithOrWithoutAdditionalAids"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>level</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.level"/>
-					<itsgml:value>streetLevelCrossing</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingLevel.streetLevelCrossing"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 		</itsgml:Feature>
@@ -24328,32 +24155,32 @@
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>priority</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.priority"/>
-					<itsgml:value>pedestriansOverRoadTraffic</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingPriority.pedestriansOverRoadTraffic"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>signage</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
-					<itsgml:propertyTypeReference xlink:href="TransportNetworks.gml#TransportNetworks.PedestrianCrossing.signage"/>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
+					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.signage"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>type</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.type"/>
-					<itsgml:value>zebraCrossingWithOrWithoutAdditionalAids</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingType.zebraCrossingWithOrWithoutAdditionalAids"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>level</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.level"/>
-					<itsgml:value>streetLevelCrossing</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingLevel.streetLevelCrossing"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 		</itsgml:Feature>
@@ -24391,33 +24218,32 @@
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>priority</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.priority"/>
-					<itsgml:value>pedestriansOverRoadTraffic</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingPriority.pedestriansOverRoadTraffic"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>signage</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
-					<itsgml:propertyTypeReference xlink:href="TransportNetworks.gml#TransportNetworks.PedestrianCrossing.signage"/>
-					<itsgml:value>passiveTrafficSigns</itsgml:value>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
+					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.signage"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>type</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.type"/>
-					<itsgml:value>zebraCrossingWithOrWithoutAdditionalAids</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingType.zebraCrossingWithOrWithoutAdditionalAids"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>level</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.level"/>
-					<itsgml:value>streetLevelCrossing</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingLevel.streetLevelCrossing"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 		</itsgml:Feature>
@@ -24455,32 +24281,32 @@
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>priority</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.priority"/>
-					<itsgml:value>pedestriansOverRoadTraffic</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingPriority.pedestriansOverRoadTraffic"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>signage</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
-					<itsgml:propertyTypeReference xlink:href="TransportNetworks.gml#TransportNetworks.PedestrianCrossing.signage"/>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
+					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.signage"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>type</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.type"/>
-					<itsgml:value>zebraCrossingWithOrWithoutAdditionalAids</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingType.zebraCrossingWithOrWithoutAdditionalAids"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>level</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.level"/>
-					<itsgml:value>streetLevelCrossing</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingLevel.streetLevelCrossing"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 		</itsgml:Feature>
@@ -24518,33 +24344,32 @@
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>priority</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.priority"/>
-					<itsgml:value>pedestriansOverRoadTraffic</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingPriority.pedestriansOverRoadTraffic"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>signage</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
-					<itsgml:propertyTypeReference xlink:href="TransportNetworks.gml#TransportNetworks.PedestrianCrossing.signage"/>
-					<itsgml:value>passiveTrafficSigns</itsgml:value>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
+					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.signage"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>type</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.type"/>
-					<itsgml:value>zebraCrossingWithOrWithoutAdditionalAids</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingType.zebraCrossingWithOrWithoutAdditionalAids"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>level</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.level"/>
-					<itsgml:value>streetLevelCrossing</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingLevel.streetLevelCrossing"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 		</itsgml:Feature>
@@ -24582,32 +24407,32 @@
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>priority</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.priority"/>
-					<itsgml:value>pedestriansOverRoadTraffic</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingPriority.pedestriansOverRoadTraffic"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>signage</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
-					<itsgml:propertyTypeReference xlink:href="TransportNetworks.gml#TransportNetworks.PedestrianCrossing.signage"/>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
+					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.signage"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>type</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.type"/>
-					<itsgml:value>zebraCrossingWithOrWithoutAdditionalAids</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingType.zebraCrossingWithOrWithoutAdditionalAids"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>level</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.level"/>
-					<itsgml:value>streetLevelCrossing</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingLevel.streetLevelCrossing"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 		</itsgml:Feature>
@@ -24645,32 +24470,32 @@
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>priority</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.priority"/>
-					<itsgml:value>pedestriansOverRoadTraffic</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingPriority.pedestriansOverRoadTraffic"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>signage</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
-					<itsgml:propertyTypeReference xlink:href="TransportNetworks.gml#TransportNetworks.PedestrianCrossing.signage"/>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
+					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.signage"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>type</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.type"/>
-					<itsgml:value>zebraCrossingWithOrWithoutAdditionalAids</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingType.zebraCrossingWithOrWithoutAdditionalAids"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>level</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.level"/>
-					<itsgml:value>streetLevelCrossing</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingLevel.streetLevelCrossing"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 		</itsgml:Feature>
@@ -24708,33 +24533,33 @@
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>priority</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.priority"/>
-					<itsgml:value>pedestriansOverRoadTraffic</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingPriority.pedestriansOverRoadTraffic"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>signage</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
-					<itsgml:propertyTypeReference xlink:href="TransportNetworks.gml#TransportNetworks.PedestrianCrossing.signage"/>
-					<itsgml:value>noTrafficSigns</itsgml:value>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
+					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.signage"/>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingSignage.noTrafficSigns"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>type</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.type"/>
-					<itsgml:value>zebraCrossingWithOrWithoutAdditionalAids</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingType.zebraCrossingWithOrWithoutAdditionalAids"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>level</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.level"/>
-					<itsgml:value>streetLevelCrossing</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingLevel.streetLevelCrossing"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 		</itsgml:Feature>
@@ -24772,32 +24597,32 @@
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>priority</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.priority"/>
-					<itsgml:value>pedestriansOverRoadTraffic</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingPriority.pedestriansOverRoadTraffic"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>signage</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
-					<itsgml:propertyTypeReference xlink:href="TransportNetworks.gml#TransportNetworks.PedestrianCrossing.signage"/>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
+					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.signage"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>type</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.type"/>
-					<itsgml:value>zebraCrossingWithOrWithoutAdditionalAids</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingType.zebraCrossingWithOrWithoutAdditionalAids"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>level</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.level"/>
-					<itsgml:value>streetLevelCrossing</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingLevel.streetLevelCrossing"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 		</itsgml:Feature>
@@ -24835,32 +24660,32 @@
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>priority</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.priority"/>
-					<itsgml:value>pedestriansOverRoadTraffic</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingPriority.pedestriansOverRoadTraffic"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>signage</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
-					<itsgml:propertyTypeReference xlink:href="TransportNetworks.gml#TransportNetworks.PedestrianCrossing.signage"/>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
+					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.signage"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>type</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.type"/>
-					<itsgml:value>zebraCrossingWithOrWithoutAdditionalAids</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingType.zebraCrossingWithOrWithoutAdditionalAids"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>level</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.level"/>
-					<itsgml:value>streetLevelCrossing</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingLevel.streetLevelCrossing"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 		</itsgml:Feature>
@@ -24898,32 +24723,32 @@
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>priority</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.priority"/>
-					<itsgml:value>pedestriansOverRoadTraffic</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingPriority.pedestriansOverRoadTraffic"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>signage</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
-					<itsgml:propertyTypeReference xlink:href="TransportNetworks.gml#TransportNetworks.PedestrianCrossing.signage"/>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
+					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.signage"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>type</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.type"/>
-					<itsgml:value>zebraCrossingWithOrWithoutAdditionalAids</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingType.zebraCrossingWithOrWithoutAdditionalAids"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>level</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.level"/>
-					<itsgml:value>streetLevelCrossing</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingLevel.streetLevelCrossing"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 		</itsgml:Feature>
@@ -24961,33 +24786,33 @@
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>priority</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.priority"/>
-					<itsgml:value>pedestriansOverRoadTraffic</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingPriority.pedestriansOverRoadTraffic"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>signage</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
-					<itsgml:propertyTypeReference xlink:href="TransportNetworks.gml#TransportNetworks.PedestrianCrossing.signage"/>
-					<itsgml:value>passiveTrafficSigns</itsgml:value>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
+					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.signage"/>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingSignage.passiveTrafficSigns"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>type</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.type"/>
-					<itsgml:value>zebraCrossingWithOrWithoutAdditionalAids</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingType.zebraCrossingWithOrWithoutAdditionalAids"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>level</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.level"/>
-					<itsgml:value>streetLevelCrossing</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingLevel.streetLevelCrossing"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 		</itsgml:Feature>
@@ -25025,32 +24850,32 @@
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>priority</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.priority"/>
-					<itsgml:value>pedestriansOverRoadTraffic</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingPriority.pedestriansOverRoadTraffic"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>signage</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
-					<itsgml:propertyTypeReference xlink:href="TransportNetworks.gml#TransportNetworks.PedestrianCrossing.signage"/>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
+					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.signage"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>type</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.type"/>
-					<itsgml:value>zebraCrossingWithOrWithoutAdditionalAids</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingType.zebraCrossingWithOrWithoutAdditionalAids"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>level</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.level"/>
-					<itsgml:value>streetLevelCrossing</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingLevel.streetLevelCrossing"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 		</itsgml:Feature>
@@ -25088,33 +24913,32 @@
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>priority</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.priority"/>
-					<itsgml:value>pedestriansOverRoadTraffic</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingPriority.pedestriansOverRoadTraffic"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>signage</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
-					<itsgml:propertyTypeReference xlink:href="TransportNetworks.gml#TransportNetworks.PedestrianCrossing.signage"/>
-					<itsgml:value>passiveTrafficSigns</itsgml:value>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
+					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.signage"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>type</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.type"/>
-					<itsgml:value>zebraCrossingWithOrWithoutAdditionalAids</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingType.zebraCrossingWithOrWithoutAdditionalAids"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>level</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.level"/>
-					<itsgml:value>streetLevelCrossing</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingLevel.streetLevelCrossing"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 		</itsgml:Feature>
@@ -25152,33 +24976,32 @@
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>priority</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.priority"/>
-					<itsgml:value>pedestriansOverRoadTraffic</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingPriority.pedestriansOverRoadTraffic"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>signage</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
-					<itsgml:propertyTypeReference xlink:href="TransportNetworks.gml#TransportNetworks.PedestrianCrossing.signage"/>
-					<itsgml:value>passiveTrafficSigns</itsgml:value>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
+					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.signage"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>type</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.type"/>
-					<itsgml:value>zebraCrossingWithOrWithoutAdditionalAids</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingType.zebraCrossingWithOrWithoutAdditionalAids"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>level</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.level"/>
-					<itsgml:value>streetLevelCrossing</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingLevel.streetLevelCrossing"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 		</itsgml:Feature>
@@ -25216,33 +25039,32 @@
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>priority</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.priority"/>
-					<itsgml:value>pedestriansOverRoadTraffic</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingPriority.pedestriansOverRoadTraffic"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>signage</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
-					<itsgml:propertyTypeReference xlink:href="TransportNetworks.gml#TransportNetworks.PedestrianCrossing.signage"/>
-					<itsgml:value>passiveTrafficSigns</itsgml:value>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
+					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.signage"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>type</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.type"/>
-					<itsgml:value>zebraCrossingWithOrWithoutAdditionalAids</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingType.zebraCrossingWithOrWithoutAdditionalAids"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>level</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.level"/>
-					<itsgml:value>streetLevelCrossing</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingLevel.streetLevelCrossing"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 		</itsgml:Feature>
@@ -25280,33 +25102,32 @@
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>priority</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.priority"/>
-					<itsgml:value>pedestriansOverRoadTraffic</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingPriority.pedestriansOverRoadTraffic"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>signage</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
-					<itsgml:propertyTypeReference xlink:href="TransportNetworks.gml#TransportNetworks.PedestrianCrossing.signage"/>
-					<itsgml:value>passiveTrafficSigns</itsgml:value>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
+					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.signage"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>type</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.type"/>
-					<itsgml:value>zebraCrossingWithOrWithoutAdditionalAids</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingType.zebraCrossingWithOrWithoutAdditionalAids"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>level</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.level"/>
-					<itsgml:value>streetLevelCrossing</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingLevel.streetLevelCrossing"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 		</itsgml:Feature>
@@ -25344,33 +25165,32 @@
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>priority</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.priority"/>
-					<itsgml:value>pedestriansOverRoadTraffic</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingPriority.pedestriansOverRoadTraffic"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>signage</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
-					<itsgml:propertyTypeReference xlink:href="TransportNetworks.gml#TransportNetworks.PedestrianCrossing.signage"/>
-					<itsgml:value>passiveTrafficSigns</itsgml:value>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
+					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.signage"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>type</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.type"/>
-					<itsgml:value>zebraCrossingWithOrWithoutAdditionalAids</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingType.zebraCrossingWithOrWithoutAdditionalAids"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>level</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.level"/>
-					<itsgml:value>streetLevelCrossing</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingLevel.streetLevelCrossing"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 		</itsgml:Feature>
@@ -25408,33 +25228,32 @@
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>priority</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.priority"/>
-					<itsgml:value>pedestriansOverRoadTraffic</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingPriority.pedestriansOverRoadTraffic"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>signage</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
-					<itsgml:propertyTypeReference xlink:href="TransportNetworks.gml#TransportNetworks.PedestrianCrossing.signage"/>
-					<itsgml:value>passiveTrafficSigns</itsgml:value>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
+					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.signage"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>type</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.type"/>
-					<itsgml:value>zebraCrossingWithOrWithoutAdditionalAids</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingType.zebraCrossingWithOrWithoutAdditionalAids"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>level</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.level"/>
-					<itsgml:value>streetLevelCrossing</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingLevel.streetLevelCrossing"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 		</itsgml:Feature>
@@ -25472,32 +25291,32 @@
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>priority</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.priority"/>
-					<itsgml:value>pedestriansOverRoadTraffic</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingPriority.pedestriansOverRoadTraffic"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>signage</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
-					<itsgml:propertyTypeReference xlink:href="TransportNetworks.gml#TransportNetworks.PedestrianCrossing.signage"/>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
+					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.signage"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>type</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.type"/>
-					<itsgml:value>zebraCrossingWithOrWithoutAdditionalAids</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingType.zebraCrossingWithOrWithoutAdditionalAids"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>level</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.level"/>
-					<itsgml:value>streetLevelCrossing</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingLevel.streetLevelCrossing"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 		</itsgml:Feature>
@@ -25535,32 +25354,32 @@
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>priority</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.priority"/>
-					<itsgml:value>pedestriansOverRoadTraffic</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingPriority.pedestriansOverRoadTraffic"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>signage</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
-					<itsgml:propertyTypeReference xlink:href="TransportNetworks.gml#TransportNetworks.PedestrianCrossing.signage"/>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
+					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.signage"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>type</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.type"/>
-					<itsgml:value>zebraCrossingWithOrWithoutAdditionalAids</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingType.zebraCrossingWithOrWithoutAdditionalAids"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>level</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.level"/>
-					<itsgml:value>streetLevelCrossing</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingLevel.streetLevelCrossing"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 		</itsgml:Feature>
@@ -25598,33 +25417,32 @@
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>priority</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.priority"/>
-					<itsgml:value>pedestriansOverRoadTraffic</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingPriority.pedestriansOverRoadTraffic"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>signage</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
-					<itsgml:propertyTypeReference xlink:href="TransportNetworks.gml#TransportNetworks.PedestrianCrossing.signage"/>
-					<itsgml:value>passiveTrafficSigns</itsgml:value>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
+					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.signage"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>type</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.type"/>
-					<itsgml:value>zebraCrossingWithOrWithoutAdditionalAids</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingType.zebraCrossingWithOrWithoutAdditionalAids"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>level</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.level"/>
-					<itsgml:value>streetLevelCrossing</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingLevel.streetLevelCrossing"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 		</itsgml:Feature>
@@ -25662,33 +25480,32 @@
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>priority</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.priority"/>
-					<itsgml:value>pedestriansOverRoadTraffic</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingPriority.pedestriansOverRoadTraffic"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>signage</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
-					<itsgml:propertyTypeReference xlink:href="TransportNetworks.gml#TransportNetworks.PedestrianCrossing.signage"/>
-					<itsgml:value>passiveTrafficSigns</itsgml:value>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
+					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.signage"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>type</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.type"/>
-					<itsgml:value>zebraCrossingWithOrWithoutAdditionalAids</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingType.zebraCrossingWithOrWithoutAdditionalAids"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>level</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.level"/>
-					<itsgml:value>streetLevelCrossing</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingLevel.streetLevelCrossing"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 		</itsgml:Feature>
@@ -25726,33 +25543,32 @@
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>priority</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.priority"/>
-					<itsgml:value>pedestriansOverRoadTraffic</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingPriority.pedestriansOverRoadTraffic"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>signage</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
-					<itsgml:propertyTypeReference xlink:href="TransportNetworks.gml#TransportNetworks.PedestrianCrossing.signage"/>
-					<itsgml:value>passiveTrafficSigns</itsgml:value>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
+					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.signage"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>type</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.type"/>
-					<itsgml:value>zebraCrossingWithOrWithoutAdditionalAids</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingType.zebraCrossingWithOrWithoutAdditionalAids"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>level</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.level"/>
-					<itsgml:value>streetLevelCrossing</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingLevel.streetLevelCrossing"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 		</itsgml:Feature>
@@ -25790,33 +25606,32 @@
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>priority</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.priority"/>
-					<itsgml:value>pedestriansOverRoadTraffic</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingPriority.pedestriansOverRoadTraffic"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>signage</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
-					<itsgml:propertyTypeReference xlink:href="TransportNetworks.gml#TransportNetworks.PedestrianCrossing.signage"/>
-					<itsgml:value>passiveTrafficSigns</itsgml:value>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
+					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.signage"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>type</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.type"/>
-					<itsgml:value>zebraCrossingWithOrWithoutAdditionalAids</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingType.zebraCrossingWithOrWithoutAdditionalAids"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>level</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.level"/>
-					<itsgml:value>streetLevelCrossing</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingLevel.streetLevelCrossing"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 		</itsgml:Feature>
@@ -25854,33 +25669,32 @@
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>priority</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.priority"/>
-					<itsgml:value>pedestriansOverRoadTraffic</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingPriority.pedestriansOverRoadTraffic"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>signage</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
-					<itsgml:propertyTypeReference xlink:href="TransportNetworks.gml#TransportNetworks.PedestrianCrossing.signage"/>
-					<itsgml:value>passiveTrafficSigns</itsgml:value>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
+					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.signage"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>type</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.type"/>
-					<itsgml:value>zebraCrossingWithOrWithoutAdditionalAids</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingType.zebraCrossingWithOrWithoutAdditionalAids"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>level</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.level"/>
-					<itsgml:value>streetLevelCrossing</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingLevel.streetLevelCrossing"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 		</itsgml:Feature>
@@ -25918,33 +25732,33 @@
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>priority</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.priority"/>
-					<itsgml:value>pedestriansOverRoadTraffic</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingPriority.pedestriansOverRoadTraffic"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>signage</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
-					<itsgml:propertyTypeReference xlink:href="TransportNetworks.gml#TransportNetworks.PedestrianCrossing.signage"/>
-					<itsgml:value>passiveTrafficSigns</itsgml:value>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
+					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.signage"/>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingSignage.passiveTrafficSigns"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>type</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.type"/>
-					<itsgml:value>noRoadMarkings</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingType.noRoadMarkings"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>level</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.level"/>
-					<itsgml:value>streetLevelCrossing</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingLevel.streetLevelCrossing"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 		</itsgml:Feature>
@@ -25982,33 +25796,32 @@
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>priority</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.priority"/>
-					<itsgml:value>pedestriansOverRoadTraffic</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingPriority.pedestriansOverRoadTraffic"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>signage</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
-					<itsgml:propertyTypeReference xlink:href="TransportNetworks.gml#TransportNetworks.PedestrianCrossing.signage"/>
-					<itsgml:value>passiveTrafficSigns</itsgml:value>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
+					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.signage"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>type</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.type"/>
-					<itsgml:value>zebraCrossingWithOrWithoutAdditionalAids</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingType.zebraCrossingWithOrWithoutAdditionalAids"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>level</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.level"/>
-					<itsgml:value>streetLevelCrossing</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingLevel.streetLevelCrossing"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 		</itsgml:Feature>
@@ -26046,32 +25859,32 @@
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>priority</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.priority"/>
-					<itsgml:value>pedestriansOverRoadTraffic</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingPriority.pedestriansOverRoadTraffic"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>signage</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
-					<itsgml:propertyTypeReference xlink:href="TransportNetworks.gml#TransportNetworks.PedestrianCrossing.signage"/>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
+					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.signage"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>type</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.type"/>
-					<itsgml:value>zebraCrossingWithOrWithoutAdditionalAids</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingType.zebraCrossingWithOrWithoutAdditionalAids"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>level</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.level"/>
-					<itsgml:value>streetLevelCrossing</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingLevel.streetLevelCrossing"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 		</itsgml:Feature>
@@ -26109,33 +25922,32 @@
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>priority</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.priority"/>
-					<itsgml:value>pedestriansOverRoadTraffic</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingPriority.pedestriansOverRoadTraffic"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>signage</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
-					<itsgml:propertyTypeReference xlink:href="TransportNetworks.gml#TransportNetworks.PedestrianCrossing.signage"/>
-					<itsgml:value>passiveTrafficSigns</itsgml:value>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
+					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.signage"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>type</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.type"/>
-					<itsgml:value>zebraCrossingWithOrWithoutAdditionalAids</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingType.zebraCrossingWithOrWithoutAdditionalAids"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>level</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.level"/>
-					<itsgml:value>streetLevelCrossing</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingLevel.streetLevelCrossing"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 		</itsgml:Feature>
@@ -26173,33 +25985,32 @@
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>priority</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.priority"/>
-					<itsgml:value>pedestriansOverRoadTraffic</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingPriority.pedestriansOverRoadTraffic"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>signage</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
-					<itsgml:propertyTypeReference xlink:href="TransportNetworks.gml#TransportNetworks.PedestrianCrossing.signage"/>
-					<itsgml:value>passiveTrafficSigns</itsgml:value>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
+					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.signage"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>type</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.type"/>
-					<itsgml:value>zebraCrossingWithOrWithoutAdditionalAids</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingType.zebraCrossingWithOrWithoutAdditionalAids"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>level</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.level"/>
-					<itsgml:value>streetLevelCrossing</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingLevel.streetLevelCrossing"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 		</itsgml:Feature>
@@ -26237,32 +26048,32 @@
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>priority</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.priority"/>
-					<itsgml:value>pedestriansOverRoadTraffic</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingPriority.pedestriansOverRoadTraffic"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>signage</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
-					<itsgml:propertyTypeReference xlink:href="TransportNetworks.gml#TransportNetworks.PedestrianCrossing.signage"/>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
+					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.signage"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>type</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.type"/>
-					<itsgml:value>zebraCrossingWithOrWithoutAdditionalAids</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingType.zebraCrossingWithOrWithoutAdditionalAids"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>level</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.level"/>
-					<itsgml:value>streetLevelCrossing</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingLevel.streetLevelCrossing"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 		</itsgml:Feature>
@@ -26300,32 +26111,32 @@
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>priority</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.priority"/>
-					<itsgml:value>pedestriansOverRoadTraffic</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingPriority.pedestriansOverRoadTraffic"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>signage</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
-					<itsgml:propertyTypeReference xlink:href="TransportNetworks.gml#TransportNetworks.PedestrianCrossing.signage"/>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
+					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.signage"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>type</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.type"/>
-					<itsgml:value>zebraCrossingWithOrWithoutAdditionalAids</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingType.zebraCrossingWithOrWithoutAdditionalAids"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>level</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.level"/>
-					<itsgml:value>streetLevelCrossing</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingLevel.streetLevelCrossing"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 		</itsgml:Feature>
@@ -26363,32 +26174,32 @@
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>priority</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.priority"/>
-					<itsgml:value>pedestriansOverRoadTraffic</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingPriority.pedestriansOverRoadTraffic"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>signage</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
-					<itsgml:propertyTypeReference xlink:href="TransportNetworks.gml#TransportNetworks.PedestrianCrossing.signage"/>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
+					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.signage"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>type</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.type"/>
-					<itsgml:value>zebraCrossingWithOrWithoutAdditionalAids</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingType.zebraCrossingWithOrWithoutAdditionalAids"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>level</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.level"/>
-					<itsgml:value>streetLevelCrossing</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingLevel.streetLevelCrossing"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 		</itsgml:Feature>
@@ -26426,32 +26237,32 @@
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>priority</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.priority"/>
-					<itsgml:value>pedestriansOverRoadTraffic</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingPriority.pedestriansOverRoadTraffic"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>signage</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
-					<itsgml:propertyTypeReference xlink:href="TransportNetworks.gml#TransportNetworks.PedestrianCrossing.signage"/>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
+					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.signage"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>type</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.type"/>
-					<itsgml:value>zebraCrossingWithOrWithoutAdditionalAids</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingType.zebraCrossingWithOrWithoutAdditionalAids"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>level</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.level"/>
-					<itsgml:value>streetLevelCrossing</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingLevel.streetLevelCrossing"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 		</itsgml:Feature>
@@ -26489,32 +26300,32 @@
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>priority</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.priority"/>
-					<itsgml:value>pedestriansOverRoadTraffic</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingPriority.pedestriansOverRoadTraffic"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>signage</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
-					<itsgml:propertyTypeReference xlink:href="TransportNetworks.gml#TransportNetworks.PedestrianCrossing.signage"/>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
+					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.signage"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>type</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.type"/>
-					<itsgml:value>zebraCrossingWithOrWithoutAdditionalAids</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingType.zebraCrossingWithOrWithoutAdditionalAids"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>level</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.level"/>
-					<itsgml:value>streetLevelCrossing</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingLevel.streetLevelCrossing"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 		</itsgml:Feature>
@@ -26552,33 +26363,32 @@
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>priority</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.priority"/>
-					<itsgml:value>pedestriansOverRoadTraffic</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingPriority.pedestriansOverRoadTraffic"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>signage</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
-					<itsgml:propertyTypeReference xlink:href="TransportNetworks.gml#TransportNetworks.PedestrianCrossing.signage"/>
-					<itsgml:value>passiveTrafficSigns</itsgml:value>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
+					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.signage"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>type</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.type"/>
-					<itsgml:value>zebraCrossingWithOrWithoutAdditionalAids</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingType.zebraCrossingWithOrWithoutAdditionalAids"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 			<itsgml:property>
 				<itsgml:GenericFeatureProperty>
 					<itsgml:memberName>level</itsgml:memberName>
-					<itsgml:propertyStructure>simple</itsgml:propertyStructure>
+					<itsgml:propertyStructure>listedValue</itsgml:propertyStructure>
 					<itsgml:propertyTypeReference xlink:href="GDF.gml#GDF.PedestrianCrossing.level"/>
-					<itsgml:value>streetLevelCrossing</itsgml:value>
+					<itsgml:valueReference xlink:href="GDF.gml#GDF.PedestrianCrossingLevel.streetLevelCrossing"/>
 				</itsgml:GenericFeatureProperty>
 			</itsgml:property>
 		</itsgml:Feature>
