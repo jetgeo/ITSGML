@@ -344,6 +344,7 @@ In cases where a property does not apply &lt;i>to&lt;/i> a direction along a lin
     <restriction base="string">
       <enumeration value="simple"/>
       <enumeration value="complex"/>
+      <enumeration value="listedValue"/>
       <enumeration value="association"/>
     </restriction>
   </simpleType>
