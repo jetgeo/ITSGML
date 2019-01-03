@@ -13,9 +13,9 @@
   <import namespace="http://www.opengis.net/gml/3.2"
     schemaLocation="http://schemas.opengis.net/gml/3.2.1/gml.xsd"/>
   <!--XML Schema document created by ShapeChange - http://shapechange.net/-->
-  <element abstract="true" name="CT_Catalogue" substitutionGroup="gml:AbstractFeature"
-    type="itsgml:CT_CatalogueType"/>
-  <complexType abstract="true" name="CT_CatalogueType">
+  <element abstract="true" name="Catalogue" substitutionGroup="gml:AbstractFeature"
+    type="itsgml:CatalogueType"/>
+  <complexType abstract="true" name="CatalogueType">
     <complexContent>
       <extension base="gml:AbstractFeatureType">
         <sequence>
@@ -34,62 +34,62 @@
       </extension>
     </complexContent>
   </complexType>
-  <complexType name="CT_CataloguePropertyType">
+  <complexType name="CataloguePropertyType">
     <sequence minOccurs="0">
-      <element ref="itsgml:CT_Catalogue"/>
+      <element ref="itsgml:Catalogue"/>
     </sequence>
     <attributeGroup ref="gml:AssociationAttributeGroup"/>
     <attributeGroup ref="gml:OwnershipAttributeGroup"/>
   </complexType>
-  <element name="FC_AssociationRole" substitutionGroup="itsgml:FC_PropertyType"
-    type="itsgml:FC_AssociationRoleType"/>
-  <complexType name="FC_AssociationRoleType">
+  <element name="AssociationRole" substitutionGroup="itsgml:PropertyType"
+    type="itsgml:AssociationRoleType"/>
+  <complexType name="AssociationRoleType">
     <complexContent>
-      <extension base="itsgml:FC_PropertyTypeType">
+      <extension base="itsgml:PropertyTypeType">
         <sequence>
-          <element name="type" type="itsgml:FC_RoleTypeType"/>
+          <element name="type" type="itsgml:RoleTypeType"/>
           <element name="isOrdered" type="boolean"/>
           <element name="isNavigable" type="boolean"/>
-          <element name="rolePlayer" type="itsgml:FC_FeatureTypePropertyType"/>
+          <element name="rolePlayer" type="itsgml:FeatureTypePropertyType"/>
         </sequence>
       </extension>
     </complexContent>
   </complexType>
-  <complexType name="FC_AssociationRolePropertyType">
+  <complexType name="AssociationRolePropertyType">
     <sequence minOccurs="0">
-      <element ref="itsgml:FC_AssociationRole"/>
+      <element ref="itsgml:AssociationRole"/>
     </sequence>
     <attributeGroup ref="gml:AssociationAttributeGroup"/>
     <attributeGroup ref="gml:OwnershipAttributeGroup"/>
   </complexType>
-  <element name="FC_DataType" substitutionGroup="itsgml:FC_FeatureType"
-    type="itsgml:FC_DataTypeType"/>
-  <complexType name="FC_DataTypeType">
+  <element name="DataType" substitutionGroup="itsgml:FeatureType"
+    type="itsgml:DataTypeType"/>
+  <complexType name="DataTypeType">
     <complexContent>
-      <extension base="itsgml:FC_FeatureTypeType">
+      <extension base="itsgml:FeatureTypeType">
         <sequence/>
       </extension>
     </complexContent>
   </complexType>
-  <complexType name="FC_DataTypePropertyType">
+  <complexType name="DataTypePropertyType">
     <sequence minOccurs="0">
-      <element ref="itsgml:FC_DataType"/>
+      <element ref="itsgml:DataType"/>
     </sequence>
     <attributeGroup ref="gml:AssociationAttributeGroup"/>
     <attributeGroup ref="gml:OwnershipAttributeGroup"/>
   </complexType>
-  <element name="FC_FeatureAssociation" substitutionGroup="itsgml:FC_FeatureType"
-    type="itsgml:FC_FeatureAssociationType"/>
-  <complexType name="FC_FeatureAssociationType">
+  <element name="FeatureAssociation" substitutionGroup="itsgml:FeatureType"
+    type="itsgml:FeatureAssociationType"/>
+  <complexType name="FeatureAssociationType">
     <complexContent>
-      <extension base="itsgml:FC_FeatureTypeType">
+      <extension base="itsgml:FeatureTypeType">
         <sequence>
           <element maxOccurs="2" minOccurs="2" name="roleName">
             <complexType>
               <complexContent>
                 <extension base="gml:AbstractMemberType">
                   <sequence minOccurs="0">
-                    <element ref="itsgml:FC_AssociationRole"/>
+                    <element ref="itsgml:AssociationRole"/>
                   </sequence>
                   <attributeGroup ref="gml:AssociationAttributeGroup"/>
                 </extension>
@@ -100,38 +100,38 @@
       </extension>
     </complexContent>
   </complexType>
-  <complexType name="FC_FeatureAssociationPropertyType">
+  <complexType name="FeatureAssociationPropertyType">
     <sequence minOccurs="0">
-      <element ref="itsgml:FC_FeatureAssociation"/>
+      <element ref="itsgml:FeatureAssociation"/>
     </sequence>
     <attributeGroup ref="gml:AssociationAttributeGroup"/>
     <attributeGroup ref="gml:OwnershipAttributeGroup"/>
   </complexType>
-  <element name="FC_FeatureAttribute" substitutionGroup="itsgml:FC_PropertyType"
-    type="itsgml:FC_FeatureAttributeType"/>
-  <complexType name="FC_FeatureAttributeType">
+  <element name="FeatureAttribute" substitutionGroup="itsgml:PropertyType"
+    type="itsgml:FeatureAttributeType"/>
+  <complexType name="FeatureAttributeType">
     <complexContent>
-      <extension base="itsgml:FC_PropertyTypeType">
+      <extension base="itsgml:PropertyTypeType">
         <sequence>
           <element minOccurs="0" name="code" type="string"/>
           <element minOccurs="0" name="valueMeasurementUnit" type="gml:UnitOfMeasureType"/>
           <element minOccurs="0" name="valueType"/>
-          <element minOccurs="0" name="dataType" type="itsgml:FC_DataTypePropertyType"/>
-          <element minOccurs="0" name="valueDomain" type="itsgml:FC_ValueDomainPropertyType"/>
+          <element minOccurs="0" name="dataType" type="itsgml:DataTypePropertyType"/>
+          <element minOccurs="0" name="valueDomain" type="itsgml:ValueDomainPropertyType"/>
         </sequence>
       </extension>
     </complexContent>
   </complexType>
-  <complexType name="FC_FeatureAttributePropertyType">
+  <complexType name="FeatureAttributePropertyType">
     <sequence minOccurs="0">
-      <element ref="itsgml:FC_FeatureAttribute"/>
+      <element ref="itsgml:FeatureAttribute"/>
     </sequence>
     <attributeGroup ref="gml:AssociationAttributeGroup"/>
     <attributeGroup ref="gml:OwnershipAttributeGroup"/>
   </complexType>
-  <element name="FC_FeatureCatalogue" substitutionGroup="gmx:AbstractCT_Catalogue"
-    type="itsgml:FC_FeatureCatalogueType"/>
-  <complexType name="FC_FeatureCatalogueType">
+  <element name="FeatureCatalogue" substitutionGroup="gmx:AbstractCT_Catalogue"
+    type="itsgml:FeatureCatalogueType"/>
+  <complexType name="FeatureCatalogueType">
     <complexContent>
       <extension base="gmx:AbstractCT_Catalogue_Type">
         <sequence>
@@ -143,7 +143,7 @@
               <complexContent>
                 <extension base="gml:AbstractMemberType">
                   <sequence minOccurs="0">
-                    <element ref="itsgml:FC_ValueDomain"/>
+                    <element ref="itsgml:ValueDomain"/>
                   </sequence>
                   <attributeGroup ref="gml:AssociationAttributeGroup"/>
                 </extension>
@@ -155,7 +155,7 @@
               <complexContent>
                 <extension base="gml:AbstractMemberType">
                   <sequence minOccurs="0">
-                    <element ref="itsgml:FC_PropertyType"/>
+                    <element ref="itsgml:PropertyType"/>
                   </sequence>
                   <attributeGroup ref="gml:AssociationAttributeGroup"/>
                 </extension>
@@ -167,7 +167,7 @@
               <complexContent>
                 <extension base="gml:AbstractMemberType">
                   <sequence minOccurs="0">
-                    <element ref="itsgml:FC_FeatureType"/>
+                    <element ref="itsgml:FeatureType"/>
                   </sequence>
                   <attributeGroup ref="gml:AssociationAttributeGroup"/>
                 </extension>
@@ -178,16 +178,16 @@
       </extension>
     </complexContent>
   </complexType>
-  <complexType name="FC_FeatureCataloguePropertyType">
+  <complexType name="FeatureCataloguePropertyType">
     <sequence minOccurs="0">
-      <element ref="itsgml:FC_FeatureCatalogue"/>
+      <element ref="itsgml:FeatureCatalogue"/>
     </sequence>
     <attributeGroup ref="gml:AssociationAttributeGroup"/>
     <attributeGroup ref="gml:OwnershipAttributeGroup"/>
   </complexType>
-  <element name="FC_FeatureType" substitutionGroup="gml:AbstractFeature"
-    type="itsgml:FC_FeatureTypeType"/>
-  <complexType name="FC_FeatureTypeType">
+  <element name="FeatureType" substitutionGroup="gml:AbstractFeature"
+    type="itsgml:FeatureTypeType"/>
+  <complexType name="FeatureTypeType">
     <complexContent>
       <extension base="gml:AbstractFeatureType">
         <sequence>
@@ -198,13 +198,13 @@
           <element maxOccurs="unbounded" minOccurs="0" name="aliases" type="gml:CodeType"/>
           <element minOccurs="0" name="designation" type="string"/>
           <element maxOccurs="unbounded" minOccurs="0" name="inheritsFrom"
-            type="itsgml:FC_FeatureTypePropertyType"/>
+            type="itsgml:FeatureTypePropertyType"/>
           <element maxOccurs="unbounded" minOccurs="0" name="property">
             <complexType>
               <complexContent>
                 <extension base="gml:AbstractMemberType">
                   <sequence minOccurs="0">
-                    <element ref="itsgml:FC_PropertyType"/>
+                    <element ref="itsgml:PropertyType"/>
                   </sequence>
                   <attributeGroup ref="gml:AssociationAttributeGroup"/>
                 </extension>
@@ -215,16 +215,16 @@
       </extension>
     </complexContent>
   </complexType>
-  <complexType name="FC_FeatureTypePropertyType">
+  <complexType name="FeatureTypePropertyType">
     <sequence minOccurs="0">
-      <element ref="itsgml:FC_FeatureType"/>
+      <element ref="itsgml:FeatureType"/>
     </sequence>
     <attributeGroup ref="gml:AssociationAttributeGroup"/>
     <attributeGroup ref="gml:OwnershipAttributeGroup"/>
   </complexType>
-  <element name="FC_ListedValue" substitutionGroup="gml:AbstractFeature"
-    type="itsgml:FC_ListedValueType"/>
-  <complexType name="FC_ListedValueType">
+  <element name="ListedValue" substitutionGroup="gml:AbstractFeature"
+    type="itsgml:ListedValueType"/>
+  <complexType name="ListedValueType">
     <complexContent>
       <extension base="gml:AbstractFeatureType">
         <sequence>
@@ -236,16 +236,16 @@
       </extension>
     </complexContent>
   </complexType>
-  <complexType name="FC_ListedValuePropertyType">
+  <complexType name="ListedValuePropertyType">
     <sequence minOccurs="0">
-      <element ref="itsgml:FC_ListedValue"/>
+      <element ref="itsgml:ListedValue"/>
     </sequence>
     <attributeGroup ref="gml:AssociationAttributeGroup"/>
     <attributeGroup ref="gml:OwnershipAttributeGroup"/>
   </complexType>
-  <element abstract="true" name="FC_PropertyType" substitutionGroup="gml:AbstractFeature"
-    type="itsgml:FC_PropertyTypeType"/>
-  <complexType abstract="true" name="FC_PropertyTypeType">
+  <element abstract="true" name="PropertyType" substitutionGroup="gml:AbstractFeature"
+    type="itsgml:PropertyTypeType"/>
+  <complexType abstract="true" name="PropertyTypeType">
     <complexContent>
       <extension base="gml:AbstractFeatureType">
         <sequence>
@@ -257,31 +257,31 @@
       </extension>
     </complexContent>
   </complexType>
-  <complexType name="FC_PropertyTypePropertyType">
+  <complexType name="PropertyTypePropertyType">
     <sequence minOccurs="0">
-      <element ref="itsgml:FC_PropertyType"/>
+      <element ref="itsgml:PropertyType"/>
     </sequence>
     <attributeGroup ref="gml:AssociationAttributeGroup"/>
     <attributeGroup ref="gml:OwnershipAttributeGroup"/>
   </complexType>
-  <simpleType name="FC_RoleTypeType">
-    <union memberTypes="itsgml:FC_RoleTypeEnumerationType itsgml:FC_RoleTypeOtherType"/>
+  <simpleType name="RoleTypeType">
+    <union memberTypes="itsgml:RoleTypeEnumerationType itsgml:RoleTypeOtherType"/>
   </simpleType>
-  <simpleType name="FC_RoleTypeEnumerationType">
+  <simpleType name="RoleTypeEnumerationType">
     <restriction base="string">
       <enumeration value="ordinary"/>
       <enumeration value="aggregation"/>
       <enumeration value="composition"/>
     </restriction>
   </simpleType>
-  <simpleType name="FC_RoleTypeOtherType">
+  <simpleType name="RoleTypeOtherType">
     <restriction base="string">
       <pattern value="other: \w{2,}"/>
     </restriction>
   </simpleType>
-  <element name="FC_ValueDomain" substitutionGroup="gml:AbstractFeature"
-    type="itsgml:FC_ValueDomainType"/>
-  <complexType name="FC_ValueDomainType">
+  <element name="ValueDomain" substitutionGroup="gml:AbstractFeature"
+    type="itsgml:ValueDomainType"/>
+  <complexType name="ValueDomainType">
     <complexContent>
       <extension base="gml:AbstractFeatureType">
         <sequence>
@@ -290,14 +290,14 @@
           <element minOccurs="0" name="code" type="string"/>
           <element minOccurs="0" name="designation" type="string"/>
           <element maxOccurs="unbounded" minOccurs="0" name="listedValue"
-            type="itsgml:FC_ListedValuePropertyType"/>
+            type="itsgml:ListedValuePropertyType"/>
         </sequence>
       </extension>
     </complexContent>
   </complexType>
-  <complexType name="FC_ValueDomainPropertyType">
+  <complexType name="ValueDomainPropertyType">
     <sequence minOccurs="0">
-      <element ref="itsgml:FC_ValueDomain"/>
+      <element ref="itsgml:ValueDomain"/>
     </sequence>
     <attributeGroup ref="gml:AssociationAttributeGroup"/>
     <attributeGroup ref="gml:OwnershipAttributeGroup"/>
