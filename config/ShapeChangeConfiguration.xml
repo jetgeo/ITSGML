@@ -7,7 +7,7 @@
     <input>
         <parameter name="inputModelType" value="EA7"/>
         <parameter name="inputFile" value="C:\DATA\GitHub\ITSGML\ShapeChange.eap"/>
-        <parameter name="appSchemaName" value="Generic Feature Exchange Model"/>
+        <parameter name="appSchemaName" value="Feature Exchange Model"/>
         <parameter name="addTaggedValues" value="SOSI_navn"/>
         <parameter name="representTaggedValues"
             value="alwaysVoid,neverVoid,Code,lastChange,appliesTo,SOSI_navn"/>
@@ -19,12 +19,107 @@
     </log>
     <targets>
         <TargetXmlSchema class="de.interactive_instruments.ShapeChange.Target.XmlSchema.XmlSchema"
-            mode="enabled">
+            mode="disabled">
             <targetParameter name="outputDirectory" value="C:\DATA\GitHub\ITSGML\XSD"/>
             <targetParameter name="defaultEncodingRule" value="gml33"/>
             <xi:include href="http://www.arkitektum.no/files/sosi/StandardRules.xml"/>
             <xi:include href="http://shapechange.net/resources/config/StandardNamespaces.xml"/>
             <xi:include href="C:\DATA\GitHub\ITSGML/config/StandardMapEntries.xml"/>
         </TargetXmlSchema>
+        <TargetOwl class="de.interactive_instruments.ShapeChange.Target.Ontology.OWLISO19150"
+            mode="enabled">
+            <targetParameter name="outputDirectory" value="C:\DATA\GitHub\ITSGML\OWL"/>
+            <targetParameter name="outputFormat" value="RDFXML"/>
+            <targetParameter name="defaultEncodingRule" value="gdf2owl"/>
+            <targetParameter name="URIbase" value="https://raw.githubusercontent.com/jetgeo/ITSGML/master/OWL"/>
+            <targetParameter name="language" value="en"/>
+            <targetParameter name="defaultTypeImplementation" value="owl:Class"/>
+            <descriptorTargets>
+                <DescriptorTarget target="rdfs:label" template="[[alias]]"/>
+                <DescriptorTarget target="rdfs:isDefinedBy" template="[[TV:inspireConcept]]"
+                    format="IRI"/>
+                <DescriptorTarget target="skos:definition" template="[[definition]]"
+                    noValueText="N/A"/>
+                <DescriptorTarget target="rdfs:comment" template="[[description]]" noValueText="N/A"
+                />
+            </descriptorTargets>
+            <xi:include href="config/StandardNamespaces-owl.xml"/>
+            <namespaces>
+                <Namespace nsabr="locn" ns="https://www.w3.org/ns/locn#"
+                    location="https://www.w3.org/ns/locn.ttl"/>
+            </namespaces>
+            <xi:include href="config/StandardMapEntries-owl.xml"/>
+            <rdfMapEntries>
+                <RdfTypeMapEntry type="AddressRepresentation" target="locn:Address"/>
+                <RdfTypeMapEntry type="TM_Position" target="xsd:date"/>
+                <RdfTypeMapEntry type="ConditionOfFacilityType" target="skos:Concept"/>
+                <RdfTypeMapEntry type="VoidValueReason" target="skos:Concept"/>
+                <RdfTypeMapEntry type="ApplicationSchemaValue" target="skos:Concept"/>
+            </rdfMapEntries>
+            <rdfConversionParameters>
+                <StereotypeConversionParameter wellknown="FeatureType" subClassOf="gsp:Feature"/>
+                <PropertyConversionParameter property="AttributeCatalogue::inspireId" schema="Feature Exchange Model" global="true"/>
+                <PropertyConversionParameter property="inspireId" schema="Feature Exchange Model" target="AttributeCatalogue::inspireId" targetSchema="Feature Exchange Model"/>
+            </rdfConversionParameters>
+            <rules>
+                <EncodingRule name="gdf2owl">
+                    <!-- **** Ontology name rules *** -->
+                    <rule name="rule-owl-pkg-singleOntologyPerSchema"/>  
+                    <rule name="rule-owl-pkg-ontologyName-code"/>
+                    <!-- Ontology name from tagged value -->
+                    <!-- <rule name="rule-owl-pkg-ontologyName-byTaggedValue"/> -->
+                    <!-- Ontology name from package name -->
+                    <!-- <rule name="rule-owl-pkg-ontologyName-iso191502"/> -->  
+                    <!-- Version info properties on ontology -->
+                    <rule name="rule-owl-pkg-versionInfo"/>
+                    <rule name="rule-owl-pkg-versionIRI"/>
+                    <!-- Abstract classes with property iso19150-2:isAbstract -->
+                    <rule name="rule-owl-cls-iso191502IsAbstract"/>
+                    <!-- Generalization as rdfs:subClassOf  -->
+                    <rule name="rule-owl-cls-generalization"/>
+                    <!-- Feature types to OWL classes -->
+                    <rule name="rule-owl-cls-encode-featuretypes"/>
+                    <!-- UML types without stereotype to OWL classes  -->
+                    <rule name="rule-owl-cls-encode-objecttypes"/>
+                    <!-- UML mixin types to OWL classes  -->
+                    <rule name="rule-owl-cls-encode-mixintypes"/>
+                    <!-- Datatypes to OWL classes  -->
+                    <rule name="rule-owl-cls-encode-datatypes"/>
+                    <rule name="rule-owl-cls-encode-basictypes"/>
+                    <!-- Attributes and association roles to OWL properties (not for codelists and enumerations) -->                    
+                    <rule name="rule-owl-prop-general"/>
+                    <!-- *** Range definition global or local ref http://docs.opengeospatial.org/per/16-020.html#rdf_cr_properties_range *** -->
+                    <rule name="rule-owl-prop-range-global"/>
+                    <!-- <rule name="rule-owl-prop-range-local-withUniversalQuantification"/> -->
+                    <!-- **** Global scope rules  ref http://docs.opengeospatial.org/per/16-020.html#rdf_cr_properties_scope *** -->
+                    <!-- Specific properties represented as global, defined in ConversionParameters -->
+                    <rule name="rule-owl-prop-globalScopeByConversionParameter"/>                 
+                    <!-- Global for all where name is unique. No domain -->
+                    <!-- <rule name="rule-owl-prop-globalScopeByUniquePropertyName"/> -->   
+                    <!-- Attributes from dictionary scoped as global HOW TO? -->
+                    <!-- <rule name="rule-owl-prop-globalScopeAttributes"/> -->
+                    <!-- Compare range, defninition and aliases for properties thata are mapped to global -->
+                    <rule name="rule-owl-prop-mapping-compare-specifications"/>
+                    <!-- OWL disjoint classes axiom if a supertype has more than one subtype  -->
+                    <rule name="rule-owl-cls-disjoint-classes"/>
+                    
+                    <!-- *** Multiplicity *** -->
+                    <rule name="rule-owl-prop-multiplicityAsQualifiedCardinalityRestriction"/>
+                    
+                    <!-- Only the human-readable text of constraints is encoded -->
+                    <rule name="rule-owl-all-constraints-humanReadableTextOnly"/>
+                    <!-- *** Union *** -->
+                    <!--  -->
+                    <rule name="rule-owl-cls-union"/>
+                    <!--  -->
+                    <rule name="rule-owl-cls-unionSets"/>
+                    <!-- *** Codelists and enumerations *** -->
+                    <!--  -->
+                    <rule name="rule-owl-cls-iso191502Enumeration"/>
+                    <!--  -->
+                    <rule name="rule-owl-cls-codelist-external"/>
+                </EncodingRule>
+            </rules>
+        </TargetOwl>
     </targets>
 </ShapeChangeConfiguration>

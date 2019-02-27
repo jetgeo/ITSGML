@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><schema xmlns="http://www.w3.org/2001/XMLSchema" xmlns:gml="http://www.opengis.net/gml/3.2"
+<?xml version="1.0" encoding="UTF-8"?>
+<schema xmlns="http://www.w3.org/2001/XMLSchema" xmlns:gml="http://www.opengis.net/gml/3.2"
   xmlns:itsgml="https://raw.githubusercontent.com/jetgeo/ITSGML/master/XSD"
   elementFormDefault="qualified"
   targetNamespace="https://raw.githubusercontent.com/jetgeo/ITSGML/master/XSD" version="0.1">
@@ -58,19 +59,22 @@
         <sequence>
           <element name="typeName" type="gml:CodeType">
             <annotation>
-              <documentation>text string that uniquely identifies this feature type within the feature catalogue that contains this feature type</documentation>
+              <documentation>text string that uniquely identifies this feature type within the
+                feature catalogue that contains this feature type</documentation>
             </annotation>
           </element>
           <element name="validFrom" type="date" nillable="true"/>
           <element minOccurs="0" name="validTo" type="date"/>
           <element name="beginLifespanVersion" type="dateTime" nillable="true">
             <annotation>
-              <documentation>Date and time at which this version of the spatial object was inserted or changed in the spatial data set.</documentation>
+              <documentation>Date and time at which this version of the spatial object was inserted
+                or changed in the spatial data set.</documentation>
             </annotation>
           </element>
           <element minOccurs="0" name="endLifespanVersion" type="dateTime">
             <annotation>
-              <documentation>Date and time at which this version of the spatial object was superseded or retired in the spatial data set.</documentation>
+              <documentation>Date and time at which this version of the spatial object was
+                superseded or retired in the spatial data set.</documentation>
             </annotation>
           </element>
           <element name="featureTypeReference" type="itsgml:FeatureTypePropertyType"/>
@@ -96,7 +100,8 @@
         <sequence>
           <element minOccurs="0" name="defaultLRM">
             <annotation>
-              <documentation>Default linear referencing method to be used in the data set.</documentation>
+              <documentation>Default linear referencing method to be used in the data
+                set.</documentation>
             </annotation>
           </element>
           <element maxOccurs="unbounded" name="feature">
@@ -128,7 +133,8 @@
     <sequence>
       <element name="memberName" type="gml:CodeType">
         <annotation>
-          <documentation>member name that locates this member within a feature type for a local property or within the feature catalogue for a global property</documentation>
+          <documentation>member name that locates this member within a feature type for a local
+            property or within the feature catalogue for a global property</documentation>
         </annotation>
       </element>
       <element name="propertyStructure" type="itsgml:PropertyStructureType"/>
@@ -194,34 +200,31 @@
   </complexType>
   <simpleType name="LinkDirectionValueType">
     <annotation>
-      <documentation>-- Definition --
-List of values for directions relative to a link</documentation>
+      <documentation>-- Definition -- List of values for directions relative to a
+        link</documentation>
     </annotation>
     <union memberTypes="itsgml:LinkDirectionValueEnumerationType itsgml:LinkDirectionValueOtherType"
     />
   </simpleType>
   <simpleType name="LinkDirectionValueEnumerationType">
     <annotation>
-      <documentation>-- Definition --
-List of values for directions relative to a link</documentation>
+      <documentation>-- Definition -- List of values for directions relative to a
+        link</documentation>
     </annotation>
     <restriction base="string">
       <enumeration value="bothDirections">
         <annotation>
-          <documentation>-- Definition --
-In both directions.</documentation>
+          <documentation>-- Definition -- In both directions.</documentation>
         </annotation>
       </enumeration>
       <enumeration value="inDirection">
         <annotation>
-          <documentation>-- Definition --
-In direction of the link.</documentation>
+          <documentation>-- Definition -- In direction of the link.</documentation>
         </annotation>
       </enumeration>
       <enumeration value="inOppositeDirection">
         <annotation>
-          <documentation>-- Definition --
-In the opposite direction of the link.</documentation>
+          <documentation>-- Definition -- In the opposite direction of the link.</documentation>
         </annotation>
       </enumeration>
     </restriction>
@@ -243,9 +246,10 @@ In the opposite direction of the link.</documentation>
         <sequence>
           <element name="applicableDirection" type="itsgml:LinkDirectionValueType">
             <annotation>
-              <documentation>The directions of the link to which the reference applies.
-
-In cases where a property does not apply &lt;i>to&lt;/i> a direction along a link, but represents a phenomenon &lt;i>along&lt;/i> a link, “inDirection” refers to the right side in the direction of the link.</documentation>
+              <documentation>The directions of the link to which the reference applies. In cases
+                where a property does not apply &lt;i>to&lt;/i> a direction along a link, but
+                represents a phenomenon &lt;i>along&lt;/i> a link, “inDirection” refers to the right
+                side in the direction of the link.</documentation>
             </annotation>
           </element>
         </sequence>
@@ -293,7 +297,8 @@ In cases where a property does not apply &lt;i>to&lt;/i> a direction along a lin
     <sequence>
       <element minOccurs="0" name="overridingLRM">
         <annotation>
-          <documentation>linear referencing method overriding defalult method for the data set</documentation>
+          <documentation>linear referencing method overriding defalult method for the data
+            set</documentation>
         </annotation>
       </element>
       <element name="element" type="itsgml:NetworkElementPropertyType"/>
@@ -356,7 +361,8 @@ In cases where a property does not apply &lt;i>to&lt;/i> a direction along a lin
   <element name="SimpleLinearReference" substitutionGroup="itsgml:LinkReference"
     type="itsgml:SimpleLinearReferenceType">
     <annotation>
-      <documentation>A network reference that is restricted to part of a linear network element. The part is the part of the network element between fromPosition and toPosition.</documentation>
+      <documentation>A network reference that is restricted to part of a linear network element. The
+        part is the part of the network element between fromPosition and toPosition.</documentation>
     </annotation>
   </element>
   <complexType name="SimpleLinearReferenceType">
@@ -365,12 +371,14 @@ In cases where a property does not apply &lt;i>to&lt;/i> a direction along a lin
         <sequence>
           <element name="fromPosition" type="itsgml:LR_DistanceExpressionPropertyType">
             <annotation>
-              <documentation>The start position of the linear element, expressed as the distance along the linear network element.</documentation>
+              <documentation>The start position of the linear element, expressed as the distance
+                along the linear network element.</documentation>
             </annotation>
           </element>
           <element name="toPosition" type="itsgml:LR_DistanceExpressionPropertyType">
             <annotation>
-              <documentation>The end position of the linear element, expressed as the distance along the linear network element.</documentation>
+              <documentation>The end position of the linear element, expressed as the distance along
+                the linear network element.</documentation>
             </annotation>
           </element>
         </sequence>
@@ -385,7 +393,9 @@ In cases where a property does not apply &lt;i>to&lt;/i> a direction along a lin
   <element name="SimplePointReference" substitutionGroup="itsgml:LinkReference"
     type="itsgml:SimplePointReferenceType">
     <annotation>
-      <documentation>A network reference that is restricted to a point on a linear network element. The point is the location on the network element at the position atPosition along the network.</documentation>
+      <documentation>A network reference that is restricted to a point on a linear network element.
+        The point is the location on the network element at the position atPosition along the
+        network.</documentation>
     </annotation>
   </element>
   <complexType name="SimplePointReferenceType">
@@ -394,7 +404,8 @@ In cases where a property does not apply &lt;i>to&lt;/i> a direction along a lin
         <sequence>
           <element name="atPosition" type="itsgml:LR_DistanceExpressionPropertyType">
             <annotation>
-              <documentation>Position of the point, expressed as the distance along the linear network element.</documentation>
+              <documentation>Position of the point, expressed as the distance along the linear
+                network element.</documentation>
             </annotation>
           </element>
         </sequence>
